@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -35,7 +35,9 @@ Al termine di questa lezione, potrete:
 
 Nell&#39;app demo delle lezioni precedenti, aggiungeremo una nuova posizione denominata &quot;wetravel_feature_flag_recs&quot; alla richiesta di preacquisizione nell&#39;attività principale e la cariceremo sullo schermo con un nuovo metodo Java.
 
->[!NOTE] Uno dei vantaggi dell&#39;utilizzo di una richiesta di preacquisizione è che l&#39;aggiunta di una nuova richiesta non comporta l&#39;aggiunta di sovraccarico di rete aggiuntivo o causa un ulteriore lavoro di caricamento, dal momento che la richiesta viene inclusa nel pacchetto all&#39;interno della richiesta di preacquisizione
+>[!NOTE]
+>
+>Uno dei vantaggi dell&#39;utilizzo di una richiesta di preacquisizione è che l&#39;aggiunta di una nuova richiesta non comporta l&#39;aggiunta di sovraccarico di rete aggiuntivo o causa un ulteriore lavoro di caricamento, dal momento che la richiesta viene inclusa nel pacchetto all&#39;interno della richiesta di preacquisizione
 
 Innanzitutto, verificate che la costante wetravel_feature_flag_recs sia aggiunta nel file Constant.java:
 

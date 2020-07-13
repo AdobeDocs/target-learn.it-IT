@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -78,13 +78,17 @@ Seguite gli stessi passaggi elencati sopra per creare un&#39;audience per gli ut
 
    ![Creare un pubblico di utenti di ritorno](assets/audience_returning_mobile_app_users.jpg)
 
->[!NOTE] Tutte le metriche e le dimensioni del ciclo di vita raccolte nell’SDK per [!DNL Target] dispositivi mobili sono precedute da &quot;a&quot; (ad esempio, a.Launches) e sono disponibili nell’opzione &quot;Personalizzato&quot; del menu a discesa e possono essere utilizzate per creare audience.
+>[!NOTE]
+>
+>Tutte le metriche e le dimensioni del ciclo di vita raccolte nell’SDK per [!DNL Target] dispositivi mobili sono precedute da &quot;a&quot; (ad esempio, a.Launches) e sono disponibili nell’opzione &quot;Personalizzato&quot; del menu a discesa e possono essere utilizzate per creare audience.
 
 ### Creazione di un pubblico per gli utenti Prenotazione di un viaggio a San Diego
 
 Successivamente verranno creati alcuni tipi di pubblico per alcune delle destinazioni offerte dall&#39;app We.Travel. Nell&#39;ultima lezione abbiamo passato la destinazione come parametro di posizione nella richiesta di posizione wetravel_context_dest. Tale parametro è disponibile nell&#39;opzione &quot;Personalizzato&quot; del menu a discesa.
 
->[!NOTE] Se un parametro che si prevede di visualizzare nel menu a discesa Personalizzato non viene visualizzato nell&#39; [!DNL Target] interfaccia, verificate che sia effettivamente passato nella richiesta. Se avete verificato che sia presente nella richiesta, ma che non sia stata caricata nell&#39; [!DNL Target] interfaccia, potete semplicemente digitare il nome del parametro e premere Invio per continuare a definire il pubblico
+>[!NOTE]
+>
+>Se un parametro che si prevede di visualizzare nel menu a discesa Personalizzato non viene visualizzato nell&#39; [!DNL Target] interfaccia, verificate che sia effettivamente passato nella richiesta. Se avete verificato che sia presente nella richiesta, ma che non sia stata caricata nell&#39; [!DNL Target] interfaccia, potete semplicemente digitare il nome del parametro e premere Invio per continuare a definire il pubblico
 
 1. Nome dell&#39;audience _Destinazione: San Diego_.
 1. Utilizzate una regola personalizzata con questa definizione: _locationDest contiene San Diego_.

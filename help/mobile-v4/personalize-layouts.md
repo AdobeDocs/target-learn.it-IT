@@ -132,7 +132,7 @@ Di seguito viene fornito un riepilogo della seconda attività che verrà creata:
 | Destinazione: San Diego | wetravel_context_dest | Promozione per San Diego |
 | Destinazione: Los Angeles | wetravel_context_dest | Promozione per Los Angeles |
 
-Ripetete lo stesso processo descritto sopra per l&#39;attività successiva, &quot;Offerte contestuali&quot;. La configurazione finale per entrambe le esperienze è riportata di seguito:
+Ripetete lo stesso processo descritto sopra per l&#39;attività successiva, &quot;Offerte contestuali&quot;. La configurazione finale per entrambe le esperienze è la seguente:
 
 #### San Diego
 

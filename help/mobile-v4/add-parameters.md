@@ -1,6 +1,6 @@
 ---
 title: Aggiungere parametri alle richieste
-description: In questa lezione verranno aggiunte le metriche del ciclo di vita di Adobe e i parametri personalizzati alle richieste Target aggiunte nella lezione precedente. Tali metriche e parametri verranno utilizzati per creare audience personalizzate più avanti nell'esercitazione.
+description: In questa lezione verranno aggiunte  metriche del ciclo di vita del Adobe e parametri personalizzati alle richieste Target aggiunte nella lezione precedente. Tali metriche e parametri verranno utilizzati per creare audience personalizzate più avanti nell'esercitazione.
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,20 +17,20 @@ ht-degree: 0%
 
 # Aggiungere parametri alle richieste
 
-In questa lezione verranno aggiunte le metriche del ciclo di vita di Adobe e i parametri personalizzati alle [!DNL Target] richieste aggiunte nella lezione precedente. Tali metriche e parametri verranno utilizzati per creare audience personalizzate più avanti nell&#39;esercitazione.
+In questa lezione verranno aggiunte  metriche del ciclo di vita del Adobe e parametri personalizzati alle [!DNL Target] richieste aggiunte nella lezione precedente. Tali metriche e parametri verranno utilizzati per creare audience personalizzate più avanti nell&#39;esercitazione.
 
 ## Obiettivi di apprendimento
 
 Al termine di questa lezione, potrete:
 
-* Aggiungere le metriche del ciclo di vita di Adobe Mobile
+* Aggiungere le metriche del ciclo di vita di un Adobe 
 * Aggiunta di parametri a una richiesta di preacquisizione
 * Aggiunta di parametri a una posizione live
 * Convalida dei parametri per entrambe le richieste
 
 ## Aggiungere i parametri del ciclo di vita
 
-Consentiamo le metriche [del ciclo di vita di](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)Adobe Mobile. In questo modo verranno aggiunti parametri alle richieste di posizione contenenti informazioni dettagliate sul dispositivo dell&#39;utente e sul coinvolgimento con l&#39;app. Creeremo audience nella lezione successiva utilizzando i dati forniti dalla richiesta del ciclo di vita.
+Abilitiamo le metriche del ciclo di vita mobile [Adobe](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). In questo modo verranno aggiunti parametri alle richieste di posizione contenenti informazioni dettagliate sul dispositivo dell&#39;utente e sul coinvolgimento con l&#39;app. Creeremo audience nella lezione successiva utilizzando i dati forniti dalla richiesta del ciclo di vita.
 
 Per abilitare le metriche del ciclo di vita, apri di nuovo il controller HomeActivity e aggiungi `Config.collectLifecycleData(this);` alla funzione onResume():
 
@@ -148,7 +148,7 @@ Eseguire l&#39;emulatore e aprire Logcat. Filtrate uno dei parametri per verific
 
 >[!NOTE]
 >
-> Analytics per Target (A4T): Adobe  Analytics può essere configurato come origine di reporting per [!DNL Target]. Questo consente di visualizzare tutte le metriche/dimensioni raccolte dall’SDK Target in Adobe  Analytics. Per ulteriori dettagli, consultate Panoramica [](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) A4T.
+> Analytics per Target (A4T):  Adobe Analytics può essere configurato come origine di reporting per [!DNL Target]. Questo consente di visualizzare in  Adobe Analytics tutte le metriche/dimensioni raccolte dall’SDK Target. Per ulteriori dettagli, consultate Panoramica [](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) A4T.
 
 Bel lavoro! Ora che i parametri sono impostati, siamo pronti a usare questi parametri per creare audience e offerte in  Adobe Target.
 

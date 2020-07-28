@@ -1,6 +1,6 @@
 ---
 title: Informazioni sui feed in Recommendations
-seo-title: Informazioni sui feed in  raccomandazioni del Adobe Target
+seo-title: Informazioni sui feed in  Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -26,4 +26,4 @@ ht-degree: 18%
 * [Creare progettazioni personalizzate](create-custom-designs.md)
 * [Creare raccolte ed esclusioni](create-collections-and-exclusions.md)
 * [Creare un’attività Consigli](create-a-recommendations-activity.md)
-* [Documentazione di Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentazione Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)

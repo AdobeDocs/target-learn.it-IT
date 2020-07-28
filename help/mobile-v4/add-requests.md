@@ -1,6 +1,6 @@
 ---
 title: 'Aggiungi richieste di Adobe Target '
-description: 'L''SDK di Adobe Mobile Services (v4) fornisce metodi e funzionalità  Adobe Target che consentono di personalizzare l''app con esperienze diverse per utenti diversi.   '
+description: 'L''SDK di  Adobe Mobile Services (v4) fornisce metodi e funzionalità  Adobe Target che consentono di personalizzare l''app con esperienze diverse per utenti diversi.   '
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Aggiungi richieste di Adobe Target 
 
-L&#39;SDK di Adobe Mobile Services (v4) fornisce metodi e funzionalità  Adobe Target che consentono di personalizzare l&#39;app con esperienze diverse per utenti diversi. In genere, una o più richieste vengono effettuate dall&#39;app al Adobe Target  per recuperare il contenuto personalizzato e misurare l&#39;impatto di tale contenuto.
+L&#39;SDK di  Adobe Mobile Services (v4) fornisce metodi e funzionalità  Adobe Target che consentono di personalizzare l&#39;app con esperienze diverse per utenti diversi. In genere, una o più richieste vengono effettuate dall&#39;app al Adobe Target  per recuperare il contenuto personalizzato e misurare l&#39;impatto di tale contenuto.
 
 In questa lezione, preparerete l&#39;app We.Travel per la personalizzazione implementando [!DNL Target] le richieste.
 
@@ -45,7 +45,7 @@ Di seguito è riportata una delle principali terminologie di Target che verranno
 * **Richiesta batch:**  una singola richiesta che include più posizioni
 * **Richiesta di recupero preventivo:**  una singola richiesta che recupera le offerte e le memorizza nella cache per un utilizzo futuro nell&#39;app
 * **Richiesta recupero preventivo batch:**  una singola richiesta che prerileva le offerte per più posizioni
-* **Pubblico:**  un gruppo di visitatori definiti nell&#39; [!DNL Target] [!DNL Target] interfaccia o condivisi con altre applicazioni Adobe (ad es. &quot;Visitatori iPhone X&quot;, &quot;visitatori in California&quot;, &quot;First App Open&quot;)
+* **Pubblico:**  un gruppo di visitatori definiti nell&#39; [!DNL Target] interfaccia o condivisi con [!DNL Target] altre applicazioni  Adobe (ad es. &quot;Visitatori iPhone X&quot;, &quot;visitatori in California&quot;, &quot;First App Open&quot;)
 * **Attività:**  un [!DNL Target] costrutto, definito nell&#39;interfaccia [!DNL Target] utente (o con API) che collega posizioni, offerte e audience per creare un&#39;esperienza personalizzata
 
 ## Aggiunta di una richiesta di recupero preventivo batch

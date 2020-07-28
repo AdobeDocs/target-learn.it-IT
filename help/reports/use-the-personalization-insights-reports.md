@@ -1,6 +1,6 @@
 ---
 title: Utilizzo dei rapporti Personalization Insights in  Adobe Target
-description: Le attività di Automated Personalization (Personalizzazione automatizzata) e di Auto-Target utilizzano l'apprendimento automatico avanzato per fornire a ogni visitatore l'esperienza più personalizzata in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili. I rapporti Personalization Insights forniscono informazioni su come questi modelli prendono le loro decisioni.
+description: ' attività Automated Personalization e Auto-Target utilizzano l''apprendimento automatico avanzato per fornire a ogni visitatore l''esperienza più personalizzata in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili. I rapporti Personalization Insights forniscono informazioni su come questi modelli prendono le loro decisioni.'
 audience: analyst
 difficulty: 3
 author: Daniel Wright
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Utilizzare i rapporti Personalization Insights
 
-Le attività di Automated Personalization (Personalizzazione automatizzata) e di Auto-Target utilizzano l&#39;apprendimento automatico avanzato per fornire a ogni visitatore l&#39;esperienza più personalizzata in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili. I rapporti Personalization Insights forniscono informazioni su come questi modelli prendono le loro decisioni.
+ attività Automated Personalization e Auto-Target utilizzano l&#39;apprendimento automatico avanzato per fornire a ogni visitatore l&#39;esperienza più personalizzata in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili. I rapporti Personalization Insights forniscono informazioni su come questi modelli prendono le loro decisioni.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 

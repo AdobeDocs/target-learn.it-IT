@@ -22,7 +22,7 @@ ht-degree: 8%
    + [Implementazione nelle app Android](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
    + [Implementazione di at.js 2.0 in un&#39;applicazione SPA (Single Page Application)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Come funziona at.js 2.0](../implementation/understanding-how-atjs-20-works.md)
-   + [Utilizzo del consenso per il controllo  soluzioni Experience Cloud in base al consenso degli utenti](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
+   + [Utilizzo del consenso per il controllo  soluzioni di Experience Cloud in base al consenso degli utenti](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
 + Attività{#activities}
    + [Comprendere i tipi di attività](../activities/understanding-the-types-of-activities.md)
    + [Utilizzare le funzionalità di intelligenza artificiale e automazione per rispondere alle sfide della personalizzazione](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
@@ -40,7 +40,7 @@ ht-degree: 8%
    + [Utilizzo di Visual Experience Composer (Compositore esperienza visivo)](../experiences/use-the-visual-experience-composer.md)
    + [Utilizzo di Visual Experience Composer (Compositore esperienza visivo) per applicazioni a pagina singola (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Utilizzo di Experience Composer basato su modulo](../experiences/use-the-form-based-experience-composer.md)
-   + [Utilizzare i frammenti esperienza AEM in  Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Usare AEM frammenti esperienza in  Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Rapporti{#reports}
    + [Utilizzare i rapporti Personalization Insights](../reports/use-the-personalization-insights-reports.md)
 + Integrazioni{#integrations}
@@ -48,7 +48,7 @@ ht-degree: 8%
    + [Dati in: Utilizzare i provider di dati per integrare dati di terze parti](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Dati in: Implementazione dei provider di dati per l&#39;integrazione di dati di terze parti](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Data Out: Utilizzare i token di risposta e gli eventi personalizzati at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
-   + [Utilizzare i frammenti esperienza AEM in  Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Usare AEM frammenti esperienza in  Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Amministrazione{#administration}
    + [Impostazione delle preferenze dell&#39;account](../administration/set-up-account-preferences.md)
    + [Comprendere le autorizzazioni degli utenti Enterprise](../administration/understanding-enterprise-user-permissions.md)
@@ -56,12 +56,12 @@ ht-degree: 8%
    + [Imposta proprietà](../administration/set-up-properties.md)
 + Consigli{#recommendations}
    + [Creare un’attività Consigli](../recommendations/create-a-recommendations-activity.md)
-   + [Utilizzare le offerte di Recommendations](../recommendations/use-recommendations-offers.md)
+   + [Usa offerte Recommendations](../recommendations/use-recommendations-offers.md)
    + [Informazioni sui feed](../recommendations/understanding-feeds.md)
    + [Creare un feed](../recommendations/create-a-feed.md)
    + [Creare criteri](../recommendations/create-criteria.md)
    + [Creare progettazioni personalizzate](../recommendations/create-custom-designs.md)
    + [Creare raccolte ed esclusioni](../recommendations/create-collections-and-exclusions.md)
 + Risoluzione dei problemi{#troubleshooting}
-   + [Risoluzione dei problemi con  Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+   + [Risoluzione dei problemi relativi al Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Risoluzione dei problemi con Target Traces](../troubleshooting/troubleshoot-with-target-traces.md)

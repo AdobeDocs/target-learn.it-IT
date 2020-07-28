@@ -33,7 +33,7 @@ I token di risposta e gli eventi `at.js` personalizzati consentono di condivider
 
 ## Risorse aggiuntive
 
-* [Usare  Experience Cloud Debugger con  Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+* [Usare il Experience Cloud Debugger con  Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
 * [Documentazione token di risposta](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
 * [Documentazione evento personalizzata At.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
 * [Utilizzo di Fornitori di dati in Adobe Target](use-data-providers-to-integrate-third-party-data.md)

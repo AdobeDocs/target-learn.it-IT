@@ -1,6 +1,6 @@
 ---
-title: Creazione di criteri in Recommendations
-seo-title: Crea criteri in  raccomandazioni del Adobe Target
+title: Creare criteri in Recommendations
+seo-title: Crea criteri in  Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 13%
 ---
 
 
-# Creazione di criteri in Recommendations
+# Creare criteri in Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
 
@@ -26,4 +26,4 @@ ht-degree: 13%
 * [Creare un’attività Consigli](create-a-recommendations-activity.md)
 * [Informazioni sui feed](understanding-feeds.md)
 * [Creare un feed](create-a-feed.md)
-* [Documentazione di Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentazione Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)

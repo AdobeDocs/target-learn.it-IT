@@ -1,6 +1,6 @@
 ---
 title: Creare un feed in Recommendations
-seo-title: Creare un feed in  raccomandazioni del Adobe Target
+seo-title: Creare un feed in  Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -26,4 +26,4 @@ ht-degree: 17%
 * [Creare criteri](create-criteria.md)
 * [Creare progettazioni personalizzate](create-custom-designs.md)
 * [Creare raccolte ed esclusioni](create-collections-and-exclusions.md)
-* [Documentazione di Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentazione Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)

@@ -1,6 +1,6 @@
 ---
 title: Creare raccolte ed esclusioni
-seo-title: Creazione di raccolte ed esclusioni nelle raccomandazioni  Adobe Target
+seo-title: Creare raccolte ed esclusioni in  Adobe Target Recommendations
 description: null
 audience: marketer
 difficulty: 3
@@ -27,4 +27,4 @@ ht-degree: 17%
 * [Creare un feed](create-a-feed.md)
 * [Creare criteri](create-criteria.md)
 * [Creare progettazioni personalizzate](create-custom-designs.md)
-* [Documentazione di Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentazione Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)

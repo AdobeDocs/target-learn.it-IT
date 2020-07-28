@@ -1,6 +1,6 @@
 ---
-title: Creare progettazioni personalizzate in Recommendations
-seo-title: Creare design personalizzati in  raccomandazioni del Adobe Target
+title: Creare design personalizzati in Recommendations
+seo-title: Creare design personalizzati in Recommendations  Adobe Target
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 17%
 ---
 
 
-# Creare progettazioni personalizzate in Recommendations
+# Creare design personalizzati in Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?quality=12)
 
@@ -26,4 +26,4 @@ ht-degree: 17%
 * [Informazioni sui feed](understanding-feeds.md)
 * [Creare un feed](create-a-feed.md)
 * [Creare criteri](create-criteria.md)
-* [Documentazione di Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentazione Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)

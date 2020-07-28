@@ -1,7 +1,7 @@
 ---
 title: Come funziona  Adobe Target  at.js 2.0
 seo-title: Come funziona  Adobe Target  at.js 2.0
-description: at.js 2.0 migliora  supporto  Adobe Target per applicazioni a pagina singola (SPA) e si integra con altre soluzioni Experience Cloud . Questo video e i diagrammi che lo accompagnano spiegano come tutto si combina.
+description: at.js 2.0 migliora  supporto  Adobe Target per applicazioni a pagina singola (SPA) e si integra con altre soluzioni  Experience Cloud. Questo video e i diagrammi che lo accompagnano spiegano come tutto si combina.
 audience: developer
 difficulty: 3
 author: Daniel Wright
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 # Come funziona  Adobe Target  at.js 2.0
 
-`at.js` 2.0 migliora  supporto  Adobe Target per applicazioni a pagina singola (SPA) e si integra con altre soluzioni Experience Cloud . Questo video e i diagrammi che lo accompagnano spiegano come tutto si combina.
+`at.js` 2.0 migliora  supporto  Adobe Target per applicazioni a pagina singola (SPA) e si integra con altre soluzioni  Experience Cloud. Questo video e i diagrammi che lo accompagnano spiegano come tutto si combina.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?quality=12)
 
@@ -26,7 +26,7 @@ ht-degree: 20%
 
 ![comportamento at.js 2.0 sul caricamento della pagina](assets/pageload.png)
 
-1. La chiamata restituisce  Experience Cloud ID (ECID). Se l’utente è autenticato, un’altra chiamata sincronizza l’ID cliente.
+1. La chiamata restituisce  ID Experience Cloud (ECID). Se l’utente è autenticato, un’altra chiamata sincronizza l’ID cliente.
 
 1. `at.js` la libreria viene caricata in modo sincrono e nasconde il corpo del documento (`at.js` può anche essere caricato in modo asincrono con un frammento di preimpostazione opzionale implementato sulla pagina).
 

@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9b9b03e8c3ea837f345a8535e7147450bf55b6ad
+source-git-commit: b1f825112e7a8ae2af3f94bca9b4a86cf5ec7856
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '304'
 ht-degree: 8%
 
 ---
@@ -40,15 +40,15 @@ ht-degree: 8%
    + [Utilizzo di Visual Experience Composer (Compositore esperienza visivo)](../experiences/use-the-visual-experience-composer.md)
    + [Utilizzo di Visual Experience Composer (Compositore esperienza visivo) per applicazioni a pagina singola (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Utilizzo di Experience Composer basato su modulo](../experiences/use-the-form-based-experience-composer.md)
-   + [Usare AEM frammenti esperienza in  Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Utilizzare AEM frammenti esperienza in  Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Rapporti{#reports}
    + [Utilizzare i rapporti Personalization Insights](../reports/use-the-personalization-insights-reports.md)
 + Integrazioni{#integrations}
-   + [Usa  Analytics come origine dati per Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Utilizzo di Analytics come origine dati per Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Dati in: Utilizzare i provider di dati per integrare dati di terze parti](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Dati in: Implementazione dei provider di dati per l&#39;integrazione di dati di terze parti](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Data Out: Utilizzare i token di risposta e gli eventi personalizzati at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
-   + [Usare AEM frammenti esperienza in  Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Utilizzare AEM frammenti esperienza in  Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Amministrazione{#administration}
    + [Impostazione delle preferenze dell&#39;account](../administration/set-up-account-preferences.md)
    + [Comprendere le autorizzazioni degli utenti Enterprise](../administration/understanding-enterprise-user-permissions.md)
@@ -65,3 +65,7 @@ ht-degree: 8%
 + Risoluzione dei problemi{#troubleshooting}
    + [Risoluzione dei problemi relativi al Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Risoluzione dei problemi con Target Traces](../troubleshooting/troubleshoot-with-target-traces.md)
++ API di {#apis}
+   + [Comprendere le API Target](../apis/api-overview.md)
+   + [Configurare  autenticazione API Adobe](../apis/configure-io-target-integration.md)
+   + [Utilizzare le API Recommendations](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)

@@ -1,12 +1,12 @@
 ---
-title: Panoramica sui Tutorials  Adobe Target
-seo-title: Panoramica sui Tutorials  Adobe Target
-description: Una raccolta di video e esercitazioni per consentirvi di utilizzare al meglio  Adobe Target
+title: ' Panoramica Tutorials Adobe Target'
+seo-title: ' Panoramica Tutorials Adobe Target'
+description: Una raccolta di video dimostrativi ed esercitazioni per consentirvi di  Adobe Target
 translation-type: tm+mt
-source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
+source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 18%
+source-wordcount: '242'
+ht-degree: 16%
 
 ---
 
@@ -17,14 +17,19 @@ Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necess
 
 ## Novità
 
+* **[Utilizzo dell’API Recommendations (esercitazione)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+   *Per gli sviluppatori: Fate pratica pratica con le[!DNL Recommendations]API per configurare e gestire[!DNL Recommendations]cataloghi e criteri personalizzati e molto altro.*
+
+* **[Implementazione  Adobe Target con  Adobe Mobile Services SDK v4 per Android (esercitazione)](mobile-v4/overview.md)**   <br>
+   *Per gli sviluppatori che stanno già utilizzando  Adobe Mobile Services SDK v4: scopri come iniziare a personalizzare le esperienze app con  Adobe Target. Questi passaggi vengono forniti come supporto di utenti legacy.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+
 * **[Usa offerte Recommendations (video)](recommendations/use-recommendations-offers.md)**   <br>
-   *Utilizzate le raccomandazioni sui prodotti nelle attività Test A/B e Targeting delle esperienze.*
+   *Per tutti gli utenti di Target: Scopri come utilizzare le raccomandazioni sui prodotti nelle attività A/B e Targeting delle esperienze.*
 
-* **[Implementazione di Target Visual Experience Composer (Compositore esperienza visivo) nelle app Android™ (esercitazione)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
-   *Implementa VEC (Visual Experience Composer) intuitivo per gli esperti di marketing di Target nelle app Android native.*
-
-* **[Creare un&#39;attività Recommendations (video)](recommendations/create-a-recommendations-activity.md)**   <br>
-   *Raccomanda i prodotti ai clienti su larga scala con questa funzione Premium.*
+<!--
+* **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
+    <br>
+    *Recommend products to your customers at scale with this Premium feature.* -->
 
 ## Prezzi del personale
 
@@ -58,11 +63,11 @@ Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necess
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Risoluzione dei problemi relativi ad Target con il Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Risoluzione dei problemi di Target con il Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Risoluzione dei problemi relativi ad Target con il Experience Cloud Debugger</strong>
+    <strong>Risoluzione dei problemi di Target con il Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>

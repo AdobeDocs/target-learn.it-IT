@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 562cf1fe659ade7fa085a3ba6cb9e7ae3c1957a5
+source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1877'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ In questa sezione potrete accedere alla  Adobe Developer Console e creare un pro
 
 1. In [Adobe Admin Console](https://adminconsole.adobe.com/), accertati che al tuo account utente  Adobe sia stato concesso l&#39;accesso a livello di [Amministratore](https://helpx.adobe.com/enterprise/using/admin-roles.html) prodotto e [Sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html) [!DNL Target].
 
-2. In [Adobe Developer Console](https://console.adobe.io/), selezionate l&#39;organizzazione del Experience Cloud  per cui desiderate creare questa integrazione. È probabile che abbiate accesso a un&#39;unica organizzazione  Experience Cloud.
+2. In [Adobe Developer Console](https://console.adobe.io/), selezionate l&#39;organizzazione del Experience Cloud  per la quale desiderate creare questa integrazione. È probabile che abbiate accesso a un&#39;unica organizzazione  Experience Cloud.
 
    ![configure-io-target-create-project2.png](assets/configure-io-target-createproject2.png)
 
@@ -83,7 +83,7 @@ In questa sezione potrete accedere alla  Adobe Developer Console e creare un pro
 
 ## Esportare i dettagli del progetto
 
-Ora che disponete di un progetto di Adobe  che potete utilizzare per accedere [!DNL Target], dovete essere certi di inviare i dettagli di tale progetto insieme alle vostre richieste API di Adobe . Questi dettagli sono necessari per interagire con diverse API  Adobe, incluse diverse [!DNL Target] API. Ad esempio, i dettagli di integrazione includono le informazioni di autorizzazione e autenticazione richieste dalle API [!DNL Target] Admin. Pertanto, per utilizzare le API con Postman, è necessario inserire tali dettagli in Postman.
+Ora che disponete di un progetto di Adobe  che potete utilizzare per accedere [!DNL Target], dovete essere certi di inviare i dettagli di tale progetto insieme alle vostre richieste API di Adobe . Questi dettagli sono necessari per interagire con diverse API  Adobe, comprese diverse [!DNL Target] API. Ad esempio, i dettagli di integrazione includono le informazioni di autorizzazione e autenticazione richieste dalle API [!DNL Target] Admin. Pertanto, per utilizzare le API con Postman, è necessario inserire tali dettagli in Postman.
 
 Ci sono molti modi per specificare i dettagli del progetto in Postman, ma in questa sezione, utilizziamo alcune funzioni e raccolte pre-costruite. Innanzitutto (in questa sezione), esportate i dettagli della vostra integrazione in un ambiente Postman. Successivamente (nella sezione seguente), verrà generato un token di accesso al portatore per consentirvi di accedere alle risorse  Adobe necessarie.
 
@@ -91,7 +91,7 @@ Ci sono molti modi per specificare i dettagli del progetto in Postman, ma in que
 >
 >Per le istruzioni video applicabili a qualsiasi soluzione  Experience Cloud, inclusa [!DNL Target]l&#39;applicazione, consultate [Utilizzare Postman con  API](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html)Experience Platform. Le sezioni seguenti sono pertinenti alle [!DNL Target] API:
 >
-> 1. Esporta  Adobe I/O Dettagli integrazione a Postman
+> 1. Esporta  Adobe I/O - Dettagli integrazione a Postman
 > 2. Generazione di un token di accesso con Postman
 
 >
@@ -115,7 +115,9 @@ Di seguito sono riportati anche questi passaggi.
 7. Nota `CLIENT_SECRET` e `API_KEY` (insieme ad altre variabili) i loro valori sono precompilati, a partire dall’integrazione come definito nell’ Adobe Developer Console. (La `CLIENT_SECRET` variabile Postman deve corrispondere alla credenziale del `CLIENT SECRET` Adobe  visualizzata nella console per sviluppatori e `API_KEY` in Postman deve corrispondere `CLIENT ID` nella console per sviluppatori.) Al contrario, note `PRIVATE_KEY`, `JWT_TOKEN`e `ACCESS_TOKEN` sono vuote. Cominciamo fornendo il `PRIVATE_KEY` valore.
    ![JWT7](assets/configure-io-target-jwt7.png)
 
-   >[!SURPRISE]
+   >[!NOTE]
+   >
+   >**Sorpresa!**
    >
    >Quiz pop! Ricordate dov&#39;è la vostra chiave privata?
    >Esatto, è nel `config` file scaricato in precedenza da  Adobe Developer Console!
@@ -156,7 +158,7 @@ In questa sezione viene generato il token di accesso del portatore, richiesto pe
 
 >[!NOTE]
 >
->D: Devo utilizzare la raccolta Postman di I/O per la generazione di token di accesso  Adobe per generare il token Web JSON (JWT) e il token di accesso al portatore?
+>D: È necessario utilizzare la raccolta Postman di I/O per la generazione di token di accesso  Adobe per generare il token Web JSON (JWT) e il token di accesso al portatore?
 >
 >A: No! L&#39;insieme  I/O Access Token Generation Postman è disponibile come comodità per generare più facilmente il token JWT e di accesso al portatore in Postman. In alternativa, potete utilizzare le funzionalità presenti in  Adobe Developer Console per generare manualmente il token di accesso del portatore.
 

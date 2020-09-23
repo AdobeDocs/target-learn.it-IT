@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Recupero [!DNL Recommendations] con l&#39;API di consegna
 
-Le  [!DNL Recommendations] API Adobe Target e  Adobe Target possono essere utilizzate per fornire risposte alle pagine Web, ma possono anche essere utilizzate in esperienze non basate su HTML quali app, schermate, console, e-mail, chioschi e altri dispositivi di visualizzazione. In altre parole, quando [!DNL Target] le librerie e JavaScript non possono essere utilizzati, l&#39;API **[!DNL Target]**di distribuzione ci consente ancora di accedere all&#39;intera gamma di[!DNL Target]funzionalità per fornire esperienze personalizzate.
+Le  [!DNL Recommendations] API Adobe Target e  Adobe Target possono essere utilizzate per fornire risposte alle pagine Web, ma possono anche essere utilizzate in esperienze non basate su HTML quali app, schermate, console, e-mail, chioschi e altri dispositivi di visualizzazione. In altre parole, quando [!DNL Target] le librerie e JavaScript non possono essere utilizzati, l&#39;API **[!DNL Target]** di distribuzione ci consente ancora di accedere all&#39;intera gamma di [!DNL Target] funzionalità per fornire esperienze personalizzate.
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Le risorse seguenti forniscono esempi di diverse implementazioni non basate su H
 
 | Risorsa | Dettagli |
 | --- | --- |
-| [Utilizzo delle API RESTful in AEM](https://helpx.adobe.com/experience-manager/using/restful-services.html) | Come creare e implementare un bundle Adobe Experience Manager OSGi che consuma i dati di un servizio Web RESTful di terze parti. |
+| [Utilizzo delle API RESTful in AEM](https://helpx.adobe.com/experience-manager/using/restful-services.html) | Come creare e distribuire un bundle Adobe Experience Manager OSGi che consuma i dati provenienti da un servizio Web RESTful di terze parti. |
 | [Adobe Target ovunque - Implementa lato server o in IoT](https://expleague.azureedge.net/labs/L733/index.html) |  Adobe Summit 2019 Lab che offre un&#39;esperienza pratica per un&#39;applicazione React che utilizza  API lato server di Adobe Target. |
 | [Adobe Target in un&#39;app mobile senza l&#39;SDK del Adobe](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | Questa guida mostra come impostare  Adobe Target nell’app mobile senza installare l’SDK del Adobe . Questa soluzione utilizza la visualizzazione Web dell’SDK di Tealium e il modulo Comandi remoti per inviare e ricevere richieste all’API del visitatore  Adobe (Experience Cloud ) e all’API Adobe Target . |
 | [Come  Adobe Target funziona nelle app mobili](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | Come [!DNL Target] funziona con Mobile SDK |

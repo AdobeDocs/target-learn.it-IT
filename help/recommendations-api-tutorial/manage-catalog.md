@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 1%
@@ -164,7 +164,7 @@ I dettagli dell&#39;entità possono essere recuperati solo per una singola entit
 
    ![GetEntity5](assets/GetEntity5.png)
 
-Supponiamo che tu decida che queste entità debbano essere rimosse dal catalogo. Utilizziamo l&#39;API **Delete Entities** .
+Supponiamo che tu decida che queste entità devono essere rimosse dal catalogo. Utilizziamo l&#39;API **Delete Entities** .
 
 ## Eliminazione di elementi con l&#39;API Delete Entities
 
@@ -178,7 +178,7 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 Questa API elimina le entità a cui fanno riferimento gli ID specificati.
 Se non vengono forniti ID entità, tutte le entità nell&#39;ambiente specificato vengono eliminate. Se non viene fornito alcun ID ambiente, le entità verranno eliminate da tutti gli ambienti. Utilizzate questo con cautela!
 
-1. Per ottenere l’ID **[!DNL Target]ambiente da cui eliminare gli elementi, passate a[!UICONTROL >]Configurazione[!UICONTROL >]Ospitanti[!UICONTROL >]** Ambienti [!DNL Target] .
+1. Andate a **[!DNL Target]>[!UICONTROL Configurazione]>[!UICONTROL Ospitanti]>[!UICONTROL Ambienti]** per ottenere l’ID [!DNL Target] ambiente da cui desiderate eliminare gli elementi.
 
    ![DeleteEntities1](assets/SaveEntities01.png)
 

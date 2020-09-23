@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '1877'
 ht-degree: 2%
@@ -45,7 +45,7 @@ In questa sezione potrete accedere alla  Adobe Developer Console e creare un pro
 
 1. In [Adobe Admin Console](https://adminconsole.adobe.com/), accertati che al tuo account utente  Adobe sia stato concesso l&#39;accesso a livello di [Amministratore](https://helpx.adobe.com/enterprise/using/admin-roles.html) prodotto e [Sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html) [!DNL Target].
 
-2. In [Adobe Developer Console](https://console.adobe.io/), selezionate l&#39;organizzazione del Experience Cloud  per la quale desiderate creare questa integrazione. È probabile che abbiate accesso a un&#39;unica organizzazione  Experience Cloud.
+2. In [Adobe Developer Console](https://console.adobe.io/), selezionate l&#39;organizzazione del Experience Cloud  per cui desiderate creare questa integrazione. È probabile che abbiate accesso a un&#39;unica organizzazione  Experience Cloud.
 
    ![configure-io-target-create-project2.png](assets/configure-io-target-createproject2.png)
 

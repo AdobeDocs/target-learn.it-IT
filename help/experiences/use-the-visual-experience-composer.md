@@ -1,23 +1,23 @@
 ---
-title: Usare Visual Experience Composer (Compositore esperienza visivo) in  Adobe Target
-seo-title: Usare Visual Experience Composer (Compositore esperienza visivo) in  Adobe Target
-description: nulle
+title: Utilizzo di Visual Experience Composer (Compositore esperienza visivo) in  Adobe Target
+seo-title: Utilizzo di Visual Experience Composer (Compositore esperienza visivo) in  Adobe Target
+description: Scoprite come utilizzare Visual Experience Composer (Compositore esperienza visivo) in  Adobe Target.
 audience: marketer
 difficulty: 1
 author: Daniel Wright
 doc-type: use
 activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: 7469ee7da84d1fed480fca979f89478640a5fbda
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 4%
+source-wordcount: '35'
+ht-degree: 0%
 
 ---
 
 
-# Usare [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] in  Adobe Target
+# Utilizzo di [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] in  Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
->
+
 >[!VIDEO](https://video.tv.adobe.com/v/17401/?quality=12)

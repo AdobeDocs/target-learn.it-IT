@@ -1,12 +1,13 @@
 ---
+title: Esercitazioni di Adobe Target
 user-guide-title: Esercitazioni di Adobe Target
 breadcrumb-title: Target Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 23f1b9b62d88596ec6571e9d4d90798dd14a5de9
+source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '371'
 ht-degree: 8%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 8%
 
 # Esercitazioni di Adobe Target {#tutorials}
 
-+ [Panoramica](../overview.md)
++ [Panoramica Tutorials Adobe Target](../overview.md)
 + Amministrazione{#administration}
    + [Strategia di implementazione e governance del sistema](../dev101/1.1-implementation-strategy-sys-governance.md)
    + [Impostazione delle preferenze dell&#39;account](../administration/set-up-account-preferences.md)

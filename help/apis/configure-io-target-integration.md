@@ -1,5 +1,5 @@
 ---
-title: Configurare l'autenticazione
+title: Configurare l'autenticazione per  API Adobe Target
 keywords: recommendations;adobe recommendations;premium;api;apis
 description: ' Adobe Target Recommendations include un set dedicato di API che consentono di gestire il catalogo di prodotti e/o contenuti raccomandabili; gestire gli algoritmi e le campagne di raccomandazione; e distribuite raccomandazioni in oggetti JSON, HTML o XML da visualizzare in Web, dispositivi mobili, e-mail, IOT e altri canali.'
 kt: null
@@ -11,15 +11,15 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1885'
 ht-degree: 2%
 
 ---
 
 
-# Configurare l&#39;autenticazione
+# Configurare l&#39;autenticazione per  API Adobe Target
 
 Le  API di amministrazione Adobe Target, comprese le API di [!DNL Recommendations] amministrazione, sono protette dall&#39;autenticazione per garantire che solo gli utenti autorizzati le usino per accedere  Adobe Target. Utilizzate la [console](https://console.adobe.io/) Sviluppatore di Adobe per gestire questa autenticazione per tutte le soluzioni Adobe Experience Cloud, inclusa [!DNL Target]la
 
@@ -45,7 +45,7 @@ In questa sezione potrete accedere alla  Adobe Developer Console e creare un pro
 
 1. In [Adobe Admin Console](https://adminconsole.adobe.com/), accertati che al tuo account utente  Adobe sia stato concesso l&#39;accesso a livello di [Amministratore](https://helpx.adobe.com/enterprise/using/admin-roles.html) prodotto e [Sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html) [!DNL Target].
 
-2. In [Adobe Developer Console](https://console.adobe.io/), selezionate l&#39;organizzazione del Experience Cloud  per cui desiderate creare questa integrazione. È probabile che abbiate accesso a un&#39;unica organizzazione  Experience Cloud.
+2. In [Adobe Developer Console](https://console.adobe.io/), selezionate l&#39;organizzazione del Experience Cloud  per la quale desiderate creare questa integrazione. È probabile che abbiate accesso a un&#39;unica organizzazione  Experience Cloud.
 
    ![configure-io-target-create-project2.png](assets/configure-io-target-createproject2.png)
 

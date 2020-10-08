@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 2%
@@ -45,7 +45,7 @@ In questa sezione potrete accedere alla  Adobe Developer Console e creare un pro
 
 1. In [Adobe Admin Console](https://adminconsole.adobe.com/), accertati che al tuo account utente  Adobe sia stato concesso l&#39;accesso a livello di [Amministratore](https://helpx.adobe.com/enterprise/using/admin-roles.html) prodotto e [Sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html) [!DNL Target].
 
-2. In [Adobe Developer Console](https://console.adobe.io/), selezionate l&#39;organizzazione del Experience Cloud  per la quale desiderate creare questa integrazione. È probabile che abbiate accesso a un&#39;unica organizzazione  Experience Cloud.
+2. In [Adobe Developer Console](https://console.adobe.io/), selezionate l&#39;organizzazione del Experience Cloud  per cui desiderate creare questa integrazione. È probabile che abbiate accesso a un&#39;unica organizzazione  Experience Cloud.
 
    ![configure-io-target-create-project2.png](assets/configure-io-target-createproject2.png)
 
@@ -181,13 +181,17 @@ In questo esercizio, utilizzerete il nuovo token di accesso al portatore inviand
 1. Aprite la modale Gestisci ambienti e selezionate il vostro ambiente.
    ![JWT11](assets/configure-io-target-jwt11.png)
 1. Digitare per aggiungere una nuova variabile di `{{TENANT_ID}}` ambiente. Copia e incolla il valore ID tenant nei campi **INITIAL VALUE (VALORE** INIZIALE) e **CURRENT VALUE (VALORE** CORRENTE) per la nuova variabile di `TENANT_ID` ambiente.
+
    ![testtoken5](assets/configure-io-target-testtoken5.png)
+
    >[!NOTE]
    >
    >L&#39;ID tenant è diverso dal tuo [!DNL Target]`clientcode`. L’ID tenant esiste nell’URL al momento dell’accesso [!DNL Target]. Per ottenere il tuo ID tenant, accedi al [!DNL Adobe Experience Cloud], apri [!DNL Target]e fai clic sulla [!DNL Target] scheda. Utilizzate il valore ID tenant indicato nel sottodominio URL.
    >
    >Ad esempio, se l’URL al momento dell’accesso a  Adobe Target è
-   ><https://mycompany.experiencecloud.adobe.com/...>
+   >
+   >`<https://mycompany.experiencecloud.adobe.com/...>`
+   >
    >quindi il tuo ID tenant è &quot;mycompany&quot;.
 
 1. Inviate la richiesta, dopo aver verificato di aver selezionato l&#39;ambiente corretto. Dovreste ricevere una risposta contenente l&#39;elenco delle attività.

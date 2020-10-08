@@ -1,29 +1,35 @@
 ---
 title: ' Panoramica Tutorials Adobe Target'
 seo-title: ' Panoramica Tutorials Adobe Target'
-description: Una raccolta di video dimostrativi ed esercitazioni per consentirvi di  Adobe Target
+description: Una raccolta di video e esercitazioni per consentirvi di  Adobe Target
 translation-type: tm+mt
-source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
+source-git-commit: c5b9c78f8934d3973ef78723fe3e57173bb65035
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 16%
 
 ---
 
 
-# Panoramica
+#  Panoramica Tutorials Adobe Target
 
 Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali. Utilizzate questi video ed esercitazioni per apprendere i numerosi componenti di  Adobe Target.
 
 ## Novità
 
-* **[Utilizzo dell’API Recommendations (esercitazione)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+* **[Utilizzo dell’API Recommendations (esercitazione)](recommendations-api-tutorial/recs-api-overview.md)**
+
+   <br>
    *Per gli sviluppatori: Fate pratica pratica con le[!DNL Recommendations]API per configurare e gestire[!DNL Recommendations]cataloghi e criteri personalizzati e molto altro.*
 
-* **[Implementazione  Adobe Target con  Adobe Mobile Services SDK v4 per Android (esercitazione)](mobile-v4/overview.md)**   <br>
+* **[Implementazione  Adobe Target con  Adobe Mobile Services SDK v4 per Android (esercitazione)](mobile-v4/overview.md)**
+
+   <br>
    *Per gli sviluppatori che stanno già utilizzando  Adobe Mobile Services SDK v4: scopri come iniziare a personalizzare le esperienze app con  Adobe Target. Questi passaggi vengono forniti come supporto di utenti legacy.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
-* **[Usa offerte Recommendations (video)](recommendations/use-recommendations-offers.md)**   <br>
+* **[Usa offerte Recommendations (video)](recommendations/use-recommendations-offers.md)**
+
+   <br>
    *Per tutti gli utenti di Target: Scopri come utilizzare le raccomandazioni sui prodotti nelle attività A/B e Targeting delle esperienze.*
 
 <!--

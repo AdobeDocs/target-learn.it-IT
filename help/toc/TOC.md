@@ -1,14 +1,14 @@
 ---
 title: Esercitazioni di Adobe Target
 user-guide-title: Esercitazioni di Adobe Target
-breadcrumb-title: Target Tutorials
+breadcrumb-title: Tutorial di Target
 audience: end-user
 solution: Target
 translation-type: tm+mt
 source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 8%
+source-wordcount: '378'
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 8%
    + [Introduzione alle richieste Target](../dev101/2.3-intro-to-target-requests.md)
    + [Introduzione ai parametri di Target](../dev101/2.4-intro-to-target-params.md)
    + [Come funziona at.js 2.0](../implementation/understanding-how-atjs-20-works.md)
-   + [Implementazione di at.js 2.0 in un&#39;applicazione SPA (Single Page Application)](../implementation/implement-atjs-20-in-a-single-page-application.md)
+   + [Implementazione di at.js 2.0 in un&#39;applicazione a pagina singola (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Progettare un&#39;implementazione Target](../dev101/2.5-design-target-implementation.md)
    + [Passaggi successivi per progettare un&#39;implementazione Target](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Utilizzo del consenso per il controllo  soluzioni di Experience Cloud in base al consenso degli utenti](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)

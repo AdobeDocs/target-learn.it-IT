@@ -1,7 +1,7 @@
 ---
 title: Utilizzo dell'audience in  Adobe Target
 seo-title: Utilizzo dell'audience in  Adobe Target
-description: Scopri in che modo Audience viene utilizzata per l'ottimizzazione.
+description: Scopri in che modo Audiences viene utilizzato per l’ottimizzazione.
 audience: marketer
 difficulty: 1
 author: Daniel Wright
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 9d90be1fed34f07415d1619dfd007c4ec586ed0a
 workflow-type: tm+mt
 source-wordcount: '22'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 

@@ -4,10 +4,11 @@ user-guide-title: Esercitazioni di Adobe Target
 breadcrumb-title: Tutorial di Target
 audience: end-user
 solution: Target
+type: tutorial
 translation-type: tm+mt
-source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
+source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 9%
 
 ---
@@ -37,13 +38,14 @@ ht-degree: 9%
    + [Passaggi successivi per progettare un&#39;implementazione Target](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Utilizzo del consenso per il controllo  soluzioni di Experience Cloud in base al consenso degli utenti](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
    + [Comprendere  distribuzione ibrida Adobe Target](../implementation/hybrid-deployment.md)
+   + [Panoramica sulle decisioni sul dispositivo](../implementation/on-device-decisioning-overview.md)
 + Integrazioni{#integrations}
    + [Integrazione di Target con Analytics](../dev101/3.2-target-analytics.md)
    + [Utilizzo di Analytics come origine dati per Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Integrare Target con  Audience Manager](../dev101/3.3-target-dmp.md)
    + [Integrare Target con  pubblico di Experienci Cloud](../dev101/3.4-target-exc-audiences.md)
    + [Integrare Target con Campaign](../dev101/3.6-target-campaign.md)
-   + [Integrare Target con  I/O Adobe](../dev101/3.7-target-io.md)
+   + [Integrare Target con  Adobe I/O](../dev101/3.7-target-io.md)
    + [Integrare Target con Scene7](../dev101/3.8-target-scene7.md)
    + [Integrare Target con Adobe Experience Manager](../dev101/3.5-target-aem.md)
    + [Utilizzare AEM frammenti esperienza in  Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)

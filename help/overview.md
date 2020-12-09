@@ -3,9 +3,9 @@ title: Esercitazioni di Adobe Target
 seo-title: Esercitazioni di Adobe Target
 description: Una raccolta di video e esercitazioni per consentirvi di  Adobe Target
 translation-type: tm+mt
-source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
+source-git-commit: f7aef8f332173c8dfca9fbb09d13c5a43a42ffbc
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 20%
 
 ---
@@ -17,20 +17,18 @@ Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necess
 
 ## Novità
 
-* **[Utilizzo dell’API Recommendations (esercitazione)](recommendations-api-tutorial/recs-api-overview.md)**
+* **[Panoramica sulle decisioni sul dispositivo](implementation/on-device-decisioning-overview.md)**
 
-   <br>
-   *Per gli sviluppatori: Fate pratica pratica con le[!DNL Recommendations]API per configurare e gestire[!DNL Recommendations]cataloghi e criteri personalizzati e molto altro.*
+   *Per gli architetti: Inizia con le decisioni sul dispositivo per offrire ai tuoi consumatori esperienze di latenza quasi zero!*
+* **[Utilizzo dell’API Recommendations (esercitazione)](recommendations-api-tutorial/recs-api-overview.md)**
+   *Per gli sviluppatori: Fate pratica pratica con le [!DNL Recommendations] API per configurare e gestire [!DNL Recommendations] cataloghi e criteri personalizzati e molto altro.*
 
 * **[Implementazione  Adobe Target con  Adobe Mobile Services SDK v4 per Android (esercitazione)](mobile-v4/overview.md)**
 
-   <br>
    *Per gli sviluppatori che stanno già utilizzando  Adobe Mobile Services SDK v4: scopri come iniziare a personalizzare le esperienze app con  Adobe Target. Questi passaggi vengono forniti come supporto di utenti legacy.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
-* **[Usa offerte Recommendations (video)](recommendations/use-recommendations-offers.md)**
-
-   <br>
-   *Per tutti gli utenti di Target: Scopri come utilizzare le raccomandazioni sui prodotti nelle attività A/B e Targeting delle esperienze.*
+<!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
+    *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
 
 <!--
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
@@ -56,11 +54,11 @@ Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necess
   </td>
   <td>
     <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt="Implementazione di at.js 2.0 in un'applicazione SPA (Single Page Application)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
+      <img alt="Implementazione di at.js 2.0 in un'applicazione a pagina singola (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
     </a>
     <div>
       <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-    <strong>Implementazione di at.js 2.0 in un'applicazione SPA (Single Page Application)</strong>
+    <strong>Implementazione di at.js 2.0 in un'applicazione a pagina singola (SPA)</strong>
     </a>
     </div>
     <p>

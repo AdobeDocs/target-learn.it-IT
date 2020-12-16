@@ -16,7 +16,7 @@ ht-degree: 9%
 
 # Esercitazioni di Adobe Target {#tutorials}
 
-+ [Panoramica Tutorials Adobe Target](../overview.md)
++ [ Panoramica Tutorials Adobe Target](../overview.md)
 + Amministrazione{#administration}
    + [Strategia di implementazione e governance del sistema](../dev101/1.1-implementation-strategy-sys-governance.md)
    + [Impostazione delle preferenze dell&#39;account](../administration/set-up-account-preferences.md)

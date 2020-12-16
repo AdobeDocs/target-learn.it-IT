@@ -28,7 +28,7 @@ In questa lezione, creeremo un&#39;offerta &quot;flag di funzionalità&quot; che
 Al termine di questa lezione, potrete:
 
 * Aggiungere una nuova posizione alla richiesta di recupero preventivo del batch
-* Creare un&#39; [!DNL Target] attività con un&#39;offerta che verrà utilizzata come flag di funzione
+* Create un&#39;attività [!DNL Target] con un&#39;offerta che verrà utilizzata come flag di funzione
 * Caricate e convalidate l&#39;offerta del flag di funzione nell&#39;app
 
 ## Aggiungere una nuova posizione alla richiesta di recupero preventivo all&#39;attività principale
@@ -49,7 +49,7 @@ Di seguito è riportato il codice:
 public static final String wetravel_feature_flag_recs = "wetravel_feature_flag_recs";
 ```
 
-Aggiungete ora la posizione alla richiesta di preacquisizione e caricate una nuova funzione denominata `processFeatureFlags()`:
+Aggiungete ora la posizione alla richiesta di recupero preventivo e caricate una nuova funzione denominata `processFeatureFlags()`:
 
 ![Codice contrassegno funzione](assets/feature_flag_code.jpg)
 
@@ -112,7 +112,7 @@ Una volta aggiunto il codice, eseguite l&#39;emulatore sull&#39;attività princi
 
 ## Creare un&#39;offerta JSON con flag di funzione
 
-A questo punto, creeremo una semplice offerta JSON che fungerà da flag o trigger per un pubblico specifico, ovvero il pubblico che riceverà l&#39;implementazione della funzionalità nella propria app. Nell’ [!DNL Target] interfaccia, crea una nuova offerta:
+A questo punto, creeremo una semplice offerta JSON che fungerà da flag o trigger per un pubblico specifico, ovvero il pubblico che riceverà l&#39;implementazione della funzionalità nella propria app. Nell&#39;interfaccia [!DNL Target], crea una nuova offerta:
 
 ![Creare un&#39;offerta JSON con flag di funzione](assets/feature_flag_json_offer.jpg)
 
@@ -130,19 +130,19 @@ Ora creiamo un&#39;attività test A/B con quell&#39;offerta. Per i passaggi dett
 
    ![Configurazione attività contrassegno funzione](assets/feature_flag_activity.jpg)
 
-1. Fate clic su **[!UICONTROL Aggiungi esperienza]** per aggiungere l&#39;esperienza B.
+1. Fate clic su **[!UICONTROL Aggiungi esperienza]** per aggiungere esperienza B.
 1. Lasciate la posizione &quot;wetravel_feature_flag_recs&quot;
-1. Lascia contenuto **[!UICONTROL predefinito]** per il contenuto
-1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] screen
+1. Lasciare **[!UICONTROL Contenuto predefinito]** per il contenuto
+1. Fare clic su **[!UICONTROL Next]** per passare alla schermata [!UICONTROL Targeting]
 
    ![Configurazione attività contrassegno funzione](assets/feature_flag_activity_2.jpg)
 
-1. Nella schermata [!UICONTROL Targeting] , verifica che il metodo [!UICONTROL Traffic Allocazione] sia impostato sull&#39;impostazione predefinita (Manuale) e che a ogni esperienza sia assegnata l&#39;allocazione predefinita del 50%. Seleziona **[!UICONTROL Avanti]** per avanzare fino a **[!UICONTROL Obiettivi e impostazioni]**.
+1. Nella schermata [!UICONTROL Targeting], verificare che il metodo [!UICONTROL Traffic Allocazione] sia impostato sull&#39;impostazione predefinita (Manuale) e che per ogni esperienza sia stata assegnata l&#39;allocazione predefinita del 50%. Selezionare **[!UICONTROL Next]** per passare a **[!UICONTROL Goals &amp; Settings]** (Obiettivi e impostazioni&lt;a3/>).
 
    ![Configurazione attività contrassegno funzione](assets/feature_flag_activity_3.jpg)
 
-1. Impostare l&#39;obiettivo **** principale su **[!UICONTROL Conversione]**.
-1. Impostate l’azione su **[!UICONTROL Visualizzato in una mbox]**. Useremo la posizione &quot;wetravel_context_dest&quot; (poiché questa posizione si trova nella schermata di conferma, possiamo usarla per verificare se la nuova funzione porta a più conversioni).
+1. Impostare l&#39; **[!UICONTROL Obiettivo principale]** su **[!UICONTROL Conversione]**.
+1. Impostate l&#39;azione su **[!UICONTROL Visualizzato un mbox]**. Useremo la posizione &quot;wetravel_context_dest&quot; (poiché questa posizione si trova nella schermata di conferma, possiamo usarla per verificare se la nuova funzione porta a più conversioni).
 1. Fai clic su **[!UICONTROL Salva e chiudi]**.
 
    ![Configurazione attività contrassegno funzione](assets/feature_flag_activity_4.jpg)
@@ -151,19 +151,19 @@ Attivare l&#39;attività.
 
 ## Convalida dell’attività del contrassegno funzione
 
-Ora utilizzate l&#39;emulatore per controllare la richiesta. Poiché il targeting è impostato su 50% di utenti, esiste un 50% per cui la risposta del flag di funzione contiene il `{enable:1}` valore.
+Ora utilizzate l&#39;emulatore per controllare la richiesta. Poiché il targeting è impostato su 50% di utenti, esiste un 50% in cui la risposta del flag di funzione contiene il valore `{enable:1}`.
 
 ![Convalida contrassegno funzione](assets/feature_flag_validation.jpg)
 
-Se il `{enable:1}` valore non viene visualizzato, significa che non era stato eseguito il targeting per l&#39;esperienza. Come test temporaneo, per forzare la visualizzazione dell&#39;offerta, potete:
+Se il valore `{enable:1}` non è visualizzato, significa che non siete stati indirizzati per l&#39;esperienza. Come test temporaneo, per forzare la visualizzazione dell&#39;offerta, potete:
 
 1. Disattivate l&#39;attività.
 1. Modificate l&#39;allocazione del traffico al 100% sulla nuova esperienza di funzionalità.
 1. Salvate e riattivate.
 1. Eliminate i dati dall&#39;emulatore e riavviate l&#39;app.
-1. L&#39;offerta deve ora restituire il `{enable:1}` valore.
+1. L&#39;offerta deve ora restituire il valore `{enable:1}`.
 
-In uno scenario dal vivo, la `{enable:1}` risposta può essere utilizzata per abilitare una logica più personalizzata nell&#39;app per visualizzare il set di funzioni specifico che desideri mostrare al pubblico di destinazione.
+In uno scenario live, la risposta `{enable:1}` può essere utilizzata per abilitare una logica più personalizzata nell&#39;app per visualizzare il set di funzioni specifico che desideri mostrare al pubblico di destinazione.
 
 ## Conclusione
 

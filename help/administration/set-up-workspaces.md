@@ -1,5 +1,5 @@
 ---
-title: Impostazione di aree di lavoro in  Adobe Target
+title: Configurare le aree di lavoro in  Adobe Target
 description: nulle
 audience: administrator
 difficulty: 1

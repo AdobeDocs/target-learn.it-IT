@@ -1,6 +1,6 @@
 ---
-title: Usa  Analytics come origine dati per Target (A4T)
-seo-title: Usa  Analytics come origine dati per Target (A4T)
+title: Utilizzo di Analytics come origine dati per Target (A4T)
+seo-title: Utilizzo di Analytics come origine dati per Target (A4T)
 description: nulle
 audience: marketer
 difficulty: 2

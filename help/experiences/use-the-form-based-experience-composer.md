@@ -1,6 +1,6 @@
 ---
-title: Usare Compositore esperienza basato su moduli in  Adobe Target
-seo-title: Usare Compositore esperienza basato su moduli in  Adobe Target
+title: Utilizzo di Experience Composer basato su moduli in  Adobe Target
+seo-title: Utilizzo di Experience Composer basato su moduli in  Adobe Target
 description: nulle
 audience: marketer
 difficulty: 1
@@ -16,6 +16,6 @@ ht-degree: 4%
 ---
 
 
-# Usare Compositore esperienza basato su moduli in  Adobe Target
+# Utilizzo di Experience Composer basato su moduli in  Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17390/?quality=12)

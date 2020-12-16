@@ -1,6 +1,6 @@
 ---
 title: Creare design personalizzati in Recommendations
-seo-title: Creare design personalizzati in Recommendations  Adobe Target
+seo-title: Creare design personalizzati in  Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright

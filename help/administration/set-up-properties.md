@@ -1,5 +1,5 @@
 ---
-title: Imposta proprietà in  Adobe Target
+title: Impostare le proprietà in  Adobe Target
 description: nulle
 audience: administrator
 difficulty: 1

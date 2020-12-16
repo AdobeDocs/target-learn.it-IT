@@ -21,7 +21,7 @@ ht-degree: 1%
 
 # Gestisci criteri personalizzati
 
-A volte gli algoritmi forniti da non [!DNL Recommendations] sono in grado di evidenziare particolari elementi che si desidera promuovere. In questa situazione, i criteri personalizzati forniscono un modo per fornire un set specifico di elementi consigliati per un determinato elemento chiave o categoria. Definite la mappatura tra l&#39;elemento chiave o la categoria e gli elementi raccomandati, quindi importate la mappatura come criterio personalizzato. Questo processo è descritto nella documentazione sui criteri [personalizzati](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html). Come indicato in questa documentazione, potete creare, modificare ed eliminare criteri personalizzati tramite l’interfaccia [!DNL Target] utente. Tuttavia, [!DNL Target] fornisce anche un set di API Custom Criteria che consentono una gestione più dettagliata dei criteri personalizzati.
+A volte gli algoritmi forniti da [!DNL Recommendations] non sono in grado di evidenziare particolari elementi che si desidera promuovere. In questa situazione, i criteri personalizzati forniscono un modo per fornire un set specifico di elementi consigliati per un determinato elemento chiave o categoria. Definite la mappatura tra l&#39;elemento chiave o la categoria e gli elementi raccomandati, quindi importate la mappatura come criterio personalizzato. Questo processo è descritto nella [documentazione sui criteri personalizzati](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html). Come indicato in questa documentazione, è possibile creare, modificare ed eliminare criteri personalizzati tramite l&#39;interfaccia utente [!DNL Target]. Tuttavia, [!DNL Target] fornisce anche una serie di API per criteri personalizzati che consentono una gestione più dettagliata dei criteri personalizzati.
 
 >[!IMPORTANT]
 >
@@ -31,21 +31,21 @@ A volte gli algoritmi forniti da non [!DNL Recommendations] sono in grado di evi
 
 ## Crea criteri personalizzati
 
-Per creare criteri personalizzati utilizzando l&#39;API [](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom)Create Custom Criteria (Crea criteri personalizzati), la sintassi è la seguente:
+Per creare criteri personalizzati utilizzando l&#39;API [Crea criteri personalizzati](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom), la sintassi è la seguente:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
 >[!WARNING]
 >
->I criteri personalizzati creati con l&#39;API Create Custom Criteria (Crea criteri personalizzati), come descritto in questo esercizio, verranno visualizzati nell&#39;interfaccia utente, dove persisteranno. Non potrai modificarle o eliminarle dall’interfaccia utente. Potete modificarle o eliminarle **tramite API**, ma in entrambi i casi continueranno a essere visualizzate nell&#39; [!DNL Target] interfaccia utente. Per mantenere l&#39;opzione di modifica o eliminazione dall&#39;interfaccia utente, create i criteri personalizzati utilizzando l&#39;interfaccia utente per [la documentazione](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html), invece di utilizzare l&#39;API Create Custom Criteria (Crea criterio personalizzato).
+>I criteri personalizzati creati con l&#39;API Create Custom Criteria (Crea criteri personalizzati), come descritto in questo esercizio, verranno visualizzati nell&#39;interfaccia utente, dove persisteranno. Non potrai modificarle o eliminarle dall’interfaccia utente. È possibile modificarle o eliminarle **tramite API**, ma in entrambi i casi continueranno a essere visualizzate nell&#39;interfaccia [!DNL Target]. Per mantenere l&#39;opzione di modifica o eliminazione dall&#39;interfaccia utente, create i criteri personalizzati utilizzando l&#39;interfaccia utente per [la documentazione](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html), invece di utilizzare l&#39;API Create Custom Criteria (Crea criteri personalizzati).
 
 Seguite questa esercitazione solo dopo aver letto l&#39;avviso riportato sopra e sarete a vostro agio nel creare nuovi criteri personalizzati che non potranno essere eliminati dall&#39;interfaccia utente.
 
-1. Verifica `TENANT_ID` e `API_KEY` per **Crea criteri** personalizzati fai riferimento alle variabili di ambiente Postman stabilite in precedenza. Utilizzate l&#39;immagine seguente per il confronto.
+1. Verificare `TENANT_ID` e `API_KEY` per **Crea criteri personalizzati** fare riferimento alle variabili di ambiente Postman stabilite in precedenza. Utilizzate l&#39;immagine seguente per il confronto.
 
    ![CreateCustomCriteria1](assets/CreateCustomCriteria1.png)
 
-2. Aggiungi il tuo **Corpo** come JSON **grezzo** che definisce la posizione del file CSV dei criteri personalizzati. Utilizzate l&#39;esempio fornito nella documentazione [Create Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) (Crea criteri personalizzati) come modello, fornendo i vostri `environmentId` e altri valori come necessario. Per questo esempio, utilizzeremo LAST_PURCHASED come chiave.
+2. Aggiungi il tuo **Body** come **raw** JSON che definisce la posizione del file CSV dei criteri personalizzati. Utilizzate l&#39;esempio fornito nella documentazione di [Create Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) come modello, fornendo i vostri `environmentId` e altri valori come necessario. Per questo esempio, utilizzeremo LAST_PURCHASED come chiave.
 
    ![CreateCustomCriteria2](assets/CreateCustomCriteria2.png)
 
@@ -53,30 +53,30 @@ Seguite questa esercitazione solo dopo aver letto l&#39;avviso riportato sopra e
 
    ![CreateCustomCriteria3](assets/CreateCustomCriteria3.png)
 
-4. Per verificare che i criteri personalizzati siano stati creati, andate  Adobe Target a **[!UICONTROL Recommendations]>[!UICONTROL Criteria (Criteri]** ) e cercate i criteri per nome, oppure utilizzate l&#39;API **** List Custom Criteria (Elenco criteri personalizzati) nel passaggio successivo.
+4. Per verificare che i criteri personalizzati siano stati creati, andate  Adobe Target a **[!UICONTROL Recommendations] > [!UICONTROL Criteria]** e cercate i criteri per nome oppure utilizzate l&#39;API **List Custom Criteria API** nel passaggio successivo.
 
    ![CreateCustomCriteria4](assets/CreateCustomCriteria4.png)
 
-In questo caso, abbiamo un errore. Esaminiamo l&#39;errore esaminando più da vicino i criteri personalizzati, utilizzando l&#39;API **** Elenco criteri personalizzati.
+In questo caso, abbiamo un errore. Esaminiamo l&#39;errore esaminando più da vicino i criteri personalizzati, utilizzando l&#39;API **List Custom Criteria API**.
 
 ## Elenca criteri personalizzati
 
-Per recuperare un elenco di tutti i criteri personalizzati insieme ai dettagli per ciascuno di essi, utilizzate l&#39;API [](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom)Elenco criteri personalizzati. La sintassi è la seguente:
+Per recuperare un elenco di tutti i criteri personalizzati insieme ai relativi dettagli, utilizzate l&#39;API [List Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom). La sintassi è la seguente:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
-1. Verifica `TENANT_ID` e `API_KEY` come prima e invia la richiesta. Nella risposta, prendete nota dell&#39;ID criteri personalizzato e dei dettagli relativi al messaggio di errore indicato in precedenza.
+1. Verificare `TENANT_ID` e `API_KEY` come prima e inviare la richiesta. Nella risposta, prendete nota dell&#39;ID criteri personalizzato e dei dettagli relativi al messaggio di errore indicato in precedenza.
    ![ListCustomCriteria](assets/ListCustomCriteria.png)
 
-In questo caso, l&#39;errore si è verificato perché le informazioni sul server non sono corrette, il che significa che non [!DNL Target] è possibile accedere al file CSV contenente la definizione dei criteri personalizzati. Modifichiamo i criteri personalizzati per correggere questo problema.
+In questo caso, l&#39;errore si è verificato perché le informazioni sul server non sono corrette, ovvero [!DNL Target] non è in grado di accedere al file CSV contenente la definizione dei criteri personalizzati. Modifichiamo i criteri personalizzati per correggere questo problema.
 
 ## Modifica criteri personalizzati
 
-Per modificare i dettagli di una definizione di criteri personalizzata, utilizzate l&#39;API [](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom)Modifica criteri personalizzati. La sintassi è la seguente:
+Per modificare i dettagli di una definizione di criteri personalizzata, utilizzate l&#39; [Edit Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom) (Modifica API criteri personalizzati). La sintassi è la seguente:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
-1. Verifica `TENANT_ID` e `API_KEY`, come prima.
+1. Verificare `TENANT_ID` e `API_KEY` come prima.
    ![EditCustomCriteria1](assets/EditCustomCriteria1.png)
 
 1. Specificate l’ID dei criteri per i criteri personalizzati da modificare.
@@ -88,11 +88,11 @@ Per modificare i dettagli di una definizione di criteri personalizzata, utilizza
 1. Inviate la richiesta e prendete nota della risposta.
    ![EditCustomCriteria4](assets/EditCustomCriteria4.png)
 
-Verificate il successo dei criteri personalizzati aggiornati utilizzando l&#39;API **** Get Custom Criteria (Ottieni criteri personalizzati).
+Verificate il successo dei criteri personalizzati aggiornati, utilizzando l&#39;API **Get Custom Criteria API**.
 
 ## Ottieni criteri personalizzati
 
-Per visualizzare i dettagli dei criteri personalizzati per uno specifico criterio personalizzato, utilizzate l&#39;API [](https://developers.adobetarget.com/api/recommendations/#operation/getCriteriaCustom)Get Custom Criteria (Ottieni criteri personalizzati). La sintassi è la seguente:
+Per visualizzare i dettagli dei criteri personalizzati per uno specifico criterio personalizzato, utilizzate l&#39;API [Get Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getCriteriaCustom). La sintassi è la seguente:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
@@ -105,7 +105,7 @@ Per visualizzare i dettagli dei criteri personalizzati per uno specifico criteri
 
 ## Elimina criteri personalizzati
 
-Utilizzando l&#39;ID criteri indicato in precedenza, eliminate i criteri personalizzati utilizzando l&#39;API [](https://developers.adobetarget.com/api/recommendations/#operation/deleteCriteriaCustom)Elimina criteri personalizzati. La sintassi è la seguente:
+Utilizzando l&#39;ID criteri indicato in precedenza, eliminate i criteri personalizzati utilizzando l&#39; [Delete Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/deleteCriteriaCustom) (Elimina criteri personalizzati). La sintassi è la seguente:
 
 `DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
@@ -113,11 +113,12 @@ Utilizzando l&#39;ID criteri indicato in precedenza, eliminate i criteri persona
    ![DeleteCustomCriteria1](assets/DeleteCustomCriteria1.png)
 
 1. Verificare che i criteri siano stati eliminati utilizzando Get Custom Criteria (Ottieni criteri personalizzati).
-   ![DeleteCustomCriteria2](assets/DeleteCustomCriteria2.png)In questo caso, l&#39;errore 404 previsto indica che non è possibile trovare i criteri eliminati.
+   ![DeleteCustomCriteria2](assets/DeleteCustomCriteria2.png)
+In questo caso, l&#39;errore 404 previsto indica che non è possibile trovare i criteri eliminati.
 
 >[!NOTE]
->Come promemoria, i criteri non verranno rimossi dall&#39; [!DNL Target] interfaccia utente anche se sono stati eliminati, perché sono stati creati utilizzando l&#39;API Create Custom Criteria (Crea criterio personalizzato).
+>Come promemoria, i criteri non verranno rimossi dall&#39;interfaccia utente [!DNL Target] anche se sono stati eliminati, perché sono stati creati utilizzando l&#39;API Create Custom Criteria (Crea criterio personalizzato).
 
-Congratulazioni! Ora potete creare, elencare, modificare, eliminare e ottenere dettagli sui criteri personalizzati, utilizzando l&#39; [!DNL Recommendations] API. Nella sezione successiva, utilizzerete l&#39;API [!DNL Target] di consegna per recuperare le raccomandazioni.
+Congratulazioni! Ora potete creare, elencare, modificare, eliminare e ottenere dettagli sui criteri personalizzati, utilizzando l&#39;API [!DNL Recommendations]. Nella sezione successiva, utilizzerete l&#39;API di consegna [!DNL Target] per recuperare le raccomandazioni.
 
 [&quot;Recupera Recommendations con l&#39;API di distribuzione lato server&quot; >](fetch-recs-server-side-delivery-api.md)

@@ -30,7 +30,7 @@ Al termine di questa lezione, potrete:
 
 ## Aggiungere i parametri del ciclo di vita
 
-Abilitiamo le metriche del ciclo di vita mobile [Adobe](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). In questo modo verranno aggiunti parametri alle richieste di posizione contenenti informazioni dettagliate sul dispositivo dell&#39;utente e sul coinvolgimento con l&#39;app. Creeremo audience nella lezione successiva utilizzando i dati forniti dalla richiesta del ciclo di vita.
+Abilitiamo le [metriche del ciclo di vita mobile  Adobe](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). In questo modo verranno aggiunti parametri alle richieste di posizione contenenti informazioni dettagliate sul dispositivo dell&#39;utente e sul coinvolgimento con l&#39;app. Creeremo audience nella lezione successiva utilizzando i dati forniti dalla richiesta del ciclo di vita.
 
 Per abilitare le metriche del ciclo di vita, apri di nuovo il controller HomeActivity e aggiungi `Config.collectLifecycleData(this);` alla funzione onResume():
 
@@ -45,18 +45,19 @@ Anche se abbiamo aggiunto solo `Config.collectLifecycleData()` al controller Hom
 
 ## Aggiungete il parametro at_property alla richiesta di recupero preventivo
 
- Proprietà Adobe Target sono definite nell&#39; [!DNL Target] interfaccia e sono utilizzate per stabilire limiti per la personalizzazione di app e siti Web. Il parametro at_property identifica la proprietà specifica in cui le offerte e le attività sono accessibili e mantenute. Aggiungeremo una proprietà alle richieste di preacquisizione e di posizione attiva.
+ Proprietà Adobe Target sono definite nell&#39;interfaccia [!DNL Target] e vengono utilizzate per stabilire i limiti per la personalizzazione di app e siti Web. Il parametro at_property identifica la proprietà specifica in cui le offerte e le attività sono accessibili e mantenute. Aggiungeremo una proprietà alle richieste di preacquisizione e di posizione attiva.
 
 >[!NOTE]
 >
->L&#39;utente potrebbe visualizzare o meno le opzioni Proprietà nell&#39; [!DNL Target] interfaccia, a seconda della licenza. Se non disponete di queste opzioni, o se non utilizzate Proprietà nella società, passate alla sezione successiva della lezione.
+>L&#39;utente potrebbe visualizzare o meno le opzioni Proprietà nell&#39;interfaccia [!DNL Target], a seconda della licenza. Se non disponete di queste opzioni, o se non utilizzate Proprietà nella società, passate alla sezione successiva della lezione.
 
-È possibile recuperare il valore at_property nell’ [!DNL Target] interfaccia in [!UICONTROL Configurazione] > [!UICONTROL Proprietà].  Passate il puntatore del mouse sulla proprietà, selezionate l’icona del frammento di codice e copiate il `at_property` valore:
+È possibile recuperare il valore at_property nell&#39;interfaccia [!DNL Target] in [!UICONTROL Setup] > [!UICONTROL Properties].  Passate il puntatore del mouse sulla proprietà, selezionate l&#39;icona del frammento di codice e copiate il valore `at_property`:
 
 ![Copia at_property](assets/at_property_interface.jpg)
 
 Aggiungetelo come parametro per ogni posizione nella richiesta di preacquisizione, come segue:
-![Aggiungere il parametro](assets/params_at_property.jpg)at_property Qui è il codice aggiornato per la `targetPrefetchContent()` funzione (assicurarsi di aggiornare il _[!UICONTROL valore at_property va qui]_il testo segnaposto!):
+![Aggiungi parametro at_property](assets/params_at_property.jpg)
+Di seguito è riportato il codice aggiornato per la funzione `targetPrefetchContent()` (assicurarsi di aggiornare il _[!UICONTROL il valore at_property va qui]_ testo segnaposto!):
 
 ```java
 public void targetPrefetchContent() {
@@ -88,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### Nota Sui Parametri
 
-Per i progetti futuri, potrebbe essere utile implementare parametri aggiuntivi. Il `createTargetPrefetchObject()` metodo consente tre tipi di parametri: `locationParams`, `orderParams`e `productParams`. Per [ulteriori dettagli sull’aggiunta di questi parametri alla richiesta](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html)di recupero preventivo, consultate la documentazione.
+Per i progetti futuri, potrebbe essere utile implementare parametri aggiuntivi. Il metodo `createTargetPrefetchObject()` consente tre tipi di parametri: `locationParams`, `orderParams` e `productParams`. Per informazioni sull&#39;aggiunta di questi parametri alla richiesta di preacquisizione, consultate la documentazione relativa a [ulteriori dettagli](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html).
 
 È inoltre possibile aggiungere parametri di posizione diversi a ogni posizione nella richiesta di preacquisizione. Ad esempio, potete creare un’altra Mappa denominata param2, inserirvi un nuovo parametro, quindi impostare param2 in una posizione e param1 con l’altra. Esempio:
 
@@ -100,14 +101,15 @@ prefetchList.add(Target.createTargetPrefetchObject(location2_name, params2);
 ## Convalida del parametro at_property nella richiesta di recupero preventivo
 
 A questo punto, eseguite l&#39;emulatore e utilizzate Logcat per verificare che la proprietà at_property sia visualizzata nella richiesta di preacquisizione e nella risposta per entrambe le posizioni:
-![Convalida del parametro at_property](assets/parameters_at_property_validation.jpg)
+![Convalidare il parametro at_property](assets/parameters_at_property_validation.jpg)
 
 ## Aggiunta di parametri personalizzati alla richiesta Live Location
 
 La richiesta di posizione dal vivo (wetravel_context_dest) è stata aggiunta nella lezione precedente in modo da poter visualizzare una promozione rilevante nella schermata di conferma finale del processo di prenotazione. Vorremmo personalizzare la promozione in base alla destinazione dell&#39;utente e per farlo aggiungeremo questo parametro alla richiesta. Aggiungeremo anche un parametro per l&#39;origine trop e per il valore at_property.
 
 Aggiungete i seguenti parametri alla funzione targetLoadRequest() nel controller GrazieYouActivity:
-![Aggiungere parametri alla richiesta](assets/parameters_live_location.jpg)di posizione in diretta Questo è il codice aggiornato per la funzione targetLoadRequest() (aggiornare il testo segnaposto &quot;aggiungi qui il valore at_property&quot;!):
+![Aggiungi parametri alla richiesta di posizione live](assets/parameters_live_location.jpg)
+Di seguito è riportato il codice aggiornato per la funzione targetLoadRequest() (aggiornare il testo segnaposto &quot;aggiungi il valore at_property qui&quot;!):
 
 ```java
 public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
@@ -137,18 +139,18 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 }
 ```
 
-### Convalida dei parametri personalizzati nella richiesta Live Location
+### Convalidare i parametri personalizzati nella richiesta Live Location
 
 Eseguire l&#39;emulatore e aprire Logcat. Filtrate uno dei parametri per verificare che la richiesta contenga i parametri necessari:
-![Convalida dei parametri personalizzati nella richiesta Live Location](assets/parameters_live_location_validation.jpg)
+![Convalidare i parametri personalizzati nella richiesta Live Location](assets/parameters_live_location_validation.jpg)
 
 >[!NOTE]
 >
->Richieste e parametri di conferma ordine: Anche se non utilizzati in questo progetto demo, i dettagli dell&#39;ordine vengono generalmente acquisiti in un&#39;implementazione reale, in modo da [!DNL Target] poter utilizzare i dettagli dell&#39;ordine come metriche/dimensioni. Per istruzioni su come [implementare la richiesta di conferma dell&#39;ordine e i relativi parametri](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html), consultate la documentazione.
+>Richieste e parametri di conferma ordine: Anche se non utilizzati in questo progetto demo, i dettagli dell&#39;ordine vengono generalmente acquisiti in un&#39;implementazione reale, in modo che [!DNL Target] possa utilizzare i dettagli dell&#39;ordine come metriche/dimensioni. Fare riferimento alla documentazione per istruzioni su come [implementare la richiesta di conferma dell&#39;ordine e i parametri](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
 
 >[!NOTE]
 >
-> Analytics per Target (A4T):  Adobe Analytics può essere configurato come origine di reporting per [!DNL Target]. Questo consente di visualizzare in  Adobe Analytics tutte le metriche/dimensioni raccolte dall’SDK Target. Per ulteriori dettagli, consultate Panoramica [](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) A4T.
+>Analytics per Target (A4T):  Adobe Analytics può essere configurato come origine di reporting per [!DNL Target]. Questo consente di visualizzare in  Adobe Analytics tutte le metriche/dimensioni raccolte dall&#39;SDK di Target. Per ulteriori informazioni, vedere [A4T Overview](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html).
 
 Bel lavoro! Ora che i parametri sono impostati, siamo pronti a usare questi parametri per creare audience e offerte in  Adobe Target.
 

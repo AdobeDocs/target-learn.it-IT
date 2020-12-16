@@ -1,5 +1,5 @@
 ---
-title: Utilizzo delle metriche nelle attività  Adobe Target
+title: Utilizzo delle metriche in  attività Adobe Target
 description: nulle
 audience: marketer
 difficulty: 2

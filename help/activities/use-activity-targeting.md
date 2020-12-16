@@ -1,5 +1,5 @@
 ---
-title: Utilizzare il targeting delle attività in  Adobe Target
+title: Utilizzo del targeting delle attività in  Adobe Target
 description: nulle
 audience: marketer
 difficulty: 2

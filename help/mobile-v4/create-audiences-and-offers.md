@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Creazione di audience e offerte in  Adobe Target
 
-In questa lezione, entreremo nell&#39; [!DNL Target] interfaccia e creeremo audience e offerte per le tre posizioni che abbiamo implementato nelle lezioni precedenti.
+In questa lezione, entreremo nell&#39;interfaccia [!DNL Target] e creeremo audience e offerte per le tre posizioni che abbiamo implementato nelle lezioni precedenti.
 
 ## Obiettivi di apprendimento
 
@@ -51,20 +51,20 @@ Ora creiamo i tipi di pubblico che utilizzeremo per personalizzare l&#39;app.
 
 ### Creare un pubblico per i nuovi utenti
 
- pubblico Adobe Target viene utilizzato per identificare specifici gruppi di visitatori. Le offerte possono quindi essere indirizzate a quei gruppi specifici. Per le prime due posizioni, utilizzeremo un pubblico &quot;New Users&quot;:
+ Adobe Target Audiences viene utilizzata per identificare specifici gruppi di visitatori. Le offerte possono quindi essere indirizzate a quei gruppi specifici. Per le prime due posizioni, utilizzeremo un pubblico &quot;New Users&quot;:
 
-1. Fate clic su **[!UICONTROL Audience]** nella navigazione in alto.
-1. Fate clic sul pulsante **[!UICONTROL Crea pubblico]** .
+1. Fare clic su **[!UICONTROL Audiences]** nella navigazione superiore.
+1. Fate clic sul pulsante **[!UICONTROL Crea pubblico]**.
    ![Creare un nuovo pubblico di utenti](assets/audience_new_mobile_app_users_1.jpg)
 
-1. Inserisci **[!UICONTROL Nuovi utenti]** app mobili come nome dell&#39;audience.
-1. Selezionate **[!UICONTROL Aggiungi regola]**.
-1. Selezionare una regola **[!UICONTROL personalizzata]** .
+1. Immettete **[!UICONTROL New Mobile App Users]** come nome del pubblico.
+1. Selezionare **[!UICONTROL Aggiungi regola]**.
+1. Selezionare una regola **[!UICONTROL Personalizzato]**.
    ![Creare un nuovo pubblico di utenti](assets/audience_new_mobile_app_users_2.jpg)
 
-1. Selezionate **[!UICONTROL a.Launches]**.
-1. Seleziona **[!UICONTROL è minore]** di.
-1. Enter **5**.
+1. Selezionare **[!UICONTROL a.Launches]**.
+1. Selezionare **[!UICONTROL è minore di]**.
+1. Immettere **5**.
 1. Salva la nuova audience.
    ![Creare un nuovo pubblico di utenti](assets/audience_new_mobile_app_users_3.jpg)
 
@@ -72,15 +72,15 @@ Ora creiamo i tipi di pubblico che utilizzeremo per personalizzare l&#39;app.
 
 Seguite gli stessi passaggi elencati sopra per creare un&#39;audience per gli utenti di ritorno.
 
-1. Denominate il pubblico _che restituisce gli utenti_ delle app mobili.
-1. Usa **[!UICONTROL a.Launches è maggiore o uguale a 5]** come regola personalizzata.
+1. Denominate l&#39;audience _Return Mobile App Users_.
+1. Utilizzare **[!UICONTROL a.Launches è maggiore o uguale a 5]** come regola personalizzata.
 1. Salva la nuova audience.
 
    ![Creare un pubblico di utenti di ritorno](assets/audience_returning_mobile_app_users.jpg)
 
 >[!NOTE]
 >
->Tutte le metriche e le dimensioni del ciclo di vita raccolte nell’SDK per [!DNL Target] dispositivi mobili sono precedute da &quot;a&quot; (ad esempio, a.Launches) e sono disponibili nell’opzione &quot;Personalizzato&quot; del menu a discesa e possono essere utilizzate per creare audience.
+>Tutte le metriche e le dimensioni del ciclo di vita raccolte nell&#39; [!DNL Target] SDK mobile sono precedute da &quot;a&quot; (ad esempio, a.Launches) e sono disponibili nell&#39;opzione &quot;Personalizzato&quot; del menu a discesa e possono essere utilizzate per creare audience.
 
 ### Creazione di un pubblico per gli utenti Prenotazione di un viaggio a San Diego
 
@@ -88,7 +88,7 @@ Successivamente verranno creati alcuni tipi di pubblico per alcune delle destina
 
 >[!NOTE]
 >
->Se un parametro che si prevede di visualizzare nel menu a discesa Personalizzato non viene visualizzato nell&#39; [!DNL Target] interfaccia, verificate che sia effettivamente passato nella richiesta. Se avete verificato che sia presente nella richiesta, ma che non sia stata caricata nell&#39; [!DNL Target] interfaccia, potete semplicemente digitare il nome del parametro e premere Invio per continuare a definire il pubblico
+>Se un parametro che si prevede di visualizzare nel menu a discesa Personalizzato non viene visualizzato nell&#39;interfaccia [!DNL Target], verificate che sia effettivamente passato nella richiesta. Se avete verificato che sia presente nella richiesta, ma che non sia stata caricata in modo pigro nell&#39;interfaccia [!DNL Target], potete semplicemente digitare il nome del parametro e premere Invio per continuare a definire il pubblico
 
 1. Nome dell&#39;audience _Destinazione: San Diego_.
 1. Utilizzate una regola personalizzata con questa definizione: _locationDest contiene San Diego_.
@@ -106,20 +106,20 @@ Successivamente verranno creati alcuni tipi di pubblico per alcune delle destina
 
 ## Creare offerte
 
-Ora, creiamo offerte per visualizzare questi messaggi. Come promemoria, le offerte sono snippet di codice/contenuto, che vengono recapitati nella [!DNL Target] risposta. Vengono spesso creati nell’interfaccia [!DNL Target] utente, ma possono anche essere creati tramite API o mediante l’integrazione dei frammenti esperienza con  Adobe Experience Manager. Nelle app mobili, le offerte JSON sono comuni. In questa esercitazione, utilizzeremo le offerte HTML, che possono essere utilizzate per distribuire qualsiasi contenuto di testo normale (incluso JSON) nell&#39;app.
+Ora, creiamo offerte per visualizzare questi messaggi. Come promemoria, le offerte sono snippet di codice/contenuto, che vengono recapitati nella risposta [!DNL Target]. Vengono spesso creati nell&#39;interfaccia utente [!DNL Target], ma possono anche essere creati tramite API o utilizzando l&#39;integrazione dei frammenti esperienza con Adobe Experience Manager. Nelle app mobili, le offerte JSON sono comuni. In questa esercitazione, utilizzeremo le offerte HTML, che possono essere utilizzate per distribuire qualsiasi contenuto di testo normale (incluso JSON) nell&#39;app.
 
 ### Creare l&#39;offerta per i nuovi utenti
 
 Innanzitutto, creiamo offerte per i messaggi ai nuovi utenti:
 
-1. Fate clic su **[!UICONTROL Offerte]** nella navigazione superiore.
+1. Fare clic su **[!UICONTROL Offerte]** nella barra di navigazione superiore.
 1. Fai clic su **[!UICONTROL Crea]**.
-1. Selezionate **[!UICONTROL Offerta]** HTML.
+1. Selezionare **[!UICONTROL HTML Offer]**.
 
    ![Crea offerta principale](assets/offer_home_1.jpg)
 
 1. Denominate l&#39;offerta _Home: Coinvolgi nuovi utenti_.
-1. Digitate _Seleziona origine e destinazione per cercare i bus_ disponibili come codice.
+1. Inserisci _Seleziona origine e destinazione per cercare gli autobus disponibili_ come codice.
 1. Salvate la nuova offerta.
 
    ![Crea offerta HTML principale](assets/offer_home_2.jpg)
@@ -129,7 +129,7 @@ Innanzitutto, creiamo offerte per i messaggi ai nuovi utenti:
 Create ora un&#39;unica offerta per gli utenti finali (la seconda sarà il contenuto predefinito, che verrà visualizzato come nulla):
 
 1. Denominate l&#39;offerta _Home: Restituzione di utenti_.
-1. Immettete _Bentornato! Utilizza il codice promozionale BACK30 durante il checkout per ottenere uno sconto del 10%._ come codice HTML.
+1. Inserire _Bentornato! Utilizza il codice promozionale BACK30 durante il checkout per ottenere uno sconto del 10%._ come codice HTML.
 1. Salvate la nuova offerta.
 
    ![Crea offerta HTML principale](assets/offer_home_returning_users.jpg)
@@ -139,7 +139,7 @@ Create ora un&#39;unica offerta per gli utenti finali (la seconda sarà il conte
 Quando &quot;DJ&quot; viene restituito all&#39;attività di ringraziamento, nella funzione filterRecommendationBasedOnOffer() viene visualizzato un banner per &quot;Rock Night with DJ SAM&quot;:
 
 1. Denominate l&#39;offerta _Promozione per San Diego_.
-1. Immettete _DJ_ come codice HTML.
+1. Immettere _DJ_ come codice HTML.
 1. Salvate la nuova offerta.
 
 ![Creare un&#39;offerta &quot;San Diego&quot;](assets/offer_san_diego.jpg)

@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Utilizzare  API Adobe Target Recommendations{#recommendations-api-tutorial}
+# Utilizzare  API Recommendations Adobe Target{#recommendations-api-tutorial}
 
 + [Panoramica API Recs](recs-api-overview.md)
 + [Gestione del catalogo con le API](manage-catalog.md)

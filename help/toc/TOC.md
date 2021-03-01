@@ -4,11 +4,11 @@ user-guide-title: Esercitazioni di Adobe Target
 breadcrumb-title: Tutorial di Target
 audience: end-user
 solution: Target
-type: tutorial
+type: esercitazione
 translation-type: tm+mt
 source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 9%
 
 ---

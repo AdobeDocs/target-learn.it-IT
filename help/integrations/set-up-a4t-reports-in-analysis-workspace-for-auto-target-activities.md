@@ -1,24 +1,23 @@
 ---
 title: Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico
-description: Come configurare i rapporti A4T in Analysis Workspace per ottenere i risultati previsti durante l’esecuzione delle attività di Targeting automatico
-kt: null
-audience: business user
-doc-type: tutorial
-activity: use, setup
+description: Una volta implementata l’integrazione di Analytics for Target (A4T) e eseguite le attività di Targeting automatico, come potete assicurarvi di interpretare correttamente i risultati? Segui questi passaggi per configurare i rapporti A4T in Analysis Workspace in modo da ottenere i risultati previsti durante l’esecuzione delle attività di Targeting automatico.
+role: Professionista
+level: Intermedio
+topic: Personalizzazione
 feature: Analytics for Target (A4T), Targeting automatico
-topic: Analytics for Target (A4T), Targeting automatico
-solution: Target
-author: Judy Kim
+doc-type: tutorial
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2262'
 ht-degree: 1%
 
 ---
 
 
-# Come impostare i rapporti A4T in Analysis Workspace per le attività [!DNL Auto-Target]
+# Configurazione dei rapporti A4T in Analysis Workspace per le attività [!DNL Auto-Target]
 
 L’integrazione di Analytics for Target (A4T) per le attività [!DNL Auto-Target] utilizza gli algoritmi di machine learning (ML) di Adobe Target per scegliere l’esperienza migliore per ogni visitatore in base al suo profilo, comportamento e contesto, il tutto utilizzando una metrica di obiettivo di Adobe Analytics.
 

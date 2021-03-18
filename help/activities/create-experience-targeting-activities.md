@@ -1,34 +1,45 @@
 ---
-title: Creazione di attività di targeting delle esperienze in  Adobe Target
-description: Le attività di targeting delle esperienze consentono agli esperti di marketing di eseguire il targeting di contenuti specifici per un pubblico specifico.
-seo-description: Le attività di targeting delle esperienze consentono agli esperti di marketing di eseguire il targeting di contenuti specifici per un pubblico specifico.
-audience: marketer
-difficulty: 1
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Come creare attività di targeting delle esperienze
+description: Le attività di targeting delle esperienze (XT) consentono agli addetti al marketing di eseguire il targeting di contenuti specifici per un pubblico specifico. Scopri i vantaggi delle attività XT e come crearle e utilizzarle.
+role: Professionista
+level: Principiante
+topic: Personalizzazione
+feature: Targeting esperienza, attività, Compositore esperienza visivo
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: bab376b87bb489492bde4e51f6e22ed0c6fa098d
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 22%
+source-wordcount: '221'
+ht-degree: 19%
 
 ---
 
 
-# Creazione di attività di targeting delle esperienze
+# Creare attività di targeting delle esperienze
 
-Il targeting esperienza è un primo passo nel mondo della personalizzazione e spesso inizia con test A/B. Un addetto al marketing esegue un test A/B e attraverso l&#39;uso di tipi di pubblico di reporting rileva che diverse esperienze trovano accoglienza tra diversi destinatari. Il targeting delle esperienze (o XT) consente agli esperti di marketing di sfruttare facilmente tale scoperta e passare al targeting a lungo termine dei contenuti per questi diversi segmenti di utenti.
+Il targeting esperienza è un primo passo nel mondo della personalizzazione e spesso inizia con test A/B. Un addetto al marketing esegue un test A/B e attraverso l&#39;uso di tipi di pubblico di reporting rileva che diverse esperienze trovano accoglienza tra diversi destinatari. Il targeting delle esperienze (o XT) consente all’addetto al marketing di sfruttare facilmente tale individuazione e passare al targeting a lungo termine dei contenuti per questi diversi segmenti di utenti.
+
+## Descrizione
+
+In questo video viene illustrato come:
+
+* Utilizza il Compositore esperienza visivo di Adobe Target per creare un’attività Targeting esperienze (XT)
+
+## Pubblico previsto
+
+* Professionisti
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
 ## Risorse aggiuntive
 
-* [Scarica il Playbook per Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [Documentazione sul targeting delle esperienze](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/experience-target.html)
+* [Scarica la sequenza di riproduzione per la personalizzazione delle esperienze](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
+* [Documentazione su Targeting esperienza](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/experience-target.html)
 
 ## Altre funzioni utilizzate in questo video
 
-* [Pubblico per la documentazione di Reporting](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
-* [Creazione della documentazione Audiences](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
-* [Creazione di esperienze con la documentazione di Visual Experience Composer (Compositore esperienza visivo)](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)
+* [Tipi di pubblico per la documentazione sui rapporti](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
+* [Documentazione sulla creazione di tipi di pubblico](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [Creazione di esperienze con la documentazione del Compositore esperienza visivo](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)

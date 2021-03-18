@@ -1,31 +1,30 @@
 ---
-title: Esercitazioni di Adobe Target
-seo-title: Esercitazioni di Adobe Target
-description: Una raccolta di video e esercitazioni per consentirvi di  Adobe Target
+title: Scopri come utilizzare Adobe Target
+description: Scopri come utilizzare Adobe Target con questa raccolta di esercitazioni e video che coprono tutti i suoi componenti. Utilizza la potenza di Adobe Target in modo efficace.
 translation-type: tm+mt
-source-git-commit: f7aef8f332173c8dfca9fbb09d13c5a43a42ffbc
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 20%
+source-wordcount: '250'
+ht-degree: 16%
 
 ---
 
 
-# Esercitazioni di Adobe Target
+# Scopri come utilizzare Adobe Target
 
-Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali. Utilizzate questi video ed esercitazioni per apprendere i numerosi componenti di  Adobe Target.
+Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali. Utilizza questi video e tutorial per scoprire i numerosi componenti di Adobe Target.
 
 ## Novità
 
-* **[Panoramica sulle decisioni sul dispositivo](implementation/on-device-decisioning-overview.md)**
+* **[Panoramica di On-Device Decisioning](implementation/on-device-decisioning-overview.md)**
 
-   *Per gli architetti: Inizia con le decisioni sul dispositivo per offrire ai tuoi consumatori esperienze di latenza quasi zero!*
-* **[Utilizzo dell’API Recommendations (esercitazione)](recommendations-api-tutorial/recs-api-overview.md)**
-   *Per gli sviluppatori: Fate pratica pratica con le  [!DNL Recommendations] API per configurare e gestire  [!DNL Recommendations] cataloghi e criteri personalizzati e molto altro.*
+   *Per gli architetti: Inizia con le decisioni sul dispositivo per offrire esperienze a latenza quasi zero ai tuoi consumatori!*
+* **[Utilizzare l’API Recommendations (tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
+   *Per gli sviluppatori: Segui le esercitazioni pratiche con le  [!DNL Recommendations] API per configurare e gestire  [!DNL Recommendations] cataloghi e criteri personalizzati e altro ancora.*
 
-* **[Implementazione  Adobe Target con  Adobe Mobile Services SDK v4 per Android (esercitazione)](mobile-v4/overview.md)**
+* **[Implementazione di Adobe Target con Adobe Mobile Services SDK v4 per Android (esercitazione)](mobile-v4/overview.md)**
 
-   *Per gli sviluppatori che stanno già utilizzando  Adobe Mobile Services SDK v4: scopri come iniziare a personalizzare le esperienze app con  Adobe Target. Questi passaggi vengono forniti come supporto per gli utenti legacy.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+   *Per gli sviluppatori che utilizzano già Adobe Mobile Services SDK v4: scopri come iniziare a personalizzare le esperienze dell’app con Adobe Target. Questi passaggi vengono forniti come supporto utente legacy.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
 <!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
     *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
@@ -35,17 +34,17 @@ Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necess
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
 
-## Prezzi del personale
+## Scelte dello staff
 
 <table>
 <tr>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-      <img alt="Implementare Target con  Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Implementare Target con Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-    <strong>Implementare Target con  Adobe Experience Platform Launch</strong>
+    <strong>Implementare Target con Adobe Experience Platform Launch</strong>
     </a>
     </div>
     <p>
@@ -54,11 +53,11 @@ Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necess
   </td>
   <td>
     <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt="Implementazione di at.js 2.0 in un'applicazione a pagina singola (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
+      <img alt="Implementare at.js 2.0 in un’applicazione a pagina singola (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
     </a>
     <div>
       <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-    <strong>Implementazione di at.js 2.0 in un'applicazione a pagina singola (SPA)</strong>
+    <strong>Implementare at.js 2.0 in un’applicazione a pagina singola (SPA)</strong>
     </a>
     </div>
     <p>
@@ -67,15 +66,15 @@ Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necess
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Risoluzione dei problemi di Target con il Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Risolvere i problemi di Target con il Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Risoluzione dei problemi di Target con il Experience Cloud Debugger</strong>
+    <strong>Risolvere i problemi di Target con il Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
-    <em>Zoom avanti nell'implementazione</em>
+    <em>Zoom avanti dell'implementazione</em>
     <p>
   </td>
 </tr>

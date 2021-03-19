@@ -1,138 +1,139 @@
 ---
-title: Personalizza layout
-seo-title: Personalizza layout
-description: 'In questa lezione finale, creeremo due attività di personalizzazione in Target per il nostro pubblico. Verranno caricate e visualizzate le attività nell''app e verrà convalidata la visualizzazione del contenuto al momento giusto nelle posizioni corrette.  '
-seo-description: In questa lezione finale, creeremo due attività di personalizzazione in Target per il nostro pubblico. Verranno caricate e visualizzate le attività nell'app e verrà convalidata la visualizzazione del contenuto al momento giusto nelle posizioni corrette.
-feature: mobile
-kt: 3040
-audience: developer
+title: Personalizzare i layout
+description: 'In questa lezione finale, creiamo due attività di personalizzazione in Target per il nostro pubblico. Scopri come caricare e visualizzare le attività nell’app e verifica che il contenuto venga visualizzato al momento giusto nelle posizioni giuste.  '
+role: Sviluppatori
+level: Intermedio
+topic: Mobile, Personalizzazione
+feature: Implementare Mobile
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
+author: Daniel Wright
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1098'
 ht-degree: 1%
 
 ---
 
 
-# Personalizza layout
+# Personalizzare i layout
 
-Ora è il momento di mettere tutto insieme e creare le esperienze personalizzate. Un _Activity_ è il meccanismo [!DNL Target] che collega le posizioni, i tipi di pubblico e le offerte, in modo che, quando la richiesta viene effettuata dall&#39;app, [!DNL Target] risponda con il contenuto personalizzato. Creeremo due attività di personalizzazione in [!DNL Target] e verificheremo che il contenuto personalizzato venga visualizzato all&#39;utente giusto al momento giusto e nella posizione giusta.
+Ora è il momento di mettere tutto insieme e creare esperienze personalizzate. Un _Attività_ è il meccanismo [!DNL Target] che collega le posizioni, i tipi di pubblico e le offerte, in modo che quando la richiesta viene effettuata dall&#39;app, [!DNL Target] risponda con il contenuto personalizzato. Costruiremo due attività di personalizzazione in [!DNL Target] e verificheremo che il contenuto personalizzato venga visualizzato all’utente giusto al momento giusto e nella posizione giusta.
 
 ## Obiettivi di apprendimento
 
-Al termine di questa lezione, potrete:
+Al termine di questa lezione, potrai:
 
-* Creazione di attività in  Adobe Target
-* Convalida delle attività nell&#39;app di esempio
+* Creare attività in Adobe Target
+* Convalidare le attività nell’app di esempio
 
-## Creare attività in  Adobe Target
+## Creare attività in Adobe Target
 
-Scopri come creare attività di coinvolgimento di utenti e offerte contestuali.
+Scopri come creare attività Coinvolgi utenti e offerte contestuali .
 
-### Prima attività - &quot;Coinvolgi utenti&quot;
+### Prima attività - &quot;Coinvolgere gli utenti&quot;
 
-Di seguito è riportato un riepilogo dell&#39;attività che verrà creata:
+Di seguito è riportato un riepilogo dell’attività che verrà generata:
 
 | Destinatari | Posizioni | Offerte |
 |---|---|---|
-| Nuovi utenti delle app mobili | wetravel_Eng_home, wetravel_Engel_search | Home: Coinvolgi nuovi utenti, cerca: Coinvolgi nuovi utenti |
-| Restituzione di utenti di app mobili | wetravel_Eng_home, wetravel_Engel_search | Home: Return Users, default_content |
+| Nuovi utenti delle app mobili | wetravel_Eng_home, wetravel_Eng_search | Home: Coinvolgi nuovi utenti, cerca: Coinvolgi nuovi utenti |
+| Restituzione di utenti di app mobili | wetravel_Eng_home, wetravel_Eng_search | Home: Restituire utenti, default_content |
 
-Nell&#39;interfaccia [!DNL Target] effettuare le seguenti operazioni:
+Nell&#39;interfaccia [!DNL Target] procedi come segue:
 
-1. Selezionare **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]** (Attività).
+1. Seleziona **[!UICONTROL Attività]** > **[!UICONTROL Crea attività]** > **[!UICONTROL Targeting esperienza]**.
 
    ![Crea attività](assets/activity_create_1.jpg)
 
-1. Fare clic su **[!UICONTROL App mobile]**.
+1. Fai clic su **[!UICONTROL App mobile]**.
 1. Selezionare il **[!UICONTROL Compositore modulo]**.
-1. Selezionate l’area di lavoro (la stessa area di lavoro utilizzata nelle lezioni precedenti).
-1. Selezionate la proprietà (la stessa proprietà utilizzata nelle lezioni precedenti).
+1. Seleziona l’area di lavoro (la stessa area di lavoro utilizzata nelle lezioni precedenti).
+1. Seleziona la proprietà (la stessa proprietà utilizzata nelle lezioni precedenti).
 1. Fai clic su **[!UICONTROL Successivo]**.
 
    ![Crea attività](assets/activity_create_2.jpg)
 
-1. Modificate il titolo dell&#39;attività in **[!UICONTROL Coinvolgi utenti]**.
-1. Selezionare i **[!UICONTROL puntini di sospensione]** > **[!UICONTROL Change Audience]**.
-   ![I Nuovi Utenti Delle App Mobile Cambiano Il Pubblico](assets/activity_create_3.jpg)
-1. Impostate l&#39;audience su **[!UICONTROL Nuovi utenti delle app mobili]**.
+1. Modifica il titolo dell&#39;attività in **[!UICONTROL Coinvolgi utenti]**.
+1. Seleziona i **[!UICONTROL puntini di sospensione]** > **[!UICONTROL Cambia pubblico]**.
+   ![I nuovi utenti di app mobili cambiano il pubblico](assets/activity_create_3.jpg)
+1. Imposta il pubblico su **[!UICONTROL Nuovi utenti di app mobili]**.
 1. Fai clic su **[!UICONTROL Fine]**.
-   ![Nuovo pubblico utenti di app mobili](assets/activity_create_4.jpg)
+   ![Pubblico per utenti di nuove app mobili](assets/activity_create_4.jpg)
 
-1. Modificate la posizione in _wetravel_Eng_home_.
-1. Selezionate la freccia a discesa accanto a Contenuto predefinito e selezionate **[!UICONTROL Modifica offerta HTML]**.
+1. Cambia la posizione in _wetravel_eng_home_.
+1. Seleziona la freccia a discesa accanto a Contenuto predefinito e seleziona **[!UICONTROL Cambia offerta HTML]**.
 
-   ![Nuovo pubblico utenti di app mobili](assets/activity_create_5.jpg)
+   ![Pubblico per utenti di nuove app mobili](assets/activity_create_5.jpg)
 
-1. Selezionare la **[!UICONTROL Home: Coinvolgi nuova offerta Utenti]**.
+1. Seleziona la **[!UICONTROL Home: Coinvolgi nuova offerta Utenti]**.
 1. Selezionare **[!UICONTROL Fine]**.
 
-   ![Nuovo pubblico utenti di app mobili](assets/activity_create_6.jpg)
+   ![Pubblico per utenti di nuove app mobili](assets/activity_create_6.jpg)
 
-1. Selezionare **[!UICONTROL Aggiungi posizione]**.
-   ![Nuovo pubblico utenti di app mobili](assets/activity_create_7.jpg)
+1. Seleziona **[!UICONTROL Aggiungi posizione]**.
+   ![Pubblico per utenti di nuove app mobili](assets/activity_create_7.jpg)
 
 1. Selezionare la posizione _wetravel_Eng_search_.
-1. Modificate l&#39;offerta HTML.
+1. Modifica l’offerta HTML.
 
-   ![Nuovo pubblico utenti di app mobili](assets/activity_create_8.jpg)
+   ![Pubblico per utenti di nuove app mobili](assets/activity_create_8.jpg)
 
-1. Selezionare la **[!UICONTROL Ricerca: Coinvolgi nuova offerta Utenti]**.
+1. Seleziona **[!UICONTROL Cerca: Coinvolgi nuova offerta Utenti]**.
 1. Fai clic su **[!UICONTROL Fine]**.
 
-   ![Nuovo pubblico utenti di app mobili](assets/activity_create_9.jpg)
+   ![Pubblico per utenti di nuove app mobili](assets/activity_create_9.jpg)
 
-Hai appena collegato un&#39;audience a posizioni e offerte, creando l&#39;esperienza personalizzata per i Nuovi utenti delle app mobili! A questo punto l&#39;esperienza dovrebbe essere così:
+Hai appena connesso un pubblico a posizioni e offerte, creando l’esperienza personalizzata per i nuovi utenti delle app mobili! A questo punto l’esperienza dovrebbe essere simile alla seguente:
 
-![Esperienza finale](assets/activity_engage_users_a_final.jpg)
+![Esperienza Finale](assets/activity_engage_users_a_final.jpg)
 
-Ora crea un&#39;esperienza per la restituzione di utenti di app mobili:
+Ora crea un’esperienza per la restituzione di utenti di app mobili:
 
 1. Seleziona **[!UICONTROL Aggiungi targeting esperienza]** a sinistra.
-1. Seleziona l&#39;audience **[!UICONTROL Return Mobile App Users]**.
+1. Seleziona il pubblico **[!UICONTROL Restituzione utenti di app mobili]**.
 1. Selezionare **[!UICONTROL Fine]**.
-   ![Restituzione dell&#39;audience degli utenti delle app mobili](assets/activity_create_11.jpg)
+   ![Restituzione del pubblico degli utenti di app mobili](assets/activity_create_11.jpg)
 
-Ora utilizzate lo stesso processo utilizzato in precedenza per configurare la nuova esperienza. La configurazione per l&#39;esperienza di restituzione degli utenti dell&#39;app mobile dovrebbe essere simile alla seguente:
+Ora utilizza lo stesso processo utilizzato in precedenza per configurare la nuova esperienza. La configurazione per l’esperienza Restituisci utenti di app mobili dovrebbe essere simile alla seguente:
 
 ![Restituzione finale utenti di app mobili](assets/activity_engage_users_b_final.jpg)
 
-Continuiamo con la schermata successiva nella configurazione:
+Continuiamo alla schermata successiva nella configurazione:
 
-1. Fare clic su **[!UICONTROL Next]** per passare alla schermata **[!UICONTROL Targeting]**.
-1. Utilizzate le impostazioni predefinite per Targeting. Se le esperienze per il pubblico si sovrapponevano (ad es. _New York Users_ e _First Time Users_) è possibile ordinare l&#39;ordine di priorità in questa schermata.
-1. Fare clic su **[!UICONTROL Next]** per passare a **[!UICONTROL Goals &amp; Settings]** (Obiettivi e impostazioni&lt;a3/>).
+1. Fai clic su **[!UICONTROL Avanti]** per passare alla schermata **[!UICONTROL Targeting]** .
+1. Utilizza le impostazioni predefinite per Targeting. Se le esperienze per i tipi di pubblico si sovrappongono (ad esempio _Utenti di New York_ e _Utenti nuovi_) è possibile organizzare l&#39;ordine di priorità in questa schermata.
+1. Fai clic su **[!UICONTROL Avanti]** per passare a **[!UICONTROL Obiettivi e impostazioni]**.
 
-   ![Attività di coinvolgimento degli utenti - Impostazione destinazione predefinita](assets/activity_engage_users_targeting.jpg)
+   ![Attività Coinvolgi utenti - Impostazione destinazione predefinita](assets/activity_engage_users_targeting.jpg)
 
-Ora completate la configurazione dell&#39;attività:
+Ora completiamo la configurazione dell’attività:
 
-1. Impostare l&#39; **[!UICONTROL Obiettivo principale]** su **[!UICONTROL Conversione]**.
-1. Impostate l&#39;azione su **[!UICONTROL Visualizzata una mbox]** > _wetravel_context_dest_ (Poiché questa posizione si trova nella schermata di conferma, possiamo usarla per misurare le conversioni).
+1. Imposta l&#39; **[!UICONTROL Obiettivo primario]** su **[!UICONTROL Conversione]**.
+1. Imposta l&#39;azione su **[!UICONTROL Visualizza una mbox]** > _wetravel_context_dest_ (Poiché questa posizione si trova nella schermata di conferma, possiamo usarla per misurare le conversioni).
 
-   ![Attività di coinvolgimento degli utenti - Obiettivi](assets/activity_create_12.jpg)
+   ![Attività Coinvolgi utenti - Obiettivi](assets/activity_create_12.jpg)
 
-1. Mantenete tutte le altre impostazioni sullo schermo al livello predefinito.
-1. Fare clic su **[!UICONTROL Salva e chiudi]** per salvare l&#39;attività.
-1. Attivare l&#39;attività **[!UICONTROL Activity]** nella schermata successiva.
+1. Mantieni tutte le altre impostazioni sullo schermo alle impostazioni predefinite.
+1. Fai clic su **[!UICONTROL Salva e chiudi]** per salvare l&#39;attività.
+1. Attiva la **[!UICONTROL Attività]** nella schermata successiva.
 
-![Experience B Audiences](assets/activity_create_13.jpg)
+![Pubblico di Experience B](assets/activity_create_13.jpg)
 
 La nostra prima attività è ora live e pronta per il test!
 
 ### Seconda attività - &quot;Offerte contestuali&quot;
 
-Di seguito viene fornito un riepilogo della seconda attività che verrà creata:
+Di seguito è riportato un riepilogo della seconda attività che verrà generata:
 
 | Destinatari | Posizione | Offerte |
 | --- | --- | --- |
-| Destinazione: San Diego | wetravel_context_dest | Promozione per San Diego |
+| Destinazione: San Diego | wetravel_context_dest | Promozione a San Diego |
 | Destinazione: Los Angeles | wetravel_context_dest | Promozione per Los Angeles |
 
-Ripetete lo stesso processo descritto sopra per l&#39;attività successiva, &quot;Offerte contestuali&quot;. La configurazione finale per entrambe le esperienze è riportata di seguito:
+Ripeti lo stesso processo di cui sopra per l’attività successiva - &quot;Offerte contestuali&quot;. La configurazione finale per entrambe le esperienze è mostrata di seguito:
 
 #### San Diego
 
@@ -142,60 +143,60 @@ Ripetete lo stesso processo descritto sopra per l&#39;attività successiva, &quo
 
 ![Offerte contestuali - Esperienza B](assets/activity_contextual_b_final.jpg)
 
-Nel passaggio Goals &amp; Settings (Obiettivi e impostazioni), cambieremo l&#39;obiettivo principale nella posizione nella schermata di conferma della prenotazione:
+Nel passaggio Obiettivi e impostazioni , l&#39;obiettivo principale verrà modificato nella posizione nella schermata di conferma della prenotazione:
 
-1. In **[!UICONTROL Impostazioni di reporting]**, impostare l&#39; **[!UICONTROL Obiettivo principale]** su **[!UICONTROL Conversione]**.
-1. Impostate l&#39;azione su **[!UICONTROL Visualizzata una mbox]** > _wetravel_context_dest_ (in questa attività, questa metrica è sostanzialmente priva di significato, perché è anche la stessa posizione che fornisce l&#39;esperienza).
+1. In **[!UICONTROL Impostazioni reporting]**, imposta l&#39; **[!UICONTROL Obiettivo primario]** su **[!UICONTROL Conversione]**.
+1. Imposta l&#39;azione su **[!UICONTROL Visualizza una mbox]** > _wetravel_context_dest_ (in questa attività, questa metrica è fondamentalmente priva di significato, in quanto è anche la stessa posizione che distribuisce l&#39;esperienza).
 1. Fai clic su **[!UICONTROL Salva e chiudi]**.
 
 ![Offerte contestuali - Esperienza](assets/activity_create_14.jpg)
 
-Attivate l&#39;attività nella schermata successiva.
+Attiva l&#39;attività nella schermata successiva.
 
 Ora la nostra seconda attività è live e pronta per il test!
 
-## Convalida dell&#39;offerta principale
+## Convalidare l’offerta principale
 
-Emulatore ed esaminate la prima offerta da visualizzare nella parte inferiore della schermata iniziale. Se siete un utente di ritorno con 5 o più avvii di app, viene visualizzata l&#39;offerta _welcome back_. Se sei un nuovo utente (meno di 5 avvii dell&#39;app), dovresti visualizzare il messaggio _nuovo utente_:
+Esegui l’emulatore e controlla che la prima offerta venga visualizzata nella parte inferiore della schermata iniziale. Se sei un utente precedente con 5 o più avvii dell’app, visualizzerai l’offerta _welcome back_ . Se sei un nuovo utente (meno di 5 avvii dell&#39;app), dovresti visualizzare il messaggio _nuovo utente_ :
 
-![Convalida offerta principale](assets/layout_home_validate.jpg)
+![Convalida offerta casa](assets/layout_home_validate.jpg)
 
-Se la nuova offerta utente non viene visualizzata, provate a cancellare i dati per l&#39;emulatore. In questo modo, al successivo avvio dell&#39;app, gli avvii dell&#39;app verranno reimpostati su 1. Questa operazione viene eseguita in **[!UICONTROL Strumenti]** > **[!UICONTROL AVD Manager]**. Se Logcat non funziona correttamente, potrebbe essere necessario riavviare Android Studio:
+Se la nuova offerta utente non viene visualizzata, prova a cancellare i dati per il tuo emulatore. In questo modo gli avvii dell’app verranno reimpostati a 1 al successivo avvio. Questa operazione viene eseguita in **[!UICONTROL Strumenti]** > **[!UICONTROL AVD Manager]**. Potrebbe essere necessario riavviare anche Android Studio, se Logcat non funziona correttamente:
 
-![Emulatore A Comparsa](assets/layout_home_validate_avd_wipe.jpg)
+![Emulatore a comparsa](assets/layout_home_validate_avd_wipe.jpg)
 
-Potete inoltre convalidare la risposta in Logcat filtrando _wetravel_Eng_home_:
+Puoi anche convalidare la risposta in Logcat filtrando _wetravel_Eng_home_:
 
 ![Convalida offerta casa - Logcat](assets/layout_home_validate_logcat.jpg)
 
-## Convalida dell’offerta di ricerca
+## Convalidare l’offerta di ricerca
 
-Selezionare **[!UICONTROL San Jose]** come **[!UICONTROL Partenza]** e **[!UICONTROL San Diego]** come **[!UICONTROL Destinazione]** e fare clic su **[!UICONTROL Trova bus]** per cercare gli autobus disponibili.
+Seleziona **[!UICONTROL San Jose]** come **[!UICONTROL Partenza]** e **[!UICONTROL San Diego]** come **[!UICONTROL Destinazione]** e fai clic su **[!UICONTROL Trova bus]** per cercare gli autobus disponibili.
 
-Nella schermata dei risultati è visualizzato il messaggio _use filter_. Se siete un utente di ritorno con 5 o più avvii di app, non verrà visualizzato alcun messaggio in quanto il contenuto predefinito è impostato per questa posizione (vuoto):
+Nella schermata dei risultati, dovresti visualizzare il messaggio _use filters_ (usa filtri). Se sei un utente precedente con 5 o più avvii dell’app, non verrà visualizzato alcun messaggio in quanto il contenuto predefinito è impostato per questa posizione (vuoto):
 
 ![Convalida offerta ricerca](assets/layout_search_validate.jpg)
 
-## Convalida delle offerte contestuali nella schermata di ringraziamento
+## Convalidare le offerte contestuali nella schermata di ringraziamento
 
-Continuate il processo di prenotazione:
+Continua ora il processo di prenotazione:
 
-* Selezionate un bus nella schermata dei risultati.
-* Selezionate una postazione nella schermata di estrazione.
-* Selezionare **[!UICONTROL Carta di credito]** nella schermata di pagamento (lasciare vuota le informazioni di pagamento - non verrà effettuata alcuna prenotazione).
+* Seleziona un bus nella schermata dei risultati.
+* Selezionare un posto nella schermata di pagamento.
+* Seleziona **[!UICONTROL Carta di credito]** nella schermata di pagamento (lascia vuoto il foglio di informazioni di pagamento - non avrà luogo la prenotazione effettiva).
 
-Poiché San Diego è stato selezionato come destinazione, è necessario visualizzare il banner dell&#39;offerta _DJ SAM_ nella schermata di conferma:
+Poiché San Diego è stato selezionato come destinazione, è necessario visualizzare il banner di offerta _DJ SAM_ nella schermata di conferma:
 
 ![Convalida offerta contesto - San Diego](assets/layout_context_san_diego.jpg)
 
-Selezionare **[!UICONTROL Done]** e provare a effettuare un&#39;altra prenotazione con Los Angeles come destinazione. Nella schermata di conferma deve essere visualizzato il banner _Universal Studios_:
+Ora seleziona **[!UICONTROL Fine]** e prova un&#39;altra prenotazione con Los Angeles come destinazione. Nella schermata di conferma deve essere visualizzato il banner _Universal Studios_:
 
 ![Convalida offerta contesto - Los Angeles](assets/layout_context_los_angeles.jpg)
 
 ## Conclusione
 
-Congratulazioni! Con questo si conclude la parte principale dell’SDK 4.x per Adobe Target  per Android Tutorial. Ora hai le competenze per implementare la personalizzazione nelle app Android! Puoi fare riferimento a questa documentazione e a questa app demo come riferimento per i tuoi progetti futuri.
+Congratulazioni! Questo conclude la parte principale del tutorial Adobe Target SDK 4.x per Android. Ora hai le competenze per implementare la personalizzazione nelle app Android! Puoi fare riferimento a questa documentazione e a questa app demo come riferimento per i tuoi progetti futuri.
 
-Avanti: La funzione di contrassegnazione delle funzioni è un’altra funzione che può essere implementata con  Adobe Target in Android. Per informazioni sul flag delle funzioni, consultare la lezione successiva.
+Avanti: La funzione di flag delle funzioni è un’altra funzionalità che può essere implementata con Adobe Target in Android. Per informazioni sul flag delle funzioni, consulta la lezione successiva.
 
-**[NEXT: Funzionalità >](feature-flagging.md)**
+**[SUCCESSIVO : Flag delle funzioni >](feature-flagging.md)**

@@ -1,21 +1,33 @@
 ---
-title: Informazioni sui feed in Recommendations
-seo-title: Informazioni sui feed in  Adobe Target Recommendations
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Cos’è un feed in Recommendations?
+description: Scopri cos’è un feed Recommendations di Adobe Target e come viene utilizzato
+role: Professionista
+level: Intermedio
+topic: Personalizzazione
+feature: Consigli
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 5f1691ce33dc3379d8ae3fb6af2714ee682a68ee
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 18%
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
 
 # Informazioni sui feed in Recommendations
+
+## Descrizione
+
+In questo video viene illustrato come:
+
+* Descrivere l’elemento di un feed e comprenderne l’utilizzo
+
+## Pubblico previsto
+
+* Professionista
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
@@ -26,4 +38,4 @@ ht-degree: 18%
 * [Creare progettazioni personalizzate](create-custom-designs.md)
 * [Creare raccolte ed esclusioni](create-collections-and-exclusions.md)
 * [Creare un’attività Consigli](create-a-recommendations-activity.md)
-* [Documentazione Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentazione di Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)

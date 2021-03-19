@@ -1,39 +1,46 @@
 ---
-title: Utilizzo di Visual Experience Composer (Compositore esperienza visivo) per applicazioni SPA pagina singola in  Adobe Target
-seo-title: Utilizzo di Visual Experience Composer (Compositore esperienza visivo) per applicazioni SPA pagina singola in  Adobe Target
-description: Il SPA VEC consente agli esperti di marketing di creare test e personalizzare i contenuti in SPA in modo fai-da-te senza dipendenze di sviluppo continue. Il VEC può essere utilizzato per creare test A/B e attività Experience Targeting (XT) in app create con framework popolari, come React e Angular.
-audience: marketer
-difficulty: 1
+title: Come utilizzare il Compositore esperienza visivo per le applicazioni a pagina singola (SPA Compositore esperienza visivo)
+description: Questo video introduce gli addetti al marketing nel Compositore esperienza visivo di Adobe Target per le applicazioni a pagina singola (SPA VEC). Guarda questo video per scoprire come creare attività utilizzando il Compositore esperienza visivo SPA.
+role: Professionista
+level: Principiante
+topic: SPA, personalizzazione
+feature: Esperienze e offerte, Compositore esperienza visivo
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
 
 
-# Utilizzo di [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] per applicazioni SPA pagina singola (VEC) in  Adobe Target
+# Utilizzo del [!UICONTROL Compositore esperienza visivo] per le applicazioni a pagina singola (SPA Compositore esperienza visivo) in Adobe Target
 
-Il SPA VEC consente agli esperti di marketing di creare test e personalizzare i contenuti in SPA in modo fai-da-te senza dipendenze di sviluppo continue. Il VEC può essere utilizzato per creare test A/B e attività Experience Targeting (XT) in app create con framework popolari, come React e Angular.
-
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+Il Compositore esperienza visivo SPA consente agli addetti al marketing di creare test e personalizzare contenuti in SPA in modalità fai-da-te senza dover dipendere sempre dagli sviluppatori. Il Compositore esperienza visivo può essere utilizzato per creare test A/B e attività di Targeting delle esperienze (XT) in app create con framework popolari, come React e Angular. Guarda il video seguente per scoprire come creare attività utilizzando il Compositore esperienza visivo SPA.
 
 ## Panoramica
 
-* Il VEC SPA può essere utilizzato per creare test A/B e allocare automaticamente e attività Experience Targeting (XT)
-* SPA VEC non supporta le attività di Auto Target,  Automated Personalization o Recommendations
-* Il SPA VEC supporta le integrazioni A4T, [!UICONTROL  pubblico di Experienci Cloud] e [!UICONTROL Attributi cliente]
-* Tutte le azioni VEC sono supportate nelle app a pagina singola, incluso il codice personalizzato
-* Le azioni VEC possono essere applicate a una singola visualizzazione o all&#39;evento di caricamento della pagina
-* Diverse modifiche possono essere aggiunte a diverse viste senza dover utilizzare l&#39;opzione [!UICONTROL Pagine aggiuntive]
-* `at.js 2.0+` e la  `adobe.target.triggerView()` funzione deve essere implementata nell&#39;app prima di poter utilizzare il VEC SPA
+* Il Compositore esperienza visivo SPA può essere utilizzato per creare test A/B e di allocazione automatica e attività di targeting delle esperienze (XT)
+* Il Compositore esperienza visivo SPA non supporta le attività di Targeting automatico, Automated Personalization o Recommendations
+* Il Compositore esperienza visivo SPA supporta le integrazioni A4T, [!UICONTROL Tipi di pubblico di Experience Cloud] e [!UICONTROL Attributi del cliente]
+* Tutte le azioni del Compositore esperienza visivo sono supportate nelle app a pagina singola, incluso il codice personalizzato
+* Le azioni del Compositore esperienza visivo possono essere applicate a una singola visualizzazione o all’evento di caricamento pagina
+* È possibile aggiungere modifiche diverse alle diverse viste senza dover utilizzare l&#39;opzione [!UICONTROL Pagine aggiuntive]
+* `at.js 2.0+` e la  `adobe.target.triggerView()` funzione deve essere implementata nell’app prima di poter utilizzare il Compositore esperienza visivo SPA
+
+## Pubblico previsto
+
+* Professionista
+
+>[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+
 
 ## Risorse aggiuntive
 
-* [Implementazione di at.js 2.0 in un&#39;applicazione a pagina singola](../implementation/implement-atjs-20-in-a-single-page-application.md)
-* [Come funziona at.js 2.0 (diagrammi di architettura)](../implementation/understanding-how-atjs-20-works.md)
-* [Documentazione di Visual Experience Composer (SPA) per app a pagina singola](https://docs.adobe.com/help/en/target/using/experiences/spa-visual-experience-composer.html)
+* [Implementazione di at.js 2.0 in un’applicazione a pagina singola](../implementation/implement-atjs-20-in-a-single-page-application.md)
+* [Funzionamento di at.js 2.0 (diagrammi di architettura)](../implementation/understanding-how-atjs-20-works.md)
+* [Documentazione del Compositore esperienza visivo per app a pagina singola (SPA)](https://docs.adobe.com/help/en/target/using/experiences/spa-visual-experience-composer.html)

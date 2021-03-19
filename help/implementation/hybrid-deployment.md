@@ -1,42 +1,43 @@
 ---
-title: ' distribuzione ibrida Adobe Target'
-description: ' Adobe Target offre un modello di implementazione ibrida unico per la personalizzazione, che combina implementazioni lato client e lato server.'
-topics: implementation
-feature: implementation
-audience: developer, architect
-activity: understand
+title: Opzioni di distribuzione ibride
+description: Guarda questo video per scoprire come Adobe Target sta implementando un modello di implementazione ibrida unico per la personalizzazione, combinando implementazioni lato client e lato server.
+role: Sviluppatore, architetto
+level: Principiante
+topic: Personalizzazione, Architettura, Sviluppo
+feature: Implementazione, implementazione lato server, implementazione lato client
 doc-type: feature video
-team: Evangelism
-kt: 6165
 thumbnail: null
+kt: 6165
+team: Evangelism
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '151'
 ht-degree: 1%
 
 ---
 
 
-#  distribuzione ibrida Adobe Target
+# Implementazione ibrida di Adobe Target
 
-## Descrizione
-
- Adobe Target offre un modello di implementazione ibrida unico per la personalizzazione, che combina implementazioni lato client e lato server. Questo modello ibrido consente agli utenti non tecnici di creare un esperimento o un&#39;attività di personalizzazione utilizzando WYSIWYG Visual Experience Composer (Compositore esperienza visivo WYG) e di eseguire, distribuire ed eseguire il rendering dell&#39;esperienza sul lato server per una distribuzione altamente performante. 
+Adobe Target offre un modello di implementazione ibrida unico per la personalizzazione, che combina implementazioni lato client e lato server. Questo modello ibrido consente agli utenti non tecnici di creare un’attività di esperimento o personalizzazione utilizzando il Compositore esperienza visivo WYSIWYG e di eseguire, distribuire ed eseguire l’esperienza sul lato server per una distribuzione altamente performante. 
 
 ## Obiettivi
 
-Alla fine di questo video, potrete:
+Alla fine di questo video:
 
-* Scoprite cosa comporta una distribuzione ibrida di  Adobe Target
+* Comprendere cosa comporta una distribuzione ibrida di Adobe Target
 * Comprendere i vantaggi di una distribuzione ibrida
-* Riduzione delle chiamate server grazie a una distribuzione ibrida
+* Osservare la riduzione delle chiamate al server resa possibile da una distribuzione ibrida
 
-## Destinatari
+## Pubblico previsto
 
 * Sviluppatori
 * Architetti
 
 >[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
-<!-- JUDY: add to this once we have documentation. And/or add to this, with links to the on-device decisioning content. For more information, visit the [documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html). -->
+## Risorse aggiuntive
+
+* [Panoramica di On-Device Decisioning](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Documentazione dell’SDK per Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)

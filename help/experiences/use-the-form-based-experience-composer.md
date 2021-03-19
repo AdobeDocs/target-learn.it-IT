@@ -1,21 +1,35 @@
 ---
-title: Utilizzo di Experience Composer basato su moduli in  Adobe Target
-seo-title: Utilizzo di Experience Composer basato su moduli in  Adobe Target
-description: nulle
-audience: marketer
-difficulty: 1
+title: Come utilizzare il Compositore esperienza basato su moduli
+description: Questo video mostra agli utenti di Adobe Target come e quando utilizzare il compositore esperienza basato su moduli.
+role: Professionista
+level: Principiante
+topic: Personalizzazione
+feature: Compositore esperienza basato su moduli, esperienze e offerte, Compositore esperienza visivo
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 902c05d4403cf367c559bf51a14563859be7b804
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 4%
+source-wordcount: '84'
+ht-degree: 8%
 
 ---
 
 
-# Utilizzo di Experience Composer basato su moduli in  Adobe Target
+# Utilizzare il Compositore esperienza basato su moduli in Adobe Target
+
+## Descrizione
+
+In questo video viene illustrato come:
+
+* Creare un’attività utilizzando il compositore basato su moduli
+* Spiegare quando utilizzare il compositore basato su moduli anziché il Compositore esperienza visivo
+* Indirizzare una posizione con i perfezionamenti
+
+## Pubblico previsto
+
+* Professionista
 
 >[!VIDEO](https://video.tv.adobe.com/v/17390/?quality=12)

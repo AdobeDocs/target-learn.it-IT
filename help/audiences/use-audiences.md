@@ -1,21 +1,35 @@
 ---
-title: Utilizzo dell'audience in  Adobe Target
-seo-title: Utilizzo dell'audience in  Adobe Target
-description: Scopri in che modo Audiences viene utilizzato per l’ottimizzazione.
-audience: marketer
-difficulty: 1
+title: Cosa sono i tipi di pubblico e come li uso?
+description: Questo video mostra agli utenti di Adobe Target come utilizzare i tipi di pubblico per eseguire il targeting delle attività e filtrare i rapporti.
+role: Professionista
+level: Principiante
+topic: Personalizzazione
+feature: Tipi di pubblico, rapporti
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 9d90be1fed34f07415d1619dfd007c4ec586ed0a
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 31%
+source-wordcount: '69'
+ht-degree: 1%
 
 ---
 
 
-# Utilizzo dell&#39;audience in  Adobe Target
+# Utilizzare il pubblico in Adobe Target
+
+## Descrizione
+
+In questo video viene illustrato come:
+
+* Definire l’identità di un &quot;pubblico&quot; di Adobe Target
+* Trovare tipi di pubblico nell&#39;elenco Tipi di pubblico
+* Utilizzare i tipi di pubblico per eseguire il targeting delle attività e filtrare i rapporti
+
+## Pubblico previsto
+
+* Professionista
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398/?quality=12)

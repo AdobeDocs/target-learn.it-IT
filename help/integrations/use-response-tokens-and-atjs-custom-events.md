@@ -1,39 +1,41 @@
 ---
-title: Utilizzare i token di risposta e gli eventi personalizzati at.js con  Adobe Target
-seo-title: Utilizzare i token di risposta e gli eventi personalizzati at.js con  Adobe Target
-description: I token di risposta e gli eventi personalizzati at.js consentono di condividere le informazioni di profilo da Target a sistemi di terze parti. Qualsiasi oggetto nel profilo visitatore di Target, inclusi gli attributi di profilo personalizzati, le informazioni geografiche, i dettagli dell'attività e i profili incorporati, può essere aggiunto alla risposta di Target, dove puoi utilizzare JavaScript personalizzato per l'integrazione con una terza parte.
-audience: developer
-difficulty: 5
+title: Come utilizzare i token di risposta e gli eventi personalizzati at.js
+description: Scopri come utilizzare i token di risposta e gli eventi personalizzati at.js per condividere le informazioni sul profilo da Target a sistemi di terze parti.
+role: Sviluppatori
+level: Esperienza
+topic: Personalizzazione, Architettura, Sviluppo
+feature: Implementazione
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '245'
+ht-degree: 4%
 
 ---
 
 
-# Utilizzare i token di risposta e gli eventi personalizzati at.js con  Adobe Target
+# Utilizza i token di risposta e gli eventi personalizzati at.js con Adobe Target
 
-I token di risposta e gli `at.js` eventi personalizzati consentono di condividere le informazioni di profilo da [!DNL Target] a sistemi di terze parti. Qualsiasi oggetto presente nel profilo del visitatore [!DNL Target], inclusi gli attributi di profilo personalizzati, le informazioni geografiche, i dettagli dell&#39;attività e i profili incorporati, può essere aggiunto alla risposta [!DNL Target] in cui è possibile utilizzare JavaScript personalizzato per l&#39;integrazione con una terza parte.
+I token di risposta e gli `at.js` eventi personalizzati ti consentono di condividere informazioni sul profilo da [!DNL Target] a sistemi di terze parti. Qualsiasi oggetto nel profilo visitatore [!DNL Target], inclusi gli attributi di profilo personalizzati, le informazioni geografiche, i dettagli dell’attività e i profili incorporati, può essere aggiunto alla risposta [!DNL Target] in cui puoi utilizzare JavaScript personalizzato per l’integrazione con una terza parte.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
 
 ## Come utilizzare i token di risposta e gli eventi personalizzati at.js
 
 1. Determinare i dati necessari da [!DNL Target]
-1. Attivate i token di risposta per i dati necessari capovolgendo l&#39;interruttore nella schermata Configurazione->Token di risposta
+1. Attiva i token di risposta per i dati necessari capovolgendo l&#39;interruttore sulla schermata Configurazione->Token di risposta
 1. Determinare il listener di eventi da utilizzare
-1. Scrivere il codice JavaScript necessario per ascoltare l&#39;evento Adobe Target , leggere i token di risposta e fare ciò che serve per l&#39;integrazione
-1. Implementare il codice JavaScript del listener di eventi utilizzando un&#39;azione di codice personalizzata in Launch dopo l&#39;azione &quot;Load Target&quot; oppure aggiungerlo alla sezione Library Footer di at.js nella schermata Setup->Implementation e salvare un nuovo file at.js
-1. QA e pubblicare l&#39;integrazione
+1. Scrivi il JavaScript necessario per ascoltare l’evento Adobe Target, leggere i token di risposta e fare ciò che ti serve per la tua integrazione
+1. Distribuisci JavaScript del listener di eventi utilizzando un&#39;azione di codice personalizzato in Launch dopo l&#39;azione &quot;Load Target&quot; oppure aggiungilo alla sezione Library Footer di at.js nella schermata Configurazione->Implementazione e salva un nuovo file at.js
+1. Controllo qualità e pubblicazione dell’integrazione
 
 ## Risorse aggiuntive
 
-* [Utilizzo dell&#39;Experience Cloud Debugger con  Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [Documentazione token di risposta](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
-* [Documentazione evento personalizzata At.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
+* [Utilizzare il Experience Cloud Debugger con Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+* [Documentazione sul token di risposta](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
+* [Documentazione evento personalizzata at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
 * [Utilizzo di Fornitori di dati in Adobe Target](use-data-providers-to-integrate-third-party-data.md)

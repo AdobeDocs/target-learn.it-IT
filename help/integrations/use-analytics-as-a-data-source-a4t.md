@@ -1,21 +1,32 @@
 ---
-title: Utilizzo di Analytics come origine dati per Target (A4T)
-seo-title: Utilizzo di Analytics come origine dati per Target (A4T)
-description: nulle
-audience: marketer
-difficulty: 2
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Come utilizzare Analytics come origine dati per Target (A4T)
+description: Questo video introduce gli esperti di marketing in Analytics for Target (A4T).
+role: Professionista
+level: Principiante
+topic: Personalizzazione, Integrazioni
+feature: Analytics for Target (A4T), Integrazioni
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: bc55f2a1fe864a03537104d3ec54cea0c5466a9a
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 1%
 
 ---
 
 
-# Usa  Adobe Analytics come origine dati per  Adobe Target (A4T)
+# Utilizzare Adobe Analytics come origine dati per Adobe Target (A4T)
+
+## Descrizione
+
+* Cos’è A4T e perché dovrei usarlo?
+* Come funziona A4T?
+* Quali sono i prerequisiti per utilizzare A4T?
+
+## Pubblico previsto
+
+* Professionista
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)

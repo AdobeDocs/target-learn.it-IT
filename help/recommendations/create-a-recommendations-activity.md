@@ -1,30 +1,42 @@
 ---
-title: Creare un’attività Consigli
-seo-title: Creare un'attività Recommendations in  Adobe Target
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Come creare un’attività Recommendations
+description: Scopri come creare un’attività Adobe Target Recommendations
+role: Professionista
+level: Intermedio
+topic: Personalizzazione
+feature: Consigli
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 86131453514cc9acb67ba0594e260996902c46d3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 22%
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
 
-# Creare un’attività Consigli
+# Creare un’attività Adobe Target Recommendations
+
+## Descrizione
+
+In questo video viene illustrato come:
+
+* Creare un’attività Consigli
+
+## Pubblico previsto
+
+* Professionista
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
 ## Risorse aggiuntive
 
-* [Utilizzo delle offerte Recommendations nelle attività di test A/B e di targeting delle esperienze](use-recommendations-offers.md)
+* [Utilizzare le offerte Recommendations nelle attività di test A/B e targeting delle esperienze](use-recommendations-offers.md)
 * [Informazioni sui feed](understanding-feeds.md)
 * [Creare un feed](create-a-feed.md)
 * [Creare criteri](create-criteria.md)
 * [Creare progettazioni personalizzate](create-custom-designs.md)
 * [Creare raccolte ed esclusioni](create-collections-and-exclusions.md)
-* [Documentazione Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentazione di Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)

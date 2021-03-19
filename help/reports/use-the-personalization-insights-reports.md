@@ -1,27 +1,30 @@
 ---
-title: Utilizzo dei report Personalization Insights in  Adobe Target
-description: ' attività Automated Personalization e Auto-Target utilizzano l''apprendimento automatico avanzato per distribuire l''esperienza più personalizzata a ogni visitatore in base al suo profilo cliente singolo e al comportamento dei visitatori precedenti con profili simili. I rapporti Personalization Insights forniscono informazioni su come questi modelli prendono le loro decisioni.'
-audience: analyst
-difficulty: 3
+title: Utilizzare i rapporti Approfondimenti personalizzazione
+description: Le attività di Automated Personalization e Targeting automatico utilizzano l’apprendimento automatico avanzato per fornire a ogni visitatore l’esperienza più adatta in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili. I rapporti Approfondimenti personalizzazione forniscono informazioni su come questi modelli prendono decisioni.
+role: Professionista
+level: Intermedio
+topic: Personalizzazione
+feature: Reports, Automated Personalization, Targeting automatico
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3c239d01b1cead4bf7c28e21e8694c4df6273d4e
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '134'
 ht-degree: 1%
 
 ---
 
 
-# Utilizzare i rapporti Personalization Insights
+# Utilizzare i rapporti Approfondimenti personalizzazione
 
- attività Automated Personalization e Auto-Target utilizzano l&#39;apprendimento automatico avanzato per distribuire l&#39;esperienza più personalizzata a ogni visitatore in base al suo profilo cliente singolo e al comportamento dei visitatori precedenti con profili simili. I rapporti Personalization Insights forniscono informazioni su come questi modelli prendono le loro decisioni.
+Le attività di Automated Personalization e Targeting automatico utilizzano l’apprendimento automatico avanzato per fornire a ogni visitatore l’esperienza più adatta in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili. I rapporti Approfondimenti personalizzazione forniscono informazioni su come questi modelli prendono decisioni.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
 ## Informazioni aggiuntive
 
-* [Approfondimenti sulla personalizzazione nella documentazione dell’Aiuto](https://docs.adobe.com/content/help/en/target/using/reports/insights/personalization-insights-reports.html)
+* [Approfondimenti personalizzazione nella documentazione di aiuto](https://docs.adobe.com/content/help/en/target/using/reports/insights/personalization-insights-reports.html)

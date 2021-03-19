@@ -3,15 +3,15 @@ title: Come impostare rapporti A4T in Analysis Workspace per le attività di Tar
 description: Una volta implementata l’integrazione di Analytics for Target (A4T) e eseguite le attività di Targeting automatico, come potete assicurarvi di interpretare correttamente i risultati? Segui questi passaggi per configurare i rapporti A4T in Analysis Workspace in modo da ottenere i risultati previsti durante l’esecuzione delle attività di Targeting automatico.
 role: Professionista
 level: Intermedio
-topic: Personalizzazione
-feature: Analytics for Target (A4T), Targeting automatico
+topic: Personalizzazione, Integrazioni
+feature: Analytics for Target (A4T), Targeting automatico, Integrazioni
 doc-type: tutorial
 thumbnail: null
 kt: null
 translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2264'
 ht-degree: 1%
 
 ---
@@ -85,8 +85,8 @@ Confrontiamo i rapporti a livello di visitatore e di visita:
 
 | Esperienza | Visitatori univoci | Visite | Conversioni | Norma per i visitatori. Conv. Rate | Visita la norma. Conv. Rate |
 | --- | --- | --- | --- | --- | --- |
-| A | 1 | 3 | - | 0% | 0% |
-| B | 2 | 3 | 3 | 50% | 33,3% |
+| A | 1 | 1 | - | 0% | 0% |
+| B | 2 | 3 | 1 | 50% | 33,3% |
 | Totali | 2 | 4 | 3 | 50% | 25% |
 *Tabella 1: Esempio di confronto tra rapporti normalizzati sui visitatori e normalizzati sulle visite per uno scenario in cui le decisioni sono appiccicose a una visita (e non ai visitatori, come con i normali test A/B). Le metriche normalizzate dei visitatori confondono in questo scenario.*
 

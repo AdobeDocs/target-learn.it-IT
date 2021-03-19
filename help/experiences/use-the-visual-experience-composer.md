@@ -1,22 +1,37 @@
 ---
-title: Utilizzo di Visual Experience Composer (Compositore esperienza visivo) in  Adobe Target
-seo-title: Utilizzo di Visual Experience Composer (Compositore esperienza visivo) in  Adobe Target
-description: Scopri come utilizzare Visual Experience Composer (Compositore esperienza visivo) in Adobe Target.
-audience: marketer
-difficulty: 1
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Come utilizzare il Compositore esperienza visivo
+description: Questi due video introducono gli addetti al marketing nel Compositore esperienza visivo di Adobe Target. Guarda questi video per scoprire come creare attività utilizzando il Compositore esperienza visivo.
+role: Professionista
+level: Principiante
+topic: Personalizzazione
+feature: Compositore esperienza visivo, esperienze e offerte
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 7469ee7da84d1fed480fca979f89478640a5fbda
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 31%
+source-wordcount: '125'
+ht-degree: 0%
 
 ---
 
 
-# Utilizzate [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] in  Adobe Target
+# Utilizza il [!UICONTROL Compositore esperienza visivo] in Adobe Target
+
+## Descrizione
+
+Nel primo video viene illustrato come:
+
+* Utilizza il Compositore esperienza visivo per eseguire la sua funzione chiave, fornendo un modo intuitivo e visivo di modificare il layout e il contenuto di una pagina all’interno di un’attività Adobe Target.
+
+Nel secondo video viene illustrato come:
+
+* Utilizza funzionalità aggiuntive del Compositore esperienza visivo, tra cui come creare esperienze di reindirizzamento e attività multipagina, nonché come utilizzare i riquadri di visualizzazione per dispositivi mobili.
+
+## Pubblico previsto
+
+* Professionista
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 

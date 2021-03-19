@@ -1,73 +1,75 @@
 ---
-title: ' Adobe Target con  Adobe Mobile Services SDK v4 per Android'
-description: ' Adobe Target con  Adobe Mobile Services SDK v4 per Android è il punto di partenza ideale per gli sviluppatori Android che già utilizzano  Mobile Services SDK v4 e desiderano iniziare a personalizzare le esperienze app con  Adobe Target.'
-feature: mobile
-kt: 3040
-audience: developer
+title: Adobe Target con Adobe Mobile Services SDK v4 per Android
+description: Adobe Target con Adobe Mobile Services SDK v4 per Android è il punto di partenza ideale per gli sviluppatori Android che utilizzano già Adobe Mobile Services SDK v4 e desiderano iniziare a personalizzare le esperienze delle app con Adobe Target.
+role: Sviluppatori
+level: Intermedio
+topic: Mobile, Personalizzazione
+feature: Implementare Mobile, Panoramica
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: d6cedd55dcc9c08d2d2ca5709e15fe5ea9fab8b8
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '556'
 ht-degree: 2%
 
 ---
 
 
-#  Adobe Target con  Adobe Mobile Services SDK v4 per Android - Panoramica
+# Adobe Target con Adobe Mobile Services SDK v4 per Android - Panoramica
 
-_Adobe Target con  Adobe Mobile Services SDK v4 per_ Android è il punto di partenza ideale per gli sviluppatori Android che già utilizzano  SDK Mobile Services v4 Adobe e desiderano iniziare a personalizzare esperienze app con  Adobe Target.
+_Adobe Target con Adobe Mobile Services SDK v4 per_ Android è il punto di partenza ideale per gli sviluppatori Android che utilizzano già Adobe Mobile Services SDK v4 e desiderano iniziare a personalizzare le esperienze delle app con Adobe Target.
 
-Per completare le lezioni è disponibile un’app dimostrativa per Android. Al termine di questa esercitazione, è necessario essere pronti per iniziare a implementare [!DNL Target] nella propria app Android!
+È disponibile un’app dimostrativa per Android che consente di completare le lezioni. Dopo aver completato questa esercitazione, dovresti essere in grado di iniziare a implementare [!DNL Target] nella tua app Android.
 
 Dopo aver completato questa esercitazione, sarai in grado di:
 
-* Convalida dell&#39;installazione di [ Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)
-* Implementate i seguenti tipi di richieste [!DNL Target]:
+* Convalida la configurazione [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)
+* Implementa i seguenti tipi di richieste [!DNL Target]:
    * Preacquisizione del contenuto [!DNL Target]
-   * Eseguire il batch di più [!DNL Target] posizioni (mbox) in un&#39;unica richiesta
-   * Richieste di blocco (eseguite prima della visualizzazione dell&#39;app)
+   * Eseguire il batch di più [!DNL Target] posizioni (mbox) in una singola richiesta
+   * Richieste di blocco (eseguite prima della visualizzazione dell’app)
    * Richieste non di blocco (eseguite in background)
-   * Real-time (non caching)
+   * In tempo reale (senza memorizzazione in cache)
    * Recupero cache
-* Aggiunta di parametri alle richieste di personalizzazione avanzata
-* Creazione di audience e offerte
+* Aggiungere parametri alle richieste di personalizzazione avanzata
+* Creare tipi di pubblico e offerte
 * Personalizzare i layout
-* Nuove funzioni con funzionalità contrassegnate
+* Implementare nuove funzioni con flag di funzione
 
 ## Prerequisiti
 
-In queste lezioni si presume che:
+In queste lezioni, si presume che tu:
 
-* Avere un ID Adobe  e un accesso a livello di approver all&#39;interfaccia Adobe Target  (vedere i passaggi di verifica indicati di seguito)
-* Conoscere il codice cliente Adobe Target  in modo da poter effettuare richieste al proprio account. Il Codice client viene visualizzato nell&#39;interfaccia  Adobe Target nella variabile   Configurazione > Implementazione > schermata Modifica impostazioni at.js
-* Accedere all&#39;interfaccia utente di [Mobile Services](https://mobilemarketing.adobe.com) e familiarizzarsi con essa
-* Disporre di un IDE per lo sviluppo di app mobili Android. Questa esercitazione presenta [Android Studio](https://developer.android.com/studio/install) in vari passaggi e screenshot
+* Disporre di un ID Adobe e di un accesso a livello di approvatore all&#39;interfaccia Adobe Target (consulta i passaggi di verifica seguenti)
+* Conosci il tuo codice client Adobe Target in modo da poter effettuare richieste al tuo account. Il codice client viene visualizzato nell’interfaccia di Adobe Target nella sezione   Configurazione > Implementazione > Schermata Modifica impostazioni at.js
+* Accedere all&#39; [interfaccia utente di Mobile Services](https://mobilemarketing.adobe.com) e acquisirne familiarità
+* Disporre di un IDE per lo sviluppo di app mobili Android. Questa esercitazione presenta [Android Studio](https://developer.android.com/studio/install) in vari passaggi e schermate
 
-Se non disponete dell&#39;accesso necessario alle soluzioni del Experience Cloud , rivolgetevi all&#39;amministratore del Experience Cloud .
+Se non disponi dell&#39;accesso richiesto alle soluzioni Experience Cloud, contatta l&#39;amministratore di Experience Cloud.
 
-Inoltre, si presume che abbiate familiarità con lo sviluppo Android in Java. Non è necessario essere un esperto Java per completare le lezioni, ma si otterrà di più da loro se si può comodamente leggere e capire il codice.
+Inoltre, si presume che tu abbia familiarità con lo sviluppo Android in Java. Non devi essere un esperto Java per completare le lezioni, ma ti saranno più utili se sei in grado di leggere e comprendere il codice senza difficoltà.
 
-### Verificare l&#39;accesso a  Adobe Target
+### Verificare l’accesso ad Adobe Target
 
-Questa lezione richiede l&#39;accesso a  Adobe Target. Prima di procedere con i passaggi successivi, assicurati di avere accesso a  Adobe Target effettuando le seguenti operazioni:
+Questa lezione richiede l’accesso ad Adobe Target. Prima di passare ai passaggi successivi, assicurati di poter accedere ad Adobe Target eseguendo le operazioni seguenti:
 
-1. Accedere al [Adobe Experience Cloud](https://experience.adobe.com/)
-1. Dalla schermata iniziale del Experience Cloud , fate clic su [!DNL Target]:
-   ![ Experience Cloud Home Screen](assets/aec_homeScreen_clickTarget.png)
-1. Dovresti andare all&#39;elenco Attività in  Adobe Target, come illustrato di seguito, e dovresti vedere che l&#39;utente ha accesso a livello di approver. Se non riuscite ad accedere a [!DNL Target] o se non riuscite a verificare l&#39;accesso a livello di approver, contattate uno degli amministratori di Experience Cloud  società, richiedete questo accesso e riprendete l&#39;esercitazione una volta concessa:
+1. Accedi a [Adobe Experience Cloud](https://experience.adobe.com/)
+1. Dalla schermata iniziale dell’Experience Cloud, fai clic su [!DNL Target]:
+   ![Experience Cloud Home Screen](assets/aec_homeScreen_clickTarget.png)
+1. Accedi all’elenco Attività in Adobe Target, come illustrato di seguito, e dovresti vedere che il tuo utente dispone dell’accesso a livello di Approvatore. Se non riesci ad accedere a [!DNL Target] o non riesci a verificare l&#39;accesso a livello di Approvatore, contatta uno degli amministratori di Experience Cloud della tua azienda, richiedi questo accesso e riprendi questa esercitazione una volta concesso:
 
-   ![Interfaccia Adobe ](assets/targetUI_approver.png)
+   ![Interfaccia utente Adobe](assets/targetUI_approver.png)
 
 ## Informazioni sulle lezioni
 
-In queste lezioni implementerete  Adobe Target in un&#39;app per viaggi dimostrativi chiamata &quot;We.Travel&quot; utilizzando il vostro  account Adobe Target. Entro la fine dell&#39;esercitazione, invierai agli utenti messaggi personalizzati in base al loro utilizzo dell&#39;app! Le esperienze di personalizzazione finali saranno come segue:
+In queste lezioni, implementerai Adobe Target in un’app di viaggio dimostrativa denominata &quot;We.Travel&quot; utilizzando il tuo account Adobe Target. Al termine dell’esercitazione, invierai messaggi personalizzati all’utente in base all’utilizzo dell’app. Le esperienze di personalizzazione finali si presenteranno così:
 
-![We.Travel app final](assets/overview_final_result.jpg)
+![We.Travel app finale](assets/overview_final_result.jpg)
 
-Dopo aver completato l&#39;implementazione nell&#39;app We.Travel potrete iniziare a utilizzare [!DNL Target] nella vostra app mobile.
+Dopo aver descritto l’implementazione nell’app We.Travel, potrai iniziare a utilizzare [!DNL Target] nella tua app mobile.
 
 Cominciamo!
 
-**[NEXT: &quot;Scarica e aggiorna l&#39;app di esempio&quot; >](download-and-update-the-sample-app.md)**
+**[SUCCESSIVO : &quot;Scarica e aggiorna l’app di esempio&quot; >](download-and-update-the-sample-app.md)**

@@ -1,20 +1,32 @@
 ---
-title: Configurare le aree di lavoro in  Adobe Target
-description: nulle
-audience: administrator
-difficulty: 1
-author: Daniel Wright
-doc-type: setup
-activity-type: feature-video
+title: Come impostare le aree di lavoro
+description: Questo video mostra agli amministratori come creare aree di lavoro in Adobe Target.
+role: Amministratore
+level: Principiante
+topic: Amministrazione
+feature: Amministrazione & Configurazione
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '10'
-ht-degree: 10%
+source-wordcount: '43'
+ht-degree: 9%
 
 ---
 
 
-# Impostazione di aree di lavoro
+# Configurare le aree di lavoro in Adobe Target
+
+## Descrizione
+
+In questo video viene illustrato come:
+
+* Creare aree di lavoro in Adobe Target
+
+## Pubblico previsto
+
+* Amministratore
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/?quality=12)

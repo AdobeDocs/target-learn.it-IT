@@ -1,64 +1,63 @@
 ---
-title: Gestione del catalogo Recommendations tramite API
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: ' Adobe Target Recommendations include un set dedicato di API che consentono di gestire il catalogo di prodotti e/o contenuti raccomandabili; gestire gli algoritmi e le campagne di raccomandazione; e distribuite raccomandazioni in oggetti JSON, HTML o XML da visualizzare in Web, dispositivi mobili, e-mail, IOT e altri canali.'
-kt: 3815
-audience: developer
+title: Come gestire il catalogo Recommendations utilizzando le API
+description: Questa parte dell’esercitazione guida gli sviluppatori attraverso i passaggi necessari per utilizzare le API di Adobe Target per creare, aggiornare, salvare, ottenere ed eliminare entità nel catalogo Recommendations.
+role: Sviluppatori
+level: Intermedio
+topic: Personalizzazione, Amministrazione, Integrazioni, Sviluppo
+feature: API/SDK, Recommendations, amministrazione e configurazione
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
 
 
-# Gestione del catalogo [!DNL Recommendations] tramite le API
+# Gestire il catalogo [!DNL Recommendations] utilizzando le API
 
-A questo punto, hai imparato a generare un token di accesso, utilizzando il flusso di autenticazione JWT, per utilizzare le API di amministrazione Adobe Target  con  Adobe I/O.
+A questo punto, hai imparato a generare un token di accesso, utilizzando il flusso di autenticazione JWT, per utilizzare le API amministratore di Adobe Target con Adobe I/O.
 
-Potete utilizzare le [API Recommendations](https://developers.adobetarget.com/api/recommendations/) per aggiungere, aggiornare o eliminare elementi nel catalogo delle raccomandazioni. Come per le altre API di amministrazione Adobe Target , le API [!DNL Recommendations] richiedono l&#39;autenticazione.
+Puoi utilizzare le [API Recommendations](https://developers.adobetarget.com/api/recommendations/) per aggiungere, aggiornare o eliminare elementi nel catalogo dei consigli. Come per le altre API amministratore di Adobe Target, le API [!DNL Recommendations] richiedono l’autenticazione.
 
 >[!TIP]
 >
->Invia il file **[!UICONTROL IMS: JWT Generate + Auth tramite token utente]** ogni volta che è necessario aggiornare il token di accesso per l&#39;autenticazione, dal momento che scade dopo 24 ore. Per istruzioni, consultate [Configurare  autenticazione API Adobe](../apis/configure-io-target-integration.md).
+>Invia **[!UICONTROL IMS: JWT Genera + Auth tramite User Token]** richiedi ogni volta che hai bisogno di aggiornare il token di accesso per l&#39;autenticazione, dal momento che scade dopo 24 ore. Per istruzioni, consulta [Configurare l&#39;autenticazione API Adobe](../apis/configure-io-target-integration.md) .
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
 >[!NOTE]
 >
->Prima di procedere, ottenere la [raccolta Recommendations Postman](https://developers.adobetarget.com/api/recommendations/#section/Postman).
+>Prima di procedere, ottieni la [raccolta Recommendations Postman](https://developers.adobetarget.com/api/recommendations/#section/Postman).
 
-## Creazione e aggiornamento di elementi con l&#39;API Save Entities
+## Creazione e aggiornamento di elementi con l’API Save Entities
 
-Per compilare il database di prodotti [!DNL Recommendations] utilizzando l&#39;API anziché un feed di prodotto CSV o le richieste [!DNL Target] attivate sulle pagine di prodotto, utilizzate l&#39; [Save Entities API](https://developers.adobetarget.com/api/recommendations/#operation/saveEntities). Questa richiesta aggiunge o aggiorna un elemento in un singolo ambiente [!DNL Target]. La sintassi è la seguente:
+Per compilare il database di prodotti [!DNL Recommendations] utilizzando l&#39;API anziché un feed di prodotto CSV o le richieste [!DNL Target] che si attivano sulle pagine dei prodotti, utilizza l&#39; [Save Entities API](https://developers.adobetarget.com/api/recommendations/#operation/saveEntities). Questa richiesta aggiunge o aggiorna un elemento in un singolo ambiente [!DNL Target]. La sintassi è la seguente:
 
 ```
 POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities
 ```
 
-Ad esempio, Save Entities può essere utilizzato per aggiornare gli articoli ogni volta che vengono soddisfatte determinate soglie, come soglie per l&#39;inventario o il prezzo, al fine di contrassegnare tali articoli e impedirne l&#39;utilizzo.
+Ad esempio, Save Entities può essere utilizzato per aggiornare gli articoli ogni volta che vengono soddisfatte determinate soglie, come le soglie per l&#39;inventario o il prezzo, al fine di contrassegnare tali articoli e impedirne l&#39;utilizzo consigliato.
 
-1. Andate a **[!DNL Target]> [!UICONTROL Setup] > [!UICONTROL Host] > [!UICONTROL Ambienti]** per ottenere l&#39;ID ambiente [!DNL Target] in cui desiderate aggiungere o aggiornare un elemento.
+1. Passa a **[!DNL Target]> [!UICONTROL Configurazione] > [!UICONTROL Host] > [!UICONTROL Ambienti]** per ottenere l&#39; [!DNL Target] ID ambiente in cui desideri aggiungere o aggiornare un elemento.
 
    ![SaveEntities1](assets/SaveEntities01.png)
 
-2. Verificare `TENANT_ID` e `API_KEY` fare riferimento alle variabili di ambiente Postman stabilite in precedenza. Utilizzate l&#39;immagine seguente per il confronto. Se necessario, modificate le intestazioni e il percorso nella richiesta API in modo che corrispondano a quelli nell&#39;immagine seguente.
+2. Verifica che `TENANT_ID` e `API_KEY` facciano riferimento alle variabili di ambiente Postman stabilite in precedenza. Usa l&#39;immagine seguente per un confronto. Se necessario, modifica le intestazioni e il percorso nella richiesta API in modo che corrispondano a quelli nell’immagine seguente.
 
    ![SaveEntities3](assets/SaveEntities03.png)
 
-3. Immettere il codice JSON come **raw** nel **Body**. Non dimenticare di specificare l&#39;ID dell&#39;ambiente utilizzando la variabile `environment`. Nell’esempio seguente, l’ID ambiente è 6781.
+3. Immetti il tuo codice JSON come **raw** nel **Body**. Non dimenticare di specificare l’ID ambiente utilizzando la variabile `environment` . Nell’esempio seguente, l’ID ambiente è 6781.
 
    ![SaveEntities4.png](assets/SaveEntities04.png)
 
    >!![NOTE]
-   Di seguito è riportato un esempio di JSON che aggiunge nell&#39;ambiente 6781 entity.id kit2001 con valori di entità associati per un prodotto Toaster Oven.
+   Di seguito è riportato un esempio di JSON che aggiunge entity.id kit2001 con i valori di entità associati per un prodotto Toaster Oven, nell&#39;ambiente 6781.
 
    ```
       {
@@ -81,11 +80,11 @@ Ad esempio, Save Entities può essere utilizzato per aggiornare gli articoli ogn
       }
    ```
 
-4. Fai clic su **Send** (Invia). Dovreste ricevere la seguente risposta.
+4. Fai clic su **Send** (Invia). Dovresti ricevere la seguente risposta.
 
    ![SaveEntities6.png](assets/SaveEntities05.png)
 
-L&#39;oggetto JSON può essere ridimensionato per inviare più prodotti. Ad esempio, questo JSON specifica due entità.
+L’oggetto JSON può essere ridimensionato per inviare più prodotti. Ad esempio, questo JSON specifica due entità.
 
 ```
     {
@@ -125,51 +124,51 @@ L&#39;oggetto JSON può essere ridimensionato per inviare più prodotti. Ad esem
     }
 ```
 
-1. Adesso tocca a te! Utilizzate l&#39;API **Save Entities** per aggiungere i seguenti elementi al catalogo. Utilizzate il JSON di esempio sopra come punto di partenza. (sarà necessario estendere il JSON per includere altre entità.)
+1. Adesso tocca a te! Utilizza l&#39;API **Save Entities** per aggiungere i seguenti elementi al catalogo. Utilizza il JSON campione sopra come punto iniziale. Per includere altre entità, è necessario estendere il JSON.
 
    ![SaveEntities6.png](assets/SaveEntities06.png)
 
-Wow, sembra che gli ultimi due elementi non appartengano. Esaminiamole utilizzando l&#39;API **Get Entity** e, se necessario, eliminatele utilizzando l&#39;API **Delete Entities**.
+Wow, sembra che gli ultimi due oggetti non appartengano. Esaminiamole utilizzando l&#39;API **Ottieni entità** e, se necessario, eliminale utilizzando l&#39;API **Elimina entità**.
 
-## Ottenimento dei dettagli degli elementi con l&#39;API Get Entity
+## Ottenimento dei dettagli degli elementi con l’API Get Entity
 
-Per recuperare i dettagli di un elemento esistente, utilizzate l&#39; [Get Entity API](https://developers.adobetarget.com/api/recommendations/#operation/getEntity). La sintassi è la seguente:
+Per recuperare i dettagli di un elemento esistente, utilizza [Ottieni API entità](https://developers.adobetarget.com/api/recommendations/#operation/getEntity). La sintassi è la seguente:
 
 ```
 GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities/[entity.id]
 ```
 
-I dettagli dell&#39;entità possono essere recuperati solo per una singola entità alla volta. Potete utilizzare Get Entity per confermare che gli aggiornamenti sono stati eseguiti nel catalogo come previsto, o per controllare in altro modo il contenuto del catalogo.
+I dettagli di entità possono essere recuperati solo per una singola entità alla volta. Puoi utilizzare Get Entity per confermare che gli aggiornamenti sono stati effettuati nel catalogo come previsto oppure per controllare in altro modo il contenuto del catalogo.
 
-1. Nella richiesta API, specificate l&#39;ID entità utilizzando la variabile `entityId`. L&#39;esempio seguente restituirà i dettagli per l&#39;entità di cui entityId=kit2004.
+1. Nella richiesta API, specifica l’ID entità utilizzando la variabile `entityId`. L’esempio seguente restituisce i dettagli per l’entità di cui entityId=kit2004.
 
    ![GetEntity1](assets/GetEntity1.png)
 
-2. Verificare `TENANT_ID` e `API_KEY` fare riferimento alle variabili di ambiente Postman stabilite in precedenza. Utilizzate l&#39;immagine seguente per il confronto. Se necessario, modificate le intestazioni e il percorso nella richiesta API in modo che corrispondano a quelli nell&#39;immagine seguente.
+2. Verifica che `TENANT_ID` e `API_KEY` facciano riferimento alle variabili di ambiente Postman stabilite in precedenza. Usa l&#39;immagine seguente per un confronto. Se necessario, modifica le intestazioni e il percorso nella richiesta API in modo che corrispondano a quelli nell’immagine seguente.
 
    ![GetEntity2](assets/GetEntity2.png)
 
 3. Invia la richiesta.
 
    ![GetEntity3](assets/GetEntity3.png)
-Se si riceve un errore che indica che l&#39;entità non è stata trovata, come illustrato nell&#39;esempio precedente, verificare che la richiesta venga inviata all&#39; [!DNL Target] ambiente corretto.
+Se ricevi un errore che indica che l&#39;entità non è stata trovata, come mostrato nell&#39;esempio precedente, verifica che la richiesta venga inviata all&#39; [!DNL Target] ambiente corretto.
 
    >[!NOTE]
-   Se nessun ambiente è specificato in modo esplicito, Get Entity tenta di ottenere l&#39;entità solo dall&#39;ambiente [predefinito](https://docs.adobe.com/content/help/en/target/using/administer/hosts.html#section_4F8539B07C0C45E886E8525C344D5FB0). Se desiderate eseguire il pull da un ambiente diverso da quello predefinito, dovete specificare l&#39;ID ambiente.
+   Se non viene specificato esplicitamente alcun ambiente, Get Entity tenta di ottenere l&#39;entità solo dall&#39; [ambiente predefinito](https://docs.adobe.com/content/help/en/target/using/administer/hosts.html#section_4F8539B07C0C45E886E8525C344D5FB0). Se desideri richiamare da un ambiente diverso da quello predefinito, devi specificare l’ID ambiente.
 
-4. Se necessario, aggiungete il parametro `environmentId` e inviate nuovamente la richiesta.
+4. Se necessario, aggiungi il parametro `environmentId` e invia nuovamente la richiesta.
 
    ![GetEntity4](assets/GetEntity4.png)
 
-5. Inviate un&#39;altra richiesta **Get Entity**, stavolta per ispezionare l&#39;entità di cui entityId=kit2005.
+5. Invia un&#39;altra richiesta **Get Entity**, questa volta per ispezionare l&#39;entità di cui entityId=kit2005.
 
    ![GetEntity5](assets/GetEntity5.png)
 
 Supponiamo che tu decida che queste entità devono essere rimosse dal catalogo. Usiamo l&#39;API **Elimina entità**.
 
-## Eliminazione di elementi con l&#39;API Delete Entities
+## Eliminazione di elementi con l’API Elimina entità
 
-Per rimuovere elementi dal catalogo, utilizzate l&#39; [Elimina entità API](https://developers.adobetarget.com/api/recommendations/#operation/deleteEntities). La sintassi è la seguente:
+Per rimuovere elementi dal catalogo, utilizza l&#39; [Elimina entità API](https://developers.adobetarget.com/api/recommendations/#operation/deleteEntities). La sintassi è la seguente:
 
 ```
 DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimited-entity-ids]&environment=[environmentId]
@@ -177,21 +176,21 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 
 >[!WARNING]
 Questa API elimina le entità a cui fanno riferimento gli ID specificati.
-Se non vengono forniti ID entità, tutte le entità nell&#39;ambiente specificato vengono eliminate. Se non viene fornito alcun ID ambiente, le entità verranno eliminate da tutti gli ambienti. Utilizzate questo con cautela!
+Se non vengono forniti ID di entità, vengono eliminate tutte le entità nell’ambiente specificato. Se non viene fornito alcun ID ambiente, le entità verranno eliminate da tutti gli ambienti. Usa questo con cautela!
 
-1. Andate a **[!DNL Target]> [!UICONTROL Setup] > [!UICONTROL Host] > [!UICONTROL Ambienti]** per ottenere l&#39;ID ambiente [!DNL Target] da cui desiderate eliminare gli elementi.
+1. Passa a **[!DNL Target]> [!UICONTROL Configurazione] > [!UICONTROL Host] > [!UICONTROL Ambienti]** per ottenere l’ [!DNL Target] ID ambiente da cui desideri eliminare gli elementi.
 
    ![DeleteEntities1](assets/SaveEntities01.png)
 
-2. Nella richiesta API, specificate gli ID entità delle entità da eliminare, utilizzando la sintassi `&ids=[comma-delimited-entity-ids]` (un parametro di query). Quando eliminate più entità, separate gli ID con una virgola.
+2. Nella richiesta API, specifica gli ID entità delle entità da eliminare utilizzando la sintassi `&ids=[comma-delimited-entity-ids]` (un parametro di query). Quando elimini più di un&#39;entità, separa gli ID utilizzando una virgola.
 
    ![DeleteEntities2](assets/DeleteEntities2.png)
 
-3. Specificate l&#39;ID dell&#39;ambiente, utilizzando la sintassi `&environment=[environmentId]`, in caso contrario le entità in tutti gli ambienti verranno eliminate.
+3. Specifica l’ID ambiente utilizzando la sintassi `&environment=[environmentId]`, altrimenti le entità in tutti gli ambienti verranno eliminate.
 
    ![DeleteEntities3](assets/DeleteEntities3.png)
 
-4. Verificare `TENANT_ID` e `API_KEY` fare riferimento alle variabili di ambiente Postman stabilite in precedenza. Utilizzate l&#39;immagine seguente per il confronto. Se necessario, modificate le intestazioni e il percorso nella richiesta API in modo che corrispondano a quelli nell&#39;immagine seguente.
+4. Verifica che `TENANT_ID` e `API_KEY` facciano riferimento alle variabili di ambiente Postman stabilite in precedenza. Usa l&#39;immagine seguente per un confronto. Se necessario, modifica le intestazioni e il percorso nella richiesta API in modo che corrispondano a quelli nell’immagine seguente.
 
    ![DeleteEntities4](assets/DeleteEntities4.png)
 
@@ -199,12 +198,12 @@ Se non vengono forniti ID entità, tutte le entità nell&#39;ambiente specificat
 
    ![DeleteEntities5](assets/DeleteEntities5.png)
 
-6. Verificare i risultati utilizzando **Get Entity**, che ora dovrebbe indicare che le entità eliminate non possono essere trovate.
+6. Verifica i risultati utilizzando **Ottieni entità**, che a questo punto dovrebbe indicare che le entità eliminate non possono essere trovate.
 
    ![DeleteEntities6](assets/DeleteEntities6.png)
 
    ![DeleteEntities6](assets/DeleteEntities7.png)
 
-Congratulazioni! Ora potete utilizzare le [!DNL Recommendations] API per creare, aggiornare, eliminare e ottenere dettagli sulle entità nel catalogo. Nella sezione successiva verrà illustrato come gestire i criteri personalizzati.
+Congratulazioni! Ora puoi utilizzare le API [!DNL Recommendations] per creare, aggiornare, eliminare e ottenere dettagli sulle entità nel catalogo. Nella sezione successiva verrà illustrato come gestire i criteri personalizzati.
 
-[Next &quot;Manage Custom Criteria&quot; (Gestisci criteri personalizzati) >](manage-custom-criteria.md)
+[Avanti &quot;Gestisci criteri personalizzati&quot; >](manage-custom-criteria.md)

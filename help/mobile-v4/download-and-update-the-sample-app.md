@@ -1,10 +1,10 @@
 ---
 title: Scarica e aggiorna l'app di esempio We.Travel
 description: 'L’app di esempio We.Travel è preimplementata con Adobe Mobile Services SDK v4. È sufficiente aggiornarlo in modo che punti ai tuoi account dell''organizzazione Experience Cloud e della soluzione.   '
-role: Sviluppatori
-level: Intermedio
-topic: Mobile, Personalizzazione
-feature: Implementare Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

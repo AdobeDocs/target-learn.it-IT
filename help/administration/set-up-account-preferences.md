@@ -1,10 +1,10 @@
 ---
 title: Come impostare le preferenze dell'account
 description: Questo video descrive le preferenze dell’account Adobe Target. Guarda questo video per esempi di impatto delle diverse impostazioni su Adobe Target.
-role: Amministratore
-level: Principiante
-topic: Amministrazione
-feature: Amministrazione & Configurazione
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

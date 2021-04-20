@@ -1,10 +1,10 @@
 ---
 title: Come utilizzare il Compositore esperienza basato su moduli
 description: Questo video mostra agli utenti di Adobe Target come e quando utilizzare il compositore esperienza basato su moduli.
-role: Professionista
-level: Principiante
-topic: Personalizzazione
-feature: Compositore esperienza basato su moduli, esperienze e offerte, Compositore esperienza visivo
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Form-based Experience Composer, Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

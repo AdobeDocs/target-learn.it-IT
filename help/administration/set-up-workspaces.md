@@ -1,10 +1,10 @@
 ---
 title: Come impostare le aree di lavoro
 description: Questo video mostra agli amministratori come creare aree di lavoro in Adobe Target.
-role: Amministratore
-level: Principiante
-topic: Amministrazione
-feature: Amministrazione & Configurazione
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

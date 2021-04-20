@@ -1,10 +1,10 @@
 ---
 title: Creare tipi di pubblico e offerte in Adobe Target
 description: 'In questa lezione, creiamo tipi di pubblico e offerte in Adobe Target per le tre posizioni implementate nelle lezioni precedenti. Verranno utilizzati per visualizzare esperienze personalizzate nella lezione successiva.   '
-role: Sviluppatori
-level: Intermedio
-topic: Mobile, Personalizzazione
-feature: Implementare Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: Come recuperare Recommendations con l’API di consegna
 description: Questa parte dell’esercitazione guida gli sviluppatori attraverso i passaggi necessari per recuperare il contenuto dei consigli utilizzando l’API di distribuzione di Adobe Target.
-role: Sviluppatori
-level: Intermedio
-topic: Personalizzazione, Amministrazione, Integrazioni, Sviluppo
-feature: API/SDK, Recommendations, amministrazione e configurazione
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: Aggiungere parametri alle richieste
 description: In questa lezione aggiungeremo metriche del ciclo di vita di Adobe e parametri personalizzati alle richieste Target aggiunte nella lezione precedente. Queste metriche e questi parametri verranno utilizzati per creare tipi di pubblico personalizzati più avanti nell’esercitazione.
-role: Sviluppatori
-level: Intermedio
-topic: Mobile, Personalizzazione
-feature: Implementare Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

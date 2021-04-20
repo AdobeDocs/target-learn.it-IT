@@ -1,10 +1,10 @@
 ---
 title: Come creare gli script di profilo
 description: Questo video introduce gli utenti di Adobe Target agli script di profilo. Guarda questo video se hai esperienza con Adobe Target e vuoi imparare le nozioni di base sull’utilizzo degli script di profilo per eseguire targeting più specializzato o creare un pubblico.
-role: Business Practices, sviluppatore
-level: Esperienza
-topic: Personalizzazione
-feature: Tipi di pubblico, amministrazione e configurazione
+role: Business Practitioner, Developer
+level: Experienced
+topic: Personalization
+feature: Audiences, Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

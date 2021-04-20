@@ -1,10 +1,10 @@
 ---
 title: Come configurare le autorizzazioni per gli utenti Enterprise
 description: Questo video introduce agli amministratori di Adobe Target autorizzazioni per gli utenti, proprietà e aree di lavoro. Guarda questo video per scoprire i diversi livelli di utente e come utilizzare proprietà e aree di lavoro per controllare l’accesso degli utenti.
-role: Amministratore
-level: Principiante
-topic: Amministrazione
-feature: Amministrazione & Configurazione
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

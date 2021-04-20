@@ -1,10 +1,10 @@
 ---
 title: Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico
 description: Una volta implementata l’integrazione di Analytics for Target (A4T) e eseguite le attività di Targeting automatico, come potete assicurarvi di interpretare correttamente i risultati? Segui questi passaggi per configurare i rapporti A4T in Analysis Workspace in modo da ottenere i risultati previsti durante l’esecuzione delle attività di Targeting automatico.
-role: Professionista
-level: Intermedio
-topic: Personalizzazione, Integrazioni
-feature: Analytics for Target (A4T), Targeting automatico, Integrazioni
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 thumbnail: null
 kt: null

@@ -1,10 +1,10 @@
 ---
 title: Come utilizzare i provider di dati per integrare dati di terze parti
 description: Questa esercitazione introduce gli utenti ai provider di dati. Scopri come utilizzare la funzionalità Fornitori di dati per trasferire facilmente dati da terze parti ad Adobe Target.
-role: Business Practices, sviluppatore
-level: Esperienza
-topic: Personalizzazione, Integrazioni
-feature: Implementazione, integrazioni, API/SDK
+role: Business Practitioner, Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null

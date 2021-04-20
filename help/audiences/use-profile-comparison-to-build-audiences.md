@@ -1,10 +1,10 @@
 ---
 title: Come utilizzare il confronto dei profili per creare tipi di pubblico
 description: Questo video mostra agli utenti di Adobe Target come utilizzare la funzione Confronto profili per confrontare due valori di profilo numerici l’uno rispetto l’altro durante la creazione di un pubblico.
-role: Professionista
-level: Esperienza
-topic: Personalizzazione
-feature: Tipi di pubblico
+role: Business Practitioner
+level: Experienced
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

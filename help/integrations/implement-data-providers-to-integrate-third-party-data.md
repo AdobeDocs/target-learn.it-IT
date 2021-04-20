@@ -1,10 +1,10 @@
 ---
 title: Come implementare i provider di dati per integrare dati di terze parti
 description: Questa esercitazione fornisce dettagli di implementazione ed esempi su come utilizzare la funzione Fornitori di dati di Adobe Target per recuperare dati da fornitori di dati terzi e trasmetterli nella richiesta Target.
-role: Sviluppatori
-level: Esperienza
-topic: Personalizzazione, Integrazioni
-feature: Implementazione, integrazioni, API/SDK
+role: Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: technical video
 kt: null
 thumbnail: null

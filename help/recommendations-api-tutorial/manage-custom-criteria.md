@@ -1,10 +1,10 @@
 ---
 title: Come gestire i criteri personalizzati
 description: Questa parte dell’esercitazione guida gli sviluppatori attraverso i passaggi necessari per utilizzare le API di Adobe Target per gestire, creare, elencare, modificare, ottenere ed eliminare i criteri di Adobe Target Recommendations.
-role: Sviluppatori
-level: Intermedio
-topic: Personalizzazione, Amministrazione, Integrazioni, Sviluppo
-feature: API/SDK, Recommendations, amministrazione e configurazione
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

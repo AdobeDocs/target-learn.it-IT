@@ -1,10 +1,10 @@
 ---
 title: Come creare un’attività Recommendations
 description: Scopri come creare un’attività Adobe Target Recommendations
-role: Professionista
-level: Intermedio
-topic: Personalizzazione
-feature: Consigli
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,10 +1,10 @@
 ---
 title: Cos’è l’API di Adobe Recommendations?
 description: Questa esercitazione illustra le pratiche pratiche pratiche degli sviluppatori che utilizzano le API Recommendations di Adobe Target per configurare e gestire i cataloghi Recommendations e i criteri personalizzati, nonché l’utilizzo dell’API di consegna per recuperare il contenuto dei consigli.
-role: Sviluppatori
-level: Intermedio
-topic: Personalizzazione, Amministrazione, Integrazioni, Sviluppo
-feature: API/SDK, Recommendations, Amministrazione e configurazione, Panoramica
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration, Overview
 doc-type: tutorial
 kt: 3815
 thumbnail: null

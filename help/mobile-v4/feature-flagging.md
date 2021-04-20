@@ -1,10 +1,10 @@
 ---
 title: Flag delle funzioni
 description: Adobe Target può essere utilizzato per sperimentare funzioni UX come colore, copia, pulsanti, testo e immagini e fornire tali funzionalità a tipi di pubblico specifici.
-role: Sviluppatori
-level: Intermedio
-topic: Mobile, Personalizzazione
-feature: Implementare Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

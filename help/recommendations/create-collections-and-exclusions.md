@@ -1,10 +1,10 @@
 ---
 title: Come creare raccolte ed esclusioni in Recommendations
 description: Scopri cos’è una raccolta Recommendations e come utilizzarla. Scopri cos’è un’esclusione da Recommendations e come utilizzarla.
-role: Professionista
-level: Intermedio
-topic: Personalizzazione
-feature: Consigli
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null

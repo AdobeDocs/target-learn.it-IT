@@ -1,10 +1,10 @@
 ---
 title: Personalizzare i layout
 description: 'In questa lezione finale, creiamo due attività di personalizzazione in Target per il nostro pubblico. Scopri come caricare e visualizzare le attività nell’app e verifica che il contenuto venga visualizzato al momento giusto nelle posizioni giuste.  '
-role: Sviluppatori
-level: Intermedio
-topic: Mobile, Personalizzazione
-feature: Implementare Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

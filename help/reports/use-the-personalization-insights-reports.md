@@ -1,10 +1,10 @@
 ---
 title: Utilizzare i rapporti Approfondimenti personalizzazione
 description: Le attività di Automated Personalization e Targeting automatico utilizzano l’apprendimento automatico avanzato per fornire a ogni visitatore l’esperienza più adatta in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili. I rapporti Approfondimenti personalizzazione forniscono informazioni su come questi modelli prendono decisioni.
-role: Professionista
-level: Intermedio
-topic: Personalizzazione
-feature: Reports, Automated Personalization, Targeting automatico
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Reports, Automated Personalization, Auto-Target
 doc-type: feature video
 kt: null
 thumbnail: null

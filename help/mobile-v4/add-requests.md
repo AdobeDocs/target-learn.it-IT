@@ -1,10 +1,10 @@
 ---
 title: Aggiungere richieste Adobe Target
 description: 'L’SDK di Adobe Mobile Services (v4) fornisce metodi e funzionalità di Adobe Target che consentono di personalizzare l’app con esperienze diverse per utenti diversi.   '
-role: Sviluppatori
-level: Intermedio
-topic: Mobile, Personalizzazione
-feature: Implementare Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

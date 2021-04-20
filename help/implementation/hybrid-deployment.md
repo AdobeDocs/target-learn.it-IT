@@ -1,10 +1,10 @@
 ---
 title: Opzioni di distribuzione ibride
 description: Guarda questo video per scoprire come Adobe Target sta implementando un modello di implementazione ibrida unico per la personalizzazione, combinando implementazioni lato client e lato server.
-role: Sviluppatore, architetto
-level: Principiante
-topic: Personalizzazione, Architettura, Sviluppo
-feature: Implementazione, implementazione lato server, implementazione lato client
+role: Developer, Architect
+level: Beginner
+topic: Personalization, Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 thumbnail: null
 kt: 6165

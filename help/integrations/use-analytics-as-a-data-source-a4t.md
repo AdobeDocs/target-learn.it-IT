@@ -1,10 +1,10 @@
 ---
 title: Come utilizzare Analytics come origine dati per Target (A4T)
 description: Questo video introduce gli esperti di marketing in Analytics for Target (A4T).
-role: Professionista
-level: Principiante
-topic: Personalizzazione, Integrazioni
-feature: Analytics for Target (A4T), Integrazioni
+role: Business Practitioner
+level: Beginner
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Integrations
 doc-type: feature video
 thumbnail: null
 kt: null

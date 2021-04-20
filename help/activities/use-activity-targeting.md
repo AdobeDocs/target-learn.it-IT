@@ -1,10 +1,10 @@
 ---
 title: Come utilizzare il targeting delle attività
 description: Adobe Target fornisce diversi leve per controllare le esperienze mostrate a diversi tipi di pubblico quando un’attività diventa attiva. Scopri come controllare chi vede cosa utilizzando i tipi di pubblico e l’allocazione del traffico.
-role: Professionista
-level: Intermedio
-topic: Personalizzazione
-feature: Attività, pubblico
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities, Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,22 +1,21 @@
 ---
 title: Come risolvere i problemi con le tracce di Target
 description: Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell'implementazione di Target. Scopri come eseguire l’autenticazione nell’Experience Cloud e utilizzare il potente strumento Tracce di Target per esaminare le tue qualifiche di attività e pubblico, nonché il tuo profilo visitatore.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization, Performance
-feature: Troubleshooting
+topic: Personalizzazione, prestazioni
+feature: Risoluzione dei problemi relativi al
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 5a38ac7f-a75a-43a8-8034-5735676b6be2
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 17%
 
 ---
-
 
 # Risolvere i problemi relativi alle tracce di Target
 

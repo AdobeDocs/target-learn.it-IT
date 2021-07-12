@@ -1,22 +1,21 @@
 ---
 title: Come configurare l’autenticazione per le API di Adobe Target
 description: Questa esercitazione guida gli sviluppatori attraverso i passaggi necessari per generare i token di autenticazione necessari per interagire con successo con le API di Adobe Target. Segui questi passaggi per utilizzare Adobe Developer Console per generare e testare il token di accesso al portatore, necessario per utilizzare le API di Target.
-role: Developer, Administrator, Architect
+role: Developer, Admin, Architect
 level: Intermediate
-topic: Personalization, Administration, Integrations, Development
-feature: APIs/SDKs, Administration & Configuration
+topic: Personalizzazione, Amministrazione, Integrazioni, Sviluppo
+feature: API/SDK, amministrazione e configurazione
 doc-type: tutorial
 kt: null
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
+exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1892'
 ht-degree: 2%
 
 ---
-
 
 # Configurare l’autenticazione per le API di Adobe Target
 

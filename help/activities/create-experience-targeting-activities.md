@@ -1,21 +1,20 @@
 ---
 title: Come creare attività di targeting delle esperienze
 description: Le attività di targeting delle esperienze (XT) consentono agli addetti al marketing di eseguire il targeting di contenuti specifici per un pubblico specifico. Scopri i vantaggi delle attività XT e come crearle e utilizzarle.
-role: Business Practitioner
+role: User
 level: Beginner
-topic: Personalization
-feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
+topic: Personalizzazione
+feature: Targeting esperienza, attività, Compositore esperienza visivo
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 19%
 
 ---
-
 
 # Creare attività di targeting delle esperienze
 

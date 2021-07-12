@@ -1,22 +1,21 @@
 ---
 title: Come utilizzare il Compositore esperienza visivo per le applicazioni a pagina singola (SPA Compositore esperienza visivo)
 description: Questo video introduce gli addetti al marketing nel Compositore esperienza visivo di Adobe Target per le applicazioni a pagina singola (SPA VEC). Guarda questo video per scoprire come creare attività utilizzando il Compositore esperienza visivo SPA.
-role: Business Practitioner
+role: User
 level: Beginner
-topic: SPA, Personalization
-feature: Experiences and Offers, Visual Experience Composer (VEC)
+topic: SPA, personalizzazione
+feature: Esperienze e offerte, Compositore esperienza visivo
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 3e32d869-a94a-4253-93d7-58b615921067
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
-
 
 # Utilizzo del [!UICONTROL Compositore esperienza visivo] per le applicazioni a pagina singola (SPA Compositore esperienza visivo) in Adobe Target
 

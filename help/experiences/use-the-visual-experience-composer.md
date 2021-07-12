@@ -1,21 +1,20 @@
 ---
 title: Come utilizzare il Compositore esperienza visivo
-description: Questi due video introducono gli addetti al marketing nel Compositore esperienza visivo di Adobe Target. Guarda questi video per scoprire come creare attività utilizzando il Compositore esperienza visivo.
-role: Business Practitioner
+description: Questi due video introducono gli addetti al marketing al Compositore esperienza visivo di Adobe Target. Guarda questi video per scoprire come creare attività utilizzando il Compositore esperienza visivo.
+role: User
 level: Beginner
-topic: Personalization
-feature: Visual Experience Composer (VEC), Experiences and Offers
+topic: Personalizzazione
+feature: Compositore esperienza visivo, esperienze e offerte
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
+exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 0%
+source-wordcount: '122'
+ht-degree: 21%
 
 ---
-
 
 # Utilizza il [!UICONTROL Compositore esperienza visivo] in Adobe Target
 

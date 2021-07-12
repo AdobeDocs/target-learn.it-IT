@@ -1,21 +1,20 @@
 ---
 title: Come creare criteri in Recommendations
 description: Scopri come creare criteri in Adobe Target Recommendations
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization
+topic: Personalizzazione
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 14135335-9f51-4e5d-905f-3cd6760c54cd
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 14%
+source-wordcount: '64'
+ht-degree: 15%
 
 ---
-
 
 # Creare criteri in Recommendations
 

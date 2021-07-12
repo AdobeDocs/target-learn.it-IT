@@ -1,21 +1,20 @@
 ---
 title: Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico
 description: Una volta implementata l’integrazione di Analytics for Target (A4T) e eseguite le attività di Targeting automatico, come potete assicurarvi di interpretare correttamente i risultati? Segui questi passaggi per configurare i rapporti A4T in Analysis Workspace in modo da ottenere i risultati previsti durante l’esecuzione delle attività di Targeting automatico.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization, Integrations
-feature: Analytics for Target (A4T), Auto-Target, Integrations
+topic: Personalizzazione, Integrazioni
+feature: Analytics for Target (A4T), Targeting automatico, Integrazioni
 doc-type: tutorial
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2261'
 ht-degree: 1%
 
 ---
-
 
 # Configurazione dei rapporti A4T in Analysis Workspace per le attività [!DNL Auto-Target]
 
@@ -87,7 +86,7 @@ Confrontiamo i rapporti a livello di visitatore e di visita:
 | --- | --- | --- | --- | --- | --- |
 | A | 1 | 1 | - | 0% | 0% |
 | B | 2 | 3 | 1 | 50% | 33,3% |
-| Totali | 2 | 4 | 3 | 50% | 25% |
+| Totali | 2 | 4 | 1 | 50% | 25% |
 *Tabella 1: Esempio di confronto tra rapporti normalizzati sui visitatori e normalizzati sulle visite per uno scenario in cui le decisioni sono appiccicose a una visita (e non ai visitatori, come con i normali test A/B). Le metriche normalizzate dei visitatori confondono in questo scenario.*
 
 Come mostrato nella tabella, esiste una chiara incongruenza dei numeri a livello di visitatore. Nonostante il fatto che ci siano due visitatori unici totali, questa non è una somma di singoli visitatori unici per ogni esperienza. Anche se il tasso di conversione a livello di visitatore non è necessariamente sbagliato, quando si confrontano le singole esperienze, i tassi di conversione a livello di visita probabilmente hanno molto più senso. Formalmente, l’unità di analisi (&quot;visite&quot;) è la stessa dell’unità di decisione viscerale, il che significa che è possibile aggiungere e confrontare suddivisioni delle metriche a livello di esperienza.

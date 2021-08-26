@@ -8,14 +8,13 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
-
 
 # Aggiungere parametri alle richieste
 
@@ -91,7 +90,7 @@ public void targetPrefetchContent() {
 
 ### Nota sui parametri
 
-Per i progetti futuri, potrebbe essere utile implementare parametri aggiuntivi. Il metodo `createTargetPrefetchObject()` consente tre tipi di parametri: `locationParams`, `orderParams` e `productParams`. Consulta la documentazione per [ulteriori dettagli sull&#39;aggiunta di questi parametri alla richiesta di preacquisizione](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html).
+Per i progetti futuri, potrebbe essere utile implementare parametri aggiuntivi. Il metodo `createTargetPrefetchObject()` consente tre tipi di parametri: `locationParams`, `orderParams` e `productParams`. Consulta la documentazione per [ulteriori dettagli sull&#39;aggiunta di questi parametri alla richiesta di preacquisizione](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 Inoltre, puoi aggiungere diversi parametri di posizione a ogni posizione nella richiesta di preacquisizione. Ad esempio, puoi creare un&#39;altra mappa chiamata param2, inserirvi un nuovo parametro, quindi impostare param2 in una posizione e param1 con l&#39;altra posizione. Ecco un esempio:
 
@@ -148,11 +147,11 @@ Esegui l&#39;emulatore e apri Logcat. Filtra per uno dei parametri per verificar
 
 >[!NOTE]
 >
->Richieste e parametri di conferma dell’ordine: Sebbene non sia utilizzato in questo progetto demo, i dettagli dell’ordine vengono solitamente acquisiti in un’implementazione reale, in modo che [!DNL Target] possa utilizzare i dettagli dell’ordine come metriche/dimensioni. Fai riferimento alla documentazione per istruzioni su come [implementare la richiesta di conferma dell&#39;ordine e i parametri](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+>Richieste e parametri di conferma dell’ordine: Sebbene non sia utilizzato in questo progetto demo, i dettagli dell’ordine vengono solitamente acquisiti in un’implementazione reale, in modo che [!DNL Target] possa utilizzare i dettagli dell’ordine come metriche/dimensioni. Fai riferimento alla documentazione per istruzioni su come [implementare la richiesta di conferma dell&#39;ordine e i parametri](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
 >[!NOTE]
 >
->Analytics for Target (A4T): Adobe Analytics può essere configurato come origine per la generazione di rapporti per [!DNL Target]. Questo consente di visualizzare in Adobe Analytics tutte le metriche/dimensioni raccolte dall’SDK di Target. Per ulteriori informazioni, consulta la sezione [Panoramica di A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) .
+>Analytics for Target (A4T): Adobe Analytics può essere configurato come origine per la generazione di rapporti per [!DNL Target]. Questo consente di visualizzare in Adobe Analytics tutte le metriche/dimensioni raccolte dall’SDK di Target. Per ulteriori informazioni, consulta la sezione [Panoramica di A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) .
 
 Ottimo lavoro! Ora che i parametri sono impostati, siamo pronti per utilizzare questi parametri per creare audience e offerte in Adobe Target.
 

@@ -9,14 +9,13 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
+exl-id: 553d1208-647f-479d-acc7-d7760469d642
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1459'
-ht-degree: 0%
+source-wordcount: '1418'
+ht-degree: 2%
 
 ---
-
 
 # Recupero di [!DNL Recommendations] con API di consegna
 
@@ -94,7 +93,6 @@ Le risorse seguenti forniscono esempi di diverse implementazioni non basate su H
 
 | Risorsa | Dettagli |
 | --- | --- |
-| [Utilizzo delle API RESTful in AEM](https://helpx.adobe.com/experience-manager/using/restful-services.html) | Come creare e distribuire un bundle Adobe Experience Manager OSGi che consuma dati da un servizio web RESTful di terze parti. |
 | [Adobe Target Ovunque - Implementa il lato server o in IoT](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit 2019 Lab che offre un’esperienza pratica per un’applicazione React che sfrutta le API lato server di Adobe Target. |
 | [Adobe Target in un’app mobile senza l’SDK per Adobi](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | Questa guida illustra come configurare Adobe Target nell’app mobile senza installare l’SDK per Adobe. Questa soluzione utilizza la webview dell’SDK di Tealium e il modulo Comandi remoti per inviare e ricevere richieste all’API visitatore di Adobe (Experience Cloud) e all’API di Adobe Target. |
 | [Funzionamento di Adobe Target nelle app per dispositivi mobili](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | Funzionamento di [!DNL Target] con l&#39;SDK di Mobile |
@@ -113,7 +111,7 @@ In una [sezione precedente](manage-catalog.md) abbiamo imparato a gestire le ent
 | --- | --- |
 | [Raccolte](http://developers.adobetarget.com/api/recommendations/#tag/Collections) | Elencare, creare, ottenere, modificare ed eliminare le raccolte. |
 | [Criteri](http://developers.adobetarget.com/api/recommendations/#tag/Criteria) | Elenca e ottieni criteri. |
-| [Disegni](http://developers.adobetarget.com/api/recommendations/#tag/Designs) | Elencare, creare, ottenere, modificare, eliminare e convalidare le progettazioni. |
+| [Progettazioni](http://developers.adobetarget.com/api/recommendations/#tag/Designs) | Elencare, creare, ottenere, modificare, eliminare e convalidare le progettazioni. |
 | [Entità](http://developers.adobetarget.com/api/recommendations/#tag/Entities) | Salvare, eliminare e ottenere le entità. |
 | [Promozioni](http://developers.adobetarget.com/api/recommendations/#tag/Promotions) | Elenca, crea, ottieni, modifica ed elimina promozioni. |
 | [Criteri di categoria](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | Elencare, creare, ottenere, modificare ed eliminare i criteri di categoria. |

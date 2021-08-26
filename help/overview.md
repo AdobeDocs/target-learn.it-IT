@@ -3,11 +3,11 @@ title: Scopri come utilizzare Adobe Target
 description: Scopri come utilizzare Adobe Target con questa raccolta di esercitazioni e video che coprono tutti i suoi componenti. Utilizza la potenza di Adobe Target in modo efficace.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
-topic: Personalizzazione
+topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '252'
 ht-degree: 15%
 
 ---
@@ -43,11 +43,11 @@ Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necess
 <table>
 <tr>
   <td>
-    <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
+    <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
       <img alt="Implementare Target con Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
-      <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
+      <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
     <strong>Implementare Target con Adobe Experience Platform Launch</strong>
     </a>
     </div>

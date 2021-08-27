@@ -3,16 +3,16 @@ title: Come creare raccolte ed esclusioni in Recommendations
 description: Scopri cos’è una raccolta Recommendations e come utilizzarla. Scopri cos’è un’esclusione da Recommendations e come utilizzarla.
 role: User
 level: Intermediate
-topic: Personalizzazione
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 12%
+source-wordcount: '79'
+ht-degree: 11%
 
 ---
 
@@ -38,4 +38,4 @@ In questo video viene illustrato come:
 * [Creare un feed](create-a-feed.md)
 * [Creare criteri](create-criteria.md)
 * [Creare progettazioni personalizzate](create-custom-designs.md)
-* [Documentazione di Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentazione di Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

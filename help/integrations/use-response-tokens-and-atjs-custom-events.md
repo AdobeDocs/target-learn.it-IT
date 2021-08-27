@@ -9,14 +9,13 @@ doc-type: technical video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: d6ce5367-a453-4e6c-8545-9fa676977f04
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 4%
+source-wordcount: '241'
+ht-degree: 3%
 
 ---
-
 
 # Utilizza i token di risposta e gli eventi personalizzati at.js con Adobe Target
 
@@ -36,6 +35,6 @@ I token di risposta e gli `at.js` eventi personalizzati ti consentono di condivi
 ## Risorse aggiuntive
 
 * [Utilizzare il Experience Cloud Debugger con Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [Documentazione sul token di risposta](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
-* [Documentazione evento personalizzata at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
+* [Documentazione sul token di risposta](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
+* [Documentazione evento personalizzata at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en)
 * [Utilizzo di Fornitori di dati in Adobe Target](use-data-providers-to-integrate-third-party-data.md)

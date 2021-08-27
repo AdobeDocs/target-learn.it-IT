@@ -9,18 +9,17 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
-
 # Gestire criteri personalizzati
 
-A volte gli algoritmi forniti da [!DNL Recommendations] non sono in grado di far emergere particolari elementi che si desidera promuovere. In questa situazione, i criteri personalizzati ti consentono di fornire un set specifico di elementi consigliati per un determinato elemento chiave o categoria. Puoi definire la mappatura tra l’elemento o la categoria chiave e gli elementi consigliati e importarla come criterio personalizzato. Questo processo è descritto nella [documentazione sui criteri personalizzati](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html). Come indicato in tale documentazione, puoi creare, modificare ed eliminare criteri personalizzati tramite l’ [!DNL Target] interfaccia utente (UI). Tuttavia, [!DNL Target] fornisce anche un set di API per criteri personalizzati che consentono una gestione più dettagliata dei criteri personalizzati.
+A volte gli algoritmi forniti da [!DNL Recommendations] non sono in grado di far emergere particolari elementi che si desidera promuovere. In questa situazione, i criteri personalizzati ti consentono di fornire un set specifico di elementi consigliati per un determinato elemento chiave o categoria. Puoi definire la mappatura tra l’elemento o la categoria chiave e gli elementi consigliati e importarla come criterio personalizzato. Questo processo è descritto nella [documentazione sui criteri personalizzati](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en). Come indicato in tale documentazione, puoi creare, modificare ed eliminare criteri personalizzati tramite l’ [!DNL Target] interfaccia utente (UI). Tuttavia, [!DNL Target] fornisce anche un set di API per criteri personalizzati che consentono una gestione più dettagliata dei criteri personalizzati.
 
 >[!IMPORTANT]
 >
@@ -36,7 +35,7 @@ Per creare criteri personalizzati utilizzando [Crea API di criteri personalizzat
 
 >[!WARNING]
 >
->I criteri personalizzati creati utilizzando l’API Crea criterio personalizzato, come descritto in questo esercizio, verranno visualizzati nell’interfaccia utente, dove persisteranno. Non potrai modificarli o eliminarli dall’interfaccia utente. È possibile modificarli o eliminarli **tramite API**, ma in entrambi i casi continueranno a essere visualizzati nell&#39; [!DNL Target] interfaccia utente. Per mantenere l&#39;opzione di modifica o eliminazione dall&#39;interfaccia utente, crea i criteri personalizzati utilizzando l&#39;interfaccia utente per [la documentazione](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html), invece di utilizzare l&#39;API Crea criteri personalizzati.
+>I criteri personalizzati creati utilizzando l’API Crea criterio personalizzato, come descritto in questo esercizio, verranno visualizzati nell’interfaccia utente, dove persisteranno. Non potrai modificarli o eliminarli dall’interfaccia utente. È possibile modificarli o eliminarli **tramite API**, ma in entrambi i casi continueranno a essere visualizzati nell&#39; [!DNL Target] interfaccia utente. Per mantenere l&#39;opzione di modifica o eliminazione dall&#39;interfaccia utente, crea i criteri personalizzati utilizzando l&#39;interfaccia utente per [la documentazione](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en), invece di utilizzare l&#39;API Crea criteri personalizzati.
 
 Procedi con questa esercitazione solo dopo aver letto l’avviso riportato sopra e aver acquisito familiarità con la creazione di nuovi criteri personalizzati che non possono essere successivamente eliminati dall’interfaccia utente.
 

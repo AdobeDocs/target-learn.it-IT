@@ -10,9 +10,9 @@ kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1883'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ In questa sezione potrai accedere ad Adobe Developer Console e creare un progett
 
    ![configure-io-target-createproject3.png](assets/configure-io-target-createproject3.png)
 
-4. Fai clic su **[!UICONTROL Aggiungi API]** per aggiungere un’API REST al progetto per accedere ai servizi e ai prodotti di Adobe.
+4. Fai clic su **[!UICONTROL Aggiungi API]** per aggiungere un’API REST al tuo progetto per accedere ai servizi e ai prodotti Adobe.
 
    ![Aggiungi API](assets/configure-io-target-createproject4.png)
 
@@ -87,7 +87,7 @@ Ci sono molti modi per specificare i dettagli del progetto in Postman, ma in que
 
 >[!NOTE]
 >
->Per le istruzioni video applicabili a qualsiasi soluzione di Experience Cloud, tra cui [!DNL Target], consulta [Utilizzare Postman con API di Experience Platform](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html). Le sezioni seguenti sono pertinenti alle API [!DNL Target] :
+>Per le istruzioni video applicabili a qualsiasi soluzione di Experience Cloud, tra cui [!DNL Target], consulta [Utilizzare Postman con API di Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/platform-api-authentication.html?lang=en). Le sezioni seguenti sono pertinenti alle API [!DNL Target] :
 >
 > 1. Esportare i dettagli di integrazione di Adobi I/O in Postman
 > 2. Generare un token di accesso con Postman

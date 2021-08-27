@@ -3,16 +3,16 @@ title: Come creare attività di targeting delle esperienze
 description: Le attività di targeting delle esperienze (XT) consentono agli addetti al marketing di eseguire il targeting di contenuti specifici per un pubblico specifico. Scopri i vantaggi delle attività XT e come crearle e utilizzarle.
 role: User
 level: Beginner
-topic: Personalizzazione
-feature: Targeting esperienza, attività, Compositore esperienza visivo
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 19%
+source-wordcount: '210'
+ht-degree: 20%
 
 ---
 
@@ -35,10 +35,10 @@ In questo video viene illustrato come:
 ## Risorse aggiuntive
 
 * [Scarica la sequenza di riproduzione per la personalizzazione delle esperienze](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [Documentazione su Targeting esperienza](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/experience-target.html)
+* [Documentazione su Targeting esperienza](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Altre funzioni utilizzate in questo video
 
-* [Tipi di pubblico per la documentazione sui rapporti](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
-* [Documentazione sulla creazione di tipi di pubblico](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
-* [Creazione di esperienze con la documentazione del Compositore esperienza visivo](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)
+* [Tipi di pubblico per la documentazione sui rapporti](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Documentazione sulla creazione di tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Creazione di esperienze con la documentazione del Compositore esperienza visivo](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

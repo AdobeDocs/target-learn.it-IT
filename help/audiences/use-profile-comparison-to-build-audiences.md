@@ -3,16 +3,16 @@ title: Come utilizzare il confronto dei profili per creare tipi di pubblico
 description: Questo video mostra agli utenti di Adobe Target come utilizzare la funzione Confronto profili per confrontare due valori di profilo numerici l’uno rispetto l’altro durante la creazione di un pubblico.
 role: User
 level: Experienced
-topic: Personalizzazione
-feature: Tipi di pubblico
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '174'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ In questo video viene illustrato come:
 
 ## Risorse aggiuntive
 
-* [Creazione di un pubblico di confronto di attributo di profilo](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
-* [Metodi per immettere i dati in Adobe Target](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
-* [Creazione di tipi di pubblico](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [Creazione di un pubblico di confronto di attributo di profilo](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [Metodi per immettere i dati in Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
+* [Creazione di tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Video Creazione di attività di targeting delle esperienze](../activities/create-experience-targeting-activities.md)

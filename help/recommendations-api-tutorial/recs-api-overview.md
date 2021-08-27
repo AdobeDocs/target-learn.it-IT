@@ -9,23 +9,22 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 1%
+source-wordcount: '359'
+ht-degree: 2%
 
 ---
 
-
 # Panoramica API di Adobe Recommendations
 
-Le API rilevanti per [!DNL Recommendations] includono [API amministratore](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) che consentono di:
+Le API rilevanti per [!DNL Recommendations] includono [API amministratore](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en) che consentono di:
 
 * Gestire il catalogo di prodotti o contenuti consigliati
 * Gestire gli algoritmi e le attività [!DNL Recommendations]
 
-Utilizzando [!DNL Target] [API di consegna](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) con Recommendations, puoi anche:
+Utilizzando [!DNL Target] [API di consegna](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en) con Recommendations, puoi anche:
 
 * Recupera i consigli in oggetti JSON, HTML o XML in modo che possano essere visualizzati su web, dispositivi mobili, e-mail, Internet of Things (IOT) e altri canali.
 

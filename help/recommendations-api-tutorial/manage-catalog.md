@@ -9,14 +9,13 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 1%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
-
 
 # Gestire il catalogo [!DNL Recommendations] utilizzando le API
 
@@ -82,7 +81,7 @@ Ad esempio, Save Entities può essere utilizzato per aggiornare gli articoli ogn
 
 4. Fai clic su **Send** (Invia). Dovresti ricevere la seguente risposta.
 
-   ![SaveEntities6.png](assets/SaveEntities05.png)
+   ![SaveEntities5.png](assets/SaveEntities05.png)
 
 L’oggetto JSON può essere ridimensionato per inviare più prodotti. Ad esempio, questo JSON specifica due entità.
 
@@ -126,7 +125,7 @@ L’oggetto JSON può essere ridimensionato per inviare più prodotti. Ad esempi
 
 1. Adesso tocca a te! Utilizza l&#39;API **Save Entities** per aggiungere i seguenti elementi al catalogo. Utilizza il JSON campione sopra come punto iniziale. Per includere altre entità, è necessario estendere il JSON.
 
-   ![SaveEntities6.png](assets/SaveEntities06.png)
+   ![SaveEntities5.png](assets/SaveEntities06.png)
 
 Wow, sembra che gli ultimi due oggetti non appartengano. Esaminiamole utilizzando l&#39;API **Ottieni entità** e, se necessario, eliminale utilizzando l&#39;API **Elimina entità**.
 
@@ -154,7 +153,7 @@ I dettagli di entità possono essere recuperati solo per una singola entità all
 Se ricevi un errore che indica che l&#39;entità non è stata trovata, come mostrato nell&#39;esempio precedente, verifica che la richiesta venga inviata all&#39; [!DNL Target] ambiente corretto.
 
    >[!NOTE]
-   Se non viene specificato esplicitamente alcun ambiente, Get Entity tenta di ottenere l&#39;entità solo dall&#39; [ambiente predefinito](https://docs.adobe.com/content/help/en/target/using/administer/hosts.html#section_4F8539B07C0C45E886E8525C344D5FB0). Se desideri richiamare da un ambiente diverso da quello predefinito, devi specificare l’ID ambiente.
+   Se non viene specificato esplicitamente alcun ambiente, Get Entity tenta di ottenere l&#39;entità solo dall&#39; [ambiente predefinito](https://experienceleague.adobe.com/docs/target/using/administer/hosts.html?lang=en). Se desideri richiamare da un ambiente diverso da quello predefinito, devi specificare l’ID ambiente.
 
 4. Se necessario, aggiungi il parametro `environmentId` e invia nuovamente la richiesta.
 

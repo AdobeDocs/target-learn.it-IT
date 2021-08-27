@@ -3,17 +3,17 @@ title: Come utilizzare i provider di dati per integrare dati di terze parti
 description: Questa esercitazione introduce gli utenti ai provider di dati. Scopri come utilizzare la funzionalità Fornitori di dati per trasferire facilmente dati da terze parti ad Adobe Target.
 role: User, Developer
 level: Experienced
-topic: Personalizzazione, Integrazioni
-feature: Implementazione, integrazioni, API/SDK
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 22%
+source-wordcount: '211'
+ht-degree: 23%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 22%
 ## Materiali di supporto
 
 * [Implementazione di Fornitori di dati in at.js e Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
-* [Documentazione Fornitori di dati](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
+* [Documentazione Fornitori di dati](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

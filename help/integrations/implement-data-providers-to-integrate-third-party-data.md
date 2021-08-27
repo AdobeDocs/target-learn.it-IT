@@ -9,14 +9,13 @@ doc-type: technical video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: fcf6d1a8-e2a7-41ce-9c1c-02985b7afb5a
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
-
 
 # Implementa [!UICONTROL Fornitori di dati] per integrare dati di terze parti in Adobe Target
 
@@ -62,4 +61,4 @@ Un esempio di lavoro con il codice utilizzato nel video è disponibile qui: [htt
 
 * [Utilizzare Fornitori di dati con Adobe Target](use-data-providers-to-integrate-third-party-data.md)
 
-* [Documentazione Fornitori di dati](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
+* [Documentazione Fornitori di dati](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

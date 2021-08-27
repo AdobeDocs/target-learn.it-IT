@@ -3,16 +3,16 @@ title: Come utilizzare il Compositore esperienza visivo per le applicazioni a pa
 description: Questo video introduce gli addetti al marketing nel Compositore esperienza visivo di Adobe Target per le applicazioni a pagina singola (SPA VEC). Guarda questo video per scoprire come creare attività utilizzando il Compositore esperienza visivo SPA.
 role: User
 level: Beginner
-topic: SPA, personalizzazione
-feature: Esperienze e offerte, Compositore esperienza visivo
+topic: SPA, Personalization
+feature: Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -42,4 +42,4 @@ Il Compositore esperienza visivo SPA consente agli addetti al marketing di crear
 
 * [Implementazione di at.js 2.0 in un’applicazione a pagina singola](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [Funzionamento di at.js 2.0 (diagrammi di architettura)](../implementation/understanding-how-atjs-20-works.md)
-* [Documentazione del Compositore esperienza visivo per app a pagina singola (SPA)](https://docs.adobe.com/help/en/target/using/experiences/spa-visual-experience-composer.html)
+* [Documentazione del Compositore esperienza visivo per app a pagina singola (SPA)](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)

@@ -3,15 +3,15 @@ title: Come creare un’attività Recommendations
 description: Scopri come creare un’attività Adobe Target Recommendations
 role: User
 level: Intermediate
-topic: Personalizzazione
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 12%
 
 ---
@@ -38,4 +38,4 @@ In questo video viene illustrato come:
 * [Creare criteri](create-criteria.md)
 * [Creare progettazioni personalizzate](create-custom-designs.md)
 * [Creare raccolte ed esclusioni](create-collections-and-exclusions.md)
-* [Documentazione di Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentazione di Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -43,7 +43,7 @@ L&#39;SDK di Adobe Mobile Services è stato preinstallato nell&#39;app We.Travel
 
 Innanzitutto, crea una nuova app nell’interfaccia utente di Mobile Services:
 
-1. Accedi all&#39; [interfaccia Adobe Mobile Services](https://mobilemarketing.adobe.com).
+1. Accedi all&#39; [interfaccia Adobe Mobile Services](https://mobilemarketing.adobe.com/).
 1. Vai a [!UICONTROL Gestione app], quindi fai clic su **[!UICONTROL Aggiungi]** per aggiungere una nuova app da utilizzare con questa esercitazione (**[!UICONTROL Gestione app]** > **[!UICONTROL Aggiungi]**).
 1. Scegli una suite di rapporti di Analytics con dati non di produzione, assegna un nome all’app, seleziona il tipo **[!UICONTROL Standard]** e fai clic su **[!UICONTROL Salva]**.
 1. Una volta aggiunta l&#39;app, aggiungi il tuo [!DNL Target] Codice client nella schermata successiva nella sezione [!UICONTROL Opzioni SDK Target] (puoi trovare il tuo codice client nell&#39;interfaccia [!DNL Target] in **[!UICONTROL Configurazione]** > **[!UICONTROL Implementazione]** > **[!UICONTROL Modifica impostazioni]**, accanto al download `at.js`).

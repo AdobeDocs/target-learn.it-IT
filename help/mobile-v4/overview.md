@@ -8,14 +8,13 @@ feature: Implement Mobile, Overview
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '549'
 ht-degree: 2%
 
 ---
-
 
 # Adobe Target con Adobe Mobile Services SDK v4 per Android - Panoramica
 
@@ -25,7 +24,7 @@ _Adobe Target con Adobe Mobile Services SDK v4 per_ Android è il punto di parte
 
 Dopo aver completato questa esercitazione, sarai in grado di:
 
-* Convalida la configurazione [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)
+* Convalida la configurazione [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
 * Implementa i seguenti tipi di richieste [!DNL Target]:
    * Preacquisizione del contenuto [!DNL Target]
    * Eseguire il batch di più [!DNL Target] posizioni (mbox) in una singola richiesta
@@ -44,7 +43,7 @@ In queste lezioni, si presume che tu:
 
 * Disporre di un ID Adobe e di un accesso a livello di approvatore all&#39;interfaccia Adobe Target (consulta i passaggi di verifica seguenti)
 * Conosci il tuo codice client Adobe Target in modo da poter effettuare richieste al tuo account. Il codice client viene visualizzato nell’interfaccia di Adobe Target nella sezione   Configurazione > Implementazione > Schermata Modifica impostazioni at.js
-* Accedere all&#39; [interfaccia utente di Mobile Services](https://mobilemarketing.adobe.com) e acquisirne familiarità
+* Accedere all&#39; [interfaccia utente di Mobile Services](https://mobilemarketing.adobe.com/) e acquisirne familiarità
 * Disporre di un IDE per lo sviluppo di app mobili Android. Questa esercitazione presenta [Android Studio](https://developer.android.com/studio/install) in vari passaggi e schermate
 
 Se non disponi dell&#39;accesso richiesto alle soluzioni Experience Cloud, contatta l&#39;amministratore di Experience Cloud.

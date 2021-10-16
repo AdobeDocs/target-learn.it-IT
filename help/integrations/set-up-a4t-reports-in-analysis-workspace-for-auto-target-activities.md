@@ -3,15 +3,14 @@ title: Come impostare rapporti A4T in Analysis Workspace per le attività di Tar
 description: Una volta implementata l’integrazione di Analytics for Target (A4T) e eseguite le attività di Targeting automatico, come potete assicurarvi di interpretare correttamente i risultati? Segui questi passaggi per configurare i rapporti A4T in Analysis Workspace in modo da ottenere i risultati previsti durante l’esecuzione delle attività di Targeting automatico.
 role: User
 level: Intermediate
-topic: Personalizzazione, Integrazioni
-feature: Analytics for Target (A4T), Targeting automatico, Integrazioni
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2252'
 ht-degree: 1%
 
 ---

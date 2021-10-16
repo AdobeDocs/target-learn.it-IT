@@ -4,16 +4,15 @@ description: Questi due video introducono gli addetti al marketing al Compositor
 landing-page-description: Guarda questi video per scoprire come creare attività utilizzando il Compositore esperienza visivo.
 role: User
 level: Beginner
-topic: Personalizzazione
-feature: Compositore esperienza visivo, esperienze e offerte
+topic: Personalization
+feature: Visual Experience Composer (VEC), Experiences and Offers
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 18%
+source-wordcount: '129'
+ht-degree: 20%
 
 ---
 

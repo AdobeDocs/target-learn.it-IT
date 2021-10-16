@@ -7,15 +7,13 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 4b153e4f-a979-49a8-8c26-f7ac95162a2f
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
-
 
 # Creare tipi di pubblico e offerte in Adobe Target
 
@@ -106,7 +104,7 @@ Ora creeremo alcuni tipi di pubblico per alcune delle destinazioni offerte dall&
 
 ## Creare offerte
 
-Ora creiamo offerte per visualizzare questi messaggi. Come promemoria, le offerte sono snippet di codice/contenuto, che vengono recapitati nella risposta [!DNL Target] . Vengono create più spesso nell’interfaccia utente [!DNL Target], ma possono anche essere create tramite API o utilizzando l’integrazione Frammenti esperienza con Adobe Experience Manager. Nelle app per dispositivi mobili, le offerte JSON sono comuni. In questa esercitazione utilizzeremo le offerte HTML, che possono essere utilizzate per distribuire qualsiasi contenuto di testo normale (incluso JSON) nell’app.
+Ora creiamo offerte per visualizzare questi messaggi. Come promemoria, le offerte sono snippet di codice/contenuto, che vengono recapitati nella risposta [!DNL Target] . Vengono create più spesso nell’interfaccia utente [!DNL Target], ma possono anche essere create tramite API o utilizzando l’integrazione Frammenti esperienza con Adobe Experience Manager. Nelle app per dispositivi mobili, le offerte JSON sono comuni. In questa esercitazione utilizzeremo le offerte HTML , che possono essere utilizzate per distribuire qualsiasi contenuto in testo normale (incluso JSON) nell’app.
 
 ### Creare l’offerta per i nuovi utenti
 

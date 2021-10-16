@@ -7,13 +7,12 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration, Overview
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -34,7 +33,7 @@ Questa esercitazione illustra agli sviluppatori le pratiche pratiche pratiche ch
 
 * Configurare e gestire le entità tramite l’API di Recommendations
 * Configurare e gestire criteri personalizzati tramite l’API di Recommendations
-* Scopri come utilizzare Recommendations con l’API di consegna per utilizzare i risultati dei consigli nei dispositivi non HTML
+* Scopri come utilizzare Recommendations con l’API di consegna per utilizzare i risultati dei consigli su dispositivi non HTML
 
 ## Destinatari
 

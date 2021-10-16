@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -21,11 +20,11 @@ ht-degree: 2%
 
 A questo punto, hai imparato a generare un token di accesso, utilizzando il flusso di autenticazione JWT, per utilizzare le API amministratore di Adobe Target con Adobe I/O.
 
-Puoi utilizzare le [API Recommendations](https://developers.adobetarget.com/api/recommendations/) per aggiungere, aggiornare o eliminare elementi nel catalogo dei consigli. Come per le altre API amministratore di Adobe Target, le API [!DNL Recommendations] richiedono l’autenticazione.
+You can use the [Recommendations APIs](https://developers.adobetarget.com/api/recommendations/) to add, update, or delete items in your recommendations catalog. Come per le altre API amministratore di Adobe Target, le API [!DNL Recommendations] richiedono l’autenticazione.
 
 >[!TIP]
 >
->Invia **[!UICONTROL IMS: JWT Genera + Auth tramite User Token]** richiedi ogni volta che hai bisogno di aggiornare il token di accesso per l&#39;autenticazione, dal momento che scade dopo 24 ore. Per istruzioni, consulta [Configurare l&#39;autenticazione API Adobe](../apis/configure-io-target-integration.md) .
+>Send the **[!UICONTROL IMS: JWT Generate + Auth via User Token]** request whenever you need to refresh your access token for authentication, since it expires after 24 hours. Per istruzioni, consulta [Configurare l&#39;autenticazione API Adobe](../apis/configure-io-target-integration.md) .
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -123,9 +122,9 @@ L’oggetto JSON può essere ridimensionato per inviare più prodotti. Ad esempi
     }
 ```
 
-1. Adesso tocca a te! Utilizza l&#39;API **Save Entities** per aggiungere i seguenti elementi al catalogo. Utilizza il JSON campione sopra come punto iniziale. Per includere altre entità, è necessario estendere il JSON.
+1. Adesso tocca a te! Use the **Save Entities** API to add the following items to your catalog. Utilizza il JSON campione sopra come punto iniziale. Per includere altre entità, è necessario estendere il JSON.
 
-   ![SaveEntities5.png](assets/SaveEntities06.png)
+   ![SaveEntities6.png](assets/SaveEntities06.png)
 
 Wow, sembra che gli ultimi due oggetti non appartengano. Esaminiamole utilizzando l&#39;API **Ottieni entità** e, se necessario, eliminale utilizzando l&#39;API **Elimina entità**.
 
@@ -153,13 +152,13 @@ I dettagli di entità possono essere recuperati solo per una singola entità all
 Se ricevi un errore che indica che l&#39;entità non è stata trovata, come mostrato nell&#39;esempio precedente, verifica che la richiesta venga inviata all&#39; [!DNL Target] ambiente corretto.
 
    >[!NOTE]
-   Se non viene specificato esplicitamente alcun ambiente, Get Entity tenta di ottenere l&#39;entità solo dall&#39; [ambiente predefinito](https://experienceleague.adobe.com/docs/target/using/administer/hosts.html?lang=en). Se desideri richiamare da un ambiente diverso da quello predefinito, devi specificare l’ID ambiente.
+   Se non viene specificato esplicitamente alcun ambiente, Get Entity tenta di ottenere l&#39;entità solo dall&#39; [ambiente predefinito](https://experienceleague.adobe.com/docs/target/using/administer/hosts.html?lang=en). If you wish to pull from any environment other than your default environment, you must specify the environment ID.
 
 4. Se necessario, aggiungi il parametro `environmentId` e invia nuovamente la richiesta.
 
    ![GetEntity4](assets/GetEntity4.png)
 
-5. Invia un&#39;altra richiesta **Get Entity**, questa volta per ispezionare l&#39;entità di cui entityId=kit2005.
+5. Send another **Get Entity** request, this time to inspect the entity whose entityId=kit2005.
 
    ![GetEntity5](assets/GetEntity5.png)
 
@@ -175,7 +174,7 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 
 >[!WARNING]
 Questa API elimina le entità a cui fanno riferimento gli ID specificati.
-Se non vengono forniti ID di entità, vengono eliminate tutte le entità nell’ambiente specificato. Se non viene fornito alcun ID ambiente, le entità verranno eliminate da tutti gli ambienti. Usa questo con cautela!
+If no entity IDs are provided, all entities in the given environment are deleted. Se non viene fornito alcun ID ambiente, le entità verranno eliminate da tutti gli ambienti. Usa questo con cautela!
 
 1. Passa a **[!DNL Target]> [!UICONTROL Configurazione] > [!UICONTROL Host] > [!UICONTROL Ambienti]** per ottenere l’ [!DNL Target] ID ambiente da cui desideri eliminare gli elementi.
 

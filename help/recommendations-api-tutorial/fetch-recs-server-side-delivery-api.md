@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 2%
@@ -19,7 +18,7 @@ ht-degree: 2%
 
 # Recupero di [!DNL Recommendations] con API di consegna
 
-Le API Adobe Target e Adobe Target [!DNL Recommendations] possono essere utilizzate per fornire risposte alle pagine web, ma possono anche essere utilizzate in esperienze non basate su HTML, incluse app, schermate, console, e-mail, chioschi e altri dispositivi di visualizzazione. In altre parole, quando non è possibile utilizzare le librerie [!DNL Target] e JavaScript, l’ **[!DNL Target]API di consegna** ci consente comunque di accedere all’intera gamma di funzionalità [!DNL Target] per fornire esperienze personalizzate.
+Le API Adobe Target e Adobe Target [!DNL Recommendations] possono essere utilizzate per fornire risposte alle pagine web, ma possono anche essere utilizzate in esperienze non basate su HTML, tra cui app, schermate, console, e-mail, chioschi e altri dispositivi di visualizzazione. In altre parole, quando non è possibile utilizzare le librerie [!DNL Target] e JavaScript, l’ **[!DNL Target]API di consegna** ci consente comunque di accedere all’intera gamma di funzionalità [!DNL Target] per fornire esperienze personalizzate.
 
 >[!NOTE]
 >
@@ -89,7 +88,7 @@ Utilizzando l’approccio descritto in questa esercitazione, puoi fare in modo c
 
 ## Implementazioni di esempio
 
-Le risorse seguenti forniscono esempi di diverse implementazioni non basate su HTML. Tieni presente che ogni implementazione sarà unica, a causa del sistema e dei dispositivi interessati.
+Le risorse seguenti forniscono esempi di diverse implementazioni non incentrate su HTML. Tieni presente che ogni implementazione sarà unica, a causa del sistema e dei dispositivi interessati.
 
 | Risorsa | Dettagli |
 | --- | --- |

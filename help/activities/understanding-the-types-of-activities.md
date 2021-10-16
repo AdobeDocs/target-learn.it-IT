@@ -4,16 +4,15 @@ description: Scopri i diversi tipi di attività inclusi in Adobe Target e come p
 landing-page-description: Scopri le nozioni di base delle attività A/B, dei test multivariati, delle attività di targeting delle esperienze, delle attività Recommendations e Automated Personalization.
 role: User
 level: Beginner
-topic: Personalizzazione
-feature: Attività, Test A/B, Test multivariati, Targeting esperienza, Recommendations, Automated Personalization, Compositore esperienza visivo
+topic: Personalization
+feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: effcb28d-56cc-4592-86b1-53b1c68e3672
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 31%
+source-wordcount: '122'
+ht-degree: 36%
 
 ---
 

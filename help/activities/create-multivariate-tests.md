@@ -3,15 +3,14 @@ title: Come creare test multivariati
 description: Questo video illustra agli utenti il flusso di lavoro chiave per la creazione di un test multivariato (MVT) in Adobe Target. Scopri i passaggi per creare e interpretare i test multivariati.
 role: User
 level: Beginner
-topic: Personalizzazione
-feature: Test multivariati, attività, Compositore esperienza visivo
+topic: Personalization
+feature: Multivariate Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 1389e511-9d7a-400e-9261-8a7655beab37
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---

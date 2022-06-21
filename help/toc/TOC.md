@@ -1,7 +1,7 @@
 ---
 user-guide-title: Esercitazioni di Adobe Target
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 18f3badbdcad6467f350b6f30aa0643a5a9d0139
+source-git-commit: 43487fac3c31ee9e069b5a1c884f171010a1478e
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 + [Panoramica degli Tutorials Adobe Target](../overview.md)
 + Amministrazione{#administration}
-   + [Strategia e leadership del pensiero]{#strategy}
+   + Strategia e leadership del pensiero{#strategy}
       + [Avvio rapido per test di personalizzazione e creazione di roadmap](../strategy/create-personalization-roadmap-testing-plan.md)
       + [Strategia di implementazione e governance del sistema](../dev101/1.1-implementation-strategy-sys-governance.md)
       + [Best practice per l’ottimizzazione con Adobe Target](../strategy/target-best-practices-for-optimization.md)

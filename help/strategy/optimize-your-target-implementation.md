@@ -1,10 +1,11 @@
 ---
 title: Ottimizzare l’implementazione di Adobe Target
-description: 'Panoramica dell’implementazione e della struttura di Adobe Target. Scopri come comprendere e controllare la configurazione della tua organizzazione. Scopri le tecniche e i suggerimenti comuni per la risoluzione dei problemi relativi alla creazione di un archivio di conoscenze per il tuo team. '
+description: Panoramica dell’implementazione e della struttura di Adobe Target. Scopri come comprendere e controllare la configurazione della tua organizzazione. Scopri le tecniche e i suggerimenti comuni per la risoluzione dei problemi relativi alla creazione di un archivio di conoscenze per il tuo team.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: 49b69f41-0993-437c-bb69-84392be427df
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -162,3 +163,5 @@ I documenti tipici in un archivio della conoscenza includono:
 * **Dashboard del programma** - un documento utilizzato per tenere traccia delle prestazioni del programma, della cadenza e dei benefici sui ricavi nel tempo.
 
 Per ulteriori informazioni, consulta la nostra [webinar](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) con Consulente Senior, Wilder Freed.
+
+Per saperne di più sulla strategia e la leadership del pensiero, consulta [Successo del cliente](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub

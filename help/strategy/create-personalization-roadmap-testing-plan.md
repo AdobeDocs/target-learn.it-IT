@@ -1,10 +1,11 @@
 ---
 title: QuickStart per test di personalizzazione e creazione di roadmap
-description: 'Scopri un framework che puoi utilizzare per iniziare a convalidare le attività di personalizzazione e crea una roadmap di personalizzazione da eseguire tramite Adobe Target e Adobe Analytics.  '
+description: Scopri un framework che puoi utilizzare per iniziare a convalidare le attività di personalizzazione e crea una roadmap di personalizzazione da eseguire tramite Adobe Target e Adobe Analytics.
 solution: Target,Analytics
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -86,3 +87,5 @@ Una volta che l’attività di personalizzazione ha coinvolto un campione rappre
 ### Ulteriori informazioni
 
 È consigliabile guardare questo video che illustra ciascuno di questi passaggi: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+
+Per saperne di più sulla strategia e la leadership del pensiero, consulta [Successo del cliente](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub

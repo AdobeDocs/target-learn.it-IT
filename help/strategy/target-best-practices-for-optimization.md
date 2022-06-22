@@ -1,10 +1,11 @@
 ---
 title: Best practice per l’ottimizzazione
-description: 'Scopri sei fondamentali di ottimizzazione per l’Adobe e come applicarli. '
+description: Scopri sei fondamentali di ottimizzazione per l’Adobe e come applicarli.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -115,3 +116,5 @@ La personalizzazione include anche il tipo di attività di test di Targeting esp
 Considerata la comprensione di cui sopra, l’Adobe consiglia di ottimizzare prima di personalizzare e di avanzare la personalizzazione da ampia a granulare. Per maturare le attività di personalizzazione da ampie a granulari, inizierai a utilizzare uno stile di personalizzazione uno-a-molti (ampio) (utilizzando il test A/B), quindi passerai allo stile di personalizzazione uno-a-uno (granulare) (utilizzando le attività di personalizzazione automatizzata).
 
 Per ulteriori informazioni, ascoltare [webinar sulla comprensione e l’ottimizzazione dell’implementazione di Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), con consulente aziendale, Katie Cozby.
+
+Per saperne di più sulla strategia e la leadership del pensiero, consulta [Successo del cliente](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub

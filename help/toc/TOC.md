@@ -1,9 +1,9 @@
 ---
 user-guide-title: Esercitazioni di Adobe Target
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: 66635392b30ee5fecc15438736ef829894da53bc
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '397'
 ht-degree: 8%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 8%
    + [Utilizzare le metriche nelle attività](../activities/use-metrics-in-activities.md)
 + Tipi di pubblico{#audiences}
    + [Utilizzare i tipi di pubblico](../audiences/use-audiences.md)
+   + [Creare tipi di pubblico](../audiences/create-audiences.md)
    + [Creare gli script di profilo](../audiences/create-profile-scripts.md)
    + [Utilizzare Confronto profili per creare tipi di pubblico](../audiences/use-profile-comparison-to-build-audiences.md)
 + Esperienze{#experiences}

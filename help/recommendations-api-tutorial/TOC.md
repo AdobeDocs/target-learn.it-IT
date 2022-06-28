@@ -1,21 +1,20 @@
 ---
 user-guide-title: Utilizzare le API di Recommendations
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
 
-# Utilizza le API Recommendations di Adobe Target{#recommendations-api-tutorial}
+# Utilizzare le API Recommendations di Adobe Target{#recommendations-api-tutorial}
 
-+ [Panoramica API Recs](recs-api-overview.md)
-+ [Gestire il catalogo con le API](manage-catalog.md)
-+ [Gestire criteri personalizzati](manage-custom-criteria.md)
-+ [Utilizzare l’API di consegna con Recommendations](fetch-recs-server-side-delivery-api.md)
++ [Panoramica API Recs](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank}
++ [Gestire il catalogo con le API](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
++ [Gestire criteri personalizzati](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
++ [Utilizzare l’API di consegna con Recommendations](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->

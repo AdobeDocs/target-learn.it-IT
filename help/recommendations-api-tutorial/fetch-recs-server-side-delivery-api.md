@@ -9,24 +9,24 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 2%
+source-wordcount: '1468'
+ht-degree: 1%
 
 ---
 
-# Recupero di [!DNL Recommendations] con API di consegna
+# Recupero [!DNL Recommendations] con l’API di consegna
 
-Le API Adobe Target e Adobe Target [!DNL Recommendations] possono essere utilizzate per fornire risposte alle pagine web, ma possono anche essere utilizzate in esperienze non basate su HTML, tra cui app, schermate, console, e-mail, chioschi e altri dispositivi di visualizzazione. In altre parole, quando non è possibile utilizzare le librerie [!DNL Target] e JavaScript, l’ **[!DNL Target]API di consegna** ci consente comunque di accedere all’intera gamma di funzionalità [!DNL Target] per fornire esperienze personalizzate.
+Adobe Target e Adobe Target [!DNL Recommendations] Le API possono essere utilizzate per fornire risposte alle pagine web, ma possono anche essere utilizzate in esperienze non basate su HTML, tra cui app, schermate, console, e-mail, chioschi e altri dispositivi di visualizzazione. In altre parole, quando [!DNL Target] le librerie e JavaScript non possono essere utilizzate, **[!DNL Target]API di consegna** consente di accedere a tutte le [!DNL Target] funzionalità per fornire esperienze personalizzate.
 
 >[!NOTE]
 >
-> Quando richiedi contenuto contenente raccomandazioni effettive (prodotti o elementi consigliati), utilizza l’ [!DNL Target] API di consegna.
+> Quando richiedi il contenuto contenente raccomandazioni effettive (prodotti o elementi consigliati), utilizza la funzione [!DNL Target] API di consegna.
 
 Per recuperare i consigli, invia una chiamata Adobe Target Delivery API POST con le informazioni contestuali appropriate, che possono includere un ID utente (da utilizzare con consigli specifici per il profilo, come gli elementi visualizzati di recente dall’utente), un nome mbox pertinente, parametri mbox, parametri di profilo o altri attributi. La risposta includerà entity.ids consigliati (e può includere altri dati di entità) in formato JSON o HTML, che può quindi essere visualizzato nel dispositivo.
 
-L’ [API di consegna](https://developers.adobetarget.com/api/delivery-api/) per Adobe Target espone tutte le funzioni esistenti fornite da una richiesta [!DNL Target] standard.
+La [API di consegna](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} per Adobe Target espone tutte le funzionalità esistenti che sono [!DNL Target] fornisce.
 
 >[!NOTE]
 >API di consegna:
@@ -34,21 +34,21 @@ L’ [API di consegna](https://developers.adobetarget.com/api/delivery-api/) per
 >* Non richiede autenticazione.
 >* Solo POST.
 >* Non elabora i cookie o le chiamate di reindirizzamento.
->* Non richiede o riconosce i &quot;ruoli utente&quot;. Recupera semplicemente il contenuto o segnala gli eventi ai server perimetrali [!DNL Target] .
+>* Non richiede o riconosce i &quot;ruoli utente&quot;. Recupera semplicemente il contenuto o segnala gli eventi a [!DNL Target] server perimetrali.
 
 
-Per utilizzare l’API di consegna per fornire esperienze [!DNL Target], incluse le raccomandazioni, segui questi passaggi:
+Per utilizzare l’API di consegna [!DNL Target] le esperienze, incluse le raccomandazioni, seguono questi passaggi:
 
-1. Crea un’attività [!DNL Target] (A/B, XT, AP o [!DNL Recommendations]) utilizzando il Compositore esperienza basato su moduli (non il Compositore esperienza visivo).
-2. Utilizza l’API di consegna per ricevere una risposta per le richieste generate dall’attività [!DNL Target] appena creata.
+1. Crea un [!DNL Target] attività (A/B, XT, AP o [!DNL Recommendations]) utilizzando il Compositore esperienza basato su moduli (non il Compositore esperienza visivo).
+2. Utilizza l’API di consegna per ottenere una risposta per le richieste generate da [!DNL Target] attività appena creata.
 
 <!-- Q: Why are BOTH steps necessary for this? If you have a Form-based recommendation defined for an mbox, what's the point/benefit of ALSO having the Delivery API step in to retrieve results? Why can't you just have the Form-based Rec deliver the results in the destination device...?? A: See use case below... it's when you want to "intercept" the pending results in order to do more stuff prior to displaying the results. Things like real-time comparisons to inventory levels. -->
 
 ## Creare una raccomandazione utilizzando il Compositore esperienza basato su moduli
 
-Per creare consigli che possono essere utilizzati con l&#39;API di consegna, utilizza il [Compositore basato su moduli](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=en).
+Per creare consigli che possono essere utilizzati con l’API di consegna, utilizza il [Compositore basato su moduli](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=en).
 
-1. Innanzitutto, crea e salva una progettazione basata su JSON da utilizzare nei consigli. Per un esempio di JSON e informazioni di base su come restituire le risposte JSON durante la configurazione di un’attività basata su moduli, consulta la documentazione su [Creazione di progettazioni di consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html?lang=en). In questo esempio, la progettazione si chiama *JSON semplice.*
+1. Innanzitutto, crea e salva una progettazione basata su JSON da utilizzare nei consigli. Per un esempio di JSON e informazioni di base su come restituire le risposte JSON durante la configurazione di un’attività basata su moduli, consulta la documentazione su [Creazione di progettazioni di consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html?lang=en). In questo esempio, la progettazione viene denominata *JSON semplice.*
 
    ![lato server-create-recs-json-design.png](assets/server-side-create-recs-json-design.png)
 
@@ -56,35 +56,35 @@ Per creare consigli che possono essere utilizzati con l&#39;API di consegna, uti
 
    ![lato server-side-create-recs.png](assets/server-side-create-recs.png)
 
-3. Seleziona una proprietà e fai clic su **[!UICONTROL Avanti]**.
-4. Definite la posizione in cui desiderate che gli utenti ricevano la risposta della raccomandazione. L&#39;esempio seguente utilizza una posizione denominata *api_charter*. Seleziona la progettazione basata su JSON, creata in precedenza, denominata *JSON semplice.*
+3. Seleziona una proprietà e fai clic su **[!UICONTROL Successivo]**.
+4. Definite la posizione in cui desiderate che gli utenti ricevano la risposta della raccomandazione. Nell&#39;esempio seguente viene utilizzata una posizione denominata *api_charter*. Seleziona la progettazione basata su JSON, creata in precedenza, denominata *JSON semplice.*
    ![lato server-create-recs-form.png](assets/server-side-create-recs-form1.png)
-5. Salvate e attivate la raccomandazione. Genererà risultati. [Quando i risultati sono pronti](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html?lang=en), puoi utilizzare l’API di consegna per recuperarli.
+5. Salvate e attivate la raccomandazione. Genererà risultati. [Una volta che i risultati sono pronti](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html?lang=en), puoi utilizzare l’API di consegna per recuperarle.
 
 ## Utilizzare l’API di consegna
 
-La sintassi per [API di consegna](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) è la seguente:
+La sintassi per [API di consegna](https://developer.adobe.com/target/implement/delivery-api/#tag/Delivery-API){target=_blank} è:
 
 `POST https://{{CLIENT_CODE}}.tt.omtrdc.net/rest/v1/delivery`
 
-1. Il codice client è obbligatorio. Come promemoria, il tuo codice client può essere trovato in Adobe Target passando a **[!UICONTROL Recommendations] > [!UICONTROL Impostazioni]**. Nota il valore **[!UICONTROL Codice client]** nella sezione **[!UICONTROL Token API per i consigli]** .
+1. Il codice client è obbligatorio. Come promemoria, il tuo codice cliente può essere trovato in Adobe Target navigando in **[!UICONTROL Recommendations] > [!UICONTROL Impostazioni]**. Tieni presente che **[!UICONTROL Codice client]** nel **[!UICONTROL Token API per i consigli]** sezione .
    ![client-code.png](assets/client-code.png)
-1. Una volta ottenuto il codice client, crea la chiamata API di consegna. L&#39;esempio seguente inizia con la **[!UICONTROL Chiamata API di consegna delle mbox con batch web]** fornita nella [Raccolta Postman API di consegna](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection), apportando le modifiche necessarie. Ad esempio:
-   * gli oggetti **browser** e **address** sono stati rimossi dal **corpo**, in quanto non sono necessari per i casi di utilizzo non HTML
-   * *api_* charteris è elencato come nome della posizione in questo esempio
-   * entity.id è specificato, poiché questa raccomandazione è basata su Somiglianza del contenuto, che richiede che una chiave di elemento corrente sia passata a [!DNL Target].
-      ![server-side-Delivery-API-call.](assets/server-side-delivery-api-call2.png)
-pngRicorda di configurare correttamente i parametri di query. Ad esempio, assicurati di specificare 
+1. Una volta ottenuto il codice client, crea la chiamata API di consegna. L’esempio seguente inizia con **[!UICONTROL Chiamata API di consegna mbox batch web]** di cui all&quot; [Raccolta Postman API consegna](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection)apportare le modifiche necessarie. Ad esempio:
+   * la **browser** e **indirizzo** gli oggetti sono stati rimossi dal **Corpo**, poiché non sono necessari per i casi d’uso non HTML
+   * *api_charter* è elencato come nome della posizione in questo esempio
+   * entity.id è specificato, poiché questa raccomandazione è basata su Somiglianza del contenuto, che richiede il passaggio di una chiave elemento corrente [!DNL Target].
+      ![lato server-side-Delivery-API-call.png](assets/server-side-delivery-api-call2.png)
+Ricorda di configurare correttamente i parametri di query. Ad esempio, assicurati di specificare 
 `{{CLIENT_CODE}}` se necessario. <!--Q: In the updated call syntax, entity.id is listed as a profileParameter instead of an mboxParameter as in older versions. --> <!--Q: Old image ![server-side-create-recs-post.png](assets/server-side-create-recs-post.png) Old accompanying text: "Note this recommendation is based on Content Similar products based on the entity.id sent via mboxParameters." -->
       ![client-code3](assets/client-code3.png)
-1. Invia la richiesta. Questo viene eseguito rispetto alla posizione *api_charter*, che dispone di un consiglio attivo in esecuzione, definita con la progettazione JSON che genera un elenco di entità consigliate.
+1. Invia la richiesta. Questo viene eseguito nei confronti del *api_charter* posizione, che dispone di un consiglio attivo in esecuzione, definita con la progettazione JSON che restituisce un elenco di entità consigliate.
 1. Ricevi una risposta basata sulla progettazione JSON.
-   ![server-side-create-recs-json-response2.](assets/server-side-create-recs-json-response2.png)
-pngLa risposta include l&#39;ID chiave e gli ID entità delle entità consigliate.
+   ![lato server-create-recs-json-response2.png](assets/server-side-create-recs-json-response2.png)
+La risposta include l&#39;ID chiave e gli ID entità delle entità consigliate.
 
-L’utilizzo dell’API di consegna con [!DNL Recommendations] in questo modo consente di eseguire passaggi aggiuntivi prima di visualizzare i consigli al visitatore sul dispositivo non HTML. Ad esempio, puoi prendere la risposta dall’API di consegna per eseguire una ricerca aggiuntiva in tempo reale dei dettagli degli attributi di entità (inventario, prezzo, valutazione e così via) da un altro sistema (ad esempio una piattaforma CMS, PIM o e-commerce) prima di visualizzare i risultati finali.
+Utilizzo dell’API di consegna con [!DNL Recommendations] in questo modo puoi eseguire passaggi aggiuntivi prima di visualizzare consigli al visitatore sul dispositivo non HTML. Ad esempio, puoi prendere la risposta dall’API di consegna per eseguire una ricerca aggiuntiva in tempo reale dei dettagli degli attributi di entità (inventario, prezzo, valutazione e così via) da un altro sistema (ad esempio una piattaforma CMS, PIM o e-commerce) prima di visualizzare i risultati finali.
 
-Utilizzando l’approccio descritto in questa esercitazione, puoi fare in modo che qualsiasi applicazione sfrutti la risposta di [!DNL Target] per fornire consigli personalizzati!
+Utilizzando l’approccio descritto in questa esercitazione, puoi ottenere da qualsiasi applicazione per sfruttare la risposta [!DNL Target] per fornire consigli personalizzati!
 
 ## Implementazioni di esempio
 
@@ -94,17 +94,17 @@ Le risorse seguenti forniscono esempi di diverse implementazioni non incentrate 
 | --- | --- |
 | [Adobe Target Ovunque - Implementa il lato server o in IoT](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit 2019 Lab che offre un’esperienza pratica per un’applicazione React che sfrutta le API lato server di Adobe Target. |
 | [Adobe Target in un’app mobile senza l’SDK per Adobi](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | Questa guida illustra come configurare Adobe Target nell’app mobile senza installare l’SDK per Adobe. Questa soluzione utilizza la webview dell’SDK di Tealium e il modulo Comandi remoti per inviare e ricevere richieste all’API visitatore di Adobe (Experience Cloud) e all’API di Adobe Target. |
-| [Funzionamento di Adobe Target nelle app per dispositivi mobili](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html?lang=en) | Funzionamento di [!DNL Target] con l&#39;SDK di Mobile |
-| [Configurazione  [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] delle API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Passaggi per configurare l’ estensione [!DNL Target] in Experience Platform Launch, aggiungere l’ [!DNL Target] all’app e implementare le API [!DNL Target] per richiedere attività, preacquisire offerte e accedere alla modalità di anteprima visiva. |
-| [Client nodo Adobe Target](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | SDK di Node.js v1.0 open source [!DNL Target] |
-| [Panoramica lato server](https://experienceleague.adobe.com/docs/target/using/implement-target/server-side/api-and-sdk-overview.html?lang=en) | Informazioni sulle API di distribuzione lato server di Adobe Target, API di distribuzione in batch lato server, SDK di Node.js e API Adobe Target [!DNL Recommendations]. |
+| [Funzionamento di Adobe Target nelle app per dispositivi mobili](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html?lang=en) | Come [!DNL Target] funziona con l’SDK di Mobile |
+| [Configurazione della [!DNL Target] estensione in Experience Platform Launch e implementazione [!DNL Target] API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Passaggi per la configurazione [!DNL Target] estensione in Experience Platform Launch, aggiunta di [!DNL Target] Estensione all’app e implementazione [!DNL Target] API per richiedere attività, offerte di preacquisizione e modalità di anteprima visiva. |
+| [Client nodo Adobe Target](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | Open-source [!DNL Target] SDK di Node.js v1.0 |
+| [Panoramica lato server](https://experienceleague.adobe.com/docs/target/using/implement-target/server-side/api-and-sdk-overview.html?lang=en) | Informazioni sulle API di distribuzione lato server di Adobe Target, API di distribuzione in batch lato server, SDK di Node.js e Adobe Target [!DNL Recommendations] API. |
 | [Adobe Campaign Content Recommendations in E-mail](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | Blog che descrive come sfruttare i consigli sui contenuti nelle e-mail tramite Adobe Target e Adobe I/O Runtime in Adobe Campaign. |
 
-## Gestione della [!DNL Recommendations] configurazione con le API
+## Gestione [!DNL Recommendations] Configurazione con le API
 
-Nella maggior parte dei casi, i consigli sono configurati nell’interfaccia utente di Adobe Target, quindi sono utilizzati o accessibili tramite le API [!DNL Target] , per motivi come quelli menzionati nelle sezioni precedenti. Questo coordinamento interfaccia utente-API è comune. Tuttavia, a volte gli utenti possono voler eseguire tutte le azioni tramite API, sia la configurazione che l’utilizzo dei risultati. Anche se molto meno comune, gli utenti possono configurare, eseguire in modo assoluto *e* sfruttare i risultati dei consigli utilizzando interamente le API.
+Nella maggior parte dei casi, i consigli sono configurati nell’interfaccia utente di Adobe Target e sono quindi utilizzati o accessibili tramite il [!DNL Target] API, per motivi come quelli menzionati nelle sezioni precedenti. Questo coordinamento interfaccia utente-API è comune. Tuttavia, a volte gli utenti possono voler eseguire tutte le azioni tramite API, sia la configurazione che l’utilizzo dei risultati. Anche se molto meno comune, gli utenti possono configurare, eseguire, *e* sfrutta i risultati dei consigli utilizzando interamente le API.
 
-In una [sezione precedente](manage-catalog.md) abbiamo imparato a gestire le entità Recommendations di Adobe Target e a distribuirle lato server. Analogamente, Adobe I/O consente di gestire criteri, promozioni, raccolte e modelli di progettazione senza dover accedere ad Adobe Target. È possibile trovare un elenco completo di tutte le [!DNL Recommendations] API [qui](https://developers.adobetarget.com/api/recommendations/), ma di seguito è riportato un riepilogo di riferimento.
+Abbiamo imparato in un [sezione precedente](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank} come gestire le entità Recommendations di Adobe Target e distribuirle lato server. Analogamente, Adobe I/O consente di gestire criteri, promozioni, raccolte e modelli di progettazione senza dover accedere ad Adobe Target. Un elenco completo di tutti [!DNL Recommendations] È possibile trovare le API [qui](https://developers.adobetarget.com/api/recommendations/), ma ecco un riassunto di riferimento.
 
 | Risorsa | Dettagli |
 | --- | --- |
@@ -123,13 +123,13 @@ In una [sezione precedente](manage-catalog.md) abbiamo imparato a gestire le ent
 
 ## Documentazione di riferimento
 
-* [Documentazione API di Adobe Target](https://developers.adobetarget.com/api/#getting-started)
-* [API di consegna Adobe Target](https://developers.adobetarget.com/api/delivery-api/)
-* [ [!DNL Recommendations] Integrare con l’e-mail](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
+* [Documentazione API per l’amministrazione di Adobe Target](https://developer.adobe.com/target/administer/admin-api/){target=_blank}
+* [API di consegna Adobe Target](https://developer.adobe.com/target/implement/delivery-api/){target=_blank}
+* [Integrare  [!DNL Recommendations]  con l’e-mail](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
 
 ## Riepilogo e revisione
 
 Congratulazioni! Concludendo questa esercitazione hai imparato a:
-* [Gestire il catalogo utilizzando l’API di Recommendations](manage-catalog.md)
-* [Gestire i criteri personalizzati tramite l’API di Recommendations](manage-custom-criteria.md)
-* [Utilizzare l’API di consegna con Recommendations](fetch-recs-server-side-delivery-api.md)
+* [Gestire il catalogo utilizzando l’API di Recommendations](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
+* [Gestire i criteri personalizzati utilizzando l’API di Recommendations](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
+* [Utilizzare l’API di consegna con Recommendations](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}

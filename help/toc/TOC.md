@@ -1,9 +1,9 @@
 ---
 user-guide-title: Esercitazioni di Adobe Target
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 43487fac3c31ee9e069b5a1c884f171010a1478e
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '395'
 ht-degree: 8%
 
 ---
@@ -88,6 +88,3 @@ ht-degree: 8%
    + [Risolvere i problemi relativi agli errori di integrazione A4T](../dev101/4.3-troubleshoot-integration-errors.md)
 + Dispositivi mobili{#mobile}
    + [Implementazione di Adobe Target con Adobe Mobile Services SDK v4 per Android](../mobile-v4/overview.md)
-+ API di {#apis}
-   + [Configurare l’autenticazione API di Adobe](../apis/configure-io-target-integration.md)
-   + [Utilizzare le API di Recommendations](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)

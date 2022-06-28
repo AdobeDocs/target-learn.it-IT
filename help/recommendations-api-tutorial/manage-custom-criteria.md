@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 1%
@@ -118,4 +118,4 @@ In questo caso, l’errore 404 previsto indica che i criteri eliminati non posso
 
 Congratulazioni! Ora puoi creare, elencare, modificare, eliminare e ottenere dettagli sui criteri personalizzati, utilizzando [!DNL Recommendations] API. Nella sezione successiva, utilizzerai il [!DNL Target] API di consegna per recuperare i consigli.
 
-[Successivo &quot;Recupera Recommendations con API di distribuzione lato server&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
+[Successivo &quot;Recupera Recommendations con API di distribuzione lato server&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=&quot;_blank&quot;}

@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 2%
@@ -24,7 +24,7 @@ A questo punto, hai imparato a generare un token di accesso, utilizzando il flus
 
 >[!TIP]
 >
->Invia **[!UICONTROL IMS: JWT Genera + Auth tramite token utente]** richiedi ogni volta che devi aggiornare il token di accesso per l’autenticazione, poiché scade dopo 24 ore. Vedi [Configurare l’autenticazione API di Adobe](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank} per le istruzioni.
+>Invia **[!UICONTROL IMS: JWT Genera + Auth tramite token utente]** richiedi ogni volta che devi aggiornare il token di accesso per l’autenticazione, poiché scade dopo 24 ore. Vedi [Configurare l’autenticazione API di Adobe](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;} per le istruzioni.
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -204,4 +204,4 @@ Se non vengono forniti ID di entità, vengono eliminate tutte le entità nell’
 
 Congratulazioni! Ora puoi utilizzare la [!DNL Recommendations] API per creare, aggiornare, eliminare e ottenere dettagli sulle entità nel catalogo. Nella sezione successiva verrà illustrato come gestire i criteri personalizzati.
 
-[Avanti &quot;Gestisci criteri personalizzati&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
+[Avanti &quot;Gestisci criteri personalizzati&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;}

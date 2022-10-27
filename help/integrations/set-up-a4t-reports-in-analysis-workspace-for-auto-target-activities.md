@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 1c09ae58070d9f55aab555531f9a03dacbb26f03
+source-git-commit: e1acb84970b967625e0b6c7495067ed6456a6aa3
 workflow-type: tm+mt
 source-wordcount: '2653'
 ht-degree: 1%
@@ -86,6 +86,7 @@ Confrontiamo i rapporti a livello di visitatore e di visita:
 | A | 1 | 1 | - | 0% | 0% |
 | B | 2 | 3 | 1 | 50% | 33,3% |
 | Totali | 2 | 4 | 1 | 50% | 25% |
+
 *Tabella 1: Esempio di confronto tra rapporti normalizzati sui visitatori e normalizzati sulle visite per uno scenario in cui le decisioni sono appiccicose a una visita (e non ai visitatori, come con i normali test A/B). Le metriche normalizzate dai visitatori confondono in questo scenario.*
 
 Come mostrato nella tabella, esiste una chiara incongruenza dei numeri a livello di visitatore. Nonostante il fatto che ci siano due visitatori unici totali, questa non è una somma di singoli visitatori unici per ogni esperienza. Anche se il tasso di conversione a livello di visitatore non è necessariamente sbagliato, quando si confrontano le singole esperienze, i tassi di conversione a livello di visita probabilmente hanno molto più senso. Formalmente, l’unità di analisi (&quot;visite&quot;) è la stessa dell’unità di decisione viscerale, il che significa che è possibile aggiungere e confrontare suddivisioni delle metriche a livello di esperienza.

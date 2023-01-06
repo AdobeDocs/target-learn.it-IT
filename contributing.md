@@ -1,9 +1,8 @@
 ---
-source-git-commit: ef3c016c2e7fdf12cefd340ec8ff988ad8e6c567
+source-git-commit: e3e1cf48415af1e54976fb8543927e093aca7194
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '296'
-ht-degree: 88%
+source-wordcount: '294'
+ht-degree: 89%
 
 ---
 # Contributi
@@ -18,9 +17,9 @@ Il progetto aderisce al [Codice di condotta Adobe](code-of-conduct.md). Con la t
 dovrai rispettare questo codice. Segnala comportamenti inaccettabili all’indirizzo
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Documentazione sulla guida per i collaboratori
+## Documentazione della Guida collaboratore
 
-Consulta la [Guida](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)ai collaboratori.
+Consulta la sezione [Guida collaboratore](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## Hai domande?
 
@@ -31,7 +30,7 @@ relativi (quando opportuno).
 ## Contratto di licenza del collaboratore
 
 Tutti i contributi di terze parti a questo progetto devono essere accompagnati da un contratto di licenza del collaboratore firmato. Questo autorizza Adobe a distribuire i tuoi contributi
-come parte del progetto. [Firmate il nostro contratto di licenza](http://opensource.adobe.com/cla.html). Dovrai
+come parte del progetto. [Firma il Contratto di licenza da collaboratore](http://opensource.adobe.com/cla.html). Dovrai
 inviare un contratto di licenza Adobe solo una volta, quindi se ne hai già inviato uno in precedenza,
 puoi procedere!
 
@@ -56,4 +55,4 @@ rivolgiti ai committer esistenti per parlarne con loro.
 
 ## Problemi di sicurezza
 
-I problemi relativi alla sicurezza non dovrebbero essere riportati in questo Issue tracker. Al contrario, [presenta un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/security/alertus.html)
+I problemi relativi alla sicurezza non dovrebbero essere riportati in questo Issue tracker. Invece, [segnala un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/security/alertus.html)

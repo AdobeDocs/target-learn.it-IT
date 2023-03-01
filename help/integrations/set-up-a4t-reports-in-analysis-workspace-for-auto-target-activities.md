@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: dd0c3ed5cd44d6b70b7c69bfcfbca5940900772b
+source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2282'
 ht-degree: 1%
 
 ---
@@ -203,6 +203,8 @@ La definizione completa della metrica calcolata è mostrata qui.
 ## Riepilogo: campione finale [!DNL Analysis Workspace] pannello per [!UICONTROL Targeting automatico] rapporti
 
 Combinando tutti i passaggi precedenti in un unico pannello, la figura seguente mostra una visualizzazione completa del rapporto consigliato per [!UICONTROL Targeting automatico] Attività A4T. Questo rapporto è lo stesso utilizzato dal [!DNL Target] modelli ML per ottimizzare la metrica obiettivo. Il rapporto incorpora tutte le sfumature e i consigli discussi in questa esercitazione. Questo rapporto è anche il più simile alle metodologie di conteggio utilizzate nelle [!DNL Target]-basato su reporting [!UICONTROL Targeting automatico] attività.
+
+Fare clic per espandere l&#39;immagine.
 
 ![Rapporto A4T finale in [!DNL Analysis Workspace]](assets/Figure8.png "Rapporto A4T in Analysis Workspace"){width="600" zoomable="yes"}
 

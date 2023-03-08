@@ -1,7 +1,6 @@
 ---
 title: Impostare rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL Allocazione automatica] Attività
 description: Come si configurano i rapporti A4T in [!DNL Analysis Workspace] per ottenere i risultati previsti durante l’esecuzione di [!UICONTROL Allocazione automatica] attività.
-badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,18 +8,14 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
+source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
 
 # Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!DNL Auto-Allocate] attività
-
->[!NOTE]
->
->Questa funzionalità è attualmente in versione beta e sarà disponibile per tutti [!UICONTROL Target] clienti in una versione futura.
 
 Un [!DNL Auto-Allocate] l’attività identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per il vincitore, mentre il test continua a essere eseguito e ad apprendere. Il [!UICONTROL Analytics for Target] Integrazione di (A4T) per [!UICONTROL Allocazione automatica] consente di visualizzare i dati di reporting in [!DNL Adobe Analytics], e puoi anche ottimizzare per eventi personalizzati o metriche definite in [!DNL Analytics].
 

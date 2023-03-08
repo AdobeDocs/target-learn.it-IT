@@ -2,7 +2,6 @@
 title: Impostare rapporti A4T in [!DNL Analysis Workspace] per [!DNL Auto-Target] Attività
 description: Come si configurano i rapporti A4T in [!DNL Analysis Workspace] per ottenere i risultati previsti durante l’esecuzione di [!UICONTROL Targeting automatico] attività?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,18 +10,14 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
+source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
 workflow-type: tm+mt
-source-wordcount: '2282'
+source-wordcount: '2253'
 ht-degree: 1%
 
 ---
 
 # Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!DNL Auto-Target] attività
-
->[!NOTE]
->
->Questa funzionalità è attualmente in versione beta e sarà disponibile per tutti [Target Premium](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium){target=_blank} clienti in una versione futura.
 
 >[!IMPORTANT]
 >

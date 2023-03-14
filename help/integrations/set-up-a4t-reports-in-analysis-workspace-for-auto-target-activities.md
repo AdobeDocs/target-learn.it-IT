@@ -2,6 +2,7 @@
 title: Impostare rapporti A4T in [!DNL Analysis Workspace] per [!DNL Auto-Target] Attività
 description: Come si configurano i rapporti A4T in [!DNL Analysis Workspace] per ottenere i risultati previsti durante l’esecuzione di [!UICONTROL Targeting automatico] attività?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,7 +11,7 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 1%
@@ -51,7 +52,7 @@ Per creare un elemento A4T per [!UICONTROL Targeting automatico] rapporto, inizi
 
 ## Utilizza il [!UICONTROL Controllo e destinazione] dimensione per confrontare il [!DNL Target] assemblare il modello ML per il tuo controllo
 
-Il pannello A4T predefinito è progettato per il classico (manuale) [!UICONTROL Test A/B] o [!UICONTROL Allocazione automatica] attività in cui l’obiettivo è quello di confrontare le prestazioni delle singole esperienze rispetto all’esperienza di controllo. In entrata [!UICONTROL Targeting automatico] attività, tuttavia, il confronto di primo ordine deve essere tra il controllo *strategia* e il target *strategia*. In altri termini, la determinazione dell&#39;incremento delle prestazioni complessive del [!UICONTROL Targeting automatico] modello ML completo sulla strategia di controllo).
+Il pannello A4T predefinito è progettato per il classico (manuale) [!UICONTROL Test A/B] o [!UICONTROL Allocazione automatica] attività in cui l’obiettivo è quello di confrontare le prestazioni delle singole esperienze rispetto all’esperienza di controllo. In entrata [!UICONTROL Targeting automatico] attività, tuttavia, il confronto di primo ordine deve essere tra il controllo *strategia* e il target *strategia*. In altri termini, la determinazione dell&#39;incremento delle prestazioni complessive del [!UICONTROL Targeting automatico] assemblare il modello ML sulla strategia di controllo.
 
 Per eseguire questo confronto, utilizzare **[!UICONTROL Controllo e destinazione (Analytics for Target)]** dimensione. Trascina per sostituire **[!UICONTROL Esperienze Target]** nel rapporto A4T predefinito.
 

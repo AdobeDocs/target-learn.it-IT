@@ -1,6 +1,6 @@
 ---
 title: Scopri come utilizzare Adobe Target
-description: Scopri come utilizzare [!DNL Adobe Target] con questa raccolta di tutorial e video che coprono tutti i suoi componenti.
+description: Scopri come utilizzare [!DNL Adobe Target] con questa raccolta di esercitazioni e video che coprono tutti i relativi componenti.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # Scopri come utilizzare Adobe Target
 
-[!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali. Segui questi video e tutorial per scoprire i numerosi componenti di [!DNL Adobe Target].
+[!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali. Utilizza questi video e tutorial per scoprire i numerosi componenti di [!DNL Adobe Target].
 
 <div id="whats-new-section">
 
@@ -22,15 +22,15 @@ ht-degree: 15%
 
 * **[Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!DNL Auto-Allocate] attività](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
 
-   Per gli operatori del settore: [!UICONTROL Analytics for Target] Integrazione di (A4T) per [!UICONTROL Allocazione automatica] consente di visualizzare i dati di reporting in [!DNL Adobe Analytics], e puoi anche ottimizzare per eventi personalizzati o metriche definite in [!DNL Analytics].
+   Per gli operatori del settore: La [!UICONTROL Analytics for Target] Integrazione (A4T) per [!UICONTROL Allocazione automatica] consente di visualizzare i dati di reporting in [!DNL Adobe Analytics]e puoi persino ottimizzare eventi personalizzati o metriche definiti in [!DNL Analytics].
 
 * **[Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL Targeting automatico] attività](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
 
-   Per gli utenti business: stai utilizzando A4T per [!UICONTROL Targeting automatico]? Segui questi passaggi per configurare i rapporti A4T in [!DNL Analysis Workspace] per assicurarsi di ottenere i risultati previsti durante l’esecuzione di [!UICONTROL Targeting automatico] attività.
+   Per gli operatori del settore: Stai utilizzando A4T per [!UICONTROL Targeting automatico]? Segui questi passaggi per configurare i rapporti A4T in [!DNL Analysis Workspace] per assicurarsi di ottenere i risultati previsti durante l&#39;esecuzione [!UICONTROL Targeting automatico] attività.
 
 * **[Panoramica del decisioning sul dispositivo](implementation/on-device-decisioning-overview.md)**
 
-   Per gli architetti: guida introduttiva a [!UICONTROL decisioning sul dispositivo] per offrire esperienze di latenza pressoché pari a zero ai tuoi consumatori.
+   Per gli architetti: Introduzione a [!UICONTROL decisioni su dispositivi] per fornire esperienze di latenza quasi zero ai consumatori.
 
 <!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
     *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
@@ -57,7 +57,7 @@ ht-degree: 15%
 
 <div id="staff-picks-section">
 
-## Scelte del personale
+## Scatole dello staff
 
 <table>
 <tr>
@@ -71,7 +71,7 @@ ht-degree: 15%
     </a>
     </div>
     <p>
-    <em>Accelerare l’implementazione web con Launch</em>
+    <em>Implementazione web più rapida con Launch</em>
     <p>
   </td>
   <td>
@@ -84,20 +84,20 @@ ht-degree: 15%
     </a>
     </div>
     <p>
-    <em>Scopri come at.js 2.x supporta l’SPA</em>
+    <em>Scopri come at.js 2.x supporta SPA</em>
     <p>
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Risoluzione dei problemi di Target con il Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Risolvere i problemi di Target con il Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Risoluzione dei problemi di Target con il Experience Cloud Debugger</strong>
+    <strong>Risolvere i problemi di Target con il Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
-    <em>Zoom avanti sull’implementazione</em>
+    <em>Zoom avanti dell'implementazione</em>
     <p>
   </td>
 </tr>

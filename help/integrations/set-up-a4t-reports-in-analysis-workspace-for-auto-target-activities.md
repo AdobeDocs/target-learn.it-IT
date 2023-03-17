@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 0c15c9f448556ba4f5746de62f0673c16202d65f
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2647'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ Il pannello finale viene visualizzato come segue:
 
 *Figura 6: Pannello di reporting con il segmento &quot;Hit con specifica attività di Targeting automatico&quot; applicato al [!UICONTROL Visite] metrica. Questo segmento assicura che solo le visite in cui un utente ha effettivamente interagito con [!DNL Target] Le attività in questione sono incluse nel rapporto.*
 
-## Allinea l’attribuzione tra la formazione sul modello ML e la generazione della metrica obiettivo
+## Assicurati che la metrica di obiettivo e l’attribuzione siano allineate con il criterio di ottimizzazione
 
 L’integrazione A4T consente [!UICONTROL Targeting automatico] Modello ML da utilizzare *addestrato* utilizzando gli stessi dati evento di conversione che [!DNL Adobe Analytics] utilizza *generare rapporti sulle prestazioni*. Tuttavia, vi sono alcune ipotesi che devono essere utilizzate per interpretare questi dati durante la formazione dei modelli ML, che differiscono dalle ipotesi di default formulate durante la fase di segnalazione in [!DNL Adobe Analytics].
 
@@ -148,7 +148,13 @@ Pertanto, la differenza tra l’attribuzione utilizzata dal [!DNL Target] i mode
 
 >[!TIP]
 >
->Se i modelli ML vengono ottimizzati per una metrica che viene attribuita in modo diverso rispetto alle metriche visualizzate in un rapporto, le prestazioni dei modelli potrebbero non essere quelle previste. Per evitare questa situazione, accertati che le metriche dell’obiettivo nel rapporto utilizzino la stessa attribuzione utilizzata dal [!DNL Target] Modelli ML.
+>Se i modelli ML vengono ottimizzati per una metrica che viene attribuita in modo diverso rispetto alle metriche visualizzate in un rapporto, le prestazioni dei modelli potrebbero non essere quelle previste. Per evitare questo problema, accertati che le metriche dell’obiettivo nel rapporto utilizzino la stessa definizione metrica e attribuzione utilizzata dal [!DNL Target] Modelli ML.
+
+La definizione esatta della metrica e le impostazioni di attribuzione dipendono dal [criterio di ottimizzazione](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) hai specificato durante la creazione dell’attività.
+
+### Conversioni definite da Target, o [!DNL Analytics] metriche con *Massimizza valore della metrica per visita*
+
+Quando la metrica è un [!DNL Target] o un [!DNL Analytics] metriche con **Massimizza valore della metrica per visita**, la definizione della metrica obiettivo consente di verificare più eventi di conversione nella stessa visita.
 
 Per visualizzare le metriche dell’obiettivo con la stessa metodologia di attribuzione utilizzata dalla [!DNL Target] Modelli ML, seguire questi passaggi:
 
@@ -170,9 +176,43 @@ Per visualizzare le metriche dell’obiettivo con la stessa metodologia di attri
 
 Questi passaggi assicurano che il rapporto attribuisca la metrica di obiettivo alla visualizzazione dell’esperienza, se si è verificato l’evento della metrica di obiettivo *qualsiasi ora* (&quot;partecipazione&quot;) nella stessa visita in cui è stata mostrata un’esperienza.
 
+### [!DNL Analytics] metriche con *Tassi di conversione delle visite univoci*
+
+**Definire la visita con un segmento di metrica positiva**
+
+Nello scenario in cui hai selezionato *Massimizza il tasso di conversione della visita univoca* come criterio di ottimizzazione, la definizione corretta del tasso di conversione è la frazione di visite in cui il valore della metrica è positivo. Questo può essere ottenuto creando un segmento che filtra verso il basso le visite con un valore positivo della metrica, e quindi filtrando la metrica visite.
+
+1. Come prima, seleziona la **[!UICONTROL Componenti > Crea segmento]** in [!DNL Analysis Workspace] barra degli strumenti.
+2. Specifica una **[!UICONTROL Titolo]** per il segmento.
+
+   Nell’esempio seguente, il segmento viene denominato [!DNL "Visits with an order"].
+
+3. Trascina nel segmento la metrica di base utilizzata nell’obiettivo di ottimizzazione.
+
+   Nell’esempio riportato di seguito, utilizziamo il **ordini** , in modo che il tasso di conversione misuri la frazione di visite in cui viene registrato un ordine.
+
+4. In alto a sinistra del contenitore di definizione del segmento, seleziona **[!UICONTROL Includi]** **Visita**.
+5. Utilizza la **[!UICONTROL è maggiore di]** e impostare il valore su 0.
+
+   Impostare il valore su 0 significa che questo segmento include le visite in cui la metrica degli ordini è positiva.
+
+6. Fai clic su **[!UICONTROL Salva]**.
+
+![Figura7.png](assets/Figure7.png)
+
+*Figura 7: Filtraggio della definizione del segmento alle visite con un ordine positivo. A seconda della metrica di ottimizzazione dell’attività, è necessario sostituire gli ordini con una metrica appropriata*
+
+**Applicalo alle visite nella metrica filtrata dell’attività**
+
+Questo segmento può ora essere utilizzato per filtrare le visite con un numero positivo di ordini e in cui è stato rilevato un hit per il [!DNL Auto-Target] attività. La procedura di filtraggio di una metrica è simile a prima e dopo l’applicazione del nuovo segmento alla metrica di visita già filtrata, il pannello di rapporto dovrebbe essere simile alla Figura 8
+
+![Figura 8.png](assets/Figure8.png)
+
+*Figura 8: Il pannello di rapporto con la metrica di conversione visita univoca corretta: il numero di visite in cui è stato registrato un hit dall&#39;attività e in cui la metrica di conversione (ordini in questo esempio) era diversa da zero.*
+
 ## Passaggio finale: Crea un tasso di conversione che cattura la magia di cui sopra
 
-Con le modifiche apportate al [!UICONTROL Visita] e le metriche dell’obiettivo nelle sezioni precedenti, l’ultima modifica da apportare al tuo A4T predefinito per [!UICONTROL Targeting automatico] il pannello di reporting consiste nel creare tassi di conversione che sono il rapporto corretto (quello di una metrica di obiettivo con la giusta attribuzione), in un filtro appropriato [!UICONTROL Visite] metrica.
+Con le modifiche apportate al [!UICONTROL Visita] e metriche obiettivo nelle sezioni precedenti, l’ultima modifica da apportare al tuo A4T predefinito per [!DNL Auto-Target] il pannello di reporting è quello di creare tassi di conversione che siano il rapporto corretto, quello della metrica di obiettivo corretta, in una metrica &quot;Visite&quot; filtrata in modo appropriato.
 
 A tale scopo, crea un [!UICONTROL Metrica calcolata] utilizzando i seguenti passaggi:
 
@@ -186,9 +226,13 @@ A tale scopo, crea un [!UICONTROL Metrica calcolata] utilizzando i seguenti pass
 1. Trascina **[!UICONTROL Visite]** nel contenitore di segmenti.
 1. Fai clic su **[!UICONTROL Salva]**.
 
+>[!TIP]
+>
+> Puoi anche creare questa metrica utilizzando la variabile [funzionalità metriche calcolate rapide](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+
 La definizione completa della metrica calcolata è mostrata qui.
 
-![Figura7.png](assets/Figure7.png)
+![Figura9.png](assets/Figure9.png)
 
 *Figura 7: Definizione della metrica del tasso di conversione del modello corretto per le visite e corretta per l’attribuzione. (Nota che questa metrica dipende dalla metrica e dall’attività dell’obiettivo. In altre parole, questa definizione di metrica non è riutilizzabile tra le attività.)*
 
@@ -202,6 +246,6 @@ Combinando tutti i passaggi sopra descritti in un unico pannello, la figura segu
 
 Fare clic per espandere l&#39;immagine.
 
-![Rapporto finale A4T in [!DNL Analysis Workspace]](assets/Figure8.png "Rapporto A4T in Analysis Workspace"){width="600" zoomable="yes"}
+![Rapporto finale A4T in [!DNL Analysis Workspace]](assets/Figure10.png "Rapporto A4T in Analysis Workspace"){width="600" zoomable="yes"}
 
-*Figura 8: L’A4T finale [!UICONTROL Targeting automatico] in [!DNL Adobe Analytics] [!DNL Workspace], che combina tutte le regolazioni alle definizioni metriche descritte nelle sezioni precedenti di questa esercitazione.*
+*Figura 10: L’A4T finale [!UICONTROL Targeting automatico] in [!DNL Adobe Analytics] [!DNL Workspace], che combina tutte le regolazioni alle definizioni metriche descritte nelle sezioni precedenti di questa esercitazione.*

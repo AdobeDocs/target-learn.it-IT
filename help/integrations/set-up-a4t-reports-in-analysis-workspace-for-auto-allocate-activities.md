@@ -9,9 +9,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Questa esercitazione illustra le modifiche consigliate per l&#39;analisi [!DNL A
    * Il criterio di ottimizzazione &quot;massimizza il tasso di conversione del visitatore univoco&quot; ha un tasso di conversione il cui numeratore è un conteggio dei visitatori unici con un valore positivo della metrica.
    * Il &quot;valore della metrica di massimizzazione per visitatore* ha un tasso di conversione il cui numeratore è il valore della metrica regolare in [!DNL Adobe Analytics]. Questa è fornita per impostazione predefinita nella **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace].
 * Quando la metrica di ottimizzazione è un [!DNL Target] metrica di conversione definita, predefinita **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace] gestisce la configurazione del pannello.
-* La [!UICONTROL Affidabilità] numeri visti in [!DNL Analysis Workspace] non riflettono [statistiche più conservative utilizzate da [!UICONTROL Allocazione automatica]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)E quindi non si deve tenere conto di questo. Fai invece riferimento a questi valori in [!DNL Target] rapporti.
+* La [!UICONTROL Affidabilità] numeri visti in [!DNL Analysis Workspace] non riflettono [statistiche più conservative utilizzate da [!UICONTROL Allocazione automatica]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)e devono essere rimossi dal pannello A4T. Fai invece riferimento a questi valori in [!DNL Target] rapporti.
 
 ## Creare A4T per [!DNL Auto-Allocate] pannello in [!DNL Analysis Workspace]
 
@@ -51,7 +51,7 @@ Per creare un A4T per [!DNL Auto-Allocate] inizia con **[!UICONTROL Analytics fo
 
 Maniglie predefinite del pannello A4T [!DNL Auto-Allocate] attività in cui la metrica obiettivo è [!DNL Target] conversione o [!DNL Analytics] con il criterio di ottimizzazione &quot;Massimizza valore metrica per visitatore&quot;.
 
-Viene mostrato un esempio di questo pannello per [!UICONTROL Entrate] , dove &quot;Massimizza valore metrica per visitatore&quot; è stato selezionato come criterio di ottimizzazione al momento della creazione dell’attività. Come accennato in precedenza, [!DNL Auto-Allocate] utilizza calcoli di affidabilità più conservativi rispetto a quelli utilizzati nel **[!UICONTROL Analytics for Target]** pannello. Adobe consiglia di rimuovere la metrica di affidabilità, nonché le relative metriche di incremento inferiore e superiore.
+Viene mostrato un esempio di questo pannello per [!UICONTROL Entrate] , dove &quot;Massimizza valore metrica per visitatore&quot; è stato selezionato come criterio di ottimizzazione al momento della creazione dell’attività. Come accennato in precedenza, [!DNL Auto-Allocate] utilizza calcoli di affidabilità più conservativi rispetto a quelli utilizzati nel **[!UICONTROL Analytics for Target]** pannello. Adobe consiglia di rimuovere la metrica di affidabilità dal pannello A4T, nonché le relative metriche di incremento inferiore e superiore. Fai invece riferimento a questi valori in [!DNL Target] rapporti.
 
 ![[!UICONTROL Analytics for Target - Rapporto Allocazione automatica] pannello](assets/AAFigure2.png)
 

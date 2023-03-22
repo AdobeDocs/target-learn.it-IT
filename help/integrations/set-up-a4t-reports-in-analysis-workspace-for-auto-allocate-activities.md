@@ -9,9 +9,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: dcea80b75953203556ae9ca001afd4b7edd756d2
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,14 @@ Questa esercitazione illustra le modifiche consigliate per l&#39;analisi [!DNL A
    * Il criterio di ottimizzazione &quot;massimizza il tasso di conversione del visitatore univoco&quot; ha un tasso di conversione il cui numeratore è un conteggio dei visitatori unici con un valore positivo della metrica.
    * Il &quot;valore della metrica di massimizzazione per visitatore* ha un tasso di conversione il cui numeratore è il valore della metrica regolare in [!DNL Adobe Analytics]. Questa è fornita per impostazione predefinita nella **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace].
 * Quando la metrica di ottimizzazione è un [!DNL Target] metrica di conversione definita, predefinita **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace] gestisce la configurazione del pannello.
-* La [!UICONTROL Affidabilità] numeri visti in [!DNL Analysis Workspace] non riflettono [statistiche più conservative utilizzate da [!UICONTROL Allocazione automatica]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)e devono essere rimossi dal pannello A4T. Fai invece riferimento a questi valori in [!DNL Target] rapporti.
+* Per tutti [!UICONTROL Allocazione automatica] attività create prima della [!DNL Target Standard/Premium] Versione 23.3.1 (28 marzo 2023) [!DNL Analytics Workspace] e [!DNL Target] visualizza lo stesso valore per [!UICONTROL Affidabilità].
+
+   Per tutti [!UICONTROL Allocazione automatica] le attività create dopo il 28 marzo 2023, la [!UICONTROL Affidabilità] numeri visti in [!DNL Analysis Workspace] non riflettono [statistiche più conservative utilizzate da [!UICONTROL Allocazione automatica]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629) se queste attività *entrambi* delle seguenti condizioni:
+
+   * [!DNL Analytics] come origine per la generazione di rapporti (A4T)
+   * [!DNL Analytics] metriche di ottimizzazione
+
+   Se *entrambi* di queste condizioni esistono [!UICONTROL Affidabilità] deve essere rimosso dal pannello A4T. Al contrario, fai riferimento a questi valori in [!DNL Target] rapporti.
 
 ## Creare A4T per [!DNL Auto-Allocate] pannello in [!DNL Analysis Workspace]
 

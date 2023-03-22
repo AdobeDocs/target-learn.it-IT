@@ -1,8 +1,8 @@
 ---
 title: Come impostare i rapporti A4T in [!DNL Analysis Workspace] per [!DNL Auto-Target] Attività
 description: Come configurare i rapporti A4T in [!DNL Analysis Workspace] per ottenere i risultati previsti durante l'esecuzione [!UICONTROL Targeting automatico] attività?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 538dfe6a26b4f62c52b24d54a189738677e63bf3
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2641'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Sebbene siano disponibili funzionalità avanzate di analisi in [!DNL Adobe Analy
 Questa esercitazione illustra le modifiche consigliate per l&#39;analisi [!UICONTROL Targeting automatico] attività [!DNL Analysis Workspace], che si basano sui seguenti concetti chiave:
 
 * La **[!UICONTROL Controllo e targeting]** può essere utilizzata per distinguere tra [!UICONTROL Controllo] esperienze rispetto a quelle servite dal [!UICONTROL Targeting automatico] algoritmo ML di raggruppamento.
-* Le visite devono essere utilizzate come metrica di normalizzazione quando visualizzi le suddivisioni delle prestazioni a livello di esperienza. Inoltre, [La metodologia di conteggio predefinita di Adobe Analytics può includere visite in cui l’utente non visualizza effettivamente il contenuto dell’attività](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics), ma questo comportamento predefinito può essere modificato utilizzando un segmento con ambito appropriato (dettagli qui sotto).
+* Le visite devono essere utilizzate come metrica di normalizzazione quando visualizzi le suddivisioni delle prestazioni a livello di esperienza. Inoltre, [La metodologia di conteggio predefinita di Adobe Analytics può includere visite in cui l’utente non visualizza effettivamente il contenuto dell’attività](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, ma questo comportamento predefinito può essere modificato utilizzando un segmento con ambito appropriato (dettagli qui sotto).
 * L’attribuzione dell’ambito di lookback per visita, nota anche come &quot;intervallo di lookback per visita&quot; sul modello di attribuzione prescritto, viene utilizzata dal [!DNL Adobe Target] I modelli ML durante le fasi di formazione e lo stesso modello di attribuzione (non predefinito) devono essere utilizzati per suddividere la metrica obiettivo.
 
 ## Creare A4T per [!UICONTROL Targeting automatico] pannello in [!DNL Analysis Workspace]
@@ -64,7 +64,7 @@ Nota: questa sostituzione invalida il valore predefinito [!UICONTROL Incremento 
 
 >[!NOTE]
 >
->Attualmente, [!UICONTROL Incremento e affidabilità] i numeri non sono disponibili per [!UICONTROL Controllo e targeting] dimensioni per i rapporti A4T per [!UICONTROL Targeting automatico]. Fino all&#39;aggiunta del supporto, [!UICONTROL Incremento e affidabilità] può essere calcolato manualmente scaricando il [calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
+>Attualmente, [!UICONTROL Incremento e affidabilità] i numeri non sono disponibili per [!UICONTROL Controllo e targeting] dimensioni per i rapporti A4T per [!UICONTROL Targeting automatico]. Fino all&#39;aggiunta del supporto, [!UICONTROL Incremento e affidabilità] può essere calcolato manualmente scaricando il [calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Aggiungere suddivisioni delle metriche a livello di esperienza
 
@@ -150,7 +150,7 @@ Pertanto, la differenza tra l’attribuzione utilizzata dal [!DNL Target] i mode
 >
 >Se i modelli ML vengono ottimizzati per una metrica che viene attribuita in modo diverso rispetto alle metriche visualizzate in un rapporto, le prestazioni dei modelli potrebbero non essere quelle previste. Per evitare questo problema, accertati che le metriche dell’obiettivo nel rapporto utilizzino la stessa definizione metrica e attribuzione utilizzata dal [!DNL Target] Modelli ML.
 
-La definizione esatta della metrica e le impostazioni di attribuzione dipendono dal [criterio di ottimizzazione](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) hai specificato durante la creazione dell’attività.
+La definizione esatta della metrica e le impostazioni di attribuzione dipendono dal [criterio di ottimizzazione](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} hai specificato durante la creazione dell’attività.
 
 ### Conversioni definite da Target, o [!DNL Analytics] metriche con *Massimizza valore della metrica per visita*
 

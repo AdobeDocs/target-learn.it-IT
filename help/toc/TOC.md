@@ -1,7 +1,7 @@
 ---
 user-guide-title: Esercitazioni di Adobe Target
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 398828af41f4d2a1d7620d8a7d1c290aae2cf34a
+source-git-commit: a61bec9451517f85db2d421b7cf09015d302b2aa
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 7%
@@ -48,7 +48,7 @@ ht-degree: 7%
    + [Integrare Target con Experience Cloud Audiences](../dev101/3.4-target-exc-audiences.md)
    + [Integrare Target con Campaign](../dev101/3.6-target-campaign.md)
    + [Integrare Target con la console Adobe Developer](../dev101/3.7-target-io.md)
-   + [Integrare Target con Real-Time CDP]{#rtcdp}
+   + Integrare Target con Real-Time CDP{#rtcdp}
       + [Personalizzazione dell’hit successivo con Adobe Target](../integrations/rtcdp/next-hit-personalization.md)
       + [Configurare la destinazione Adobe Target](../integrations/rtcdp/configure-the-target-destination.md)
       + [Attivare segmenti e attributi di profilo](../integrations/rtcdp/activate-segments-and-profile-attributes.md)

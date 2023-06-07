@@ -1,6 +1,6 @@
 ---
-title: Come utilizzare il confronto dei profili per creare tipi di pubblico
-description: Questo video mostra agli utenti di Adobe Target come utilizzare la funzione Confronto profili per confrontare due valori di profilo numerici l’uno rispetto l’altro durante la creazione di un pubblico.
+title: Utilizzare il confronto dei profili per creare tipi di pubblico
+description: Questo video mostra agli utenti di Adobe Target come utilizzare la funzione Confronto profili per confrontare due valori numerici di profilo l’uno rispetto all’altro durante la creazione di un pubblico.
 role: User
 level: Experienced
 topic: Personalization
@@ -9,22 +9,22 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '156'
 ht-degree: 5%
 
 ---
 
-# Utilizzare Confronto profili per creare tipi di pubblico in Adobe Target
+# Utilizzare il confronto dei profili per creare tipi di pubblico in Adobe Target
 
-La funzione [!UICONTROL Confronto profili] di Adobe Target consente di confrontare due valori di profilo numerici l&#39;uno rispetto l&#39;altro durante la creazione di un pubblico. Questo è estremamente utile se, ad esempio, trasmetti punteggi di propensione personalizzati in [!DNL Target] e vuoi personalizzare i contenuti in base al prodotto con il punteggio di propensione più alto.
+Il [!UICONTROL Confronto dei profili] funzionalità di Adobe Target consente di confrontare due valori numerici di profilo tra loro durante la creazione di un pubblico. Questa funzione è estremamente utile, ad esempio, se si trasmettono punteggi di tendenza personalizzati in [!DNL Target] e desiderano personalizzare il contenuto in base al prodotto con il punteggio di propensione più alto.
 
 ## Descrizione
 
-In questo video viene illustrato come:
+Questo video spiega come:
 
-* Confrontare i valori di profilo numerici (punteggi) passati ad Adobe Target
+* Confrontare i valori numerici di profilo (punteggi) trasmessi ad Adobe Target
 * Utilizza questi confronti di punteggio per definire i tipi di pubblico
 
 ## Pubblico previsto
@@ -36,6 +36,5 @@ In questo video viene illustrato come:
 ## Risorse aggiuntive
 
 * [Creazione di un pubblico di confronto di attributo di profilo](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [Metodi per immettere i dati in Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
 * [Creazione di tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
-* [Video Creazione di attività di targeting delle esperienze](../activities/create-experience-targeting-activities.md)
+* [Video su come creare attività di targeting delle esperienze](../activities/create-experience-targeting-activities.md)

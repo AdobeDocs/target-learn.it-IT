@@ -2,8 +2,10 @@
 title: Ottimizzare l’implementazione di Adobe Target
 description: Panoramica dell’implementazione e della struttura di Adobe Target. Scopri come comprendere e controllare la configurazione della tua organizzazione. Scopri le tecniche di risoluzione dei problemi più comuni e i suggerimenti per la creazione di un archivio delle conoscenze per il tuo team.
 solution: Target
+feature: Overview
+role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
@@ -118,7 +120,7 @@ L’Adobe consiglia di eseguire audit manuali mensili per:
 
 >[!NOTE]
 >
->L’Adobe consiglia di installare Adobe Experience Platform Debugger.
+>L’Adobe consiglia di installare l’Adobe Experience Platform Debugger.
 
 Di seguito sono riportati alcuni suggerimenti generali per la risoluzione di problemi durante l’accesso all’esperienza:
 

@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
+source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,13 @@ Questo tutorial illustra le modifiche consigliate per l’analisi [!DNL Auto-All
 
 * [!UICONTROL Visitor] deve sempre essere utilizzato come metrica di normalizzazione in [!DNL Auto-Allocate] attività.
 * Quando la metrica è un valore [!DNL Adobe Analytics] metrica, il calcolo del tasso di conversione varia, a seconda del tipo di criteri di ottimizzazione definiti durante l’impostazione dell’attività.
-   * Il numeratore del tasso di conversione &quot;massimizza visitatore univoco&quot; è un conteggio dei visitatori univoci *con un valore positivo della metrica*.
-   * Questo metodo non richiede un segmento aggiuntivo per corrispondere al tasso di conversione visualizzato nel [!DNL Target] UI.
-* Il numeratore del tasso di conversione &quot;massimizza valore della metrica per visitatore&quot; è il valore della metrica regolare in [!DNL Adobe Analytics]. Questa metrica viene fornita per impostazione predefinita nella [!DNL Analytics for Target] pannello in [!DNL Analysis Workspace].
-   * Che cosa significa: massimizza il numero di visitatori che convertono (&quot;conteggia una volta per visitatore&quot;).
-   * Questo metodo richiede la creazione di un segmento aggiuntivo nel reporting per corrispondere al tasso di conversione visualizzato nel [!DNL Target] UI.
+   * Tasso di conversione &quot;massimizza valore della metrica per visitatore&quot;: il numeratore è il valore della metrica regolare in [!DNL Adobe Analytics] (viene fornito per impostazione predefinita nella sezione [!UICONTROL Analytics for Target] pannello in [!DNL Analysis Workspace]).
+      * Che cosa significa: massimizza il numero di conversioni per visitatore (&quot;conteggio per visitatore&quot;).
+      * Questo metodo non richiede un segmento aggiuntivo per far corrispondere il tasso di conversione visualizzato nel [!DNL Target] UI.
+   * Il tasso di conversione &quot;massimizza visitatore univoco&quot;: il numeratore è un conteggio dei visitatori univoci con un valore positivo della metrica.
+      * Che cosa significa: massimizza il numero di visitatori che convertono (&quot;contano una volta per visitatore&quot;).
+      * Questo metodo *SÌ* richiedere la creazione di un segmento aggiuntivo nel reporting per corrispondere al tasso di conversione visualizzato nel [!DNL Target] UI.
+
 * Quando la metrica di ottimizzazione è un valore [!DNL Target] metrica di conversione definita, valore predefinito **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace] gestisce la configurazione del pannello.
 * Per tutti [!UICONTROL Allocazione automatica] attività create prima del [!DNL Target Standard/Premium] Versione 23.3.1 (30 marzo 2023) [!DNL Analytics Workspace] e [!DNL Target] visualizza lo stesso valore per [!UICONTROL Affidabilità].
 
@@ -45,7 +47,7 @@ Questo tutorial illustra le modifiche consigliate per l’analisi [!DNL Auto-All
 Per creare un pannello A4T per un [!DNL Auto-Allocate] rapporto inizia con **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace], come illustrato di seguito. Effettua quindi le seguenti selezioni:
 
 1. **[!UICONTROL Esperienza controllo]**: puoi scegliere qualsiasi esperienza.
-1. **[!UICONTROL Normalizing Metric]**: seleziona i visitatori (Visitatori è incluso nel pannello A4T per impostazione predefinita). [!DNL Auto-Allocate] normalizza sempre i tassi di conversione per visitatori univoci.
+1. **[!UICONTROL Normalizing Metric]**: seleziona Visitatori (i visitatori sono inclusi nel pannello A4T per impostazione predefinita). [!DNL Auto-Allocate] normalizza sempre i tassi di conversione per visitatori univoci.
 1. **[!UICONTROL Metriche di successo]**: seleziona la stessa metrica utilizzata durante la creazione dell’attività. Se si trattasse di un [!DNL Target] metrica di conversione definita, seleziona **Conversione attività**. In caso contrario, seleziona [!DNL Adobe Analytics] metrica utilizzata.
 
 ![[!UICONTROL Analytics for Target] configurazione del pannello per [!DNL Auto-Allocate] attività.](assets/AAFigure1.png)
@@ -74,9 +76,9 @@ Un esempio di questo pannello viene visualizzato per [!UICONTROL Ricavi] metrica
 
 *Figura 2: rapporto consigliato per [!DNL Auto-Allocate] attività con un [!DNL Analytics] metrica &quot;Massimizzare il valore della metrica per ottimizzazione visitatore&quot;. Per questi tipi di metriche, nonché [!DNL Target] metriche di conversione definite, l&#39;impostazione predefinita **[!UICONTROL Analytics for Target]**pannello in [!DNL Analysis Workspace] possono essere utilizzati.*
 
-## [!DNL Analytics] metriche con criteri di ottimizzazione &quot;Maximize Unique Visitor&quot;
+## [!DNL Analytics] metriche con criteri di ottimizzazione &quot;Massimizza tasso di conversione visitatore univoco&quot;
 
-Il criterio di ottimizzazione &quot;Massimizzare visitatore univoco con tasso di conversione&quot; si riferisce al conteggio di visitatori per i quali il valore della metrica è positivo. Ad esempio, se il tasso di conversione è definito come ricavo, il criterio &quot;Massimizza visitatore univoco con tasso di conversione&quot; verrà ottimizzato in base al numero di visitatori univoci per i quali il ricavo è maggiore di 0. In altre parole, questo criterio massimizzerebbe il conteggio dei visitatori che generano ricavi, piuttosto che il valore dei ricavi stessi.
+Il criterio di ottimizzazione &quot;Massimizzare il tasso di conversione visitatore univoco&quot; si riferisce al numero di visitatori per i quali il valore della metrica è positivo. Ad esempio, se il tasso di conversione è definito come ricavo, il criterio &quot;Massimizza tasso di conversione visitatore univoco&quot; verrà ottimizzato in base al numero di visitatori univoci per i quali il ricavo è maggiore di 0. In altre parole, questo criterio massimizzerebbe il conteggio dei visitatori che generano ricavi, piuttosto che il valore dei ricavi stessi.
 
 >[!NOTE]
 >

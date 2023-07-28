@@ -1,6 +1,6 @@
 ---
-title: Come impostare i rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL Allocazione automatica] Attività
-description: Come configurare i rapporti A4T in [!DNL Analysis Workspace] per ottenere i risultati previsti durante l'esecuzione [!UICONTROL Allocazione automatica] attività.
+title: Impostare rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL Allocazione automatica] Attività
+description: Come si configurano i rapporti A4T in [!DNL Analysis Workspace] per ottenere i risultati previsti durante l’esecuzione di [!UICONTROL Allocazione automatica] attività.
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,101 +8,121 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: bd8283d3c0e5fa9e690e377bc4dfbf6a147dd577
+source-git-commit: ef9e4667ab6e264f0dd324bfd8a7a14783952078
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
 
 # Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!DNL Auto-Allocate] attività
 
-Un [!DNL Auto-Allocate] l’attività identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per il vincitore, mentre il test continua a essere eseguito e ad apprendere. La [!UICONTROL Analytics for Target] Integrazione (A4T) per [!UICONTROL Allocazione automatica] consente di visualizzare i dati di reporting in [!DNL Adobe Analytics]e puoi persino ottimizzare eventi personalizzati o metriche definiti in [!DNL Analytics].
+Un [!DNL Auto-Allocate] l’attività identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente il traffico per il vincitore, mentre il test continua a essere eseguito e ad apprendere. Il [!UICONTROL Analytics for Target] Integrazione di (A4T) per [!UICONTROL Allocazione automatica] consente di visualizzare i dati di reporting in [!DNL Adobe Analytics], e puoi anche ottimizzare per eventi personalizzati o metriche definite in [!DNL Analytics].
 
-Sebbene siano disponibili funzionalità avanzate di analisi in [!DNL Adobe Analytics] [!DNL Analysis Workspace], alcune modifiche all&#39;impostazione predefinita **[!UICONTROL Analytics for Target]** Il pannello è necessario per interpretare correttamente [!DNL Auto-Allocate] attività, a causa delle sfumature [criteri di ottimizzazione](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
+Sebbene le funzionalità di analisi avanzate siano disponibili in [!DNL Adobe Analytics] [!DNL Analysis Workspace], alcune modifiche al valore predefinito **[!UICONTROL Analytics for Target]** potrebbe essere necessario un pannello per interpretare correttamente [!DNL Auto-Allocate] attività, a causa delle sfumature [criteri delle metriche di ottimizzazione](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
-Questa esercitazione illustra le modifiche consigliate per l&#39;analisi [!DNL Auto-Allocate] attività [!DNL Analysis Workspace]. I concetti chiave sono:
+Questo tutorial illustra le modifiche consigliate per l’analisi [!DNL Auto-Allocate] attività in [!DNL Analysis Workspace]. I concetti chiave sono:
 
-* [!UICONTROL Visitatori] deve essere sempre utilizzato come metrica di normalizzazione in [!DNL Auto-Allocate] attività.
-* Quando la metrica è un [!DNL Adobe Analytics] il numeratore appropriato per il tasso di conversione dipende dal tipo di criteri di ottimizzazione scelti durante l’impostazione dell’attività.
-   * Il criterio di ottimizzazione &quot;massimizza il tasso di conversione del visitatore univoco&quot; ha un tasso di conversione il cui numeratore è un conteggio dei visitatori unici con un valore positivo della metrica.
-   * Il &quot;massimizza il valore della metrica per visitatore&quot; ha un tasso di conversione il cui numeratore è il valore della metrica regolare in [!DNL Adobe Analytics]. Questa è fornita per impostazione predefinita nella **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace].
-* Quando la metrica di ottimizzazione è un [!DNL Target] metrica di conversione definita, predefinita **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace] gestisce la configurazione del pannello.
-* Per tutti [!UICONTROL Allocazione automatica] attività create prima della [!DNL Target Standard/Premium] Versione 23.3.1 (30 marzo 2023) [!DNL Analytics Workspace] e [!DNL Target] visualizza lo stesso valore per [!UICONTROL Affidabilità].
+* [!UICONTROL Visitor] deve sempre essere utilizzato come metrica di normalizzazione in [!DNL Auto-Allocate] attività.
+* Quando la metrica è un valore [!DNL Adobe Analytics] metrica, il calcolo del tasso di conversione varia, a seconda del tipo di criteri di ottimizzazione definiti durante l’impostazione dell’attività.
+   * Il numeratore del tasso di conversione &quot;massimizza visitatore univoco&quot; è un conteggio dei visitatori univoci *con un valore positivo della metrica*.
+   * Questo metodo non richiede un segmento aggiuntivo per corrispondere al tasso di conversione visualizzato nel [!DNL Target] UI.
+* Il numeratore del tasso di conversione &quot;massimizza valore della metrica per visitatore&quot; è il valore della metrica regolare in [!DNL Adobe Analytics]. Questa metrica viene fornita per impostazione predefinita nella [!DNL Analytics for Target] pannello in [!DNL Analysis Workspace].
+   * Che cosa significa: massimizza il numero di visitatori che convertono (&quot;conteggia una volta per visitatore&quot;).
+   * Questo metodo richiede la creazione di un segmento aggiuntivo nel reporting per corrispondere al tasso di conversione visualizzato nel [!DNL Target] UI.
+* Quando la metrica di ottimizzazione è un valore [!DNL Target] metrica di conversione definita, valore predefinito **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace] gestisce la configurazione del pannello.
+* Per tutti [!UICONTROL Allocazione automatica] attività create prima del [!DNL Target Standard/Premium] Versione 23.3.1 (30 marzo 2023) [!DNL Analytics Workspace] e [!DNL Target] visualizza lo stesso valore per [!UICONTROL Affidabilità].
 
-   Per tutti [!UICONTROL Allocazione automatica] le attività create dopo il 30 marzo 2023, i valori dell’intervallo di affidabilità visualizzati in [!DNL Analysis Workspace] non riflettono [statistiche più conservative utilizzate da [!UICONTROL Allocazione automatica]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} se queste attività *entrambi* delle seguenti condizioni:
+  Per tutti [!UICONTROL Allocazione automatica] attività create dopo il 30 marzo 2023, i valori dell’intervallo di affidabilità visualizzati in [!DNL Analysis Workspace] non riflettono [statistiche più conservative utilizzate da [!UICONTROL Allocazione automatica]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} in se tali attività hanno *entrambi* delle seguenti condizioni:
 
    * [!DNL Analytics] come origine per la generazione di rapporti (A4T)
    * [!DNL Analytics] metriche di ottimizzazione
 
-   Se *entrambi* di queste condizioni, le metriche di affidabilità devono essere rimosse dal pannello A4T. Al contrario, fai riferimento a questi valori in [!DNL Target] rapporti.
+  Le metriche di affidabilità devono essere rimosse dal pannello A4T. Fai riferimento a questi valori in [!DNL Target] reportistica.
 
 ## Creare A4T per [!DNL Auto-Allocate] pannello in [!DNL Analysis Workspace]
 
-Per creare un A4T per [!DNL Auto-Allocate] inizia con **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace], come illustrato di seguito. Effettua quindi le seguenti selezioni:
+Per creare un pannello A4T per un [!DNL Auto-Allocate] rapporto inizia con **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace], come illustrato di seguito. Effettua quindi le seguenti selezioni:
 
-1. **[!UICONTROL Control Experience]**: Puoi scegliere qualsiasi esperienza.
-2. **[!UICONTROL Normalizzazione della metrica]**: Seleziona Visitatori. [!DNL Auto-Allocate] normalizza sempre i tassi di conversione per visitatori univoci.
-3. **[!UICONTROL Metriche di successo]**: Seleziona la stessa metrica utilizzata durante la creazione dell’attività. Se questo fosse un [!DNL Target] metrica di conversione definita, seleziona **Conversione attività**. In caso contrario, seleziona la [!DNL Adobe Analytics] metrica utilizzata.
+1. Aggiungi l&#39;attività.
+1. **[!UICONTROL Esperienza controllo]**: puoi scegliere qualsiasi esperienza.
+1. **[!UICONTROL Normalizing Metric]**: seleziona i visitatori (Visitatori è incluso nel pannello A4T per impostazione predefinita). [!DNL Auto-Allocate] normalizza sempre i tassi di conversione per visitatori univoci.
+1. **[!UICONTROL Metriche di successo]**: seleziona la stessa metrica utilizzata durante la creazione dell’attività. Se si trattasse di un [!DNL Target] metrica di conversione definita, seleziona **Conversione attività**. In caso contrario, seleziona [!DNL Adobe Analytics] metrica utilizzata.
 
 ![[!UICONTROL Analytics for Target] configurazione del pannello per [!DNL Auto-Allocate] attività.](assets/AAFigure1.png)
 
 *Figura 1: [!UICONTROL Analytics for Target] configurazione del pannello per [!DNL Auto-Allocate] attività.*
 
+Si può anche arrivare ad un **[!UICONTROL Analytics for Target]** se fai clic sul collegamento dalla schermata del rapporto in [!DNL Adobe Target].
+
+## [!DNL Target] [!UICONTROL Conversione] metriche o [!DNL Analytics] metriche con criteri di ottimizzazione &quot;Maximize Metric Value Per Visitor&quot; (Massimizza valore metrica per visitatore)
+
+Quando la metrica di obiettivo è:
+
+* Una metrica di conversione di Target
+* Metrica di Analytics con criterio di ottimizzazione &quot;Massimizzare il valore della metrica per visitatore&quot;
+
+Il pannello A4T predefinito configura automaticamente il rapporto.
+
+Un esempio di questo pannello viene visualizzato per [!UICONTROL Ricavi] metrica, in cui &quot;Massimizza valore metrica per visitatore&quot; è stato selezionato come criterio di ottimizzazione al momento della creazione dell’attività. Come già accennato, [!DNL Auto-Allocate] utilizza calcoli di affidabilità più prudenti rispetto a quelli utilizzati nel **[!UICONTROL Analytics for Target]** pannello. L’Adobe consiglia di rimuovere la metrica di affidabilità dal pannello A4T, nonché le relative metriche di incremento inferiore e superiore. Fai riferimento invece ai valori di affidabilità in [!DNL Target] reportistica.
+
 >[!NOTE]
 >
-> È inoltre possibile ottenere un **[!UICONTROL Analytics for Target]** se fai clic sul collegamento dalla schermata del rapporto in [!DNL Adobe Target].
+>I valori di affidabilità nei rapporti di A4T sono meno conservativi di [!DNL Target] e potrebbe indicare in modo prematuro un vincitore per un [!UICONTROL Allocazione automatica] attività.
 
-## [!DNL Target] [!UICONTROL Conversione] metriche o [!DNL Analytics] metriche con criteri di ottimizzazione &quot;Massimizza valore metrica per visitatore&quot;
 
-Maniglie predefinite del pannello A4T [!DNL Auto-Allocate] attività in cui la metrica obiettivo è [!DNL Target] conversione o [!DNL Analytics] con il criterio di ottimizzazione &quot;Massimizza valore metrica per visitatore&quot;.
+![[!UICONTROL Analytics for Target - Rapporto di allocazione automatica] pannello](assets/AAFigure2.png)
 
-Viene mostrato un esempio di questo pannello per [!UICONTROL Entrate] , dove &quot;Massimizza valore metrica per visitatore&quot; è stato selezionato come criterio di ottimizzazione al momento della creazione dell’attività. Come accennato in precedenza, [!DNL Auto-Allocate] utilizza calcoli di affidabilità più conservativi rispetto a quelli utilizzati nel **[!UICONTROL Analytics for Target]** pannello. Adobe consiglia di rimuovere la metrica di affidabilità dal pannello A4T, nonché le relative metriche di incremento inferiore e superiore. Fai invece riferimento a questi valori in [!DNL Target] rapporti.
+*Figura 2: rapporto consigliato per [!DNL Auto-Allocate] attività con un [!DNL Analytics] metrica &quot;Massimizzare il valore della metrica per ottimizzazione visitatore&quot;. Per questi tipi di metriche, nonché [!DNL Target] metriche di conversione definite, l&#39;impostazione predefinita **[!UICONTROL Analytics for Target]**pannello in [!DNL Analysis Workspace] possono essere utilizzati.*
 
-![[!UICONTROL Analytics for Target - Rapporto Allocazione automatica] pannello](assets/AAFigure2.png)
+## [!DNL Analytics] metriche con criteri di ottimizzazione &quot;Maximize Unique Visitor&quot;
 
-*Figura 2: Rapporto consigliato per [!DNL Auto-Allocate] attività con un [!DNL Analytics] metrica &quot;Massimizza valore metrica per ottimizzazione visitatore&quot; criteri. Per questi tipi di metriche e [!DNL Target] metriche di conversione definite, impostazione predefinita **[!UICONTROL Analytics for Target]**pannello in [!DNL Analysis Workspace] può essere utilizzato.*
+Il criterio di ottimizzazione &quot;Massimizzare visitatore univoco con tasso di conversione&quot; si riferisce al conteggio di visitatori per i quali il valore della metrica è positivo. Ad esempio, se il tasso di conversione è definito come ricavo, il criterio &quot;Massimizza visitatore univoco con tasso di conversione&quot; verrà ottimizzato in base al numero di visitatori univoci per i quali il ricavo è maggiore di 0. In altre parole, questo criterio massimizzerebbe il conteggio dei visitatori che generano ricavi, piuttosto che il valore dei ricavi stessi.
 
-## [!DNL Analytics] metriche con i criteri di ottimizzazione &quot;Massimizza tasso di conversione del visitatore univoco&quot;
+>[!NOTE]
+>
+>Il tasso di conversione a cui si fa riferimento qui può fare riferimento ad azioni al di fuori degli ordini, come clic, impression e così via. In questi casi, il criterio consiste comunque nell’ottimizzare il conteggio dei visitatori che fanno clic rispettivamente su o visualizzano la pagina.
 
-Quando un [!DNL Adobe Analytics] viene utilizzato con un criterio di ottimizzazione di *Massimizza tasso di conversione del visitatore univoco*, il valore predefinito **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace] devono essere modificati.
+Il [!DNL Analytics for Target] pannello in [!DNL Analysis Workspace] deve essere modificato se questo criterio di ottimizzazione viene utilizzato con un [!DNL Adobe Analytics] metrica.
 
-La metrica di successo è ora un conteggio di visitatori unici per i quali la metrica di conversione era positiva. Questo può essere ottenuto creando un segmento che filtra gli hit con un valore positivo della metrica. Crea questo segmento come segue:
+Quando si utilizza questo criterio di ottimizzazione, la metrica di successo è un conteggio dei visitatori univoci per i quali la metrica di conversione era positiva. Pertanto, per visualizzare questo valore, è necessario creare un nuovo segmento che filtra gli hit con un valore positivo per la metrica.
 
-1. Seleziona la **[!UICONTROL Componenti]** > **[!UICONTROL Crea segmento]** in [!DNL Analysis Workspace] barra degli strumenti.
-1. Trascina la metrica utilizzata al momento della creazione dell’attività dal pannello a sinistra al **[!UICONTROL Definizione]** della casella del segmento.
-1. Seleziona i valori della metrica che sono **maggiore di** un valore numerico pari a 0.
-1. Da **[!UICONTROL Includi]** a discesa, seleziona **[!UICONTROL Visitatori]**.
+Crea questo segmento come segue:
+
+1. Seleziona la **[!UICONTROL Componenti]** > **[!UICONTROL Crea segmento]** opzione in [!DNL Analysis Workspace] barra degli strumenti.
+1. Trascina la metrica utilizzata al momento della creazione dell’attività dal pannello di sinistra al **[!UICONTROL Definizione]** del segmento.
+1. Seleziona i valori della metrica che sono **maggiore di** valore numerico 0.
+1. Dalla sezione **[!UICONTROL Includi]** a discesa, seleziona **[!UICONTROL Visitor]**.
 1. Assegna al segmento un nome appropriato.
 
-Nella figura seguente è illustrato un esempio della creazione del segmento, in cui è possibile selezionare [!UICONTROL Visitatori con ricavi positivi].
+La figura seguente mostra un esempio di creazione del segmento, dove la metrica di successo è [!UICONTROL Visitatori Con Ricavi Positivi].
 
 ![[!UICONTROL Visitatori con ricavi positivi] segmento in [!DNL Analysis Workspace]](assets/AAFigure3.png)
 
-*Figura 3: Creazione di segmenti per [!DNL Adobe Analytics] metriche con criteri di ottimizzazione uguali a &quot;[!UICONTROL Massimizza tasso di conversione del visitatore univoco].&quot; In questo esempio, la metrica è [!UICONTROL Entrate], e l&#39;obiettivo di ottimizzazione è quello di massimizzare il numero di visitatori con ricavi positivi.*
+*Figura 3: Creazione di segmenti per [!DNL Adobe Analytics] metriche con criteri di ottimizzazione uguali a &quot;[!UICONTROL Massimizzare il tasso di conversione visita].&quot; In questo esempio, la metrica è [!UICONTROL Ricavi], e l’obiettivo di ottimizzazione è di massimizzare il numero di visitatori con ricavi positivi.*
 
-Dopo la creazione del segmento appropriato, l’impostazione predefinita  **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace] può essere modificato.
+Dopo aver creato il segmento appropriato, potete modificare il valore predefinito  **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace] per visualizzare i valori dei criteri di ottimizzazione. A tal fine, effettuare le seguenti operazioni:
 
-1. Aggiungi un secondo **Visitatori unici** insieme alla metrica esistente [!UICONTROL Visitatori] colonna metrica.
-2. Trascina il segmento appena creato sotto la prima colonna per produrre un pannello simile alla Figura 4. Osserva la differenza: il numero di visitatori unici con ricavi positivi è una frazione del numero totale di visitatori univoci assegnati a ogni esperienza.
+1. Aggiungi un secondo **Visitatori univoci** metrica accanto al valore esistente [!UICONTROL Visitor] colonna delle metriche.
+2. Trascina il segmento appena creato sotto la prima colonna per creare un pannello simile a quello della Figura 4. Nota la differenza nei valori delle colonne: il numero di visitatori univoci con ricavi positivi deve essere una frazione del numero totale di visitatori univoci assegnati a ogni esperienza (come mostrato di seguito).
 
    ![Figura 4.png](assets/AAFigure4.png)
 
-   *Figura 4: Filtro [!UICONTROL Visitatori unici] dal segmento appena creato*
+   *Figura 4: Filtraggio [!UICONTROL Visitatori univoci] dal segmento appena creato*
 
-3. Un tasso di conversione può essere [calcolo rapido](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) evidenziando sia la prima che la seconda colonna, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Crea metrica da selezione]** > **[!UICONTROL Dividi]**.
+3. Un tasso di conversione può essere [calcolato rapidamente](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) evidenziando la prima e la seconda colonna, facendo clic con il pulsante destro del mouse e selezionando **[!UICONTROL Crea metrica da selezione]** > **[!UICONTROL Dividi]**.
 
-   Il tasso di conversione predefinito deve essere rimosso e sostituito con questa nuova metrica calcolata, come illustrato nell’immagine seguente. Potrebbe essere necessario modificare la metrica calcolata appena creata per visualizzarla come **[!UICONTROL Formato]** > **[!UICONTROL Percentuale]** fino a due posizioni decimali, come mostrato.
+   Il tasso di conversione predefinito deve essere rimosso e sostituito con questa nuova metrica calcolata, come illustrato nell’immagine seguente. Potrebbe essere necessario modificare la metrica calcolata appena creata per visualizzarla come **[!UICONTROL Formato]** > **[!UICONTROL Percentuale]** fino a due cifre decimali, come illustrato.
 
    ![Figura 5.png](assets/AAFigure5.png)
 
-   *Figura 5: Il finale [!UICONTROL Allocazione automatica] pannello che mostra i tassi di conversione per una metrica di conversione dei ricavi binarizzata*
+   *Figura 5: La versione finale [!UICONTROL Allocazione automatica] pannello che mostra i tassi di conversione per una metrica di conversione dei ricavi binari*
 
 ## Riepilogo
 
-I passaggi di questa esercitazione hanno dimostrato come configurare correttamente [!DNL Analysis Workspace] per visualizzare [!UICONTROL Allocazione automatica] dati di reporting.
+I passaggi descritti in questo tutorial mostrano come configurare correttamente [!DNL Analysis Workspace] da visualizzare [!UICONTROL Allocazione automatica] dati di reporting.
 
 Per riepilogare:
 
-* Quando la metrica è un [!DNL Target] metrica di conversione definita o [!DNL Adobe Analytics] con il criterio di ottimizzazione &quot;Massimizza valore metrica per visitatore&quot;, deve essere utilizzato il pannello dell’area di lavoro predefinito configurato con i visitatori come metrica di normalizzazione.
-* Quando la metrica è un [!DNL Adobe Analytics] metrica con criterio di ottimizzazione &quot;Massimizza tasso di conversione del visitatore univoco&quot;, devi utilizzare un tasso di conversione definito come la frazione di visitatori per i quali la metrica è positiva. A questo scopo, crea un segmento corrispondente che filtra i [!UICONTROL Visitatore univoco] metrica.
+* Quando la metrica è un valore [!DNL Target] una metrica di conversione definita o un [!DNL Adobe Analytics] metrica con criterio di ottimizzazione &quot;Maximize Metric Value Per Visitor&quot; (Massimizza valore metrica per visitatore), deve essere utilizzato il pannello predefinito dell’area di lavoro configurato con i visitatori come metrica di normalizzazione.
+* Quando la metrica è un valore [!DNL Adobe Analytics] metrica con criterio di ottimizzazione &quot;Maximize Unique Visitor Conversion Rate&quot; (Massimizza tasso di conversione visitatore univoco), devi determinare la frazione di visitatori con valore della metrica positivo rispetto al totale dei visitatori. A tal fine, crea un segmento corrispondente che filtra [!UICONTROL Visitatore univoco] su quella metrica.

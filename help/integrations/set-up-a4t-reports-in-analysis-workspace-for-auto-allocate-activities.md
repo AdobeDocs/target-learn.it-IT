@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: ef9e4667ab6e264f0dd324bfd8a7a14783952078
+source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ Questo tutorial illustra le modifiche consigliate per l’analisi [!DNL Auto-All
 
 Per creare un pannello A4T per un [!DNL Auto-Allocate] rapporto inizia con **[!UICONTROL Analytics for Target]** pannello in [!DNL Analysis Workspace], come illustrato di seguito. Effettua quindi le seguenti selezioni:
 
-1. Aggiungi l&#39;attività.
 1. **[!UICONTROL Esperienza controllo]**: puoi scegliere qualsiasi esperienza.
 1. **[!UICONTROL Normalizing Metric]**: seleziona i visitatori (Visitatori è incluso nel pannello A4T per impostazione predefinita). [!DNL Auto-Allocate] normalizza sempre i tassi di conversione per visitatori univoci.
 1. **[!UICONTROL Metriche di successo]**: seleziona la stessa metrica utilizzata durante la creazione dell’attività. Se si trattasse di un [!DNL Target] metrica di conversione definita, seleziona **Conversione attività**. In caso contrario, seleziona [!DNL Adobe Analytics] metrica utilizzata.

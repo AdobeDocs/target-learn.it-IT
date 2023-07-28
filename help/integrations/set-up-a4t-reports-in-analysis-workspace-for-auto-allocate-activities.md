@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
+source-git-commit: dddb90e66d127782d4fe1347bd43553cd8c04d58
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ Questo tutorial illustra le modifiche consigliate per l’analisi [!DNL Auto-All
 
 * [!UICONTROL Visitor] deve sempre essere utilizzato come metrica di normalizzazione in [!DNL Auto-Allocate] attività.
 * Quando la metrica è un valore [!DNL Adobe Analytics] metrica, il calcolo del tasso di conversione varia, a seconda del tipo di criteri di ottimizzazione definiti durante l’impostazione dell’attività.
-   * Tasso di conversione &quot;massimizza valore della metrica per visitatore&quot;: il numeratore è il valore della metrica regolare in [!DNL Adobe Analytics] (viene fornito per impostazione predefinita nella sezione [!UICONTROL Analytics for Target] pannello in [!DNL Analysis Workspace]).
+   * Il numeratore del tasso di conversione &quot;maximize metric value per visitor&quot; è il valore della metrica regolare in [!DNL Adobe Analytics] (viene fornito per impostazione predefinita nella sezione [!UICONTROL Analytics for Target] pannello in A[!DNL nalysis Workspace]).
       * Che cosa significa: massimizza il numero di conversioni per visitatore (&quot;conteggio per visitatore&quot;).
       * Questo metodo non richiede un segmento aggiuntivo per far corrispondere il tasso di conversione visualizzato nel [!DNL Target] UI.
-   * Il tasso di conversione &quot;massimizza visitatore univoco&quot;: il numeratore è un conteggio dei visitatori univoci con un valore positivo della metrica.
+   * Il numeratore del tasso di conversione &quot;massimizza visitatore univoco&quot; è un conteggio dei visitatori univoci con un valore positivo della metrica.
       * Che cosa significa: massimizza il numero di visitatori che convertono (&quot;contano una volta per visitatore&quot;).
       * Questo metodo *SÌ* richiedere la creazione di un segmento aggiuntivo nel reporting per corrispondere al tasso di conversione visualizzato nel [!DNL Target] UI.
 
@@ -74,7 +74,7 @@ Un esempio di questo pannello viene visualizzato per [!UICONTROL Ricavi] metrica
 
 ![[!UICONTROL Analytics for Target - Rapporto di allocazione automatica] pannello](assets/AAFigure2.png)
 
-*Figura 2: rapporto consigliato per [!DNL Auto-Allocate] attività con un [!DNL Analytics] metrica &quot;Massimizzare il valore della metrica per ottimizzazione visitatore&quot;. Per questi tipi di metriche, nonché [!DNL Target] metriche di conversione definite, l&#39;impostazione predefinita **[!UICONTROL Analytics for Target]**pannello in [!DNL Analysis Workspace] possono essere utilizzati.*
+*Figura 2: rapporto consigliato per [!DNL Auto-Allocate] attività con un [!DNL Analytics] criteri di ottimizzazione della metrica &quot;Maximize Metric Value Per Visitor&quot;. Per questi tipi di metriche, nonché [!DNL Target] metriche di conversione definite, l&#39;impostazione predefinita **[!UICONTROL Analytics for Target]**pannello in [!DNL Analysis Workspace] possono essere utilizzati.*
 
 ## [!DNL Analytics] metriche con criteri di ottimizzazione &quot;Massimizza tasso di conversione visitatore univoco&quot;
 

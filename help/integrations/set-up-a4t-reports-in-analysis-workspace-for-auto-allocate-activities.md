@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
+source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 0%
@@ -52,13 +52,13 @@ Le sezioni seguenti specificano quali configurazioni sono necessarie, a seconda 
 
    Il [!UICONTROL Colonna] viene visualizzata la finestra di dialogo delle impostazioni:
 
-   ![Finestra di dialogo Impostazioni colonna](/help/integrations/assets/column-settings-dialog-box.png)
+   ![Finestra di dialogo Impostazioni colonna](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. Deseleziona il **[!UICONTROL Percentuale]** casella di controllo.
 
-Il pannello A4T ora non include percentuali come tasso di conversione e corrispondenze [!DNL Target], come illustrato di seguito:
+   Il pannello A4T ora non include percentuali come tasso di conversione e corrispondenze [!DNL Target], come illustrato di seguito:
 
-![La colonna Tasso di conversione non mostra alcuna percentuale](/help/integrations/assets/no-percentages.png)
+   ![La colonna Tasso di conversione non mostra alcuna percentuale](/help/integrations/assets/no-percentages.png)
 
 ### Allineare data e ora nel pannello A4T {#aligning-date-and-time}
 
@@ -160,9 +160,9 @@ Le sezioni seguenti contengono ulteriori informazioni su come impostare il rappo
 1. Trascina la metrica &quot;Tasso di conversione&quot; appena creata nel pannello esistente.
 1. Fai clic sull’icona, quindi deseleziona la **[!UICONTROL Percentuale]** , perché questo valore può causare confusione.
 
-La corretta configurazione del rapporto dovrebbe produrre un risultato simile a quello dell’illustrazione seguente:
+   La corretta configurazione del rapporto dovrebbe produrre un risultato simile a quello dell’illustrazione seguente:
 
-![Tasso di conversione visita univoco nel rapporto del pannello A4T](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+   ![Tasso di conversione visita univoco nel rapporto del pannello A4T](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target]Tasso di conversione definito
 

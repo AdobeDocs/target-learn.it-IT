@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
+source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1582'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Le sezioni seguenti specificano quali configurazioni sono necessarie, a seconda 
 
 >[!NOTE]
 >
-I badge &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot; non sono disponibili nel pannello A4T in [!DNL Analysis Workspace] e non disponibile nel [!DNL Target] rapporto. Per ulteriori informazioni, consulta [Allocazione automatica](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Supporto A4T per attività di allocazione automatica e targeting automatico* nel *[!UICONTROL Guida di Adobe Target per professionisti aziendali]*.
+I badge &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot; non sono disponibili nel pannello A4T in [!DNL Analysis Workspace]. Inoltre, il badge &quot;stella&quot; vincitore visualizzato in [!DNL Target] rapporti per [!UICONTROL Allocazione automatica] le attività devono essere ignorate. Per ulteriori informazioni, consulta [Allocazione automatica](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Supporto A4T per attività di allocazione automatica e targeting automatico* nel *[!UICONTROL Guida di Adobe Target per professionisti aziendali]*.
 
 ## Creare A4T per [!UICONTROL Allocazione automatica] pannello in [!DNL Analysis Workspace]
 

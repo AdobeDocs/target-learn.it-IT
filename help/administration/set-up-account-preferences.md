@@ -1,6 +1,6 @@
 ---
 title: Come impostare le preferenze dell'account
-description: Questo video descrive le preferenze dell’account Adobe Target. Guarda questo video per esempi di impatto delle diverse impostazioni su Adobe Target.
+description: Questo video descrive le preferenze dell’account Adobe Target. Guarda questo video per esempi dell’impatto delle diverse impostazioni su Adobe Target.
 role: Admin
 level: Beginner
 topic: Administration
@@ -15,11 +15,11 @@ ht-degree: 1%
 
 ---
 
-# Configurare le preferenze dell’account in Adobe Target
+# Impostare le preferenze dell’account in Adobe Target
 
 ## Descrizione
 
-In questo video viene illustrato come:
+Questo video spiega come:
 
 * Descrizione delle diverse impostazioni account in Adobe Target
 

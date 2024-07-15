@@ -21,9 +21,9 @@ ht-degree: 56%
 
 ## Descrizione
 
-In questo video viene illustrato come:
+Questo video spiega come:
 
-* Descrivi le attività A/B, i test multivariati (MVT), le attività di targeting delle esperienze (XT), Recommendations e le attività Automated Personalization (AP) in Adobe Target
+* Descrivere le attività A/B, i test multivariati (MVT), le attività Targeting esperienza (XT), Recommendations e le attività Automated Personalization (AP) in Adobe Target
 * Scegli il tipo di attività migliore per raggiungere gli obiettivi aziendali
 * Descrizione del flusso di lavoro di base comune a tutti i tipi di attività
 

@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## Descrizione
 
-In questo video viene illustrato come:
+Questo video spiega come:
 
 * Creare aree di lavoro in Adobe Target
 

@@ -1,6 +1,6 @@
 ---
 title: Integrare Target con Experience Cloud Audiences
-description: Questo video per sviluppatori di Adobe Target illustra come creare tipi di pubblico utilizzando Analytics e Audienci Manager. Gli sviluppatori che guardano questo video potranno importare tipi di pubblico da altri prodotti Adobe, acquisire familiarità con il pannello di amministrazione di Adobe Experience Cloud (AEC) ed elencare i requisiti per l’ID Experience Cloud (ECID).
+description: Questo video per sviluppatori di Adobe Target illustra come creare tipi di pubblico utilizzando Analytics e Audience Manager. Gli sviluppatori che guardano questo video potranno importare tipi di pubblico da altri prodotti Adobe, acquisire familiarità con il pannello di amministrazione di Adobe Experience Cloud (AEC) ed elencare i requisiti per l’ID Experience Cloud (ECID).
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Questo video spiega come:
 
-* Descrivere la creazione e l’utilizzo del pubblico con Analytics e Audienci Manager
+* Descrivere la creazione e l’utilizzo del pubblico con Analytics e Audience Manager
 * Descrivi come importare tipi di pubblico da altri prodotti Adobe
 * Esplora il pannello di amministrazione di Adobe Experience Cloud (AEC)
 * Elencare i requisiti per l’ID Experience Cloud (ECID)
@@ -33,4 +33,4 @@ Questo video spiega come:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35152/?quality=12)
 
-Per ulteriori informazioni, visitare il [documentazione](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=en).
+Per ulteriori informazioni, visita la [documentazione](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=en).

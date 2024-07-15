@@ -31,4 +31,4 @@ Questo video spiega come:
 
 ## Altre risorse
 
-Per istruzioni dettagliate, consulta [Creare un test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} nel *Guida di Adobe Target per professionisti aziendali*.
+Per istruzioni dettagliate, consulta [Creare un test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} nella *Guida di Adobe Target Business Practitioner*.

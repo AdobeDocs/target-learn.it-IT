@@ -27,7 +27,7 @@ ht-degree: 6%
 + Implementazione{#implementation}
    + [Introduzione all’implementazione di Target](../dev101/2-1-intro-to-target-implementation.md)
    + [Integrare Target con Launch](../dev101/3-1-target-launch.md)
-   + [Implementare nei siti web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+   + [Implementare nei siti Web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Vantaggi dell&#39;utilizzo delle posizioni](../dev101/2-2-benefits-of-locations.md)
    + [Introduzione alle richieste Target](../dev101/2-3-intro-to-target-requests.md)
    + [Introduzione ai parametri di Target](../dev101/2-4-intro-to-target-params.md)
@@ -35,19 +35,19 @@ ht-degree: 6%
    + [Implementare at.js 2.0 in un’applicazione a pagina singola (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Progettare un’implementazione di Target](../dev101/2-5-design-target-implementation.md)
    + [Passaggi successivi per progettare un’implementazione di Target](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Utilizzare il servizio Opt-in per controllare le soluzioni Experience Cloud in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+   + [Usa il servizio Opt-in per controllare le soluzioni Experience Cloud in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Informazioni sulla distribuzione ibrida di Adobe Target](../implementation/hybrid-deployment.md)
    + [Panoramica di Decisioning sul dispositivo](../implementation/on-device-decisioning-overview.md)
    + [Modelli di implementazione per Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
 + Integrazioni{#integrations}
    + [Integrare Target con Analytics](../dev101/3-2-target-analytics.md)
-   + [Utilizzare Analytics come origine dati per Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Utilizzare Analytics as a Data Source for Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Configurare rapporti A4T in Analysis Workspace per le attività di allocazione automatica](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [Configurare rapporti A4T in Analysis Workspace per le attività di Targeting automatico](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
-   + [Integrare Target con Audienci Manager](../dev101/3-3-target-dmp.md)
+   + [Integrare Target con Audience Manager](../dev101/3-3-target-dmp.md)
    + [Integrare Target con Experience Cloud Audiences](../dev101/3-4-target-exc-audiences.md)
    + [Integrare Target con Campaign](../dev101/3-6-target-campaign.md)
-   + [Integrare Target con la console Adobe Developer](../dev101/3-7-target-io.md)
+   + [Integrare Target con Adobe Developer Console](../dev101/3-7-target-io.md)
    + Integrare Target con Real-Time CDP{#rtcdp}
       + [Personalizzazione dell’hit successivo con Adobe Target](../integrations/rtcdp/next-hit-personalization.md)
       + [Configurare la destinazione Adobe Target](../integrations/rtcdp/configure-the-target-destination.md)
@@ -62,7 +62,7 @@ ht-degree: 6%
    + [Uscita dati: usa i token di risposta e gli eventi personalizzati at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
 + Attività{#activities}
    + [Comprendere i tipi di attività](../activities/understanding-the-types-of-activities.md)
-   + [Utilizzare le funzionalità di intelligenza artificiale e automazione per affrontare le sfide della personalizzazione](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
+   + [Utilizzare le funzionalità di intelligenza artificiale e automazione per affrontare le sfide di Personalization](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
    + [Creare test A/B](../activities/create-ab-tests.md)
    + [Creare attività Targeting esperienza](../activities/create-experience-targeting-activities.md)
    + [Creare test multivariati](../activities/create-multivariate-tests.md)
@@ -80,7 +80,7 @@ ht-degree: 6%
    + [Utilizzare il Compositore esperienza basato su moduli](../experiences/use-the-form-based-experience-composer.md)
    + [Utilizzare i frammenti esperienza AEM in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Rapporti{#reports}
-   + [Utilizzare i rapporti Approfondimenti personalizzazione](../reports/use-the-personalization-insights-reports.md)
+   + [Utilizzare i rapporti Approfondimenti Personalization](../reports/use-the-personalization-insights-reports.md)
 + Consigli{#recommendations}
    + [Creare un’attività Consigli](../recommendations/create-a-recommendations-activity.md)
    + [Utilizzare le offerte Recommendations](../recommendations/use-recommendations-offers.md)

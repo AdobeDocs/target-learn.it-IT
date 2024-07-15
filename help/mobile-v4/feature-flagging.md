@@ -1,6 +1,6 @@
 ---
-title: Flag delle funzioni
-description: Adobe Target può essere utilizzato per sperimentare funzioni UX come colore, copia, pulsanti, testo e immagini e fornire tali funzionalità a tipi di pubblico specifici.
+title: Contrassegno di funzione
+description: Adobe Target può essere utilizzato per sperimentare funzioni UX come colore, copia, pulsanti, testo e immagini e fornire tali funzioni a tipi di pubblico specifici.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -10,48 +10,48 @@ kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
 
-# Flag delle funzioni
+# Contrassegno di funzione
 
-I proprietari di app mobili hanno bisogno della flessibilità necessaria per implementare nuove funzionalità nella loro app senza dover investire in più versioni di app. Possono anche voler distribuire gradualmente le funzionalità a una percentuale della base utente, per testare l&#39;efficacia. Adobe Target può essere utilizzato per sperimentare funzioni UX come colore, copia, pulsanti, testo e immagini e fornire tali funzionalità a tipi di pubblico specifici.
+I proprietari dei prodotti delle app mobili devono poter implementare nuove funzioni nelle app senza dover investire in più versioni. Inoltre, potrebbe essere utile implementare gradualmente le funzioni fino a una percentuale della base di utenti, per verificarne l’efficacia. Adobe Target può essere utilizzato per sperimentare funzioni UX come colore, copia, pulsanti, testo e immagini e fornire tali funzioni a tipi di pubblico specifici.
 
-In questa lezione verrà creata un’offerta con flag di funzione che può essere utilizzata come attivatore per abilitare funzioni specifiche dell’app.
+In questa lezione, creeremo un’offerta di &quot;flag di funzione&quot; che può essere utilizzata come attivatore per abilitare funzioni specifiche dell’app.
 
-## Obiettivi di apprendimento
+## Finalità di apprendimento
 
-Al termine di questa lezione, potrai:
+Alla fine di questa lezione, sarai in grado di:
 
-* Aggiungi una nuova posizione alla richiesta di recupero preventivo del batch
-* Crea un’attività [!DNL Target] con un’offerta che verrà utilizzata come flag di funzione
-* Carica e convalida l’offerta con flag di funzione nell’app.
+* Aggiungi una nuova posizione alla richiesta di preacquisizione batch
+* Crea un&#39;attività [!DNL Target] con un&#39;offerta che verrà utilizzata come flag di funzione
+* Carica e convalida l’offerta del flag di funzione nella tua app
 
-## Aggiungi una nuova posizione alla richiesta di preacquisizione all’attività principale
+## Aggiungere una nuova posizione alla richiesta di preacquisizione nell’attività principale
 
-Nell’app dimostrativa delle nostre lezioni precedenti, aggiungeremo una nuova posizione denominata &quot;wetravel_feature_flag_recs&quot; alla richiesta di preacquisizione nell’attività iniziale e la caricheremo sullo schermo con un nuovo metodo Java.
+Nell’app demo delle lezioni precedenti, aggiungeremo una nuova posizione denominata &quot;wetravel_feature_flag_recs&quot; alla richiesta di preacquisizione nell’attività Home e la cariceremo sullo schermo con un nuovo metodo Java.
 
 >[!NOTE]
 >
->Uno dei vantaggi dell’utilizzo di una richiesta di preacquisizione è che l’aggiunta di una nuova richiesta non aggiunge un sovraccarico di rete aggiuntivo o causa un carico aggiuntivo poiché la richiesta viene inclusa nella richiesta di preacquisizione
+>Uno dei vantaggi dell’utilizzo di una richiesta di preacquisizione è che l’aggiunta di una nuova richiesta non aggiunge alcun sovraccarico di rete aggiuntivo o causa un carico aggiuntivo, poiché la richiesta viene inserita nel pacchetto della richiesta di preacquisizione
 
-In primo luogo, verifica che la costante wetravel_feature_flag_recs sia aggiunta nel file Constant.java:
+Innanzitutto, verifica che la costante wetravel_feature_flag_recs sia aggiunta nel file Constant.java:
 
-![Aggiungi costante flag di funzione](assets/feature_flag_constant.jpg)
+![Aggiungi costante flag di funzionalità](assets/feature_flag_constant.jpg)
 
-Ecco il codice:
+Di seguito è riportato il codice:
 
 ```java
 public static final String wetravel_feature_flag_recs = "wetravel_feature_flag_recs";
 ```
 
-Ora aggiungi la posizione alla richiesta di preacquisizione e carica una nuova funzione chiamata `processFeatureFlags()`:
+Ora aggiungi il percorso alla richiesta di preacquisizione e carica una nuova funzione denominata `processFeatureFlags()`:
 
-![Codice contrassegno funzione](assets/feature_flag_code.jpg)
+![Codice flag funzionalità](assets/feature_flag_code.jpg)
 
-Di seguito è riportato il codice aggiornato completo:
+Di seguito è riportato il codice completo aggiornato:
 
 ```java
 public void targetPrefetchContent() {
@@ -102,17 +102,17 @@ public void processFeatureFlags() {
 }
 ```
 
-### Convalida la richiesta di flag di funzione
+### Convalidare la richiesta di flag di funzione
 
-Una volta aggiunto il codice, esegui l’emulatore sull’attività principale e controlla Logcat per la risposta aggiornata:
+Una volta aggiunto il codice, esegui l’emulatore sull’attività Home e osserva Logcat per la risposta aggiornata:
 
-![Convalida posizione flag caratteristica](assets/feature_flag_code_logcat.jpg)
+![Convalida percorso contrassegno funzionalità](assets/feature_flag_code_logcat.jpg)
 
 ## Creare un’offerta JSON con flag di funzione
 
-Ora creeremo una semplice offerta JSON che fungerà da flag o attivatore per un pubblico specifico, il pubblico che riceverà il rollout delle funzioni nella loro app. Nell’interfaccia [!DNL Target] , crea una nuova offerta:
+Ora creeremo una semplice offerta JSON che fungerà da flag o attiverà per un pubblico specifico, il pubblico che riceverà il rollout della funzione nella sua app. Nell&#39;interfaccia [!DNL Target], crea una nuova offerta:
 
-![Creare un’offerta JSON con flag di funzione](assets/feature_flag_json_offer.jpg)
+![Crea offerta JSON con flag di funzione](assets/feature_flag_json_offer.jpg)
 
 Chiamiamolo &quot;Flag di funzionalità v1&quot; con il valore {&quot;enable&quot;:1}
 
@@ -120,49 +120,49 @@ Chiamiamolo &quot;Flag di funzionalità v1&quot; con il valore {&quot;enable&quo
 
 ## Creazione di un&#39;attività
 
-Ora creiamo un’attività Test A/B con quell’offerta. Per i passaggi dettagliati sulla creazione di un’attività, consulta la lezione precedente. Per questo esempio, l’attività avrà bisogno di un solo pubblico. In uno scenario live, puoi creare tipi di pubblico personalizzati specifici per specifici rollout di funzioni, quindi impostare l’attività per l’utilizzo di tali tipi di pubblico. In questo esempio, alloceremo il traffico 50/50 (50% per i visitatori che visualizzano gli aggiornamenti di funzionalità e 50% per i visitatori che visualizzano un’esperienza standard). Ecco la configurazione dell’attività:
+Ora creiamo un’attività di test A/B con quell’offerta. Per i passaggi dettagliati sulla creazione di un’attività, consulta la lezione precedente. Per questo esempio, l’attività avrà bisogno di un solo pubblico. In uno scenario live, puoi creare tipi di pubblico personalizzati specifici per rollout di funzionalità specifiche, quindi impostare l’attività in modo che utilizzi tali tipi di pubblico. In questo esempio, assegneremo traffico 50/50 (50% ai visitatori che vedrebbero gli aggiornamenti della funzione e 50% ai visitatori che vedrebbero un’esperienza standard). Di seguito è riportata la configurazione per l’attività:
 
-1. Denomina l&#39;attività &quot;Flag di funzionalità&quot;
-1. Selezionare la posizione &quot;wetravel_feature_flag_recs&quot;
-1. Modifica il contenuto dell’offerta JSON &quot;Flag di funzione v1&quot;
+1. Denomina l’attività &quot;Flag funzione&quot;
+1. Selezionate la posizione &quot;wetravel_feature_flag_recs&quot;
+1. Modifica il contenuto dell’offerta JSON &quot;Flag funzione v1&quot;
 
-   ![Configurazione dell’attività del flag funzione](assets/feature_flag_activity.jpg)
+   ![Configurazione attività contrassegno funzionalità](assets/feature_flag_activity.jpg)
 
-1. Fai clic su **[!UICONTROL Aggiungi esperienza]** per aggiungere l&#39;esperienza B.
+1. Fare clic su **[!UICONTROL Add Experience]** per aggiungere l&#39;esperienza B.
 1. Lascia la posizione &quot;wetravel_feature_flag_recs&quot;
-1. Lascia **[!UICONTROL Contenuto predefinito]** per il contenuto
-1. Fai clic su **[!UICONTROL Avanti]** per passare alla schermata [!UICONTROL Targeting]
+1. Lascia **[!UICONTROL Default Content]** per il contenuto
+1. Fai clic su **[!UICONTROL Next]** per passare alla schermata [!UICONTROL Targeting]
 
-   ![Configurazione dell’attività del flag funzione](assets/feature_flag_activity_2.jpg)
+   ![Configurazione attività contrassegno funzionalità](assets/feature_flag_activity_2.jpg)
 
-1. Nella schermata [!UICONTROL Targeting] , verifica che il metodo [!UICONTROL Allocazione traffico] sia impostato sull&#39;impostazione predefinita (Manuale) e che ogni esperienza abbia l&#39;allocazione predefinita del 50%. Seleziona **[!UICONTROL Avanti]** per passare a **[!UICONTROL Obiettivi e impostazioni]**.
+1. Nella schermata [!UICONTROL Targeting], verificare che il metodo [!UICONTROL Traffic Allocation] sia impostato sull&#39;impostazione predefinita (Manuale) e che ogni esperienza abbia l&#39;allocazione predefinita del 50%. Selezionare **[!UICONTROL Next]** per passare a **[!UICONTROL Goals & Settings]**.
 
-   ![Configurazione dell’attività del flag funzione](assets/feature_flag_activity_3.jpg)
+   ![Configurazione attività contrassegno funzionalità](assets/feature_flag_activity_3.jpg)
 
-1. Imposta l&#39; **[!UICONTROL Obiettivo primario]** su **[!UICONTROL Conversione]**.
-1. Imposta l&#39;azione su **[!UICONTROL Visualizzato un mbox]**. Useremo la posizione &quot;wetravel_context_dest&quot; (poiché questa posizione si trova nella schermata di conferma, possiamo usarla per vedere se la nuova funzione porta a più conversioni).
-1. Fai clic su **[!UICONTROL Salva e chiudi]**.
+1. Imposta **[!UICONTROL Primary Goal]** su **[!UICONTROL Conversion]**.
+1. Imposta l&#39;azione su **[!UICONTROL Viewed an Mbox]**. Utilizzeremo la posizione &quot;wetravel_context_dest&quot; (poiché questa posizione si trova nella schermata di conferma, possiamo utilizzarla per vedere se la nuova funzione porta a più conversioni).
+1. Fare clic su **[!UICONTROL Save & Close]**.
 
-   ![Configurazione dell’attività del flag funzione](assets/feature_flag_activity_4.jpg)
+   ![Configurazione attività contrassegno funzionalità](assets/feature_flag_activity_4.jpg)
 
 Attivare l&#39;attività.
 
-## Convalidare l’attività del flag di funzione
+## Convalidare l&#39;attività di flag di funzione
 
-Ora utilizza l’emulatore per controllare la richiesta. Poiché il targeting è stato impostato sul 50% degli utenti, il 50% della risposta del flag di funzione contiene il valore `{enable:1}`.
+Ora utilizza l’emulatore per controllare la richiesta. Poiché il targeting è stato impostato sul 50% degli utenti, con un 50% vedrai che la risposta del flag di funzione contiene il valore `{enable:1}`.
 
-![Convalida del flag della funzione](assets/feature_flag_validation.jpg)
+![Convalida flag di funzionalità](assets/feature_flag_validation.jpg)
 
-Se il valore `{enable:1}` non viene visualizzato, significa che non è stato eseguito il targeting per l’esperienza. Come test temporaneo, per forzare la visualizzazione dell’offerta, puoi:
+Se il valore `{enable:1}` non è visualizzato, significa che non si è stati destinati all&#39;esperienza. Come test temporaneo, per forzare la visualizzazione dell’offerta puoi:
 
 1. Disattiva l’attività.
-1. Modifica l’allocazione del traffico al 100% sulla nuova esperienza di funzionalità.
+1. Modifica l’allocazione del traffico al 100% nella nuova esperienza con le funzioni.
 1. Salva e riattiva.
-1. Cancella i dati sull&#39;emulatore e quindi riavvia l&#39;app.
-1. L’offerta deve ora restituire il valore `{enable:1}` .
+1. Cancella i dati sull’emulatore, quindi riavvia l’app.
+1. L&#39;offerta deve ora restituire il valore `{enable:1}`.
 
 In uno scenario live, la risposta `{enable:1}` può essere utilizzata per abilitare una logica più personalizzata nell&#39;app per visualizzare il set di funzioni specifico che desideri mostrare al pubblico di destinazione.
 
 ## Conclusione
 
-Ottimo lavoro! Ora disponi delle competenze necessarie per distribuire funzionalità a tipi di pubblico specifici.
+Ottimo lavoro. Ora disponi delle competenze necessarie per implementare le funzioni per tipi di pubblico specifici.

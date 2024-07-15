@@ -1,6 +1,6 @@
 ---
 title: Come utilizzare le metriche nelle attività
-description: Come si misura se un’attività Adobe Target ha esito positivo? In questo video, scopri i diversi tipi di metriche dell’obiettivo e come utilizzarle per misurare le prestazioni dell’attività.
+description: Come si misura il successo di un’attività di Adobe Target? In questo video, scopri i diversi tipi di metriche dell’obiettivo e come utilizzarle per misurare le prestazioni dell’attività.
 role: User
 level: Intermediate
 topic: Personalization
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 ## Descrizione
 
-In questo video viene illustrato come:
+Questo video spiega come:
 
-* Descrivi il concetto di metrica &quot;obiettivo&quot;
-* Descrivere le differenze tra le metriche Conversione, Entrate e Coinvolgimento
-* Metriche di conversione, ricavi e coinvolgimento dei build
+* Descrivere cos’è una metrica di &quot;Obiettivo&quot;
+* Descrivere le differenze tra le metriche Conversione, Ricavi e Coinvolgimento
+* Creare metriche per conversione, ricavi e coinvolgimento
 * Creazione di una metrica di tracciamento dei clic
 
 ## Pubblico previsto

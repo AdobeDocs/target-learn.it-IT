@@ -33,4 +33,4 @@ Questo video spiega come:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35154/?quality=12)
 
-Per ulteriori informazioni, visitare il [documentazione](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en).
+Per ulteriori informazioni, visita la [documentazione](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en).

@@ -1,6 +1,6 @@
 ---
 title: Come utilizzare le impostazioni delle attività
-description: Guarda questo video per scoprire come utilizzare diverse impostazioni di attività in Adobe Target, tra cui obiettivi, livelli di priorità, orari di inizio e fine e pubblico.
+description: Guarda questo video per scoprire come utilizzare diverse impostazioni di attività in Adobe Target, tra cui obiettivi, livelli di priorità, orari di inizio e fine e tipi di pubblico.
 role: User
 level: Beginner
 topic: Personalization
@@ -11,19 +11,19 @@ exl-id: 2a6e292e-0330-4e60-bd1b-2ca2226e00b7
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
-# Usa impostazioni attività
+# Utilizzare le impostazioni delle attività
 
 ## Descrizione
 
-In questo video viene illustrato come:
+Questo video spiega come:
 
-* Immettere un obiettivo di attività
+* Immetti una finalità di attività
 * Impostare il livello di priorità delle attività
-* Orari di inizio e fine della pianificazione
+* Orari di inizio e fine pianificati
 * Aggiungi tipi di pubblico
 
 ## Pubblico previsto

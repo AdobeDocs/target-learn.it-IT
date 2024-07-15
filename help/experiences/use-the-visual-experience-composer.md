@@ -12,22 +12,22 @@ kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '141'
+ht-degree: 39%
 
 ---
 
-# Utilizza la [!UICONTROL Compositore esperienza visivo] in Adobe Target
+# Usa [!UICONTROL Visual Experience Composer] in Adobe Target
 
 ## Descrizione
 
-Nel primo video viene illustrato come:
+Nel primo video imparerai a:
 
-* Utilizza il Compositore esperienza visivo per eseguire la sua funzione chiave, fornendo un modo intuitivo e visivo di modificare il layout e il contenuto di una pagina all’interno di un’attività Adobe Target.
+* Utilizza il Compositore esperienza visivo per eseguire la sua funzione chiave, fornendo un modo visivo intuitivo per modificare il layout e il contenuto di una pagina all’interno di un’attività Adobe Target.
 
-Nel secondo video viene illustrato come:
+Nel secondo video imparerai a:
 
-* Utilizza funzionalità aggiuntive del Compositore esperienza visivo, tra cui come creare esperienze di reindirizzamento e attività multipagina, nonché come utilizzare i riquadri di visualizzazione per dispositivi mobili.
+* Utilizza funzionalità aggiuntive del Compositore esperienza visivo, tra cui come creare esperienze di reindirizzamento e attività multipagina, nonché come utilizzare i riquadri di visualizzazione mobili.
 
 ## Pubblico previsto
 

@@ -1,6 +1,6 @@
 ---
 title: Scopri come utilizzare Adobe Target
-description: Scopri come utilizzare [!DNL Adobe Target] con questa raccolta di tutorial e video che coprono tutti i suoi componenti.
+description: Scopri come utilizzare  [!DNL Adobe Target]  con questa raccolta di tutorial e video che coprono tutti i suoi componenti.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 feature: Overview
@@ -8,14 +8,14 @@ topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 29%
+source-wordcount: '186'
+ht-degree: 10%
 
 ---
 
-# Esercitazioni di Adobe Target
+# Tutorial su Adobe Target
 
-[!DNL Adobe Target] è il [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti. [!DNL Target] consente di massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali. Segui questi video e tutorial per scoprire i numerosi componenti di [!DNL Adobe Target].
+[!DNL Adobe Target] è la soluzione [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti. [!DNL Target] consente di massimizzare i ricavi sui siti Web e mobili, applicazioni, social media e altri canali digitali. Utilizzare questi video e tutorial per apprendere i numerosi componenti di [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 29%
     </a>
     </div>
     <p>
-    <em>Scopri come implementare l’estensione Adobe Target con una richiesta di caricamento pagina e parametri personalizzati.</em>
+    <em>Scopri come implementare l'estensione Adobe Target con una richiesta di caricamento pagina e parametri personalizzati.</em>
     <p>
   </td>
    <td>
@@ -68,7 +68,7 @@ ht-degree: 29%
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
-    <strong>Implementare at.js 2.0 in un’applicazione a pagina singola</strong>
+    <strong>Implementare at.js 2.0 in un SPA</strong>
     </a>
     </div>
     <p>

@@ -1,5 +1,5 @@
 ---
-title: Integrare Target con Audienci Manager
+title: Integrare Target con Audience Manager
 description: Scopri come integrare Adobe Target con Adobe Audience Manager.
 role: Developer
 level: Intermediate
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ---
 
-# Integrare Target con Audienci Manager
+# Integrare Target con Audience Manager
 
 ## Descrizione
 
@@ -30,4 +30,4 @@ Questo video spiega come:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35151/?quality=12)
 
-Per ulteriori informazioni, visitare il [documentazione](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en).
+Per ulteriori informazioni, visita la [documentazione](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en).

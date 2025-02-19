@@ -1,6 +1,6 @@
 ---
 title: Come funzionano le richieste Target?
-description: Questo video descrive il fattore di scadenza per i cookie e i profili di Target. Scopri come determinare il numero e i tipi di richieste Target, distinguere tra distribuzione sincrona e asincrona e spiegare la gestione della visualizzazione momentanea di altri contenuti.
+description: Scopri come determinare il numero e i tipi di richieste di Adobe Target, distinguere tra distribuzione sincrona e asincrona e spiegare la gestione della visualizzazione momentanea di altri contenuti.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5381
 thumbnail: 35141.jpg
 exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
-# Introduzione alle richieste di Target
-
-## Descrizione
+# Introduzione a [!DNL Target] richieste
 
 Questo video spiega come:
 

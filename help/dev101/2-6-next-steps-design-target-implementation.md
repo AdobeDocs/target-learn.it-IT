@@ -1,6 +1,6 @@
 ---
 title: Oltre le nozioni di base, quali sono i passaggi successivi per la progettazione di un’implementazione di Target
-description: Questo video mostra agli sviluppatori e agli architetti di Adobe Target come implementare Target con le librerie di gestione dei tag, spiegare la rilevanza degli script di profilo per il modello utente e differenziare l’utilizzo e l’applicazione di un parametro di richiesta e di un parametro di profilo.
+description: Scopri come implementare Target con le librerie di gestione dei tag. Scopri la rilevanza degli script di profilo per il modello utente e come distinguere l’utilizzo e l’applicazione di un parametro di richiesta e di un parametro di profilo.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development, Architecture
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5384
 thumbnail: 35144.jpg
 exl-id: c9c907dd-4574-40cb-b5b8-93f4ab6ff609
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
-# Passaggi successivi per la progettazione di un’implementazione di Target
-
-## Descrizione
+# Passaggi successivi per la progettazione di un&#39;implementazione [!DNL Target]
 
 Questo video spiega come:
 

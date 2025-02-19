@@ -1,6 +1,6 @@
 ---
-title: Come creare progetti personalizzati in Recommendations
-description: Scopri come creare progettazioni personalizzate in Adobe Target Recommendations.
+title: Creare progettazioni personalizzate in Recommendations
+description: Scopri come creare progettazioni personalizzate in Consigli di Adobe Target.
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 11%
+source-wordcount: '64'
+ht-degree: 15%
 
 ---
 
 # Creare progettazioni personalizzate in Recommendations
 
-## Descrizione
+## Cosa imparerai
 
 Questo video spiega come:
 
@@ -36,4 +36,4 @@ Questo video spiega come:
 * [Informazioni sui feed](understanding-feeds.md)
 * [Creare un feed](create-a-feed.md)
 * [Crea criterio](create-criteria.md)
-* [Documentazione di Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

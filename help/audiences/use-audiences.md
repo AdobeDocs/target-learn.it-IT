@@ -1,6 +1,6 @@
 ---
 title: Cosa sono i tipi di pubblico e come si utilizzano?
-description: Questo video mostra agli utenti di Adobe Target come utilizzare i tipi di pubblico per eseguire il targeting delle attività e filtrare i rapporti.
+description: Scopri come utilizzare i tipi di pubblico per eseguire il targeting delle attività e filtrare i rapporti.
 landing-page-description: Scopri come definire e trovare i tipi di pubblico, eseguire il targeting delle attività e filtrare i rapporti.
 short-description: Scopri come definire e trovare i tipi di pubblico, eseguire il targeting delle attività e filtrare i rapporti.
 role: User
@@ -11,16 +11,18 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
-source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 47%
+source-wordcount: '101'
+ht-degree: 43%
 
 ---
 
 # Utilizzare i tipi di pubblico in Adobe Target
 
-## Descrizione
+Questo video mostra agli utenti di Adobe Target come utilizzare i tipi di pubblico per eseguire il targeting delle attività e filtrare i rapporti.
+
+## Cosa imparerai
 
 Questo video spiega come:
 

@@ -1,5 +1,5 @@
 ---
-title: Come risolvere i problemi di Adobe Target con il Experience Cloud Debugger
+title: Risolvere i problemi in Adobe Target con Experience Cloud Debugger
 description: Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell'implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento Mbox Trace ed esaminare le tue attività, i requisiti del pubblico e il tuo profilo visitatore.
 role: User
 level: Intermediate
@@ -9,14 +9,14 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: afdc531d-e54c-4612-b21b-67a3e8e65a26
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 82%
 
 ---
 
-# Risoluzione dei problemi relativi al Experience Cloud Debugger
+# Risoluzione dei problemi con Experience Cloud Debugger
 
 Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&#39;implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento Mbox Trace ed esaminare le tue attività, i requisiti del pubblico e il tuo profilo visitatore.
 

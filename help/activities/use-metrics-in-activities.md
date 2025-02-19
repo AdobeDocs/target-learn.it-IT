@@ -1,6 +1,6 @@
 ---
 title: Come utilizzare le metriche nelle attività
-description: Come si misura il successo di un’attività di Adobe Target? In questo video, scopri i diversi tipi di metriche dell’obiettivo e come utilizzarle per misurare le prestazioni dell’attività.
+description: Scopri i diversi tipi di metriche dell’obiettivo e come utilizzarle per misurare le prestazioni dell’attività.
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,16 +8,14 @@ feature: Activities
 doc-type: feature video
 kt: null
 exl-id: 02752f2c-2f61-44b8-a6a5-f36d576e4806
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '65'
 ht-degree: 6%
 
 ---
 
 # Utilizzare le metriche nelle attività
-
-## Descrizione
 
 Questo video spiega come:
 

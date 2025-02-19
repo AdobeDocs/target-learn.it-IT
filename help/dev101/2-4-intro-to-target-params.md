@@ -1,6 +1,6 @@
 ---
 title: Amministrazione e implementazione di parametri
-description: Questo video mostra agli architetti e agli sviluppatori di Adobe Target come distinguere tra parametri di richiesta e parametri di profilo, configurare e attivare richieste utilizzando i sistemi di gestione dei tag e JavaScript e comprendere i requisiti di implementazione per dispositivi mobili, targeting e-mail e API.
+description: Scopri come distinguere tra parametri di richiesta e parametri di profilo, configurare e attivare le richieste utilizzando JavaScript e i sistemi di gestione dei tag. Comprendi i requisiti di implementazione per dispositivi mobili, targeting e-mail e API.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5382
 thumbnail: 35142.jpg
 exl-id: 49929748-c67f-44e1-9853-b499d8da6b7d
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 2%
+source-wordcount: '84'
+ht-degree: 1%
 
 ---
 
-# Introduzione ai parametri di Target
-
-## Descrizione
+# Introduzione a [!DNL Target] parametri
 
 Questo video spiega come:
 

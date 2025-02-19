@@ -1,6 +1,6 @@
 ---
 title: Come creare un feed in Recommendations
-description: Scopri come creare un feed di dati in Adobe Target Recommendations
+description: Scopri come creare un feed di dati in Consigli di Adobe Target
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,20 +8,20 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 10%
+source-wordcount: '68'
+ht-degree: 14%
 
 ---
 
-# Creazione di un feed in Adobe Target Recommendations
+# Creazione di un feed nella funzione Consigli di Adobe Target
 
-## Descrizione
+## Cosa imparerai
 
 Questo video spiega come:
 
-* Creare un feed di dati in Adobe Target Recommendations
+* Creare un feed di dati in Consigli di Adobe Target
 
 ## Pubblico previsto
 
@@ -36,4 +36,4 @@ Questo video spiega come:
 * [Crea criterio](create-criteria.md)
 * [Creare progettazioni personalizzate](create-custom-designs.md)
 * [Creare raccolte ed esclusioni](create-collections-and-exclusions.md)
-* [Documentazione di Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

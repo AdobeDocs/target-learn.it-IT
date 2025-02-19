@@ -1,6 +1,6 @@
 ---
 title: Come funziona at.js 2.0?
-description: at.js 2.0 migliora il supporto di Adobe Target per le applicazioni a pagina singola (SPA) e si integra con altre soluzioni Experience Cloud. Questo video e i relativi diagrammi spiegano come tutto si combina.
+description: Scopri in che modo at.js 2.0 migliora il supporto di Adobe Target per le applicazioni a pagina singola (SPA) e si integra con altre soluzioni Experience Cloud.
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -9,9 +9,9 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Comportamento di ![at.js 2.0 al caricamento della pagina](assets/pageload.png)
 
-1. La chiamata restituisce l’ID Experience Cloud (ECID). Se l&#39;utente è autenticato, un&#39;altra chiamata sincronizza l&#39;ID cliente.
+1. La chiamata restituisce Experience Cloud ID (ECID). Se l&#39;utente è autenticato, un&#39;altra chiamata sincronizza l&#39;ID cliente.
 
 1. La libreria `at.js` viene caricata in modo sincrono e nasconde il corpo del documento (`at.js` può anche essere caricato in modo asincrono con un frammento pre-hiding opzionale implementato nella pagina).
 
@@ -52,11 +52,11 @@ Comportamento di ![at.js 2.0 quando si utilizza la funzione triggerView()](asset
 1. Il contenuto di destinazione viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito
 
 1. Richiesta di notifica inviata a [!DNL Target] [!UICONTROL Profile Store] per conteggiare il visitatore nell&#39;attività e nelle metriche incrementali
-1. [!DNL Analytics] dati inviati dal SPA ai server [!UICONTROL Data Collection]
+1. [!DNL Analytics] dati inviati dall&#39;applicazione a pagina singola ai server [!UICONTROL Data Collection]
 
 1. I dati di [!DNL Target] vengono inviati dal backend [!DNL Target] ai server [!UICONTROL Data Collection]. I dati di [!DNL Target] corrispondono ai dati di [!DNL Analytics] tramite SDID ed vengono elaborati nell&#39;archivio dei report di [!DNL Analytics]. I dati di [!DNL Analytics] possono quindi essere visualizzati sia in [!DNL Analytics] che in [!DNL Target] tramite i rapporti A4T.
 
 ## Risorse aggiuntive
 
 * [Implementare at.js 2.0 in un’applicazione a pagina singola](implement-atjs-20-in-a-single-page-application.md)
-* [Utilizzare il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singola (VEC SPA)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+* [Utilizzare il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singola](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)

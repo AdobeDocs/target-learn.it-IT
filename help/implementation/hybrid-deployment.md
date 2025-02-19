@@ -1,6 +1,6 @@
 ---
 title: Opzioni di distribuzione ibrida
-description: Guarda questo video per scoprire l’esclusivo modello di distribuzione ibrida di Adobe Target per la personalizzazione, che combina implementazioni lato client e lato server.
+description: Scopri l’esclusivo modello di distribuzione ibrida di Adobe Target per implementazioni lato client e lato server basate sulla personalizzazione.
 role: Developer, Architect
 level: Beginner
 topic: Personalization, Architecture, Development
@@ -9,16 +9,16 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: f7d130040c74cb2dd79edadf7090bc8a4501557e
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
-# Implementazione ibrida di Adobe Target
+# Distribuzione ibrida di Adobe Target
 
-Adobe Target offre un modello di distribuzione ibrida univoco per la personalizzazione, che combina implementazioni lato client e lato server. Questo modello ibrido consente agli utenti non tecnici di creare un’attività sperimentale o di personalizzazione utilizzando il Compositore esperienza visivo WYSIWYG e di eseguire, distribuire e renderizzare l’esperienza lato server per una distribuzione altamente performante.
+Adobe Target offre un modello di distribuzione ibrida univoco per le implementazioni lato client e lato server basate sulla personalizzazione. Questo modello ibrido consente agli utenti non tecnici di creare un’attività sperimentale o di personalizzazione utilizzando il Compositore esperienza visivo di WYSIWYG e di eseguire, distribuire e renderizzare l’esperienza lato server per una distribuzione altamente performante.
 
 ## Finalità
 

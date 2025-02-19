@@ -1,6 +1,6 @@
 ---
 title: Utilizzare il confronto dei profili per creare tipi di pubblico
-description: Questo video mostra agli utenti di Adobe Target come utilizzare la funzione Confronto profili per confrontare due valori numerici di profilo l’uno rispetto all’altro durante la creazione di un pubblico.
+description: Scopri come utilizzare il confronto dei profili per confrontare due valori numerici di profilo tra loro durante la creazione di un pubblico.
 role: User
 level: Experienced
 topic: Personalization
@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '132'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 La funzione [!UICONTROL Profile Comparison] in Adobe Target consente di confrontare due valori numerici di profilo tra loro durante la creazione di un pubblico. Questa funzione è estremamente utile, ad esempio, se in [!DNL Target] si passano punteggi di tendenza personalizzati e si desidera personalizzare il contenuto in base al prodotto con il punteggio di propensione più alto.
 
-## Descrizione
+## Cosa imparerai
 
 Questo video spiega come:
 

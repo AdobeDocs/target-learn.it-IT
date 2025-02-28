@@ -1,6 +1,6 @@
 ---
 title: Come affrontare la strategia di implementazione e la governance del sistema
-description: Scopri come identificare e applicare le best practice di governance ed elencare i requisiti di implementazione di Target.
+description: Scopri come identificare e applicare le best practice per la governance ed elencare i requisiti di implementazione di Target.
 landing-page-description: Guarda questo video per scoprire come identificare e applicare le best practice per la governance ed elencare i requisiti di implementazione di Target.
 short-description: Guarda questo video per scoprire come identificare e applicare le best practice per la governance ed elencare i requisiti di implementazione di Target.
 role: Admin, Developer, Architect
@@ -14,7 +14,7 @@ exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 38%
+ht-degree: 53%
 
 ---
 

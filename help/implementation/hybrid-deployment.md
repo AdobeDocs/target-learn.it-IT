@@ -33,7 +33,7 @@ Entro la fine di questo video:
 * Sviluppatori
 * Architetti
 
->[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329475/?quality=12&captions=ita)
 
 ## Risorse aggiuntive
 

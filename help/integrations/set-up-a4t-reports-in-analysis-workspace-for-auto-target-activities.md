@@ -227,7 +227,7 @@ Per eseguire questa operazione, creare un [!UICONTROL Calculated Metric] seguend
 
 >[!TIP]
 >
-> È inoltre possibile creare questa metrica utilizzando la funzionalità metrica calcolata rapida [](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+> È inoltre possibile creare questa metrica utilizzando la funzionalità metrica calcolata rapida [&#128279;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
 
 La definizione completa della metrica calcolata è mostrata qui.
 

@@ -127,9 +127,9 @@ La corretta configurazione del rapporto dovrebbe produrre un risultato simile a 
 Le sezioni seguenti specificano quali configurazioni sono necessarie, a seconda dei metodi scelti. Tuttavia, i seguenti passaggi fungono da guida generale per A4T:
 
 * Rimuovi le metriche di affidabilità dal pannello A4T indipendentemente dal metodo di creazione del pannello (entrambi descritti di seguito). Fare riferimento a questi valori nel reporting di [!DNL Target]. Inoltre, i vincitori delle attività possono essere identificati nel reporting [!DNL Target]. I dettagli sull&#39;identificazione del vincitore dell&#39;attività si trovano nella sezione [Identificare il vincitore dell&#39;attività](#winner) di seguito.
->>
+&#x200B;>>
 * Per evitare confusione, deselezionare la presentazione &quot;[!UICONTROL Percent]&quot; della metrica [!UICONTROL Conversion Rate]. Vedi [Nascondi la percentuale dalla [!UICONTROL Conversion Rate] colonna](#hide-percentage) di seguito.
->>
+&#x200B;>>
 * Se stai creando un pannello A4T, assicurati che gli intervalli di date e ore corrispondano a quelli del tuo report [!DNL Target]. Consulta [Allineare data e ora nel pannello A4T](#aligning-date-and-time) di seguito.
 
 ### Nascondi la percentuale dalla colonna [!UICONTROL Conversion Rate] {#hide-percentage}
@@ -162,7 +162,7 @@ Le sezioni seguenti specificano quali configurazioni sono necessarie, a seconda 
 
 >[!NOTE]
 >
-I badge &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot; non sono disponibili nel pannello A4T in [!DNL Analysis Workspace]. Inoltre, il badge &quot;stella&quot; vincitore visualizzato nei report [!DNL Target] per le attività [!UICONTROL Auto-Allocate] deve essere ignorato. Consulta [Allocazione automatica](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Supporto A4T per attività di allocazione automatica e targeting automatico* in *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+>I badge &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot; non sono disponibili nel pannello A4T in [!DNL Analysis Workspace]. Inoltre, il badge &quot;stella&quot; vincitore visualizzato nei report [!DNL Target] per le attività [!UICONTROL Auto-Allocate] deve essere ignorato. Consulta [Allocazione automatica](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Supporto A4T per attività di allocazione automatica e targeting automatico* in *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 ### Crea il pannello A4T per [!UICONTROL Auto-Allocate] in [!DNL Analysis Workspace]
 

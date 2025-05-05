@@ -36,4 +36,4 @@ Questo video spiega come:
 * [Informazioni sui feed](understanding-feeds.md)
 * [Creare un feed](create-a-feed.md)
 * [Crea criterio](create-criteria.md)
-* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=it)

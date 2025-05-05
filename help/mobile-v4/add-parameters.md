@@ -150,7 +150,7 @@ Esegui l’emulatore e apri Logcat. Filtra uno dei parametri per verificare che 
 
 >[!NOTE]
 >
->Analytics for Target (A4T): Adobe Analytics può essere configurato come origine per la generazione di rapporti per [!DNL Target]. Questo consente di visualizzare in Adobe Analytics tutte le metriche/dimensioni raccolte dall’SDK di Target. Per ulteriori dettagli, consulta la [Panoramica di A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en).
+>Analytics for Target (A4T): Adobe Analytics può essere configurato come origine per la generazione di rapporti per [!DNL Target]. Questo consente di visualizzare in Adobe Analytics tutte le metriche/dimensioni raccolte dall’SDK di Target. Per ulteriori dettagli, consulta la [Panoramica di A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it).
 
 Ottimo lavoro. Ora che i parametri sono operativi, possiamo utilizzarli per creare tipi di pubblico e offerte in Adobe Target.
 

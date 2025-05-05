@@ -36,4 +36,4 @@ Questo video spiega come:
 * [Crea criterio](create-criteria.md)
 * [Creare progettazioni personalizzate](create-custom-designs.md)
 * [Creare raccolte ed esclusioni](create-collections-and-exclusions.md)
-* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=it)

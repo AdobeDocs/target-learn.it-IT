@@ -25,4 +25,4 @@ Le attività di Automated Personalization e Targeting automatico utilizzano l’
 
 ## Informazioni aggiuntive
 
-* [Informazioni su Personalization nella Guida](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)
+* [Informazioni su Personalization nella Guida](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=it)

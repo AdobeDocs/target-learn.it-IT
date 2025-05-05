@@ -36,4 +36,4 @@ Questo video spiega come:
 * [Creare progettazioni personalizzate](create-custom-designs.md)
 * [Creare raccolte ed esclusioni](create-collections-and-exclusions.md)
 * [Creare un’attività Consigli](create-a-recommendations-activity.md)
-* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=it)

@@ -30,7 +30,7 @@ Alla fine di questa lezione, sarai in grado di:
 
 ## Aggiungere i parametri del ciclo di vita
 
-Abilitiamo [Adobe mobile lifecycle metrics](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Questo aggiungerà parametri alle richieste di posizione contenenti informazioni dettagliate sul dispositivo dell’utente e sul coinvolgimento con l’app. Nella prossima lezione verranno creati dei tipi di pubblico utilizzando i dati forniti dalla richiesta del ciclo di vita.
+Abilitiamo [Adobe mobile lifecycle metrics](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=it). Questo aggiungerà parametri alle richieste di posizione contenenti informazioni dettagliate sul dispositivo dell’utente e sul coinvolgimento con l’app. Nella prossima lezione verranno creati dei tipi di pubblico utilizzando i dati forniti dalla richiesta del ciclo di vita.
 
 Per abilitare le metriche del ciclo di vita, aprire nuovamente il controller HomeActivity e aggiungere `Config.collectLifecycleData(this);` alla funzione onResume():
 
@@ -89,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### Nota sui parametri
 
-Per i progetti futuri, potrebbe essere utile implementare parametri aggiuntivi. Il metodo `createTargetPrefetchObject()` consente tre tipi di parametri: `locationParams`, `orderParams` e `productParams`. Consulta la documentazione per [ulteriori dettagli sull&#39;aggiunta di questi parametri alla richiesta di preacquisizione](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
+Per i progetti futuri, potrebbe essere utile implementare parametri aggiuntivi. Il metodo `createTargetPrefetchObject()` consente tre tipi di parametri: `locationParams`, `orderParams` e `productParams`. Consulta la documentazione per [ulteriori dettagli sull&#39;aggiunta di questi parametri alla richiesta di preacquisizione](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=it).
 
 Inoltre, è possibile aggiungere parametri di posizione diversi a ciascuna posizione nella richiesta di preacquisizione. Ad esempio, puoi creare un&#39;altra mappa denominata param2, inserirvi un nuovo parametro, quindi impostare param2 in una posizione e param1 con l&#39;altra posizione. Ecco un esempio:
 
@@ -146,7 +146,7 @@ Esegui l’emulatore e apri Logcat. Filtra uno dei parametri per verificare che 
 
 >[!NOTE]
 >
->Richieste e parametri di conferma ordine: anche se non vengono utilizzati in questo progetto demo, i dettagli dell&#39;ordine vengono generalmente acquisiti in un&#39;implementazione reale, quindi [!DNL Target] può utilizzare i dettagli dell&#39;ordine come metriche/dimensioni. Fare riferimento alla documentazione per istruzioni su come [implementare la richiesta di conferma dell&#39;ordine e i parametri](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
+>Richieste e parametri di conferma ordine: anche se non vengono utilizzati in questo progetto demo, i dettagli dell&#39;ordine vengono generalmente acquisiti in un&#39;implementazione reale, quindi [!DNL Target] può utilizzare i dettagli dell&#39;ordine come metriche/dimensioni. Fare riferimento alla documentazione per istruzioni su come [implementare la richiesta di conferma dell&#39;ordine e i parametri](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=it).
 
 >[!NOTE]
 >

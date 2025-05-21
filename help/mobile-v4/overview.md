@@ -23,7 +23,7 @@ _Adobe Target con SDK v4 di Adobe Mobile Services per Android_ è il punto di pa
 
 Dopo aver completato questa esercitazione, sarai in grado di:
 
-* Convalida la configurazione di [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
+* Convalida la configurazione di [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=it)
 * Implementare i seguenti tipi di richieste [!DNL Target]:
    * Preacquisizione del contenuto [!DNL Target]
    * Crea in batch più posizioni [!DNL Target] (mbox) in una singola richiesta

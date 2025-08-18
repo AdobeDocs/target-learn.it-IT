@@ -31,7 +31,7 @@ Questo video spiega come:
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329907/?quality=12&captions=ita)
 
 ## Risorse aggiuntive
 

@@ -21,4 +21,4 @@ ht-degree: 0%
 
 Scopri come utilizzare i segmenti di Real-Time Customer Data Platform in Adobe Target per fornire esperienze personalizzate sul sito web e sulle app mobili. Per ulteriori informazioni, consulta [la documentazione](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=it).
 
->[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446835/?learn=on&captions=ita)

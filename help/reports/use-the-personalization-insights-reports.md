@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Le attività di Automated Personalization e Targeting automatico utilizzano l’apprendimento automatico avanzato per fornire a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili. I rapporti Approfondimenti Personalization forniscono informazioni su come questi modelli prendono le loro decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329906/?quality=12&captions=ita)
 
 ## Informazioni aggiuntive
 

@@ -20,7 +20,7 @@ ht-degree: 82%
 
 Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&#39;implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento Mbox Trace ed esaminare le tue attività, i requisiti del pubblico e il tuo profilo visitatore.
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326675/?quality=12&captions=ita)
 
 ## Risorse aggiuntive
 

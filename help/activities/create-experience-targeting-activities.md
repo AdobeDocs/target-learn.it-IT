@@ -29,7 +29,7 @@ Questo video spiega come:
 
 * Professionisti
 
->[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41140?quality=12&captions=ita)
 
 ## Risorse aggiuntive
 

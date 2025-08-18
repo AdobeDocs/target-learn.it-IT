@@ -27,7 +27,7 @@ Questo video spiega come:
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328597?quality=12&captions=ita)
 
 ## Risorse aggiuntive
 

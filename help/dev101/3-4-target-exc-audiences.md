@@ -29,6 +29,6 @@ Questo video spiega come:
 
 * Sviluppatori
 
->[!VIDEO](https://video.tv.adobe.com/v/3421750/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/35152/?quality=12)
 
-Per ulteriori informazioni, visita la [documentazione](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=it).
+Per ulteriori informazioni, visita la [documentazione](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=en).

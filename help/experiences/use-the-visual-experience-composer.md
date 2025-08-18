@@ -31,6 +31,6 @@ Nel secondo video imparerai a:
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/36326/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/36327/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17401/?quality=12)

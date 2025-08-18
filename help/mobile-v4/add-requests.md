@@ -1,6 +1,6 @@
 ---
 title: Aggiungere richieste Adobe Target
-description: L’SDK di Mobile Services di Adobe (v4) fornisce metodi e funzionalità Adobe Target che consentono di personalizzare l’app con esperienze diverse per utenti diversi.
+description: Il SDK di Adobe Mobile Services (v4) fornisce metodi e funzionalità Adobe Target che consentono di personalizzare l’app con esperienze diverse per utenti diversi.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Aggiungere richieste Adobe Target
 
-L’SDK di Mobile Services di Adobe (v4) fornisce metodi e funzionalità di Adobe Target che consentono di personalizzare l’app con esperienze diverse per utenti diversi. In genere, l’app invia all’Adobe Target una o più richieste per recuperare il contenuto personalizzato e misurarne l’impatto.
+Il SDK di Adobe Mobile Services (v4) fornisce metodi e funzionalità Adobe Target che consentono di personalizzare l’app con esperienze diverse per utenti diversi. In genere, l’app invia all’Adobe Target una o più richieste per recuperare il contenuto personalizzato e misurarne l’impatto.
 
 In questa lezione, preparerai l&#39;app We.Travel per la personalizzazione implementando [!DNL Target] richieste.
 
@@ -52,7 +52,7 @@ Di seguito sono riportati alcuni termini chiave di Target che utilizzeremo nel r
 
 La prima richiesta che implementeremo in We.Travel è una richiesta di preacquisizione batch con due posizioni [!DNL Target] nella schermata iniziale. In una lezione successiva, configureremo le offerte per queste posizioni che visualizzano messaggi per aiutare i nuovi utenti nel processo di prenotazione.
 
-Una richiesta di preacquisizione recupera il contenuto di [!DNL Target] il meno possibile memorizzando nella cache la risposta del server Adobe Target (offerta). Una richiesta di preacquisizione batch recupera e memorizza nella cache più offerte, ciascuna associata a una posizione diversa. Tutte le posizioni preacquisite vengono memorizzate nella cache del dispositivo per un utilizzo futuro nella sessione utente. Preacquisendo più posizioni nella schermata iniziale, possiamo recuperare le offerte da utilizzare in un secondo momento mentre il visitatore naviga attraverso l’app. Per ulteriori dettagli sui metodi di preacquisizione, consulta la [documentazione di preacquisizione](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=it).
+Una richiesta di preacquisizione recupera il contenuto di [!DNL Target] il meno possibile memorizzando nella cache la risposta del server Adobe Target (offerta). Una richiesta di preacquisizione batch recupera e memorizza nella cache più offerte, ciascuna associata a una posizione diversa. Tutte le posizioni preacquisite vengono memorizzate nella cache del dispositivo per un utilizzo futuro nella sessione utente. Preacquisendo più posizioni nella schermata iniziale, possiamo recuperare le offerte da utilizzare in un secondo momento mentre il visitatore naviga attraverso l’app. Per ulteriori dettagli sui metodi di preacquisizione, consulta la [documentazione di preacquisizione](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 ### Aggiungi la richiesta di preacquisizione batch
 
@@ -116,7 +116,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 | Codice | Descrizione |
 |--- |--- |
-| `targetPrefetchContent()` | Funzione definita dall&#39;utente (non inclusa nell&#39;SDK) che utilizza i metodi [!DNL Target] per recuperare e memorizzare nella cache due posizioni [!DNL Target]. |
+| `targetPrefetchContent()` | Funzione definita dall&#39;utente (non inclusa in SDK) che utilizza i metodi [!DNL Target] per recuperare e memorizzare nella cache due posizioni [!DNL Target]. |
 | `prefetchContent()` | Il metodo SDK [!DNL Target] che invia la richiesta di preacquisizione |
 | `Constant.wetravel_engage_home` | Nome posizione [!DNL Target] preacquisito che visualizzerà il contenuto dell&#39;offerta nella schermata iniziale |
 | `Constant.wetravel_engage_search` | Nome percorso [!DNL Target] preacquisito che visualizzerà il contenuto dell&#39;offerta nella schermata Risultati ricerca. Poiché si tratta di una seconda posizione nella preacquisizione, questa richiesta di preacquisizione è denominata &quot;richiesta batch di preacquisizione&quot;. |
@@ -284,8 +284,8 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 | Codice | Descrizione |
 |--- |--- |
-| `targetLoadRequest()` | Funzione definita dall&#39;utente (non inclusa nell&#39;SDK) che attiva `Target.loadRequest()` e carica e visualizza la posizione wetravel_context_dest |
-| `Target.loadRequest()` | Il metodo SDK che effettua la richiesta al server di Target |
+| `targetLoadRequest()` | Funzione definita dall&#39;utente (non inclusa in SDK) che attiva `Target.loadRequest()` e carica e visualizza la posizione wetravel_context_dest |
+| `Target.loadRequest()` | Il metodo SDK che invia la richiesta al server di Target |
 | Constant.wetravel_context_dest | Il nome della posizione assegnato alla richiesta che utilizzeremo in seguito quando verrà generata l&#39;attività nell&#39;interfaccia [!DNL Target] |
 | `filterRecommendationBasedOnOffer()` | Funzione definita dall’utente nell’app che prende l’offerta della posizione dalla risposta di Target e decide come l’app deve cambiare in base al contenuto dell’offerta |
 | `recommandations.addAll()` | Funzione definita dall&#39;utente nell&#39;app che veniva eseguita per impostazione predefinita al caricamento della schermata Grazie, ma ora viene eseguita dopo che la risposta di Target è stata ricevuta e analizzata da `filterRecommendationBasedOnOffer()` |

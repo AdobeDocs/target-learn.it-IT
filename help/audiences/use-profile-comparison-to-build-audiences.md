@@ -31,10 +31,10 @@ Questo video spiega come:
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/329907/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
 ## Risorse aggiuntive
 
-* [Creazione di un pubblico di confronto di attributi di profilo](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=it)
-* [Generazione di tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=it)
+* [Creazione di un pubblico di confronto di attributi di profilo](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [Generazione di tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Video su come creare attività di targeting delle esperienze](../activities/create-experience-targeting-activities.md)

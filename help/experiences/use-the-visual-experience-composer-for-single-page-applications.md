@@ -32,11 +32,11 @@ Il Compositore esperienza visivo per applicazioni a pagina singola consente agli
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/328139?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
 
 
 ## Risorse aggiuntive
 
 * [Implementazione di at.js 2.0 in un’applicazione a pagina singola](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [Funzionamento di at.js 2.0 (diagrammi dell’architettura)](../implementation/understanding-how-atjs-20-works.md)
-* [Documentazione del Compositore esperienza visivo per app a pagina singola](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=it)
+* [Documentazione del Compositore esperienza visivo per app a pagina singola](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)

@@ -1,6 +1,6 @@
 ---
 title: Come risolvere i problemi relativi alle tracce di Target
-description: Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell'implementazione di Target. Scopri come autenticarti nell’Experience Cloud e utilizzare il potente strumento Target Traces per esaminare le tue attività, i requisiti del pubblico e il profilo visitatore.
+description: Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell'implementazione di Target. Scopri come autenticarti in Experience Cloud e utilizzare il potente strumento Target Traces per esaminare le tue attività, i requisiti del pubblico e il profilo visitatore.
 role: User
 level: Intermediate
 topic: Personalization, Performance
@@ -20,4 +20,4 @@ ht-degree: 30%
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/326676/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)

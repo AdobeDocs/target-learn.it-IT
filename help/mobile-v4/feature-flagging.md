@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Ora creeremo una semplice offerta JSON che fungerà da flag o attiverà per un p
 
 ![Crea offerta JSON con flag di funzione](assets/feature_flag_json_offer.jpg)
 
-Chiamiamolo &quot;Flag di funzionalità v1&quot; con il valore {&quot;enable&quot;:1}
+Chiamiamolo &quot;Flag di funzione v1&quot; con il valore {&quot;enable&quot;:1}
 
 ![offerta JSON feature_flag_v1](assets/feature_flag_json_name.jpg)
 

@@ -78,7 +78,7 @@ Segui gli stessi passaggi elencati sopra per creare un pubblico per gli utenti d
 
 >[!NOTE]
 >
->Tutte le metriche e le dimensioni del ciclo di vita raccolte nell&#39;SDK di [!DNL Target] per dispositivi mobili sono precedute da &quot;a&quot; (ad esempio, a.Launches) e sono disponibili nell&#39;opzione &quot;Personalizzate&quot; del menu a discesa e possono essere utilizzate per creare tipi di pubblico.
+>Tutte le metriche e le dimensioni del ciclo di vita raccolte nel SDK mobile [!DNL Target] sono precedute da &quot;a&quot; (ad esempio, a.Launches) e sono disponibili nell&#39;opzione &quot;Personalizzato&quot; del menu a discesa e possono essere utilizzate per creare tipi di pubblico.
 
 ### Creare un pubblico per gli utenti Prenotazione di un viaggio a San Diego
 
@@ -120,7 +120,7 @@ Innanzitutto, creiamo offerte per i messaggi destinati ai nuovi utenti:
 1. Immetti _Seleziona Source e Destinazione per cercare i bus disponibili_ come codice.
 1. Salva la nuova offerta.
 
-   ![Crea offerta Home HTML](assets/offer_home_2.jpg)
+   ![Crea Offerta HTML Predefinito](assets/offer_home_2.jpg)
 
 ### Crea l&#39;offerta per gli utenti di ritorno
 
@@ -130,7 +130,7 @@ Ora creiamo lâ€™unica offerta per gli utenti di ritorno (la seconda offerta sarÃ
 1. Immetti _Bentornato! Utilizza il codice promozionale BACK30 durante il pagamento per ottenere uno sconto del 10%._ come codice HTML.
 1. Salva la nuova offerta.
 
-   ![Crea offerta Home HTML](assets/offer_home_returning_users.jpg)
+   ![Crea Offerta HTML Predefinito](assets/offer_home_returning_users.jpg)
 
 ### Crea offerta San Diego
 

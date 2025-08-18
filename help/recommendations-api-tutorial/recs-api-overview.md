@@ -1,6 +1,6 @@
 ---
 title: Cos’è l’API di Adobe Recommendations?
-description: Questo tutorial illustra agli sviluppatori le procedure pratiche per l’utilizzo delle API Recommendations di Adobe Target per configurare e gestire cataloghi Recommendations e criteri personalizzati, nonché per l’utilizzo dell’API di consegna per recuperare i contenuti dei consigli.
+description: Questo tutorial illustra agli sviluppatori le procedure pratiche per l’utilizzo delle API di Adobe Target Recommendations per configurare e gestire cataloghi e criteri personalizzati di Recommendations, nonché per l’utilizzo delle API di consegna per recuperare i contenuti di Recommendations.
 role: Developer
 level: Intermediate
 topic: Personalization, Administration, Integrations, Development
@@ -18,14 +18,14 @@ ht-degree: 2%
 
 # Panoramica API di Adobe Recommendations
 
-Le API rilevanti per [!DNL Recommendations] includono [API amministratore](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=it) che consentono di:
+Le API rilevanti per [!DNL Recommendations] includono [API amministratore](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en) che consentono di:
 
 * Gestione del catalogo di prodotti o contenuti consigliati
 * Gestisci gli algoritmi e le attività di [!DNL Recommendations]
 
-Utilizzando l&#39;[!DNL Target] [API di consegna](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=it) con Recommendations, è inoltre possibile:
+Utilizzando l&#39;[!DNL Target] [API di consegna](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en) con Recommendations, puoi anche:
 
-* Recupera i consigli in oggetti JSON, HTML o XML per visualizzarli in web, dispositivi mobili, e-mail, Internet of Things (IOT) e altri canali.
+* Recupera i consigli in oggetti JSON, HTML o XML in modo che possano essere visualizzati in web, dispositivi mobili, e-mail, Internet of Things (IOT) e altri canali.
 
 ## Descrizione del tutorial
 
@@ -33,15 +33,15 @@ Questo tutorial illustra agli sviluppatori le procedure pratiche per l&#39;utili
 
 * Configurare e gestire le entità tramite l’API Recommendations
 * Configurare e gestire criteri personalizzati utilizzando l’API di Recommendations
-* Scopri come utilizzare Recommendations con l’API di consegna per utilizzare i risultati dei consigli in dispositivi non HTML.
+* Scopri come utilizzare Recommendations con l’API di consegna per utilizzare i risultati dei consigli in dispositivi non HTML
 
 ## Destinatari
 
-Questo tutorial è destinato agli sviluppatori che utilizzano per la prima volta le API di Target o Recommendations.
+Questo tutorial è destinato agli sviluppatori che utilizzano per la prima volta le API di Target o le API di Recommendations.
 
 ## Prerequisiti
 
-L&#39;utilizzo delle API dell&#39;amministratore di Target richiede [l&#39;impostazione dell&#39;autenticazione Adobe](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=it){target="_blank"}. Assicurati di averlo configurato prima di iniziare questa esercitazione.
+L&#39;utilizzo delle API dell&#39;amministratore di Target richiede [l&#39;impostazione dell&#39;autenticazione di Adobe](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=it){target="_blank"}. Assicurati di averlo configurato prima di iniziare questa esercitazione.
 
 ## Risorse
 
@@ -50,6 +50,6 @@ Prendi nota delle seguenti risorse, necessarie per comprendere questa esercitazi
 | Risorsa | Dettagli |
 | --- | --- |
 | Postman | Scarica l&#39;[app Postman](https://www.postman.com/downloads/) per il tuo sistema operativo. Postman basic è gratuito con la creazione dell&#39;account. Anche se non è necessario per utilizzare le API di Adobe Target in generale, Postman semplifica i flussi di lavoro API e Adobe Target fornisce diverse raccolte Postman per aiutarle a eseguire le API e a imparare a utilizzarle. Il resto di questo tutorial presuppone una conoscenza operativa di Postman. Per assistenza, fare riferimento alla [documentazione di Postman](https://learning.getpostman.com/). |
-| Riferimenti | Per il resto di questa esercitazione si presume che le risorse seguenti siano familiari:<UL><li>[Github Adobe I/O](https://github.com/adobeio)</li><li>[Documentazione Adobe I/O di Target](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentazione API Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| Riferimenti | Per il resto di questa esercitazione si presume che le risorse seguenti siano familiari:<UL><li>[Github Adobe I/O](https://github.com/adobeio)</li><li>[Documentazione di Target Adobe I/O](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentazione API per la funzione Consigli](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
-[Avanti &quot;Gestire il catalogo Recommendations&quot; >](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html?lang=it){target="_blank"}
+[Avanti &quot;Gestire il catalogo dei consigli&quot; >](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}

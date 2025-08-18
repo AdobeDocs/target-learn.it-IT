@@ -27,7 +27,7 @@ Questo video spiega come:
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/328596?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 
 ## Risorse aggiuntive
 
@@ -36,4 +36,4 @@ Questo video spiega come:
 * [Crea criterio](create-criteria.md)
 * [Creare progettazioni personalizzate](create-custom-designs.md)
 * [Creare raccolte ed esclusioni](create-collections-and-exclusions.md)
-* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=it)
+* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

@@ -27,7 +27,7 @@ Questo video spiega come:
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/328805?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27687?quality=12)
 
 ## Risorse aggiuntive
 
@@ -36,4 +36,4 @@ Questo video spiega come:
 * [Informazioni sui feed](understanding-feeds.md)
 * [Creare un feed](create-a-feed.md)
 * [Crea criterio](create-criteria.md)
-* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=it)
+* [Documentazione consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

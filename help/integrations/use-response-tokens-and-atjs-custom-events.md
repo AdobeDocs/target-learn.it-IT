@@ -20,7 +20,7 @@ ht-degree: 3%
 
 I token di risposta e `at.js` eventi personalizzati consentono di condividere le informazioni del profilo da [!DNL Target] a sistemi di terze parti. Qualsiasi oggetto nel profilo visitatore di [!DNL Target], inclusi gli attributi di profilo personalizzati, le informazioni geografiche, i dettagli dell&#39;attività e i profili incorporati, può essere aggiunto alla risposta di [!DNL Target] dove è possibile utilizzare JavaScript personalizzato per l&#39;integrazione con una terza parte.
 
->[!VIDEO](https://video.tv.adobe.com/v/326685/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
 
 ## Come utilizzare i token di risposta e gli eventi personalizzati at.js
 
@@ -34,5 +34,5 @@ I token di risposta e `at.js` eventi personalizzati consentono di condividere le
 ## Risorse aggiuntive
 
 * [Utilizzare Experience Cloud Debugger con Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [Documentazione del token di risposta](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=it)
+* [Documentazione del token di risposta](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
 * [Utilizzo di Fornitori di dati in Adobe Target](use-data-providers-to-integrate-third-party-data.md)

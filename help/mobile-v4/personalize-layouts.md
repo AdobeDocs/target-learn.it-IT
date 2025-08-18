@@ -193,7 +193,7 @@ Selezionare **[!UICONTROL Done]** e provare un&#39;altra prenotazione con Los An
 
 ## Conclusione
 
-Congratulazioni! In questo modo si conclude la parte principale dell’esercitazione SDK 4.x per Adobe Target per Android. Ora disponi delle competenze necessarie per implementare la personalizzazione nelle app Android. Consulta questa documentazione e app demo come riferimento per i tuoi progetti futuri.
+Congratulazioni! In questo modo si conclude la parte principale dell’esercitazione Adobe Target SDK 4.x per Android. Ora disponi delle competenze necessarie per implementare la personalizzazione nelle app Android. Consulta questa documentazione e app demo come riferimento per i tuoi progetti futuri.
 
 Successivo: l’assegnazione di un flag a una funzione è un’altra funzione che può essere implementata con Adobe Target in Android. Per informazioni sui contrassegni di funzionalità, consulta la lezione successiva.
 

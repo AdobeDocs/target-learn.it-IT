@@ -11,7 +11,7 @@ ht-degree: 6%
 
 # Esercitazioni di Adobe Target {#tutorials}
 
-+ [Panoramica dei Tutorials Adobe Target](../overview.md)
++ [Panoramica dei tutorial su Adobe Target](../overview.md)
 + Amministrazione{#administration}
    + Strategia e leadership di pensiero{#strategy}
       + [Guida rapida al test di personalizzazione e alla creazione di tabelle di marcia](../strategy/create-personalization-roadmap-testing-plan.md)
@@ -27,15 +27,15 @@ ht-degree: 6%
 + Implementazione{#implementation}
    + [Introduzione all’implementazione di Target](../dev101/2-1-intro-to-target-implementation.md)
    + [Integrare Target con Launch](../dev101/3-1-target-launch.md)
-   + [Implementare nei siti Web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=it)
+   + [Implementare nei siti Web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Vantaggi dell&#39;utilizzo delle posizioni](../dev101/2-2-benefits-of-locations.md)
    + [Introduzione alle richieste Target](../dev101/2-3-intro-to-target-requests.md)
    + [Introduzione ai parametri di Target](../dev101/2-4-intro-to-target-params.md)
    + [Funzionamento di at.js 2.0](../implementation/understanding-how-atjs-20-works.md)
-   + [Implementare at.js 2.0 in un’applicazione a pagina singola (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
+   + [Implementare at.js 2.0 in un’applicazione a pagina singola](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Progettare un’implementazione di Target](../dev101/2-5-design-target-implementation.md)
    + [Passaggi successivi per progettare un’implementazione di Target](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Usa il servizio Opt-in per controllare le soluzioni Experience Cloud in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=it)
+   + [Usa il servizio Opt-in per controllare le soluzioni Experience Cloud in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Informazioni sulla distribuzione ibrida di Adobe Target](../implementation/hybrid-deployment.md)
    + [Panoramica di Decisioning sul dispositivo](../implementation/on-device-decisioning-overview.md)
    + [Modelli di implementazione per Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
@@ -76,24 +76,24 @@ ht-degree: 6%
    + [Utilizzare il confronto dei profili per creare tipi di pubblico](../audiences/use-profile-comparison-to-build-audiences.md)
 + Esperienze{#experiences}
    + [Utilizzare il Compositore esperienza visivo](../experiences/use-the-visual-experience-composer.md)
-   + [Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+   + [Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Utilizzare il Compositore esperienza basato su moduli](../experiences/use-the-form-based-experience-composer.md)
    + [Utilizzare i frammenti esperienza AEM in Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Rapporti{#reports}
    + [Utilizzare i rapporti Approfondimenti Personalization](../reports/use-the-personalization-insights-reports.md)
-+ Consigli{#recommendations}
++ Recommendations{#recommendations}
    + [Creare un’attività Consigli](../recommendations/create-a-recommendations-activity.md)
-   + [Utilizzare le offerte Recommendations](../recommendations/use-recommendations-offers.md)
+   + [Utilizzare le offerte Consigli](../recommendations/use-recommendations-offers.md)
    + [Informazioni sui feed](../recommendations/understanding-feeds.md)
    + [Creare un feed](../recommendations/create-a-feed.md)
    + [Crea criterio](../recommendations/create-criteria.md)
    + [Creare progettazioni personalizzate](../recommendations/create-custom-designs.md)
    + [Creare raccolte ed esclusioni](../recommendations/create-collections-and-exclusions.md)
-+ Risoluzione dei problemi{#troubleshooting}
-   + [Risoluzione dei problemi relativi al Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
++ Risoluzione dei problemi relativi al{#troubleshooting}
+   + [Risoluzione dei problemi con Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Risoluzione dei problemi relativi alle tracce di Target](../troubleshooting/troubleshoot-with-target-traces.md)
    + [Risoluzione dei problemi relativi agli errori Mbox](../dev101/4-1-troubleshoot-mbox-errors.md)
    + [Risolvere i problemi relativi agli errori di attività](../dev101/4-2-troubleshoot-activity-errors.md)
    + [Risolvere i problemi relativi agli errori di integrazione A4T](../dev101/4-3-troubleshoot-integration-errors.md)
 + Dispositivi mobili{#mobile}
-   + [Implementare Adobe Target con l’SDK v4 di Adobe Mobile Services per Android](../mobile-v4/overview.md)
+   + [Implementare Adobe Target con Adobe Mobile Services SDK v4 per Android](../mobile-v4/overview.md)

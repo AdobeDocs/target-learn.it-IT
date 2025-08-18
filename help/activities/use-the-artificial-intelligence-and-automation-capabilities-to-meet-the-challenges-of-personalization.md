@@ -20,4 +20,4 @@ ht-degree: 1%
 
 Questo video illustra l’importanza della personalizzazione, le sfide legate al successo della personalizzazione, la soluzione a queste sfide (le quattro offerte di intelligenza artificiale e automazione di Adobe Target) e gli elementi chiave per la distribuzione di esperienze personalizzate. Si tratta di una versione modificata della presentazione Adobe Summit 2018 di Jamie Brighton.
 
->[!VIDEO](https://video.tv.adobe.com/v/36330/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)

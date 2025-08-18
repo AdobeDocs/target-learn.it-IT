@@ -20,4 +20,4 @@ ht-degree: 12%
 
 Scopri come creare e salvare tipi di pubblico personalizzati in [!DNL Target] da utilizzare nelle attività.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411155/?quality=12&learn=on&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/344302/?quality=12&learn=on)

@@ -28,5 +28,5 @@ Le offerte Consigli possono essere utilizzate con attività di test A/B e target
 
 ## Risorse aggiuntive
 
-* [Consigli come documentazione di offerta](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=it)
+* [Consigli come documentazione di offerta](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
 * [Video Creazione di un’attività Consigli](create-a-recommendations-activity.md)

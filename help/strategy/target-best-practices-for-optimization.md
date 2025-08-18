@@ -65,7 +65,7 @@ Un’ipotesi completa si articola in tre parti:
 * **Tipi di pubblico per reportistica:** Elenco di descrizioni dei sottoinsiemi di visitatori da utilizzare per l&#39;analisi.
 * **Experience Concepts:** trappole, esempi di wireframe e descrizioni.
 
-**Nota generale:** è possibile testare qualsiasi elemento di una pagina Web che possa promuovere il valore aziendale o fornire informazioni utili sul comportamento dei visitatori. Alcuni tipi comuni di attività di test includono:
+**Nota generale:** è possibile testare qualsiasi elemento di una pagina web che possa promuovere il valore aziendale o fornire valore insight al comportamento del visitatore. Alcuni tipi comuni di attività di test includono:
 
 * Testo titolo
 * Testo contenuto
@@ -104,7 +104,7 @@ Ad alto livello:
 
 Quando ci si concentra sull’ottimizzazione, le attività di test più comuni sono:
 
-* **Test A/B:** test in tempo reale di due o più pagine o elementi di pagina tra loro per ottenere informazioni quantitative sulle preferenze del cliente.
+* **Test A/B:** test in tempo reale di due o più pagine o elementi di pagina tra loro per ottenere insight quantitativo nelle preferenze del cliente.
 * **Test multivariato:** confronto di combinazioni di offerte tra gli elementi di una pagina per vedere quale combinazione funziona meglio. Inoltre, il test multivariato identificherà quale elemento della pagina migliora meglio le conversioni.
 
 Quando ti concentri su Personalization, probabilmente visualizzerai le stesse attività di test disponibili in Ottimizzazione, ma sono indirizzate a tipi di pubblico più specifici. Ad esempio, nei test A/B, probabilmente aggiungerai pagine e tipi di pubblico all’interno delle esperienze per promuovere il Personalization.
@@ -120,4 +120,4 @@ Alla luce di quanto sopra, Adobe consiglia di ottimizzare prima di personalizzar
 
 Per ulteriori informazioni, ascolta il [webinar su come comprendere e ottimizzare l&#39;implementazione di Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), con Katie Cozby, consulente aziendale.
 
-Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=it).
+Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

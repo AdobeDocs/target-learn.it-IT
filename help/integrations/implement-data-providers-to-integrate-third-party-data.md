@@ -26,7 +26,7 @@ Dettagli di implementazione ed esempi di come utilizzare la funzione [!UICONTROL
 
 ## Implementare i componenti di base dei provider di dati
 
->[!VIDEO](https://video.tv.adobe.com/v/326672/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
 
 Panoramica rapida dei componenti di base di `dataProvider` e di come ottenere il codice nell&#39;ordine corretto.\
 Un esempio di funzionamento del codice utilizzato nel video è disponibile qui:
@@ -34,7 +34,7 @@ Un esempio di funzionamento del codice utilizzato nel video è disponibile qui:
 
 ## Integrare con un’API di terze parti
 
->[!VIDEO](https://video.tv.adobe.com/v/326673?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/22345/)
 
 Un esempio più realistico, l’integrazione di un’API meteo.\
 Un esempio di funzionamento del codice utilizzato nel video è disponibile qui:
@@ -42,7 +42,7 @@ Un esempio di funzionamento del codice utilizzato nel video è disponibile qui:
 
 ## Integrare con più provider
 
->[!VIDEO](https://video.tv.adobe.com/v/36886?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
 Come incorporare dati provenienti da più provider nella richiesta globale di [!DNL Target].\
 Un esempio di funzionamento del codice utilizzato nel video è disponibile qui:
@@ -50,7 +50,7 @@ Un esempio di funzionamento del codice utilizzato nel video è disponibile qui:
 
 ## Riduci al minimo l&#39;impatto del caricamento della pagina
 
->[!VIDEO](https://video.tv.adobe.com/v/36888?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
 Riduci al minimo l’impatto sul tempo di caricamento della pagina memorizzando i dati in un oggetto di archiviazione della sessione. In alternativa, è possibile passare i valori come parametri di profilo utilizzando il prefisso `profile.` e semplicemente trasmetterli nella prima richiesta [!DNL Target] della sessione. Tuttavia, ti sarà limitato il passaggio di cinquanta parametri di profilo per richiesta.
 

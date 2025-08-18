@@ -29,15 +29,15 @@ Questo video spiega come:
 
 * Professionisti
 
->[!VIDEO](https://video.tv.adobe.com/v/41140?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
 ## Risorse aggiuntive
 
-* [Scarica il playbook per Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [Documentazione di Targeting esperienza](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=it)
+* [Scarica il playbook per Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
+* [Documentazione di Targeting esperienza](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Altre funzioni utilizzate in questo video
 
-* [Tipi di pubblico per la documentazione di reporting](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=it)
-* [Creazione della documentazione sui tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=it)
-* [Creazione di esperienze con la documentazione del Compositore esperienza visivo](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=it)
+* [Tipi di pubblico per la documentazione di reporting](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Creazione della documentazione sui tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Creazione di esperienze con la documentazione del Compositore esperienza visivo](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

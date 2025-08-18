@@ -14,7 +14,7 @@ exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 43%
+ht-degree: 54%
 
 ---
 
@@ -34,4 +34,4 @@ Questo video spiega come:
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/36328/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17398/?quality=12)

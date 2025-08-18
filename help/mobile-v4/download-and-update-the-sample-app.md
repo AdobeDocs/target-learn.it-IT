@@ -1,6 +1,6 @@
 ---
 title: Scarica e aggiorna l’app di esempio We.Travel.
-description: L'app di esempio We.Travel è preimplementata con l'SDK v4 di Adobe Mobile Services. Devi solo aggiornarla in modo che punti agli account della tua organizzazione di Experience Cloud e della soluzione.
+description: L'app di esempio We.Travel è preimplementata con Adobe Mobile Services SDK v4. Devi solo aggiornarla in modo che punti all’organizzazione Experience Cloud e agli account della soluzione.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Scarica e aggiorna l’app di esempio We.Travel.
 
-L&#39;app di esempio We.Travel è preimplementata con l&#39;SDK v4 di Adobe Mobile Services. Devi solo aggiornarla, in modo che punti agli account della tua organizzazione di Experience Cloud e della tua soluzione.
+L&#39;app di esempio We.Travel è preimplementata con Adobe Mobile Services SDK v4. Devi solo aggiornarla, in modo che punti all’organizzazione Experience Cloud e agli account della soluzione.
 
 ## Finalità di apprendimento
 
@@ -38,18 +38,18 @@ Alla fine di questa lezione, sarai in grado di:
 
 ## Verifica e aggiorna le impostazioni SDK di Mobile Services per [!DNL Target]
 
-L&#39;SDK di Adobe Mobile Services è stato preinstallato nell&#39;app We.Travel [secondo la documentazione](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=it). Ora aggiornerai l&#39;installazione in modo che punti al tuo account [!DNL Target].
+Il SDK di Adobe Mobile Services è stato preinstallato nell&#39;app We.Travel [secondo la documentazione](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Ora aggiornerai l&#39;installazione in modo che punti al tuo account [!DNL Target].
 
 Innanzitutto, crea una nuova app nell’interfaccia utente di Mobile Services:
 
-1. Accedi all&#39;interfaccia [Adobe Mobile Services](https://mobilemarketing.adobe.com/).
+1. Accedi all&#39;[interfaccia di Adobe Mobile Services](https://mobilemarketing.adobe.com/).
 1. Vai a [!UICONTROL Manage Apps], quindi fai clic su **[!UICONTROL Add]** per aggiungere una nuova app da usare con questa esercitazione (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
 1. Scegli una suite di rapporti di Analytics con dati non di produzione, assegna un nome all&#39;app, seleziona il tipo **[!UICONTROL Standard]** e fai clic su **[!UICONTROL Save]**.
 1. Una volta aggiunta l&#39;app, aggiungere il codice client [!DNL Target] nella schermata successiva nella sezione [!UICONTROL SDK Target Options] (è possibile trovare il codice client nell&#39;interfaccia [!DNL Target] in **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, accanto al pulsante Scarica `at.js`).
 1. L&#39;impostazione [!UICONTROL Request Timeout] determina quanto tempo l&#39;app attende la risposta dal server [!DNL Target] prima di eseguire le istruzioni di timeout. È sufficiente lasciare l’impostazione predefinita.
 1. Abilita [!UICONTROL Visitor ID Service] e assicurati che [!UICONTROL Organization] sia selezionato nel menu a discesa.
 1. Salva le modifiche facendo clic su **[!UICONTROL Save]** in alto a destra nella finestra (non quella nella sezione [!UICONTROL Universal Links], [!UICONTROL App Links] o [!UICONTROL Push Services]).
-1. Scorri fino alla sezione Download di SDK per app, nella parte inferiore della pagina, e scarica il file di configurazione:
+1. Scorri fino alla sezione Download di App SDK nella parte inferiore della pagina e scarica il file di configurazione:
 
    ![Scarica il file di configurazione](assets/config_file.jpg)
 
@@ -60,6 +60,6 @@ Innanzitutto, crea una nuova app nell’interfaccia utente di Mobile Services:
 
 Se le impostazioni non sono visualizzate, confermare di aver fatto clic sul pulsante destro **[!UICONTROL Save]** nell&#39;interfaccia [!UICONTROL Mobile Services] e di aver copiato il file nella posizione corretta.
 
-Congratulazioni! L&#39;SDK è stato aggiornato con i dettagli dell&#39;account [!DNL Target]. Effettueremo un&#39;ulteriore convalida della configurazione dopo aver aggiunto [!DNL Target] richieste nella prossima lezione.
+Congratulazioni! SDK è stato aggiornato con i dettagli dell&#39;account [!DNL Target]. Effettueremo un&#39;ulteriore convalida della configurazione dopo aver aggiunto [!DNL Target] richieste nella prossima lezione.
 
 **[AVANTI: &quot;Aggiungi richieste Target&quot; >](add-requests.md)**

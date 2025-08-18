@@ -25,8 +25,8 @@ Questo video spiega come:
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/36325/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17391/?quality=12)
 
 ## Altre risorse
 
-Per istruzioni dettagliate, consulta [Creare un test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=it){target=_blank} nella *Guida di Adobe Target Business Practitioner*.
+Per istruzioni dettagliate, consulta [Creare un test A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} nella *Guida di Adobe Target Business Practitioner*.

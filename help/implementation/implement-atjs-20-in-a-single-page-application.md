@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe Target `at.js` 2.0 offre set di funzioni avanzati che consentono all&#39;azienda di eseguire personalizzazioni su tecnologie lato client di nuova generazione. Questa versione si concentra sull&#39;aggiornamento di `at.js` per garantire interazioni in sintonia con le applicazioni a pagina singola.
 
->[!VIDEO](https://video.tv.adobe.com/v/328136?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
 ## Implementare at.js 2.0 in un’applicazione a pagina singola
 

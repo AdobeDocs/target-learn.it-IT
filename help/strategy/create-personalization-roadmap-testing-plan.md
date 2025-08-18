@@ -47,14 +47,14 @@ Questo è il punto di partenza per iniziare a creare la roadmap di Personalizati
 
 A volte puoi avere obiettivi che inizialmente sembrano anche intangibili, come il valore del brand o la fedeltà. È fondamentale poter misurare queste dimensioni per utilizzarle come metriche di obiettivo per le attività di Personalization. In genere, questi tipi di obiettivi possono ancora essere allineati all&#39;impatto sui ricavi, ad esempio il valore del cliente nel corso del ciclo di vita o i costi di acquisizione.Man mano che si progredisce, verificare periodicamente le prestazioni del programma rispetto agli obiettivi aziendali chiave per assicurarsi che il valore venga determinato dal programma Personalization.
 
-Concentrati sull’analisi dei dati per identificare aree specifiche del sito web che possono essere migliorate. L’Adobe consiglia di iniziare con Adobe Analytics per generare casi di utilizzo mirati. Se hai già un team di Analytics, chiedi loro di verificare quanto segue:
+Concentrati sull’analisi dei dati per identificare aree specifiche del sito web che possono essere migliorate. Adobe consiglia di iniziare con Adobe Analytics per generare casi di utilizzo mirati. Se hai già un team di Analytics, chiedi loro di verificare quanto segue:
 
 1. Tabelle pre-modulo personali: funzione di ideazione che fornisce raggruppamenti illimitati e può aiutarti a rispondere a qualsiasi domanda o ipotesi.
 1. Segmentazione avanzata: Segmentation IQ consente di confrontare i visitatori di diverse sezioni del sito.
 1. Recensioni giuristiche - Identifica quali parti del tuo sito trarrebbero maggior beneficio da Personalization. Queste recensioni ti consentono di fare un passo indietro e di attraversare il tuo sito come farebbe un cliente.
 1. Analisi della concorrenza: è probabile che altre aziende si trovino ad affrontare le stesse sfide che si presentano. Questa analisi non si limita alle società dello stesso settore.
 
-L’obiettivo di questo passaggio è generare informazioni fruibili sotto forma di ipotesi. Un’ipotesi è una previsione creata prima di eseguire un esperimento. Indica chiaramente cosa viene cambiato, cosa pensate che succederà e perché pensate che sia così. L’esecuzione dell’esperimento può dimostrare o confutare l’ipotesi. Al termine di questo passaggio, dovresti disporre di una serie di ipotesi sulle opportunità di personalizzazione che miglioreranno il tuo sito web e la soddisfazione dei visitatori.
+L’obiettivo di questo passaggio è generare insight actionable sotto forma di ipotesi. Un’ipotesi è una previsione creata prima di eseguire un esperimento. Indica chiaramente cosa viene cambiato, cosa pensate che succederà e perché pensate che sia così. L’esecuzione dell’esperimento può dimostrare o confutare l’ipotesi. Al termine di questo passaggio, dovresti disporre di una serie di ipotesi sulle opportunità di personalizzazione che miglioreranno il tuo sito web e la soddisfazione dei visitatori.
 
 ## Passaggio 2: sviluppare casi d’uso{#use-cases}
 
@@ -76,7 +76,7 @@ Il passaggio Prioritizzazione è suddiviso in due fattori:
 
 * Costo: esiste un costo naturale associato alla creazione delle varianti di progettazione in Target e quindi al potenziale rollout. Ora è necessario stimare il costo associato a ogni caso d’uso. Il costo include, il tempo e le risorse necessarie per creare esperienze di test, la pianificazione e l’analisi post-test.
 
-L’Adobe consiglia di classificare ciascuno dei casi d’uso su una scala da 1 a 5; con 1 semplice e 5 complesso. Ora disponi di una serie di attività con priorità che puoi testare in Adobe Target. Queste attività costituiranno la base delle tue attività di personalizzazione annuali. L’Adobe consiglia di rivalutare regolarmente la roadmap di Personalization. Gli insegnamenti tratti da ciascuna attività dovrebbero influenzare le priorità della roadmap orientata al futuro. Apprendimenti e consigli avranno un impatto maggiore se verranno attuati in modo tempestivo. Le priorità possono cambiare durante l&#39;anno, ma l&#39;implementazione di una metodologia iterativa assicura sempre la disponibilità di un piano d&#39;azione strategico e la possibilità di tenere traccia degli obiettivi del team e dell&#39;azienda.
+Adobe consiglia di classificare ciascuno dei casi d’uso su una scala da 1 a 5; 1 è semplice e 5 è complesso. Ora disponi di una serie di attività con priorità che puoi testare in Adobe Target. Queste attività costituiranno la base delle tue attività di personalizzazione annuali. Adobe consiglia di rivalutare regolarmente la roadmap di Personalization. Gli insegnamenti tratti da ciascuna attività dovrebbero influenzare le priorità della roadmap orientata al futuro. Apprendimenti e consigli avranno un impatto maggiore se verranno attuati in modo tempestivo. Le priorità possono cambiare durante l&#39;anno, ma l&#39;implementazione di una metodologia iterativa assicura sempre la disponibilità di un piano d&#39;azione strategico e la possibilità di tenere traccia degli obiettivi del team e dell&#39;azienda.
 
 ## Passaggio 4: Progettare ed eseguire
 
@@ -90,4 +90,4 @@ Una volta che l’attività di personalizzazione ha coinvolto un campione rappre
 
 Ti consigliamo di guardare questo video che illustra ciascuno di questi passaggi: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=it).
+Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

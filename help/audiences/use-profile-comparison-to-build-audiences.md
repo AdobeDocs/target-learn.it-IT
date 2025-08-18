@@ -35,6 +35,6 @@ Questo video spiega come:
 
 ## Risorse aggiuntive
 
-* [Creazione di un pubblico di confronto di attributi di profilo](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [Generazione di tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
+* [Creazione di un pubblico di confronto di attributi di profilo](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=it)
+* [Generazione di tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=it)
 * [Video su come creare attività di targeting delle esperienze](../activities/create-experience-targeting-activities.md)

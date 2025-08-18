@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Se hai poca esperienza con la tua organizzazione e desideri acquisire familiarità con ciò che è in atto da una procedura di test e ottimizzazione, questo articolo ti aiuta a iniziare. Inizieremo con una panoramica dell’implementazione e della struttura di Adobe Target. Scoprirai come comprendere e controllare la configurazione della tua organizzazione. Infine, verranno illustrate le tecniche più comuni per la risoluzione dei problemi e i suggerimenti per la creazione di un archivio delle conoscenze per il team.
 
-Adobe Target è uno strumento che consente di testare e indirizzare contenuti univoci a visitatori diversi. Per una panoramica delle funzionalità disponibili, [visita questa guida](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
+Adobe Target è uno strumento che consente di testare e indirizzare contenuti univoci a visitatori diversi. Per una panoramica delle funzionalità disponibili, [visita questa guida](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it).
 
 ## Implementazione e struttura del target
 
@@ -166,4 +166,4 @@ I documenti tipici di un Archivio Knowledge Base includono:
 
 Per ulteriori informazioni, consulta il nostro [webinar](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) con Senior Consultant, Wilder Freed.
 
-Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=it).

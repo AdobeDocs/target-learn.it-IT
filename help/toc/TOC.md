@@ -27,7 +27,7 @@ ht-degree: 6%
 + Implementazione{#implementation}
    + [Introduzione all’implementazione di Target](../dev101/2-1-intro-to-target-implementation.md)
    + [Integrare Target con Launch](../dev101/3-1-target-launch.md)
-   + [Implementare nei siti Web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+   + [Implementare nei siti Web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=it)
    + [Vantaggi dell&#39;utilizzo delle posizioni](../dev101/2-2-benefits-of-locations.md)
    + [Introduzione alle richieste Target](../dev101/2-3-intro-to-target-requests.md)
    + [Introduzione ai parametri di Target](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +35,7 @@ ht-degree: 6%
    + [Implementare at.js 2.0 in un’applicazione a pagina singola](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Progettare un’implementazione di Target](../dev101/2-5-design-target-implementation.md)
    + [Passaggi successivi per progettare un’implementazione di Target](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Usa il servizio Opt-in per controllare le soluzioni Experience Cloud in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+   + [Usa il servizio Opt-in per controllare le soluzioni Experience Cloud in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=it)
    + [Informazioni sulla distribuzione ibrida di Adobe Target](../implementation/hybrid-deployment.md)
    + [Panoramica di Decisioning sul dispositivo](../implementation/on-device-decisioning-overview.md)
    + [Modelli di implementazione per Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)

@@ -6,9 +6,9 @@ role: Leader, Architect, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: d65720ae992a3079462ba59421c3b7a8d4f5ea7b
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -118,6 +118,6 @@ Personalization include anche il tipo di attività di test Targeting esperienza,
 
 Alla luce di quanto sopra, Adobe consiglia di ottimizzare prima di personalizzare e passare da Personalization ampio a granulare. Per trasformare le attività di Personalization da grandi a granulari, inizierai a utilizzare uno stile di personalizzazione uno-a-molti (ampio) (utilizzando test A/B), quindi passerai a uno stile di personalizzazione uno-a-uno (granulare) (utilizzando le attività di personalizzazione automatizzata).
 
-Per ulteriori informazioni, ascolta il [webinar su come comprendere e ottimizzare l&#39;implementazione di Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), con Katie Cozby, consulente aziendale.
+Per ulteriori informazioni, leggere il [QuickStart per test di personalizzazione e creazione di roadmap](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=it).
+Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Perspectives](https://experienceleague.adobe.com/en/perspectives).

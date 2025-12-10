@@ -1,12 +1,12 @@
 ---
 title: Scopri come utilizzare Adobe Target
 description: Scopri come utilizzare  [!DNL Adobe Target]  con questa raccolta di tutorial e video che coprono tutti i suoi componenti.
-role: Leader, Architect, Developer, Admin, User
+role: Leader, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 feature: Overview
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 10%
@@ -50,11 +50,11 @@ ht-degree: 10%
     <p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=it"> 
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
       <img alt="Implementare Target con i tag Adobe Experience Platform" src="./assets/add-adobe-target.jpg"/>
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=it">
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
     <strong>Implementare Target con i tag Adobe Experience Platform</strong>
     </a>
     </div>
@@ -63,11 +63,11 @@ ht-degree: 10%
     <p>
   </td>
    <td>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=it">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
       <img alt="Implementare at.js 2.0 di Adobe Target in un’applicazione a pagina singola" src="./assets/26248.png" />
     </a>
     <div>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=it">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
     <strong>Implementare at.js 2.0 in un'applicazione a pagina singola</strong>
     </a>
     </div>

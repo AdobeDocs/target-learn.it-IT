@@ -1,7 +1,7 @@
 ---
 title: Cos’È Il Decisioning Sul Dispositivo
 description: Le attività di decisioning sul dispositivo di Adobe Target consentono la distribuzione di contenuti con latenza pressoché pari a zero. Guarda questo video per scoprire le decisioni sul dispositivo e come abilitarlo.
-role: Architect
+role: Developer
 level: Beginner
 topic: Architecture, Development
 feature: Implementation, Implement Server-side, Implement Client-side
@@ -9,7 +9,7 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Al termine di questo video, sarai in grado di:
 * Descrivere le decisioni sul dispositivo e i relativi vantaggi
 * Abilitare il decisioning sul dispositivo in Target
 * Creare un’attività di compositore basata su moduli destinata all’utilizzo con decisioni su dispositivo
-* Ulteriori informazioni sulla configurazione di SDK necessaria per le decisioni sul dispositivo visitando la [documentazione di Adobe Target SDK](https://experienceleague.adobe.com/it/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* Ulteriori informazioni sulla configurazione di SDK necessaria per le decisioni sul dispositivo visitando la [documentazione di Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * Scopri cosa sperimenteranno gli utenti finali per i contenuti distribuiti utilizzando le decisioni sul dispositivo
 
 ## Pubblico previsto

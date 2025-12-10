@@ -1,7 +1,7 @@
 ---
 title: Opzioni di distribuzione ibrida
 description: Scopri l’esclusivo modello di distribuzione ibrida di Adobe Target per implementazioni lato client e lato server basate sulla personalizzazione.
-role: Developer, Architect
+role: Developer
 level: Beginner
 topic: Personalization, Architecture, Development
 feature: Implementation, Implement Server-side, Implement Client-side
@@ -9,7 +9,7 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 3%
@@ -33,9 +33,9 @@ Entro la fine di questo video:
 * Sviluppatori
 * Architetti
 
->[!VIDEO](https://video.tv.adobe.com/v/329475/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
 ## Risorse aggiuntive
 
-* [Panoramica Di Decisioning Sul Dispositivo](https://experienceleague.adobe.com/it/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Documentazione di Adobe Target SDK](https://experienceleague.adobe.com/it/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [Panoramica Di Decisioning Sul Dispositivo](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Documentazione di Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)

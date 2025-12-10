@@ -33,7 +33,7 @@ Al termine di questo video, sarai in grado di:
 * Descrivere le decisioni sul dispositivo e i relativi vantaggi
 * Abilitare il decisioning sul dispositivo in Target
 * Creare un’attività di compositore basata su moduli destinata all’utilizzo con decisioni su dispositivo
-* Ulteriori informazioni sulla configurazione di SDK necessaria per le decisioni sul dispositivo visitando la [documentazione di Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* Ulteriori informazioni sulla configurazione di SDK necessaria per le decisioni sul dispositivo visitando la [documentazione di Adobe Target SDK](https://experienceleague.adobe.com/it/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * Scopri cosa sperimenteranno gli utenti finali per i contenuti distribuiti utilizzando le decisioni sul dispositivo
 
 ## Pubblico previsto

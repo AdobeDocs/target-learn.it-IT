@@ -1,8 +1,8 @@
 ---
 title: Quali sono i diversi tipi di attività?
 description: Scopri i diversi tipi di attività inclusi in Adobe Target e come possono contribuire al raggiungimento dei tuoi obiettivi.
-landing-page-description: Scopri le nozioni di base delle attività A/B, dei test multivariati, delle attività di targeting dell’esperienza, di Recommendations e delle attività Automated Personalization.
-short-description: Scopri le nozioni di base delle attività A/B, dei test multivariati, delle attività di targeting dell’esperienza, di Recommendations e delle attività Automated Personalization.
+landing-page-description: Scopri le nozioni di base delle attività A/B, dei test multivariati, delle attività di targeting dell’esperienza, di Consigli e delle attività Automated Personalization.
+short-description: Scopri le nozioni di base delle attività A/B, dei test multivariati, delle attività di targeting dell’esperienza, di Consigli e delle attività Automated Personalization.
 role: User
 level: Beginner
 topic: Personalization
@@ -29,4 +29,4 @@ Questo video spiega come:
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/36365/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/17386/?quality=12)

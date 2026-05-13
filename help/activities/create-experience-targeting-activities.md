@@ -46,10 +46,10 @@ Questo video spiega come:
 ## Risorse aggiuntive
 
 * [Scarica il playbook per Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
-* [Documentazione di Experience Targeting](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
+* [Documentazione di Experience Targeting](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=it)
 
 ## Altre funzioni utilizzate in questo video
 
-* [Documentazione di Audiences for Reporting](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Documentazione sulla creazione di tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Creazione di esperienze con la documentazione del Compositore esperienza visivo](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)
+* [Documentazione di Audiences for Reporting](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=it)
+* [Documentazione sulla creazione di tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=it)
+* [Creazione di esperienze con la documentazione del Compositore esperienza visivo](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=it)

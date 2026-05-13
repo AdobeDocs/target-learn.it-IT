@@ -9,12 +9,20 @@ doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 TQID: https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 1390
@@ -134,9 +142,9 @@ La corretta configurazione del rapporto dovrebbe produrre un risultato simile a 
 Le sezioni seguenti specificano quali configurazioni sono necessarie, a seconda dei metodi scelti. Tuttavia, i seguenti passaggi fungono da guida generale per A4T:
 
 * Rimuovi le metriche di affidabilità dal pannello A4T indipendentemente dal metodo di creazione del pannello (entrambi descritti di seguito). Fare riferimento a questi valori nel reporting di [!DNL Target]. Inoltre, i vincitori delle attività possono essere identificati nel reporting [!DNL Target]. I dettagli sull&#39;identificazione del vincitore dell&#39;attività si trovano nella sezione [Identificare il vincitore dell&#39;attività](#winner) di seguito.
->>
+&#x200B;>>
 * Per evitare confusione, deselezionare la presentazione &quot;[!UICONTROL Percent]&quot; della metrica [!UICONTROL Conversion Rate]. Vedi [Nascondi la percentuale dalla [!UICONTROL Conversion Rate] colonna](#hide-percentage) di seguito.
->>
+&#x200B;>>
 * Se stai creando un pannello A4T, assicurati che gli intervalli di date e ore corrispondano a quelli del tuo report [!DNL Target]. Consulta [Allineare data e ora nel pannello A4T](#aligning-date-and-time) di seguito.
 
 ### Nascondi la percentuale dalla colonna [!UICONTROL Conversion Rate] {#hide-percentage}

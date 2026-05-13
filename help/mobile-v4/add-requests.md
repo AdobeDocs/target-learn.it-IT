@@ -8,9 +8,15 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: 1820
 ht-degree: 0%
 
 ---
@@ -35,7 +41,7 @@ Alla fine di questa lezione, sarai in grado di:
 * Cancella posizioni preacquisite dalla cache
 * Convalidare richieste preacquisite e in tempo reale
 
-## Terminologia 
+## Terminologia
 
 Di seguito sono riportati alcuni termini chiave di Target che utilizzeremo nel resto di questa esercitazione.
 
@@ -52,7 +58,7 @@ Di seguito sono riportati alcuni termini chiave di Target che utilizzeremo nel r
 
 La prima richiesta che implementeremo in We.Travel è una richiesta di preacquisizione batch con due posizioni [!DNL Target] nella schermata iniziale. In una lezione successiva, configureremo le offerte per queste posizioni che visualizzano messaggi per aiutare i nuovi utenti nel processo di prenotazione.
 
-Una richiesta di preacquisizione recupera il contenuto di [!DNL Target] il meno possibile memorizzando nella cache la risposta del server Adobe Target (offerta). Una richiesta di preacquisizione batch recupera e memorizza nella cache più offerte, ciascuna associata a una posizione diversa. Tutte le posizioni preacquisite vengono memorizzate nella cache del dispositivo per un utilizzo futuro nella sessione utente. Preacquisendo più posizioni nella schermata iniziale, possiamo recuperare le offerte da utilizzare in un secondo momento mentre il visitatore naviga attraverso l’app. Per ulteriori dettagli sui metodi di preacquisizione, consulta la [documentazione di preacquisizione](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=it).
+Una richiesta di preacquisizione recupera il contenuto di [!DNL Target] il meno possibile memorizzando nella cache la risposta del server Adobe Target (offerta). Una richiesta di preacquisizione batch recupera e memorizza nella cache più offerte, ciascuna associata a una posizione diversa. Tutte le posizioni preacquisite vengono memorizzate nella cache del dispositivo per un utilizzo futuro nella sessione utente. Preacquisendo più posizioni nella schermata iniziale, possiamo recuperare le offerte da utilizzare in un secondo momento mentre il visitatore naviga attraverso l’app. Per ulteriori dettagli sui metodi di preacquisizione, consulta la [documentazione di preacquisizione](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 ### Aggiungi la richiesta di preacquisizione batch
 
@@ -286,7 +292,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 |--- |--- |
 | `targetLoadRequest()` | Funzione definita dall&#39;utente (non inclusa in SDK) che attiva `Target.loadRequest()` e carica e visualizza la posizione wetravel_context_dest |
 | `Target.loadRequest()` | Il metodo SDK che invia la richiesta al server di Target |
-| Constant.wetravel_context_dest | Il nome della posizione assegnato alla richiesta che utilizzeremo in seguito quando verrà generata l&#39;attività nell&#39;interfaccia [!DNL Target] |
+| Costante.wetravel_context_dest | Il nome della posizione assegnato alla richiesta che utilizzeremo in seguito quando verrà generata l&#39;attività nell&#39;interfaccia [!DNL Target] |
 | `filterRecommendationBasedOnOffer()` | Funzione definita dall’utente nell’app che prende l’offerta della posizione dalla risposta di Target e decide come l’app deve cambiare in base al contenuto dell’offerta |
 | `recommandations.addAll()` | Funzione definita dall&#39;utente nell&#39;app che veniva eseguita per impostazione predefinita al caricamento della schermata Grazie, ma ora viene eseguita dopo che la risposta di Target è stata ricevuta e analizzata da `filterRecommendationBasedOnOffer()` |
 

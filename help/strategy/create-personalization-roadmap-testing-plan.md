@@ -5,9 +5,15 @@ solution: Target,Analytics
 level: Intermediate
 role: Leader, Developer, Admin
 exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
-source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
+TQID: https://experienceleague.adobe.com/d2BYxVQLaDPbZ7538S-uP1pSjtGgd10nYk-WW3KnVZk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: b3f03848-ae12-48b2-8aab-cad18567eb32id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: 1438
 ht-degree: 0%
 
 ---
@@ -45,7 +51,7 @@ Questo è il punto di partenza per iniziare a creare la roadmap di Personalizati
 
 * L’allineamento di ogni opportunità dovrebbe influire su una singola metrica di obiettivo.
 
-A volte puoi avere obiettivi che inizialmente sembrano anche intangibili, come il valore del brand o la fedeltà. È fondamentale poter misurare queste dimensioni per utilizzarle come metriche di obiettivo per le attività di Personalization. In genere, questi tipi di obiettivi possono ancora essere allineati all&#39;impatto sui ricavi, ad esempio il valore del cliente nel corso del ciclo di vita o i costi di acquisizione.Man mano che si progredisce, verificare periodicamente le prestazioni del programma rispetto agli obiettivi aziendali chiave per assicurarsi che il valore venga determinato dal programma Personalization.
+A volte puoi avere obiettivi che inizialmente sembrano anche intangibili, come il valore del brand o la fedeltà. È fondamentale poter misurare queste dimensioni per utilizzarle come metriche di obiettivo per le attività di Personalization. In genere, questi tipi di obiettivi possono ancora essere allineati all’impatto sui ricavi, ad esempio il valore del cliente per tutto il ciclo di vita o i costi di acquisizione.Mentre si procede, verificare periodicamente le prestazioni del programma rispetto ai principali obiettivi aziendali per assicurarsi che il valore venga determinato dal programma Personalization.
 
 Concentrati sull’analisi dei dati per identificare aree specifiche del sito web che possono essere migliorate. Adobe consiglia di iniziare con Adobe Analytics per generare casi di utilizzo mirati. Se hai già un team di Analytics, chiedi loro di verificare quanto segue:
 
@@ -90,4 +96,4 @@ Una volta che l’attività di personalizzazione ha coinvolto un campione rappre
 
 Ti consigliamo di guardare questo video che illustra ciascuno di questi passaggi: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=it).
+Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

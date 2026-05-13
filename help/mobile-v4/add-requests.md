@@ -8,9 +8,20 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: 1820
 ht-degree: 0%
 
 ---
@@ -35,7 +46,7 @@ Alla fine di questa lezione, sarai in grado di:
 * Cancella posizioni preacquisite dalla cache
 * Convalidare richieste preacquisite e in tempo reale
 
-## Terminologia 
+## Terminologia
 
 Di seguito sono riportati alcuni termini chiave di Target che utilizzeremo nel resto di questa esercitazione.
 
@@ -286,7 +297,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 |--- |--- |
 | `targetLoadRequest()` | Funzione definita dall&#39;utente (non inclusa in SDK) che attiva `Target.loadRequest()` e carica e visualizza la posizione wetravel_context_dest |
 | `Target.loadRequest()` | Il metodo SDK che invia la richiesta al server di Target |
-| Constant.wetravel_context_dest | Il nome della posizione assegnato alla richiesta che utilizzeremo in seguito quando verrà generata l&#39;attività nell&#39;interfaccia [!DNL Target] |
+| Costante.wetravel_context_dest | Il nome della posizione assegnato alla richiesta che utilizzeremo in seguito quando verrà generata l&#39;attività nell&#39;interfaccia [!DNL Target] |
 | `filterRecommendationBasedOnOffer()` | Funzione definita dall’utente nell’app che prende l’offerta della posizione dalla risposta di Target e decide come l’app deve cambiare in base al contenuto dell’offerta |
 | `recommandations.addAll()` | Funzione definita dall&#39;utente nell&#39;app che veniva eseguita per impostazione predefinita al caricamento della schermata Grazie, ma ora viene eseguita dopo che la risposta di Target è stata ricevuta e analizzata da `filterRecommendationBasedOnOffer()` |
 

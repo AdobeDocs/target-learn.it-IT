@@ -8,10 +8,22 @@ feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+TQID: https://experienceleague.adobe.com/TU9cpty1z7lbHiUJB42fiARGfgUUf98H1VOIyWoXxsc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 27%
+source-wordcount: 219
+ht-degree: 21%
 
 ---
 
@@ -29,15 +41,15 @@ Questo video spiega come:
 
 * Professionisti
 
->[!VIDEO](https://video.tv.adobe.com/v/41140?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/41140?captions=ita&quality=12)
 
 ## Risorse aggiuntive
 
 * [Scarica il playbook per Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
-* [Documentazione di Targeting esperienza](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=it)
+* [Documentazione di Experience Targeting](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=it)
 
 ## Altre funzioni utilizzate in questo video
 
-* [Tipi di pubblico per la documentazione di reporting](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=it)
-* [Creazione della documentazione sui tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=it)
+* [Documentazione di Audiences for Reporting](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=it)
+* [Documentazione sulla creazione di tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=it)
 * [Creazione di esperienze con la documentazione del Compositore esperienza visivo](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=it)

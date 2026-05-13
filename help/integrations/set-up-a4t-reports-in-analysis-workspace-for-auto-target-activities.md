@@ -10,9 +10,26 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
+TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: 2507
 ht-degree: 0%
 
 ---
@@ -93,8 +110,8 @@ Confrontiamo i rapporti a livello di visitatore e di visita:
 
 | Esperienza | Visitatori univoci | Visite | Conversioni | Tasso di conversione normalizzato per il visitatore | Tasso di conversione normalizzato per visita |
 | --- | --- | --- | --- | --- | --- |
-| Una  | 1 | 1 | - | 0% | 0% |
-| B | 2 | 3 | 1 | 50% | 33,3% |
+| Una | 1 | 1 | - | 0% | 0% |
+| B | 2 | 3 | 1 | 50% | 33.3% |
 | Totali | 2 | 4 | 1 | 50% | 25% |
 
 *Tabella 1: esempio di confronto dei rapporti normalizzati per visitatore e per visita per uno scenario in cui le decisioni sono permanenti per una visita (e non per visitatore, come con i normali test A/B). In questo scenario le metriche normalizzate dal visitatore sono confuse.*
@@ -241,7 +258,7 @@ La definizione completa della metrica calcolata è mostrata qui.
 
 ## Riepilogo: esempio finale [!DNL Analysis Workspace] pannello per [!UICONTROL Auto-Target] rapporti
 
-Combinando tutti i passaggi precedenti in un unico pannello, la figura seguente mostra una visualizzazione completa del rapporto consigliato per [!UICONTROL Auto-Target] attività A4T. Questo report è uguale a quello utilizzato dai modelli [!DNL Target] ML per ottimizzare la metrica obiettivo. Il rapporto incorpora tutte le sfumature e i consigli discussi in questa esercitazione. Questo report è anche il più simile alle metodologie di conteggio utilizzate nelle attività [!DNL Target] tradizionali basate sul reporting di [!UICONTROL Auto-Target].
+Combinando tutti i passaggi precedenti in un unico pannello, la figura seguente mostra una visualizzazione completa del rapporto consigliato per [!UICONTROL Auto-Target] attività A4T. Questo report è uguale a quello utilizzato dai modelli [!DNL Target] ML per ottimizzare la metrica obiettivo. Il rapporto incorpora tutte le sfumature e i consigli discussi in questa esercitazione. Questo report è anche il più simile alle metodologie di conteggio utilizzate nelle attività [!UICONTROL Auto-Target] tradizionali basate sul reporting di [!DNL Target].
 
 Fare clic per espandere l&#39;immagine.
 

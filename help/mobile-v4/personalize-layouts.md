@@ -9,9 +9,21 @@ doc-type: tutorial
 kt: 3040
 author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: 993
 ht-degree: 0%
 
 ---
@@ -35,7 +47,7 @@ Scopri come creare attività Coinvolgi utenti e Offerte contestuali.
 
 Ecco un riepilogo dell’attività che creeremo:
 
-| Destinatari | Posizioni | Offerte |
+| Pubblico | Posizioni | Offerte |
 |---|---|---|
 | Nuovi utenti di app mobili | wetravel_engagement_home, wetravel_eng_search | Home: Coinvolgi nuovi utenti, Ricerca: Coinvolgi nuovi utenti |
 | Restituzione degli utenti di app mobili | wetravel_engagement_home, wetravel_eng_search | Home: Utenti di ritorno, default_content |
@@ -61,7 +73,7 @@ Nell&#39;interfaccia [!DNL Target] eseguire le operazioni seguenti:
 1. Fare clic su **[!UICONTROL Done]**.
    ![Pubblico nuovi utenti app mobili](assets/activity_create_4.jpg)
 
-1. Cambia il percorso in _wetravel_eng_home_.
+1. Cambia il percorso in _wetravel_ eng_home_.
 1. Selezionare la freccia a discesa accanto a Contenuto predefinito e selezionare **[!UICONTROL Change HTML Offer]**.
 
    ![Pubblico nuovi utenti app mobili](assets/activity_create_5.jpg)
@@ -74,7 +86,7 @@ Nell&#39;interfaccia [!DNL Target] eseguire le operazioni seguenti:
 1. Selezionare **[!UICONTROL Add Location]**.
    ![Pubblico nuovi utenti app mobili](assets/activity_create_7.jpg)
 
-1. Seleziona il percorso _wetravel_eng_search_.
+1. Seleziona il percorso _wetravel_ eng_search_.
 1. Modifica l’offerta HTML.
 
    ![Pubblico nuovi utenti app mobili](assets/activity_create_8.jpg)
@@ -110,7 +122,7 @@ Passiamo alla schermata successiva nella configurazione:
 Ora completiamo la configurazione dell’attività:
 
 1. Imposta **[!UICONTROL Primary Goal]** su **[!UICONTROL Conversion]**.
-1. Imposta l&#39;azione su **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ (poiché questa posizione si trova nella schermata di conferma, è possibile utilizzarla per misurare le conversioni).
+1. Imposta l&#39;azione su **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ (poiché questa posizione si trova nella schermata di conferma, è possibile utilizzarla per misurare le conversioni).
 
    ![Coinvolgi l&#39;attività degli utenti - Obiettivi](assets/activity_create_12.jpg)
 
@@ -126,7 +138,7 @@ La nostra prima attività è ora live e pronta per essere testata.
 
 Ecco un riepilogo della seconda attività che creeremo:
 
-| Destinatari | Posizione | Offerte |
+| Pubblico | Posizione | Offerte |
 | --- | --- | --- |
 | Destinazione: San Diego | wetravel_context_dest | Promozione per San Diego |
 | Destinazione: Los Angeles | wetravel_context_dest | Promozione per Los Angeles |
@@ -144,7 +156,7 @@ Ripeti lo stesso processo descritto in precedenza per l’attività successiva, 
 Nel passaggio Obiettivi e impostazioni, modificheremo l’obiettivo principale nella posizione indicata nella schermata di conferma della prenotazione:
 
 1. In **[!UICONTROL Reporting Settings]**, impostare **[!UICONTROL Primary Goal]** su **[!UICONTROL Conversion]**.
-1. Imposta l&#39;azione su **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ (in questa attività questa metrica è sostanzialmente priva di significato, poiché si tratta anche della stessa posizione che distribuisce l&#39;esperienza).
+1. Imposta l&#39;azione su **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ (in questa attività questa metrica è sostanzialmente priva di significato, poiché si tratta anche della stessa posizione che distribuisce l&#39;esperienza).
 1. Fare clic su **[!UICONTROL Save & Close]**.
 
 ![Offerte contestuali - Esperienza](assets/activity_create_14.jpg)
@@ -163,7 +175,7 @@ Se la nuova offerta utente non viene visualizzata, prova a cancellare i dati per
 
 ![Emulatore cancellazione dati](assets/layout_home_validate_avd_wipe.jpg)
 
-Puoi anche convalidare la risposta in Logcat filtrando per _wetravel_eng_home_:
+Puoi anche convalidare la risposta in Logcat filtrando per _wetravel_ eng_home_:
 
 ![Convalida offerta iniziale - Logcat](assets/layout_home_validate_logcat.jpg)
 

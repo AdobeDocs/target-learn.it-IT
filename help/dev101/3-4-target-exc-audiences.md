@@ -46,6 +46,6 @@ Questo video spiega come:
 
 * Sviluppatori
 
->[!VIDEO](https://video.tv.adobe.com/v/35152/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421750/?captions=ita&quality=12)
 
 Per ulteriori informazioni, visita la [documentazione](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=it).

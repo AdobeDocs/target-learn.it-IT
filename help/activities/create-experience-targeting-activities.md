@@ -41,7 +41,7 @@ Questo video spiega come:
 
 * Professionisti
 
->[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41140?captions=ita&quality=12)
 
 ## Risorse aggiuntive
 

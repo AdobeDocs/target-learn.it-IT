@@ -47,4 +47,4 @@ Questo video spiega come:
 * [Creare un feed](create-a-feed.md)
 * [Crea criterio](create-criteria.md)
 * [Creare progettazioni personalizzate](create-custom-designs.md)
-* [Documentazione di Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentazione di Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=it)

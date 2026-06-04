@@ -45,5 +45,5 @@ Questo video spiega come:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-Per ulteriori informazioni, consulta [Implementazione lato client](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} o [Implementazione lato server](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank} nella *[!UICONTROL Guida per gli sviluppatori di Adobe Target]*.
+Per ulteriori informazioni, consulta [Implementazione lato client](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=it){target=_blank} o [Implementazione lato server](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=it){target=_blank} nella *[!UICONTROL Guida per gli sviluppatori di Adobe Target]*.
 

@@ -6,24 +6,11 @@ feature: Overview
 role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
 TQID: https://experienceleague.adobe.com/yVphbQMPxd8oTKUMyD988VHu-bnipjEWtfSMOHldps4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 1153
@@ -35,7 +22,7 @@ ht-degree: 0%
 
 Se hai poca esperienza con la tua organizzazione e desideri acquisire familiarità con ciò che è in atto da una procedura di test e ottimizzazione, questo articolo ti aiuta a iniziare. Inizieremo con una panoramica dell’implementazione e della struttura di Adobe Target. Scoprirai come comprendere e controllare la configurazione della tua organizzazione. Infine, verranno illustrate le tecniche più comuni per la risoluzione dei problemi e i suggerimenti per la creazione di un archivio delle conoscenze per il team.
 
-Adobe Target è uno strumento che consente di testare e indirizzare contenuti univoci a visitatori diversi. Per una panoramica delle funzionalità disponibili, [visita questa guida](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=it).
+Adobe Target è uno strumento che consente di testare e indirizzare contenuti univoci a visitatori diversi. Per una panoramica delle funzionalità disponibili, [visita questa guida](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
 
 ## Implementazione e struttura del target
 
@@ -185,4 +172,4 @@ I documenti tipici di un Archivio Knowledge Base includono:
 
 Per ulteriori informazioni, consulta il nostro [webinar](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) con Senior Consultant, Wilder Freed.
 
-Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=it).
+Ulteriori informazioni su strategia e leadership di pensiero nell&#39;hub [Customer Success](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

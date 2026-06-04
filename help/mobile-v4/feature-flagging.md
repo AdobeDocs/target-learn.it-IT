@@ -9,19 +9,14 @@ doc-type: tutorial
 kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 TQID: https://experienceleague.adobe.com/eK2T9lkJ4-ieiTGjqAymdgn8lrbfcaBBObbp61-jX0M
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 755
 ht-degree: 1%
 
 ---
@@ -139,20 +134,20 @@ Ora creiamo un’attività di test A/B con quell’offerta. Per i passaggi detta
 
    ![Configurazione attività contrassegno funzionalità](assets/feature_flag_activity.jpg)
 
-1. Fare clic su **[!UICONTROL Add Experience]** per aggiungere l&#39;esperienza B.
+1. Fai clic su **[!UICONTROL Aggiungi esperienza]** per aggiungere l&#39;esperienza B.
 1. Lascia la posizione &quot;wetravel_feature_flag_recs&quot;
-1. Lascia **[!UICONTROL Default Content]** per il contenuto
-1. Fai clic su **[!UICONTROL Next]** per passare alla schermata [!UICONTROL Targeting]
+1. Lascia **[!UICONTROL Contenuto predefinito]** per il contenuto
+1. Fai clic su **[!UICONTROL Avanti]** per passare alla schermata [!UICONTROL Targeting]
 
    ![Configurazione attività contrassegno funzionalità](assets/feature_flag_activity_2.jpg)
 
-1. Nella schermata [!UICONTROL Targeting], verificare che il metodo [!UICONTROL Traffic Allocation] sia impostato sull&#39;impostazione predefinita (Manuale) e che ogni esperienza abbia l&#39;allocazione predefinita del 50%. Selezionare **[!UICONTROL Next]** per passare a **[!UICONTROL Goals & Settings]**.
+1. Nella schermata [!UICONTROL Targeting], verifica che il metodo [!UICONTROL Allocazione traffico] sia impostato sull&#39;impostazione predefinita (Manuale) e che ogni esperienza abbia l&#39;allocazione predefinita del 50%. Seleziona **[!UICONTROL Avanti]** per passare a **[!UICONTROL Obiettivi e impostazioni]**.
 
    ![Configurazione attività contrassegno funzionalità](assets/feature_flag_activity_3.jpg)
 
-1. Imposta **[!UICONTROL Primary Goal]** su **[!UICONTROL Conversion]**.
-1. Imposta l&#39;azione su **[!UICONTROL Viewed an Mbox]**. Utilizzeremo la posizione &quot;wetravel_context_dest&quot; (poiché questa posizione si trova nella schermata di conferma, possiamo utilizzarla per vedere se la nuova funzione porta a più conversioni).
-1. Fare clic su **[!UICONTROL Save & Close]**.
+1. Imposta **[!UICONTROL Obiettivo primario]** su **[!UICONTROL Conversione]**.
+1. Imposta l&#39;azione su **[!UICONTROL Visualizzazione di una Mbox]**. Utilizzeremo la posizione &quot;wetravel_context_dest&quot; (poiché questa posizione si trova nella schermata di conferma, possiamo utilizzarla per vedere se la nuova funzione porta a più conversioni).
+1. Fai clic su **[!UICONTROL Salva e chiudi]**.
 
    ![Configurazione attività contrassegno funzionalità](assets/feature_flag_activity_4.jpg)
 

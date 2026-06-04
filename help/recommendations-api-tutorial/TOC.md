@@ -12,9 +12,9 @@ ht-degree: 0%
 # Utilizzare le API di Adobe Target Recommendations{#recommendations-api-tutorial}
 
 + [Panoramica API di Recs](recs-api-overview.md)
-+ [Gestire il catalogo con API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html?lang=it){target="_blank"}
-+ [Gestisci criteri personalizzati](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html?lang=it){target="_blank"}
-+ [Utilizzare l’API di consegna con Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html?lang=it){target="_blank"}
++ [Gestire il catalogo con API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}
++ [Gestisci criteri personalizzati](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html){target="_blank"}
++ [Utilizzare l’API di consegna con Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html){target="_blank"}
 
 <!--
 + [Debug API calls](6debug.md)

@@ -23,8 +23,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 993
-ht-degree: 0%
+source-wordcount: 1074
+ht-degree: 1%
 
 ---
 
@@ -54,36 +54,36 @@ Ecco un riepilogo dell’attività che creeremo:
 
 Nell&#39;interfaccia [!DNL Target] eseguire le operazioni seguenti:
 
-1. Selezionare **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**.
+1. Seleziona **[!UICONTROL Attività]** > **[!UICONTROL Crea attività]** > **[!UICONTROL Targeting esperienza]**.
 
    ![Crea attività](assets/activity_create_1.jpg)
 
-1. Fare clic su **[!UICONTROL Mobile App]**.
-1. Selezionare **[!UICONTROL Form composer]**.
+1. Fai clic su **[!UICONTROL App mobile]**.
+1. Selezionare il **[!UICONTROL Compositore modulo]**.
 1. Seleziona l’area di lavoro (la stessa utilizzata nelle lezioni precedenti).
 1. Seleziona la Proprietà (la stessa proprietà utilizzata nelle lezioni precedenti).
-1. Fare clic su **[!UICONTROL Next]**.
+1. Fai clic su **[!UICONTROL Avanti]**.
 
    ![Crea attività](assets/activity_create_2.jpg)
 
-1. Cambia il titolo dell&#39;attività in **[!UICONTROL Engage Users]**.
-1. Selezionare **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]**.
+1. Cambia il titolo dell&#39;attività in **[!UICONTROL Coinvolgi gli utenti]**.
+1. Seleziona i **[!UICONTROL puntini di sospensione]** > **[!UICONTROL Cambia pubblico]**.
    ![Il Pubblico Cambia Per I Nuovi Utenti Dell&#39;App Mobile](assets/activity_create_3.jpg)
-1. Imposta il pubblico su **[!UICONTROL New Mobile App Users]**.
-1. Fare clic su **[!UICONTROL Done]**.
+1. Imposta il pubblico su **[!UICONTROL Utenti nuovi app mobili]**.
+1. Fai clic su **[!UICONTROL Fine]**.
    ![Pubblico nuovi utenti app mobili](assets/activity_create_4.jpg)
 
 1. Cambia il percorso in _wetravel_ eng_home_.
-1. Selezionare la freccia a discesa accanto a Contenuto predefinito e selezionare **[!UICONTROL Change HTML Offer]**.
+1. Selezionare la freccia a discesa accanto a Contenuto predefinito e selezionare **[!UICONTROL Cambia offerta HTML]**.
 
    ![Pubblico nuovi utenti app mobili](assets/activity_create_5.jpg)
 
-1. Selezionare l&#39;offerta **[!UICONTROL Home: Engage New Users]**.
-1. Selezionare **[!UICONTROL Done]**.
+1. Seleziona l&#39;offerta **[!UICONTROL Home: Coinvolgi nuovi utenti]**.
+1. Seleziona **[!UICONTROL Fine]**.
 
    ![Pubblico nuovi utenti app mobili](assets/activity_create_6.jpg)
 
-1. Selezionare **[!UICONTROL Add Location]**.
+1. Seleziona **[!UICONTROL Aggiungi posizione]**.
    ![Pubblico nuovi utenti app mobili](assets/activity_create_7.jpg)
 
 1. Seleziona il percorso _wetravel_ eng_search_.
@@ -91,8 +91,8 @@ Nell&#39;interfaccia [!DNL Target] eseguire le operazioni seguenti:
 
    ![Pubblico nuovi utenti app mobili](assets/activity_create_8.jpg)
 
-1. Selezionare l&#39;offerta **[!UICONTROL Search: Engage New Users]**.
-1. Fare clic su **[!UICONTROL Done]**.
+1. Selezionare l&#39;offerta **[!UICONTROL Cerca: coinvolgi nuovi utenti]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
    ![Pubblico nuovi utenti app mobili](assets/activity_create_9.jpg)
 
@@ -102,9 +102,9 @@ Hai appena collegato un pubblico a posizioni e offerte, creando un’esperienza 
 
 Ora crea un’esperienza per gli utenti di ritorno dell’app mobile:
 
-1. Selezionare **[!UICONTROL Add Experience Targeting]** a sinistra.
-1. Selezionare il pubblico **[!UICONTROL Returning Mobile App Users]**.
-1. Selezionare **[!UICONTROL Done]**.
+1. Seleziona **[!UICONTROL Aggiungi targeting esperienza]** a sinistra.
+1. Seleziona il pubblico **[!UICONTROL Utenti di ritorno dall&#39;app mobile]**.
+1. Seleziona **[!UICONTROL Fine]**.
    ![Restituzione pubblico utenti app mobile](assets/activity_create_11.jpg)
 
 Ora utilizza lo stesso processo utilizzato in precedenza per configurare la nuova esperienza. La configurazione per l’esperienza Utenti app mobili di ritorno sarà simile alla seguente:
@@ -113,22 +113,22 @@ Ora utilizza lo stesso processo utilizzato in precedenza per configurare la nuov
 
 Passiamo alla schermata successiva nella configurazione:
 
-1. Fare clic su **[!UICONTROL Next]** per passare alla schermata **[!UICONTROL Targeting]**.
+1. Fai clic su **[!UICONTROL Avanti]** per passare alla schermata **[!UICONTROL Targeting]**.
 1. Utilizza le impostazioni predefinite per il targeting. Se hai esperienze per tipi di pubblico sovrapposti (ad esempio _Utenti New York_ e _Utenti nuovi_) puoi ordinare l&#39;ordine di priorità in questa schermata.
-1. Fare clic su **[!UICONTROL Next]** per passare a **[!UICONTROL Goals & Settings]**.
+1. Fai clic su **[!UICONTROL Avanti]** per passare a **[!UICONTROL Obiettivi e impostazioni]**.
 
    ![Coinvolgi l&#39;attività degli utenti - Impostazione predefinita del targeting](assets/activity_engage_users_targeting.jpg)
 
 Ora completiamo la configurazione dell’attività:
 
-1. Imposta **[!UICONTROL Primary Goal]** su **[!UICONTROL Conversion]**.
-1. Imposta l&#39;azione su **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ (poiché questa posizione si trova nella schermata di conferma, è possibile utilizzarla per misurare le conversioni).
+1. Imposta **[!UICONTROL Obiettivo primario]** su **[!UICONTROL Conversione]**.
+1. Imposta l&#39;azione su **[!UICONTROL Visualizzazione di una mbox]** > _wetravel_ context_dest_ (poiché questa posizione si trova nella schermata di conferma, è possibile utilizzarla per misurare le conversioni).
 
    ![Coinvolgi l&#39;attività degli utenti - Obiettivi](assets/activity_create_12.jpg)
 
 1. Mantenere tutte le altre impostazioni sullo schermo sui valori predefiniti.
-1. Fare clic su **[!UICONTROL Save & Close]** per salvare l&#39;attività.
-1. Attiva **[!UICONTROL Activity]** nella schermata successiva.
+1. Fai clic su **[!UICONTROL Salva e chiudi]** per salvare l&#39;attività.
+1. Attiva l&#39;**[!UICONTROL attività]** nella schermata successiva.
 
 ![Pubblico Experience B](assets/activity_create_13.jpg)
 
@@ -155,9 +155,9 @@ Ripeti lo stesso processo descritto in precedenza per l’attività successiva, 
 
 Nel passaggio Obiettivi e impostazioni, modificheremo l’obiettivo principale nella posizione indicata nella schermata di conferma della prenotazione:
 
-1. In **[!UICONTROL Reporting Settings]**, impostare **[!UICONTROL Primary Goal]** su **[!UICONTROL Conversion]**.
-1. Imposta l&#39;azione su **[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ (in questa attività questa metrica è sostanzialmente priva di significato, poiché si tratta anche della stessa posizione che distribuisce l&#39;esperienza).
-1. Fare clic su **[!UICONTROL Save & Close]**.
+1. Nelle **[!UICONTROL Impostazioni reporting]**, imposta l&#39;**[!UICONTROL Obiettivo principale]** su **[!UICONTROL Conversione]**.
+1. Imposta l&#39;azione su **[!UICONTROL Visualizzazione di una mbox]** > _wetravel_ context_dest_ (in questa attività questa metrica è praticamente priva di significato, poiché è anche la stessa posizione che distribuisce l&#39;esperienza).
+1. Fai clic su **[!UICONTROL Salva e chiudi]**.
 
 ![Offerte contestuali - Esperienza](assets/activity_create_14.jpg)
 
@@ -171,7 +171,7 @@ Esegui l’emulatore e osserva la prima offerta da visualizzare nella parte infe
 
 ![Convalida offerta principale](assets/layout_home_validate.jpg)
 
-Se la nuova offerta utente non viene visualizzata, prova a cancellare i dati per l’emulatore. In questo modo al prossimo avvio l&#39;app verrà reimpostata su 1. Operazione eseguita in **[!UICONTROL Tools]** > **[!UICONTROL AVD Manager]**. Se Logcat non funziona correttamente, potrebbe essere necessario riavviare anche Android Studio:
+Se la nuova offerta utente non viene visualizzata, prova a cancellare i dati per l’emulatore. In questo modo al prossimo avvio l&#39;app verrà reimpostata su 1. Operazione eseguita in **[!UICONTROL Strumenti]** > **[!UICONTROL Gestione AVD]**. Se Logcat non funziona correttamente, potrebbe essere necessario riavviare anche Android Studio:
 
 ![Emulatore cancellazione dati](assets/layout_home_validate_avd_wipe.jpg)
 
@@ -181,7 +181,7 @@ Puoi anche convalidare la risposta in Logcat filtrando per _wetravel_ eng_home_:
 
 ## Convalidare l’offerta di ricerca
 
-Seleziona **[!UICONTROL San Jose]** come **[!UICONTROL Departure]** e **[!UICONTROL San Diego]** come **[!UICONTROL Destination]** e fai clic su **[!UICONTROL Find Bus]** per cercare i bus disponibili.
+Seleziona **[!UICONTROL San Jose]** come **[!UICONTROL Partenza]** e **[!UICONTROL San Diego]** come **[!UICONTROL Destinazione]**, quindi fai clic su **[!UICONTROL Trova bus]** per cercare i bus disponibili.
 
 Nella schermata dei risultati dovrebbe essere visualizzato il messaggio _usa filtri_. Se sei un utente di ritorno con 5 o più avvii di app, non verrà visualizzato alcun messaggio qui, poiché per questa posizione è impostato il contenuto predefinito (che è vuoto):
 
@@ -193,13 +193,13 @@ Continuare ora il processo di prenotazione:
 
 * Selezionare un bus nella schermata dei risultati.
 * Selezionare un posto nella schermata di pagamento.
-* Seleziona **[!UICONTROL Credit Card]** nella schermata di pagamento (lascia vuote le informazioni sul pagamento; non verrà effettuata alcuna prenotazione effettiva).
+* Seleziona **[!UICONTROL Carta di credito]** nella schermata di pagamento (lascia vuote le informazioni sul pagamento - non verrà effettuata alcuna prenotazione effettiva).
 
 Poiché San Diego è stata selezionata come destinazione, nella schermata di conferma dovrebbe essere visualizzato il banner dell&#39;offerta _DJ SAM_:
 
 ![Convalida offerta contesto - San Diego](assets/layout_context_san_diego.jpg)
 
-Selezionare **[!UICONTROL Done]** e provare un&#39;altra prenotazione con Los Angeles come destinazione. Nella schermata di conferma verrà visualizzato il banner _Universal Studios_:
+Seleziona **[!UICONTROL Fine]** e prova un&#39;altra prenotazione con Los Angeles come destinazione. Nella schermata di conferma verrà visualizzato il banner _Universal Studios_:
 
 ![Convalida offerta contesto - Los Angeles](assets/layout_context_los_angeles.jpg)
 

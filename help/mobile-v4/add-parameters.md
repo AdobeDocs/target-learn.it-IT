@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 816
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -65,13 +65,13 @@ Le proprietà di Adobe Target sono definite nell&#39;interfaccia [!DNL Target] e
 >
 >A seconda della licenza, è possibile che le opzioni Proprietà dell&#39;interfaccia [!DNL Target] non siano visualizzate. Se non disponi di queste opzioni o se non utilizzi le Proprietà nella tua azienda, passa alla sezione successiva di questa lezione.
 
-Puoi recuperare il valore at_property nell&#39;interfaccia [!DNL Target] in [!UICONTROL Setup] > [!UICONTROL Properties].  Passa il puntatore del mouse sulla proprietà, seleziona l&#39;icona dello snippet di codice e copia il valore `at_property`:
+Puoi recuperare il valore at_property nell&#39;interfaccia [!DNL Target] in [!UICONTROL Configurazione] > [!UICONTROL Proprietà].  Passa il puntatore del mouse sulla proprietà, seleziona l&#39;icona dello snippet di codice e copia il valore `at_property`:
 
 ![Copia at_property](assets/at_property_interface.jpg)
 
 Aggiungilo come parametro per ogni posizione nella richiesta di preacquisizione, come segue:
 ![Aggiungi parametro at_property](assets/params_at_property.jpg)
-Ecco il codice aggiornato per la funzione `targetPrefetchContent()` (assicurati di aggiornare il testo del segnaposto _[!UICONTROL your at_property value goes here]_):
+Ecco il codice aggiornato per la funzione `targetPrefetchContent()` (assicurati di aggiornare _[!UICONTROL il valore at_property è qui]_ testo segnaposto!):
 
 ```java
 public void targetPrefetchContent() {

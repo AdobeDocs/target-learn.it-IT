@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 84
+source-wordcount: 88
 ht-degree: 2%
 
 ---
@@ -51,4 +51,4 @@ Per creare le proprietà, gli utenti devono disporre delle seguenti autorizzazio
 
 >[!NOTE]
 >
->L&#39;interfaccia utente [!DNL Target] è stata aggiornata dopo la registrazione del video. Per creare le proprietà, passa a [!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]. Un nuovo video sarà disponibile a breve.
+>L&#39;interfaccia utente [!DNL Target] è stata aggiornata dopo la registrazione del video. Per creare le proprietà, passa a [!UICONTROL Amministrazione] > [!UICONTROL Proprietà] > [!UICONTROL Crea proprietà]. Un nuovo video sarà disponibile a breve.

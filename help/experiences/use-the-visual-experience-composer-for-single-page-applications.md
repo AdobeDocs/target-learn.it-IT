@@ -28,21 +28,21 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 206
+source-wordcount: 216
 ht-degree: 0%
 
 ---
 
-# Utilizzo di [!UICONTROL Visual Experience Composer] per applicazioni a pagina singola (SPA VEC) in Adobe Target
+# Utilizzo di [!UICONTROL Compositore esperienza visivo] per applicazioni a pagina singola in Adobe Target
 
 Il Compositore esperienza visivo per applicazioni a pagina singola consente agli addetti al marketing di creare test e di personalizzare contenuti nelle applicazioni a pagina singola in modalità fai-da-te senza dover dipendere sempre dagli sviluppatori.
 
 * Il Compositore esperienza visivo per applicazioni a pagina singola può essere utilizzato per creare test A/B e Allocazione automatica e attività di targeting delle esperienze (XT)
 * Il Compositore esperienza visivo per applicazioni a pagina singola non supporta le attività di Targeting automatico, Automated Personalization o Consigli
-* Il Compositore esperienza visivo per applicazioni a pagina singola supporta le integrazioni A4T, [!UICONTROL Experience Cloud Audiences] e [!UICONTROL Customer Attributes]
+* Il Compositore esperienza visivo per applicazioni a pagina singola supporta le integrazioni A4T, [!UICONTROL Experience Cloud Audiences] e [!UICONTROL Attributi del cliente]
 * Tutte le azioni del Compositore esperienza visivo sono supportate nelle app a pagina singola, incluso il codice personalizzato
 * Le azioni del Compositore esperienza visivo possono essere applicate a una singola visualizzazione o all’evento di caricamento della pagina
-* È possibile aggiungere modifiche diverse a visualizzazioni diverse senza dover utilizzare l&#39;opzione [!UICONTROL Additional Pages]
+* È possibile aggiungere modifiche diverse a visualizzazioni diverse senza dover utilizzare l&#39;opzione [!UICONTROL Pagine aggiuntive]
 * `at.js 2.0+` e la funzione `adobe.target.triggerView()` devono essere implementati nell&#39;app prima di poter utilizzare il Compositore esperienza visivo per applicazioni a pagina singola
 
 ## Pubblico previsto

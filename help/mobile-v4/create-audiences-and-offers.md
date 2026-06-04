@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: 1004
 ht-degree: 0%
 
 ---
@@ -62,17 +62,17 @@ Ora creiamo i tipi di pubblico che utilizzeremo per personalizzare l’app.
 
 I tipi di pubblico di Adobe Target vengono utilizzati per identificare gruppi specifici di visitatori. Le offerte possono quindi essere indirizzate a tali gruppi specifici. Per le prime due posizioni, utilizzeremo un pubblico di tipo &quot;Nuovi utenti&quot;:
 
-1. Fai clic su **[!UICONTROL Audiences]** nella navigazione superiore.
-1. Fare clic sul pulsante **[!UICONTROL Create Audience]**.
+1. Fai clic su **[!UICONTROL Tipi di pubblico]** nella navigazione superiore.
+1. Fai clic sul pulsante **[!UICONTROL Crea pubblico]**.
    ![Crea un nuovo pubblico utente](assets/audience_new_mobile_app_users_1.jpg)
 
-1. Immetti **[!UICONTROL New Mobile App Users]** come nome del pubblico.
-1. Selezionare **[!UICONTROL Add Rule]**.
-1. Selezionare una regola **[!UICONTROL Custom]**.
+1. Immetti **[!UICONTROL Utenti nuova app mobile]** come nome del pubblico.
+1. Seleziona **[!UICONTROL Aggiungi regola]**.
+1. Seleziona una regola **[!UICONTROL Personalizzata]**.
    ![Crea un nuovo pubblico utente](assets/audience_new_mobile_app_users_2.jpg)
 
 1. Selezionare **[!UICONTROL a.Launches]**.
-1. Selezionare **[!UICONTROL is less than]**.
+1. Seleziona **[!UICONTROL minore di]**.
 1. Immettere **5**.
 1. Salva il nuovo pubblico.
    ![Crea un nuovo pubblico utente](assets/audience_new_mobile_app_users_3.jpg)
@@ -82,7 +82,7 @@ I tipi di pubblico di Adobe Target vengono utilizzati per identificare gruppi sp
 Segui gli stessi passaggi elencati sopra per creare un pubblico per gli utenti di ritorno.
 
 1. Denomina il pubblico _Utenti di ritorno dall&#39;app mobile_.
-1. Utilizza **[!UICONTROL a.Launches is greater than or equal to 5]** come regola personalizzata.
+1. Utilizza **[!UICONTROL a.Launches è maggiore o uguale a 5]** come regola personalizzata.
 1. Salva il nuovo pubblico.
 
    ![Crea un pubblico utente di ritorno](assets/audience_returning_mobile_app_users.jpg)
@@ -121,9 +121,9 @@ Ora creiamo le offerte per visualizzare questi messaggi. Come promemoria, le off
 
 Innanzitutto, creiamo offerte per i messaggi destinati ai nuovi utenti:
 
-1. Fai clic su **[!UICONTROL Offers]** nella navigazione superiore.
-1. Fare clic su **[!UICONTROL Create]**.
-1. Selezionare **[!UICONTROL HTML Offer]**.
+1. Fai clic su **[!UICONTROL Offerte]** nella navigazione superiore.
+1. Fai clic su **[!UICONTROL Crea]**.
+1. Seleziona **[!UICONTROL Offerta HTML]**.
 
    ![Crea offerta iniziale](assets/offer_home_1.jpg)
 

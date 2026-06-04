@@ -1,6 +1,6 @@
 ---
 title: Come risolvere i problemi relativi alle tracce di Target
-description: Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell'implementazione di Target. Scopri come autenticarti in Experience Cloud e utilizzare il potente strumento Target Traces per esaminare le tue attività, i requisiti del pubblico e il profilo visitatore.
+description: Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell'implementazione di Target. Scopri come eseguire l’autenticazione in Experience Cloud e utilizzare il potente strumento Target Traces per esaminare le tue attività, i requisiti del pubblico e il profilo visitatore.
 role: User
 level: Intermediate
 topic: Personalization, Performance

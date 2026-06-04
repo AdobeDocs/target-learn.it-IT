@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '559'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Dopo aver completato questa esercitazione, sarai in grado di:
 In queste lezioni, si presume che:
 
 * Disporre di un Adobe Id e di un accesso a livello di approvatore all’interfaccia di Adobe Target (vedi i passaggi di verifica riportati di seguito).
-* Conoscere il codice cliente Adobe Target per effettuare richieste al proprio account. Il codice client viene visualizzato nell’interfaccia di Adobe Target sulla   Configurazione > Implementazione > schermata Modifica impostazioni at.js
+* Conoscere il codice cliente Adobe Target per effettuare richieste al proprio account. Il codice client viene visualizzato nell’interfaccia di Adobe Target nella schermata Configurazione > Implementazione > Modifica impostazioni at.js
 * Ha accesso e ha familiarità con l&#39;interfaccia utente di [Mobile Services](https://mobilemarketing.adobe.com/)
 * Possiedi un IDE per lo sviluppo di app mobili Android. Questo tutorial presenta [Android Studio](https://developer.android.com/studio/install) in vari passaggi e schermate
 
@@ -54,8 +54,8 @@ Inoltre, si presume che tu abbia familiarità con lo sviluppo Android in Java. N
 Questa lezione richiede l’accesso ad Adobe Target. Prima di procedere con i passaggi successivi, assicurati di avere accesso ad Adobe Target effettuando le seguenti operazioni:
 
 1. Accedi a [Adobe Experience Cloud](https://experience.adobe.com/)
-1. Dalla schermata iniziale di Experience Cloud, fare clic su [!DNL Target]:
-   ![Schermata iniziale di Experience Cloud](assets/aec_homeScreen_clickTarget.png)
+1. Dalla schermata iniziale di Experience Cloud, fai clic su [!DNL Target]:
+   ![Schermata Home di Experience Cloud](assets/aec_homeScreen_clickTarget.png)
 1. Dovresti accedere all’elenco Attività in Adobe Target, come illustrato di seguito, e vedere che il tuo utente dispone dell’accesso a livello di Approvatore. Se non riesci ad accedere a [!DNL Target] o a verificare l&#39;accesso a livello di Approvatore, contatta uno degli amministratori Experience Cloud della tua azienda, richiedi questo accesso e riprendi questa esercitazione una volta che ti è stata concessa:
 
    ![Interfaccia utente di Adobe](assets/targetUI_approver.png)

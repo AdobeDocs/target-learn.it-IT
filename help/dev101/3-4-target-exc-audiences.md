@@ -1,6 +1,6 @@
 ---
-title: Integrare Target con il pubblico di Experience Cloud
-description: Scopri come importare tipi di pubblico da altri prodotti Adobe. Acquisisci familiarità con Experience Cloud Admin Console e con i requisiti per l’Experience Cloud ID (ECID).
+title: Integrare Target con i tipi di pubblico di Experience Cloud
+description: Scopri come importare tipi di pubblico da altri prodotti Adobe. Acquisisci familiarità con Experience Cloud Admin Console e con i requisiti per Experience Cloud ID (ECID).
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -39,7 +39,7 @@ Questo video spiega come:
 
 * Descrivere la creazione e l’utilizzo del pubblico con Analytics e Audience Manager
 * Descrivi come importare tipi di pubblico da altri prodotti Adobe
-* Esplorare Experience Cloud Admin Console
+* Esplorare l’Admin Console di Experience Cloud
 * Elencare i requisiti per Experience Cloud ID (ECID)
 
 ## Pubblico previsto

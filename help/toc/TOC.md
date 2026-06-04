@@ -47,7 +47,7 @@ ht-degree: 5%
    + [Configurare rapporti A4T in Analysis Workspace per le attività di allocazione automatica](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [Configurare rapporti A4T in Analysis Workspace per le attività di Targeting automatico](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Integrare Target con Audience Manager](../dev101/3-3-target-dmp.md)
-   + [Integrare Target con Experience Cloud Audiences](../dev101/3-4-target-exc-audiences.md)
+   + [Integrare Target con i tipi di pubblico di Experience Cloud](../dev101/3-4-target-exc-audiences.md)
    + [Integrare Target con Campaign](../dev101/3-6-target-campaign.md)
    + [Integrare Target con Adobe Developer Console](../dev101/3-7-target-io.md)
    + Integrare Target con Real-Time CDP{#rtcdp}

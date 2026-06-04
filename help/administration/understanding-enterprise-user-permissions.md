@@ -42,4 +42,4 @@ Questo video spiega come:
 
 * Amministratore
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421738/?captions=ita&quality=12)

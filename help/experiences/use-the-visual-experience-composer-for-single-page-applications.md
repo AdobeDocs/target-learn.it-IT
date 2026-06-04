@@ -49,7 +49,7 @@ Il Compositore esperienza visivo per applicazioni a pagina singola consente agli
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328139?captions=ita&quality=12)
 
 
 ## Risorse aggiuntive

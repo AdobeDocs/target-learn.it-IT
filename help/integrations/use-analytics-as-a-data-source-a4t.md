@@ -47,4 +47,4 @@ Questo video introduce gli addetti al marketing ad Analytics for Target (A4T).
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421726/?captions=ita&quality=12)

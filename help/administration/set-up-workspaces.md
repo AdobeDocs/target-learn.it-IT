@@ -36,4 +36,4 @@ Questo video spiega come:
 
 * Amministratore
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421732/?captions=ita&quality=12)

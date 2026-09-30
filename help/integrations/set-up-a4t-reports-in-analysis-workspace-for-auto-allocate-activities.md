@@ -67,7 +67,7 @@ Per configurare il rapporto, apporta le seguenti modifiche nel rapporto A4T:
 
 | Modifiche richieste | Report attivato da [!DNL Target] | Rapporto del pannello A4T |
 | --- | --- | --- |
-| Massimizzare il valore della metrica per una metrica [!DNL Analytics] | <ul><li>Rimuovi metriche [!UICONTROL Affidabilità].</li><li>Rimuovi [!UICONTROL Incremento (minimo)] e [!UICONTROL Incremento (massimo)]. Mantieni [!UICONTROL Incremento (Med)].</li><li>Deselezionare la presentazione della percentuale dalla colonna [!UICONTROL Tasso di conversione] per evitare confusione. Consulta [le linee guida generali per A4T](#guidance) di seguito.</li><li>Rinomina la metrica del tasso di conversione [!UICONTROL 1} in &quot;Metrica/Visitatore&quot;.]</li></ul> | <ul><li>Rimuovi metriche [!UICONTROL Affidabilità].</li><li>Rimuovi [!UICONTROL Incremento (Basso)] e [!UICONTROL Incremento (Alto)] Mantieni [!UICONTROL Incremento (Med)].</li><li>Deselezionare la presentazione della percentuale dalla colonna [!UICONTROL Tasso di conversione] per evitare confusione. Consulta [le linee guida generali per A4T](#guidance) di seguito.</li><li>Rinomina la metrica del tasso di conversione [!UICONTROL 1} in &quot;Metrica/Visitatore&quot;.]</li><li>Verificare che gli intervalli di date e ore siano allineati ai valori visualizzati nel report [!DNL Target]. Consulta [le linee guida generali per A4T](#guidance) di seguito.</li></ul> |
+| Massimizzare il valore della metrica per una metrica [!DNL Analytics] | <ul><li>Rimuovi metriche [!UICONTROL Affidabilità].</li><li>Rimuovi [!UICONTROL Incremento (minimo)] e [!UICONTROL Incremento (massimo)]. Mantieni [!UICONTROL Incremento (Med)].</li><li>Deselezionare la presentazione della percentuale dalla colonna [!UICONTROL Tasso di conversione] per evitare confusione. Consulta [le linee guida generali per A4T](#guidance) di seguito.</li><li>Rinomina la metrica del tasso di conversione [!UICONTROL 1&rbrace; in &quot;Metrica/Visitatore&quot;.]</li></ul> | <ul><li>Rimuovi metriche [!UICONTROL Affidabilità].</li><li>Rimuovi [!UICONTROL Incremento (Basso)] e [!UICONTROL Incremento (Alto)] Mantieni [!UICONTROL Incremento (Med)].</li><li>Deselezionare la presentazione della percentuale dalla colonna [!UICONTROL Tasso di conversione] per evitare confusione. Consulta [le linee guida generali per A4T](#guidance) di seguito.</li><li>Rinomina la metrica del tasso di conversione [!UICONTROL 1&rbrace; in &quot;Metrica/Visitatore&quot;.]</li><li>Verificare che gli intervalli di date e ore siano allineati ai valori visualizzati nel report [!DNL Target]. Consulta [le linee guida generali per A4T](#guidance) di seguito.</li></ul> |
 
 ![Massimizzare il valore della metrica per i ricavi](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -154,9 +154,9 @@ Puoi passare a un pannello predefinito di [!UICONTROL Analytics for Target] face
 Le sezioni seguenti specificano quali configurazioni sono necessarie, a seconda dei metodi scelti. Tuttavia, i seguenti passaggi fungono da guida generale per A4T:
 
 * Rimuovi le metriche di affidabilità dal pannello A4T indipendentemente dal metodo di creazione del pannello (entrambi descritti di seguito). Fare riferimento a questi valori nel reporting di [!DNL Target]. Inoltre, i vincitori delle attività possono essere identificati nel reporting [!DNL Target]. I dettagli sull&#39;identificazione del vincitore dell&#39;attività si trovano nella sezione [Identificare il vincitore dell&#39;attività](#winner) di seguito.
->>
+&#x200B;>>
 * Per evitare confusione, deselezionare la presentazione &quot;[!UICONTROL Percent]&quot; della metrica [!UICONTROL Tasso di conversione]. Vedi [Nascondi la percentuale dalla [!UICONTROL colonna Tasso di conversione]](#hide-percentage) di seguito.
->>
+&#x200B;>>
 * Se stai creando un pannello A4T, assicurati che gli intervalli di date e ore corrispondano a quelli del tuo report [!DNL Target]. Consulta [Allineare data e ora nel pannello A4T](#aligning-date-and-time) di seguito.
 
 ### Nascondi la percentuale dalla colonna [!UICONTROL Tasso di conversione] {#hide-percentage}

@@ -80,7 +80,7 @@ Per creare un report A4T per [!UICONTROL Targeting automatico], inizia con il pa
 >
 >Per impostare il pannello [!UICONTROL Analytics for Target] per le attività [!UICONTROL Targeting automatico], scegli un&#39;esperienza di controllo, scegli [!UICONTROL Visite] come metrica di normalizzazione e scegli la stessa metrica di obiettivo scelta per l&#39;ottimizzazione durante la creazione dell&#39;attività [!DNL Target].
 
-## Usa il controllo [!UICONTROL  rispetto aDimensione ] di destinazione per confrontare il modello ML del gruppo [!DNL Target] con il controllo
+## Usa il controllo [!UICONTROL &#x200B; rispetto aDimensione &#x200B;] di destinazione per confrontare il modello ML del gruppo [!DNL Target] con il controllo
 
 Il pannello A4T predefinito è progettato per le attività classiche (manuali) [!UICONTROL Test A/B] o [!UICONTROL Allocazione automatica] in cui l&#39;obiettivo è confrontare le prestazioni delle singole esperienze con l&#39;esperienza di controllo. Nelle attività [!UICONTROL Targeting automatico], tuttavia, il confronto del primo ordine deve essere tra il controllo *strategia* e la *strategia* di destinazione. In altre parole, determinare l&#39;incremento delle prestazioni complessive del modello ML del gruppo di [!UICONTROL Targeting automatico] sulla strategia di controllo.
 
@@ -258,7 +258,7 @@ A tale scopo, creare una [!UICONTROL metrica calcolata] seguendo la procedura se
 
 >[!TIP]
 >
-> È inoltre possibile creare questa metrica utilizzando la funzionalità metrica calcolata rapida [](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+> È inoltre possibile creare questa metrica utilizzando la funzionalità metrica calcolata rapida [&#128279;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
 
 La definizione completa della metrica calcolata è mostrata qui.
 

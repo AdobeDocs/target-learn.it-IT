@@ -8,24 +8,32 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-TQID: https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o
+TQID: 'https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1820
+source-wordcount: '1820'
 ht-degree: 0%
-
 ---
-
 # Aggiungere richieste Adobe Target
 
 Il SDK di Adobe Mobile Services (v4) fornisce metodi e funzionalità Adobe Target che consentono di personalizzare l’app con esperienze diverse per utenti diversi. In genere, l’app invia all’Adobe Target una o più richieste per recuperare il contenuto personalizzato e misurarne l’impatto.
@@ -63,7 +71,7 @@ Di seguito sono riportati alcuni termini chiave di Target che utilizzeremo nel r
 
 La prima richiesta che implementeremo in We.Travel è una richiesta di preacquisizione batch con due posizioni [!DNL Target] nella schermata iniziale. In una lezione successiva, configureremo le offerte per queste posizioni che visualizzano messaggi per aiutare i nuovi utenti nel processo di prenotazione.
 
-Una richiesta di preacquisizione recupera il contenuto di [!DNL Target] il meno possibile memorizzando nella cache la risposta del server Adobe Target (offerta). Una richiesta di preacquisizione batch recupera e memorizza nella cache più offerte, ciascuna associata a una posizione diversa. Tutte le posizioni preacquisite vengono memorizzate nella cache del dispositivo per un utilizzo futuro nella sessione utente. Preacquisendo più posizioni nella schermata iniziale, possiamo recuperare le offerte da utilizzare in un secondo momento mentre il visitatore naviga attraverso l’app. Per ulteriori dettagli sui metodi di preacquisizione, consulta la [documentazione di preacquisizione](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=it).
+Una richiesta di preacquisizione recupera il contenuto di [!DNL Target] il meno possibile memorizzando nella cache la risposta del server Adobe Target (offerta). Una richiesta di preacquisizione batch recupera e memorizza nella cache più offerte, ciascuna associata a una posizione diversa. Tutte le posizioni preacquisite vengono memorizzate nella cache del dispositivo per un utilizzo futuro nella sessione utente. Preacquisendo più posizioni nella schermata iniziale, possiamo recuperare le offerte da utilizzare in un secondo momento mentre il visitatore naviga attraverso l’app. Per ulteriori dettagli sui metodi di preacquisizione, consulta la [documentazione di preacquisizione](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 ### Aggiungi la richiesta di preacquisizione batch
 

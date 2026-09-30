@@ -8,27 +8,36 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-TQID: https://experienceleague.adobe.com/jX5KNFVLueF72JlxIo4OV0NRWRxpSAZ-tOMacI8FXL4
+TQID: 'https://experienceleague.adobe.com/jX5KNFVLueF72JlxIo4OV0NRWRxpSAZ-tOMacI8FXL4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '823'
 ht-degree: 0%
-
 ---
-
 # Aggiungere parametri alle richieste
 
 In questa lezione verranno aggiunte le metriche del ciclo di vita e i parametri personalizzati di Adobe alle richieste [!DNL Target] aggiunte nella lezione precedente. Queste metriche e parametri verranno utilizzati per creare tipi di pubblico personalizzati più avanti nell’esercitazione.
@@ -44,7 +53,7 @@ Alla fine di questa lezione, sarai in grado di:
 
 ## Aggiungere i parametri del ciclo di vita
 
-Abilitiamo le [metriche del ciclo di vita mobile di Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=it). Questo aggiungerà parametri alle richieste di posizione contenenti informazioni dettagliate sul dispositivo dell’utente e sul coinvolgimento con l’app. Nella prossima lezione verranno creati dei tipi di pubblico utilizzando i dati forniti dalla richiesta del ciclo di vita.
+Abilitiamo le [metriche del ciclo di vita mobile di Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Questo aggiungerà parametri alle richieste di posizione contenenti informazioni dettagliate sul dispositivo dell’utente e sul coinvolgimento con l’app. Nella prossima lezione verranno creati dei tipi di pubblico utilizzando i dati forniti dalla richiesta del ciclo di vita.
 
 Per abilitare le metriche del ciclo di vita, aprire nuovamente il controller HomeActivity e aggiungere `Config.collectLifecycleData(this);` alla funzione onResume():
 
@@ -103,7 +112,7 @@ public void targetPrefetchContent() {
 
 ### Nota sui parametri
 
-Per i progetti futuri, potrebbe essere utile implementare parametri aggiuntivi. Il metodo `createTargetPrefetchObject()` consente tre tipi di parametri: `locationParams`, `orderParams` e `productParams`. Consulta la documentazione per [ulteriori dettagli sull&#39;aggiunta di questi parametri alla richiesta di preacquisizione](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=it).
+Per i progetti futuri, potrebbe essere utile implementare parametri aggiuntivi. Il metodo `createTargetPrefetchObject()` consente tre tipi di parametri: `locationParams`, `orderParams` e `productParams`. Consulta la documentazione per [ulteriori dettagli sull&#39;aggiunta di questi parametri alla richiesta di preacquisizione](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 Inoltre, è possibile aggiungere parametri di posizione diversi a ciascuna posizione nella richiesta di preacquisizione. Ad esempio, puoi creare un&#39;altra mappa denominata param2, inserirvi un nuovo parametro, quindi impostare param2 in una posizione e param1 con l&#39;altra posizione. Ecco un esempio:
 
@@ -160,11 +169,11 @@ Esegui l’emulatore e apri Logcat. Filtra uno dei parametri per verificare che 
 
 >[!NOTE]
 >
->Richieste e parametri di conferma ordine: anche se non vengono utilizzati in questo progetto demo, i dettagli dell&#39;ordine vengono generalmente acquisiti in un&#39;implementazione reale, quindi [!DNL Target] può utilizzare i dettagli dell&#39;ordine come metriche/dimensioni. Fare riferimento alla documentazione per istruzioni su come [implementare la richiesta di conferma dell&#39;ordine e i parametri](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=it).
+>Richieste e parametri di conferma ordine: anche se non vengono utilizzati in questo progetto demo, i dettagli dell&#39;ordine vengono generalmente acquisiti in un&#39;implementazione reale, quindi [!DNL Target] può utilizzare i dettagli dell&#39;ordine come metriche/dimensioni. Fare riferimento alla documentazione per istruzioni su come [implementare la richiesta di conferma dell&#39;ordine e i parametri](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
 >[!NOTE]
 >
->Analytics for Target (A4T): Adobe Analytics può essere configurato come origine per la generazione di rapporti per [!DNL Target]. Questo consente di visualizzare in Adobe Analytics tutte le metriche/dimensioni raccolte da Target SDK. Per ulteriori dettagli, consulta la [Panoramica di A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=it).
+>Analytics for Target (A4T): Adobe Analytics può essere configurato come origine per la generazione di rapporti per [!DNL Target]. Questo consente di visualizzare in Adobe Analytics tutte le metriche/dimensioni raccolte da Target SDK. Per ulteriori dettagli, consulta la [Panoramica di A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en).
 
 Ottimo lavoro. Ora che i parametri sono operativi, possiamo utilizzarli per creare tipi di pubblico e offerte in Adobe Target.
 

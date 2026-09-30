@@ -6,30 +6,42 @@ level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-kt: null
+kt:
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-TQID: https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4
+TQID: 'https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1546
+source-wordcount: '1549'
 ht-degree: 0%
-
 ---
-
 # Configurare rapporti A4T in [!DNL Analysis Workspace] per [!DNL Auto-Allocate] attività
 
 Un&#39;attività [[!UICONTROL Allocazione automatica]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=it){target=_blank} in [!DNL Adobe Target] identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente il traffico del visitatore per il vincitore mentre il test continua a essere eseguito e ad apprendere. L&#39;integrazione di [!UICONTROL Analytics for Target] (A4T) per [!UICONTROL Allocazione automatica] consente di visualizzare i dati di reporting in [!DNL Adobe Analytics] e di ottimizzare eventi o metriche personalizzate definite in [!DNL Analytics].
@@ -40,8 +52,8 @@ Ogni tipo di metrica di ottimizzazione richiede una configurazione di rapporto d
 
 * Utilizzo di una metrica [!DNL Analytics]
 
-   * [!UICONTROL Massimizza valore metrica per visitatore]
-   * [!UICONTROL Massimizzare il tasso di conversione visitatore univoco]
+  * [!UICONTROL Massimizza valore metrica per visitatore]
+  * [!UICONTROL Massimizzare il tasso di conversione visitatore univoco]
 
 * Utilizzo di una metrica di conversione definita da [!DNL Target]
 
@@ -169,7 +181,7 @@ Le sezioni seguenti specificano quali configurazioni sono necessarie, a seconda 
 
    ![Intervallo di date nel pannello A4T](/help/integrations/assets/date-range.png)
 
-1. In [!DNL Analytics], impostare l&#39;intervallo di tempo su 12:00am - 11:59pm.
+1. In [!DNL Analytics], impostare l&#39;intervallo di tempo su 12:00 - 23:59.
 
 ### Identificare il vincitore dell&#39;attività {#winner}
 

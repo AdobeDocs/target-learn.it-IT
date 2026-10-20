@@ -17,4 +17,4 @@ ht-degree: 0%
 
 Questo video illustra come utilizzare la funzione Attributo Più visualizzato da profilo di Adobe Target per fornire consigli localizzati specifici per segmenti invece di un elenco di popolarità valido per tutti. Configurando un semplice script di profilo e selezionando l’algoritmo di popolarità dell’attributo di profilo, le aziende possono personalizzare dinamicamente il contenuto &quot;più visualizzato&quot; in base ad attributi come paese dell’utente, livello di abbonamento o demografico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503624/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503630/?captions=ita&learn=on&enablevpops)

@@ -46,6 +46,6 @@ Questo video spiega come:
 
 * Sviluppatori
 
->[!VIDEO](https://video.tv.adobe.com/v/35148/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3508003/?captions=ita&quality=12)
 
 Per ulteriori informazioni, visita la [documentazione](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=it).

@@ -48,7 +48,7 @@ Questo video spiega come:
 
 * Sviluppatori
 
->[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507703/?captions=ita&quality=12)
 
 Per ulteriori informazioni, visita l&#39;esercitazione sui [tag](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=it).
 

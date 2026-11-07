@@ -50,4 +50,4 @@ Questo video spiega come:
 
 Questo video illustra i concetti di integrazione utilizzando [Adobe Developer Console](https://developer.adobe.com/developer-console/). Per i passaggi pratici che mostrano come utilizzare Adobe Developer Console per l&#39;integrazione con Adobe Target, consulta questa [guida sulla configurazione dell&#39;autenticazione Adobe](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=it){target="_blank"} nella *Guida per gli sviluppatori di Adobe Target*.
 
->[!VIDEO](https://video.tv.adobe.com/v/35150/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507749/?captions=ita&quality=12)

@@ -50,6 +50,6 @@ Questo video spiega come:
 * Sviluppatori
 * Architetti
 
->[!VIDEO](https://video.tv.adobe.com/v/35142/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507785/?captions=ita&quality=12)
 
 Per ulteriori informazioni, visita la [documentazione](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=it).

@@ -53,4 +53,4 @@ Questo video spiega come:
 
 * Professionista
 
->[!VIDEO](https://video.tv.adobe.com/v/17390/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507886/?captions=ita&quality=12)

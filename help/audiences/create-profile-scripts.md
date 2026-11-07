@@ -49,4 +49,4 @@ Questo video spiega come:
 * Professionista
 * Sviluppatori
 
->[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507913/?captions=ita&quality=12)

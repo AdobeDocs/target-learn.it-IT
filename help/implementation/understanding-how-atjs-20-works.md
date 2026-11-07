@@ -47,7 +47,7 @@ ht-degree: 0%
 
 `at.js` 2.0 migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l&#39;integrazione con altre soluzioni Experience Cloud. Questo video e i relativi diagrammi spiegano come tutto si combina.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507931?captions=ita&quality=12)
 
 ## Diagrammi architettura
 

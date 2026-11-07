@@ -43,6 +43,6 @@ Questo video spiega come:
 
 * Sviluppatori
 
->[!VIDEO](https://video.tv.adobe.com/v/35155/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507866/?captions=ita&quality=12)
 
 Per ulteriori informazioni, visita la [documentazione](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/troubleshoot-a4t/a4t-troubleshooting.html?lang=it).

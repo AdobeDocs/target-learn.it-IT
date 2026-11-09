@@ -48,6 +48,6 @@ Questo video spiega come:
 
 * Sviluppatori
 
->[!VIDEO](https://video.tv.adobe.com/v/35149/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3508012/?captions=ita&quality=12)
 
 Per ulteriori informazioni, visita la [documentazione](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=it).
